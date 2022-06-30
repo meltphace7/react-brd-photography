@@ -9,6 +9,7 @@ const Homepage = (props) => {
   const [sectionOneRevealed, setSectionOneRevealed] = useState(false);
   const [sectionTwoRevealed, setSectionTwoRevealed] = useState(false);
   const [sectionThreeRevealed, setSectionThreeRevealed] = useState(false);
+  const [galleryRevealed, setGalleryRevealed] = useState(false);
 
   const options = { root: null, threshold: 0.2 };
 
@@ -19,7 +20,7 @@ const Homepage = (props) => {
   const { ref: featureThreeRef, inView: featThreeIsVisible } =
     useInView(options);
 
-  const { ref: galleryRef, inView: galleryIsVisible } = useInView(options);
+  const { ref: galleryRef, inView: galleryIsVisible } = useInView({root: null, threshold: 0.4});
 
 
   useEffect(() => {
@@ -40,6 +41,12 @@ const Homepage = (props) => {
       setSectionThreeRevealed(true);
     }
   }, [featThreeIsVisible]);
+
+   useEffect(() => {
+     if (galleryIsVisible) {
+       setGalleryRevealed(true);
+     }
+   }, [galleryIsVisible]);
 
 
   
@@ -107,11 +114,12 @@ const Homepage = (props) => {
           <div className={classes["feature-box__image-2"]}></div>
         </div>
       </section>
-
+      <div ref={galleryRef} className={classes.trigger}></div>
       <section
-        ref={galleryRef}
-        className={classes["gallery-section"]}>
-        {galleryIsVisible ? <h1>YESE</h1> : <h1>NO</h1>}
+        className={`${classes["gallery-section"]} ${
+          !galleryRevealed ? classes["feature--hidden"] : ""
+        }`}
+      >
         <div className={classes["gallery__grid"]}>
           <div
             className={`${classes["gallery__grid--item"]} ${classes["gallery__grid--item-1"]}`}
@@ -157,6 +165,55 @@ const Homepage = (props) => {
           ></div>
         </div>
       </section>
+
+      {/* <section
+        ref={galleryRef}
+        className={classes["gallery-section"]}>
+        <div className={classes["gallery__grid"]}>
+          <div
+            className={`${classes["gallery__grid--item"]} ${classes["gallery__grid--item-1"]}`}
+          ></div>
+          <div
+            className={`${classes["gallery__grid--item"]} ${classes["gallery__grid--item-2"]}`}
+          ></div>
+          <div
+            className={`${classes["gallery__grid--item"]} ${classes["gallery__grid--item-3"]}`}
+          ></div>
+          <div
+            className={`${classes["gallery__grid--item"]} ${classes["gallery__grid--item-4"]}`}
+          ></div>
+          <div
+            className={`${classes["gallery__grid--item"]} ${classes["gallery__grid--item-5"]}`}
+          ></div>
+          <div
+            className={`${classes["gallery__grid--item"]} ${classes["gallery__grid--item-6"]}`}
+          ></div>
+          <div
+            className={`${classes["gallery__grid--item"]} ${classes["gallery__grid--item-7"]}`}
+          ></div>
+          <div
+            className={`${classes["gallery__grid--item"]} ${classes["gallery__grid--item-8"]}`}
+          ></div>
+          <div
+            className={`${classes["gallery__grid--item"]} ${classes["gallery__grid--item-9"]}`}
+          ></div>
+          <div
+            className={`${classes["gallery__grid--item"]} ${classes["gallery__grid--item-10"]}`}
+          ></div>
+          <div
+            className={`${classes["gallery__grid--item"]} ${classes["gallery__grid--item-11"]}`}
+          ></div>
+          <div
+            className={`${classes["gallery__grid--item"]} ${classes["gallery__grid--item-12"]}`}
+          ></div>
+          <div
+            className={`${classes["gallery__grid--item"]} ${classes["gallery__grid--item-13"]}`}
+          ></div>
+          <div
+            className={`${classes["gallery__grid--item"]} ${classes["gallery__grid--item-14"]}`}
+          ></div>
+        </div>
+      </section> */}
     </div>
   );
 };
