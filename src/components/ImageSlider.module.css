@@ -1,0 +1,194 @@
+.slider-container {
+  position: relative;
+  width: 100%;
+  min-height: 90vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slider {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 100%;
+}
+
+.header-slide {
+  width: 100%;
+  height: 90vh;
+}
+
+.header-slide-1 {
+  background-image: url(/public/img/CA_EDIZA-LAKE_PANO_lowRes.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  animation: fadeIn 2s ease-in;
+}
+
+.header-slide-2 {
+  background-image: url(/public/img/WA_St.HELENS_SUNRISE_lowRes5.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  animation: fadeIn 2s ease-in;
+}
+
+.header-slide-3 {
+  background-image: url(/public/img/WY_ISLAND-LAKE-DAWN_lowRes.jpg);
+  background-size: cover;
+  background-position: 60% 50%;
+}
+
+.header-slide-4 {
+  background-image: url(/public/img/MO_HIDDEN-LAKE_lowRes.jpg);
+  background-size: cover;
+  background-position: 60% 50%;
+}
+
+.header-slide-5 {
+  background-image: url(/public/img/OR_FRAZIER-LAKE_lowRes.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.header-slide-6 {
+  background-image: url(/public/img/ID_LOST-RIVER-RANGE_lowRes.jpg);
+  background-size: cover;
+  background-position: 60% 50%;
+}
+
+.header-slide-7 {
+  background-image: url(/public/img/WA_RAINER-PINK_lowRes.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.header-slide-8 {
+  background-image: url(/public/img/OR_GLACIER-LAKE_PANO_lowRes.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.header-slide-9 {
+  background-image: url(/public/img/OR_OLALLIE-BUTTE_lowRes.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.header-slide-10 {
+  background-image: url(/public/img/WA_BIGHEART_LAKE_lowRes2.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.slider-controls {
+  position: absolute;
+  bottom: -6rem;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slider-controls button {
+  width: 8rem;
+  height: 4rem;
+  background-color: black;
+  color: var(--color-primary-green);
+  border: 1px solid var(--color-primary-green);
+  cursor: pointer;
+  z-index: 10;
+}
+
+.slide {
+  opacity: 0;
+}
+
+.slide-active {
+  opacity: 1;
+}
+
+/*
+.header-slide {
+  width: 100%;
+  height: 90vh;
+  position: absolute;
+}
+
+.header-slide-1 {
+  background-image: url(img/CA_EDIZA-LAKE_PANO_lowRes.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.header-slide-2 {
+  background-image: url(img/WA_St.HELENS_SUNRISE_lowRes5.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.header-slide-3 {
+  background-image: url(img/WY_ISLAND-LAKE-DAWN_lowRes.jpg);
+  background-size: cover;
+  background-position: 60% 50%;
+}
+
+.header-slide-4 {
+  background-image: url(img/MO_HIDDEN-LAKE_lowRes.jpg);
+  background-size: cover;
+  background-position: 60% 50%;
+}
+
+.header-slide-5 {
+  background-image: url(img/OR_FRAZIER-LAKE_lowRes.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.header-slide-6 {
+  background-image: url(img/ID_LOST-RIVER-RANGE_lowRes.jpg);
+  background-size: cover;
+  background-position: 60% 50%;
+}
+
+.header-slide-7 {
+  background-image: url(img/WA_RAINER-PINK_lowRes.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.header-slide-8 {
+  background-image: url(img/OR_GLACIER-LAKE_PANO_lowRes.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.header-slide-9 {
+  background-image: url(img/OR_OLALLIE-BUTTE_lowRes.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.header-slide-10 {
+  background-image: url(img/WA_BIGHEART_LAKE_lowRes2.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+
+*/

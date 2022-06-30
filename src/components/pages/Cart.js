@@ -1,0 +1,44 @@
+import React, { useContext } from "react";
+import classes from "./Cart.module.css";
+import CartItem from "../../components/CartItem";
+import { PRINTS } from "../../assets/Prints";
+import CartContext from '../../store/cart-context';
+
+const Cart = () => {
+  const cartCtx = useContext(CartContext);
+
+  const totalItems = cartCtx.items.reduce((acc, curItem) => {
+    return acc + curItem.amount
+  }, 0);
+
+  
+
+  return (
+    <div className={classes.cart}>
+      <h1>Your Cart</h1>
+      <div className={classes["cart-container"]}>
+        <div className={classes["cart-item__container"]}>
+          {cartCtx.items.map(item => {
+            return (
+              <CartItem
+                name={item.name}
+                price={item.price}
+                image={item.image}
+                key={item.id}
+                id={item.id}
+                stock={item.stock}
+                />
+            )
+          })}
+        </div>
+        <div className={classes["cart-total__container"]}>
+          <h3>{`Items: ${totalItems}`}</h3>
+          <h2>{`Total: $${cartCtx.totalAmount}`}</h2>
+          <button>Checkout</button>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Cart;

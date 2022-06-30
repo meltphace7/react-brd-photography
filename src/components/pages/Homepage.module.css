@@ -1,0 +1,238 @@
+.home-page {
+  width: 100%;
+  background-color: rgb(235, 235, 235);
+  min-height: 100vh;
+}
+
+.feature--hidden {
+   opacity: 0;
+   transform: translateY(8rem);
+ }
+
+ /* FEATURE 1 and 3   */
+
+.feature-section {
+  margin-top: 15rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feature-box {
+  margin-bottom: 20rem;
+  width: 90%;
+  min-height: 30rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 1s, opacity 1s;
+}
+
+.feature-box__text {
+  width: 30%;
+}
+
+.feature-box__text h3 {
+  font-size: 2rem;
+}
+
+.feature-box__text h1 {
+  margin-top: 2rem;
+  font-size: 3rem;
+  font-weight: 200;
+  color: var(--color-secondary-green);
+}
+
+.feature-box__text p {
+  font-size: 1.7rem;
+  font-weight: 100;
+  margin: 3rem 0;
+}
+
+.feature-box__link {
+  font-family: "Barlow", sans-serif, Arial, Helvetica, sans-serif;
+  width: 15rem;
+  height: 5rem;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+  font-size: 1.75rem;
+}
+
+.feature-box__link:hover {
+  color: var(--color-primary-green);
+  border: 1px solid var(--color-primary-green);
+  background-color: black;
+}
+
+.feature-box__text button {
+  color: black;
+  border: 1px solid black;
+}
+
+.feature-box__text button:hover {
+  color: var(--color-primary-green);
+  border: 1px solid var(--color-primary-green);
+  background-color: black;
+}
+
+.feature-box__image {
+  width: 65%;
+  height: 55rem;
+  background-image: url(/public/img/CA-GannetLakePano-699kb-lowRes.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.feature-box__image-2 {
+  width: 70%;
+  height: 50rem;
+  background-image: url(/public/img/WA_SPECTACLE-LAKE_PANO_lowRes.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.feature-box-2 {
+  width: 95%;
+  height: 60rem;
+  background-color: aqua;
+   margin-bottom: 20rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: url(/public/img/CA-Iceberg-Lake-538KB_lowRes.jpg);
+  background-position: 65% 50%;
+  background-size: cover;
+  transition: transform 1s, opacity 1s;
+}
+
+.feature-box-2__text {
+  width: 25%;
+  margin-left: 5rem;
+}
+
+.feature-box-2__text h3 {
+  font-size: 2rem;
+  color: white;
+}
+
+.feature-box-2__text h1 {
+  margin-top: 2rem;
+  font-size: 3rem;
+  font-weight: 200;
+  color: var(--color-secondary-green);
+}
+
+.feature-box-2__text p {
+  font-size: 1.7rem;
+  font-weight: 100;
+  margin: 2rem 0;
+  color: white;
+}
+
+.gallery-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.gallery__grid {
+  width: 98%;
+  display: grid;
+  grid-template-columns: repeat(12 1fr);
+  gap: 1rem;
+  /* transition: transform 1s, opacity 1s; */
+}
+
+.gallery__grid--item {
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.gallery__grid--item-1 {
+  background-image: url(/public/img/CA_THOUSAND-ISLAND-LAKE_PANO_lowRes.jpg);
+  height: 54rem;
+  grid-column: 1 / 13;
+}
+
+.gallery__grid--item-2 {
+  background-image: url(/public/img/WA_RAINER-PINK_lowRes.jpg);
+  height: 58rem;
+  grid-column: 1 / 7;
+}
+
+.gallery__grid--item-3 {
+  background-image: url(/public/img/ID_MCGOWAN-PEAK_lowRes.jpg);
+  height: 58rem;
+  grid-column: 7 / 13;
+}
+
+.gallery__grid--item-4 {
+  background-image: url(/public/img/MO_OLLIE-SUNSET_VERT__lowRes.jpg);
+  height: 60rem;
+  grid-column: 1 / 5;
+}
+
+.gallery__grid--item-5 {
+  background-image: url(/public/img/WA_RAINIER-EAST-VERT_lowRes.jpg);
+  height: 60rem;
+  grid-column: 5 / 9;
+}
+
+.gallery__grid--item-6 {
+  background-image: url(/public/img/ID_ALICE_VERT_lowRes.jpg);
+  height: 60rem;
+  grid-column: 9 / 13;
+}
+
+.gallery__grid--item-7 {
+  background-image: url(/public/img/WY_ISLAND-LAKE-DAWN_lowRes.jpg);
+  height: 60rem;
+  grid-column: 1 / 13;
+}
+
+.gallery__grid--item-8 {
+  background-image: url(/public/img/WA_GOAT-ROCKS_olSNOWY_pano_lowRes.jpg);
+  height: 60rem;
+  grid-column: 1 / 13;
+}
+
+.gallery__grid--item-9 {
+  background-image: url(/public/img/WA_RANIER_WEST-PANO_lowRes.jpg);
+  height: 60rem;
+  grid-column: 1 / 13;
+}
+
+.gallery__grid--item-10 {
+  background-image: url(/public/img/ID_TWIN-LAKE_VERT_lowRes.jpg);
+  height: 60rem;
+  grid-column: 1 / 6;
+}
+
+.gallery__grid--item-11 {
+  background-image: url(/public/img/WA_BIGHEART_LAKE_lowRes2.jpg);
+  height: 60rem;
+  grid-column: 6 / 13;
+}
+
+.gallery__grid--item-12 {
+  background-image: url(/public/img/WA_GLACIER-PEAK-PANO_lowRes.jpg);
+  height: 60rem;
+  grid-column: 1 / 13;
+}
+
+
+.test {
+  width: 100%;
+  height: 40rem;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20rem;
+  transition: transform 1s, opacity 1s;
+}
