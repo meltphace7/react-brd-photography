@@ -1,53 +1,19 @@
 import React, { useState } from 'react'
-import { useForm } from "@formspree/react";
+import { useForm, ValidationError } from "@formspree/react";
 import classes from './Contact.module.css'
 
 const Contact = () => {
-  //https://formspree.io/f/mwkypwln
-  // const [firstName, setFirstName] = useState('');
-  // const [lastName, setLastName] = useState("");
-  // const [email, setEmail] = useState("");
-  // const [subject, setSubject] = useState("");
-  // const [message, setMessage] = useState("");
-
-  const [state, handleSubmit] = useForm("contact-form");
+  const [state, handleSubmit] = useForm("mwkypwln");
   if (state.succeeded) {
-    return <div>Thank you for signing up!</div>;
+    return <p>Thanks for joining!</p>;
   }
 
-  // const form = document.getElementById("my-form");
-  // const formStatus = document.querySelector(".form-status");
-
-  // async function handleSubmit(event) {
-  //   event.preventDefault();
-  //   const status = document.getElementById("my-form-status");
-  //   const data = new FormData(event.target);
-  //   fetch(event.target.action, {
-  //     method: form.method,
-  //     body: data,
-  //     headers: {
-  //       Accept: "application/json",
-  //     },
-  //   })
-  //     .then((response) => {
-  //       formStatus.classList.remove("form-status-error");
-  //       formStatus.classList.add("form-status-success");
-  //       status.innerHTML = "Message Sent Succesfully!";
-  //       form.reset();
-  //     })
-  //     .catch((error) => {
-  //       formStatus.classList.remove("form-status-success");
-  //       formStatus.classList.add("form-status-error");
-  //       status.innerHTML = "Oops! There was a problem submitting your form";
-  //     });
-  // }
-
-  // form.addEventListener("submit", handleSubmit);
 
   return (
     <div className={classes.contact}>
       <h1>CONTACT</h1>
       <p>brock.dallman@gmail.com</p>
+   
       <form onSubmit={handleSubmit} className={classes.form} id="contact-form">
         <div className={classes.form__group}>
           <label htmlFor="firstName">First Name</label>

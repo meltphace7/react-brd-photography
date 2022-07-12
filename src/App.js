@@ -18,6 +18,7 @@ import Montana from "./components/pages/Montana";
 import Cart from "./components/pages/Cart";
 import CartProvider from './store/CartProvider'
 import { FormspreeProvider } from "@formspree/react";
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   
@@ -26,6 +27,7 @@ function App() {
   return (
     <CartProvider>
       <Navigation />
+      <ScrollToTop />
       <Switch>
         <Route path="/" exact>
           <HomePage images={SLIDER_IMAGES} />

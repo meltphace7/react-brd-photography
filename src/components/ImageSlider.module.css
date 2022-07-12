@@ -22,65 +22,66 @@
 .header-slide {
   width: 100%;
   height: 90vh;
+  animation: fadeIn 2s ease-in;
 }
 
-.header-slide-1 {
+.header-slide-0 {
   background-image: url(/public/img/CA_EDIZA-LAKE_PANO_lowRes.jpg);
   background-size: cover;
   background-position: 50% 50%;
-  animation: fadeIn 2s ease-in;
+  
 }
 
-.header-slide-2 {
+.header-slide-1 {
   background-image: url(/public/img/WA_St.HELENS_SUNRISE_lowRes5.jpg);
   background-size: cover;
   background-position: 50% 50%;
-  animation: fadeIn 2s ease-in;
+
 }
 
-.header-slide-3 {
+.header-slide-2 {
   background-image: url(/public/img/WY_ISLAND-LAKE-DAWN_lowRes.jpg);
   background-size: cover;
   background-position: 60% 50%;
 }
 
-.header-slide-4 {
+.header-slide-3 {
   background-image: url(/public/img/MO_HIDDEN-LAKE_lowRes.jpg);
   background-size: cover;
   background-position: 60% 50%;
 }
 
-.header-slide-5 {
+.header-slide-4 {
   background-image: url(/public/img/OR_FRAZIER-LAKE_lowRes.jpg);
   background-size: cover;
   background-position: 50% 50%;
 }
 
-.header-slide-6 {
+.header-slide-5 {
   background-image: url(/public/img/ID_LOST-RIVER-RANGE_lowRes.jpg);
   background-size: cover;
   background-position: 60% 50%;
 }
 
-.header-slide-7 {
+.header-slide-6 {
   background-image: url(/public/img/WA_RAINER-PINK_lowRes.jpg);
   background-size: cover;
   background-position: 50% 50%;
 }
 
-.header-slide-8 {
+.header-slide-7 {
   background-image: url(/public/img/OR_GLACIER-LAKE_PANO_lowRes.jpg);
   background-size: cover;
   background-position: 50% 50%;
 }
 
-.header-slide-9 {
+.header-slide-8 {
   background-image: url(/public/img/OR_OLALLIE-BUTTE_lowRes.jpg);
   background-size: cover;
   background-position: 50% 50%;
 }
 
-.header-slide-10 {
+.header-slide-9 {
   background-image: url(/public/img/WA_BIGHEART_LAKE_lowRes2.jpg);
   background-size: cover;
   background-position: 50% 50%;
@@ -106,13 +107,20 @@
 }
 
 .slider-controls button {
-  width: 8rem;
+  width: 10rem;
   height: 4rem;
-  background-color: black;
-  color: var(--color-primary-green);
-  border: 1px solid var(--color-primary-green);
+  background-color: none;
+  color: black;
+  border: 1px solid black;
   cursor: pointer;
   z-index: 10;
+  transition: all 200ms ease-in;
+}
+
+.slider-controls button:hover {
+  background-color: black;
+  color: var(--color-secondary-green);
+  border: 1px solid var(--color-secondary-green);
 }
 
 .slide {

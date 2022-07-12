@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./Portfolio.module.css";
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
 const Portfolio = () => {
   return (
@@ -8,9 +8,9 @@ const Portfolio = () => {
       <h1>PORTFOLIO</h1>
       <div className={classes.grid}>
         <div className={`${classes.grid__item} ${classes["grid__item--1"]}`}>
-          <div
-            className={`${classes["grid__item--image"]} ${classes["grid__item--image--1"]}`}
-          ></div>
+            <div
+              className={`${classes["grid__item--image"]} ${classes["grid__item--image--1"]}`}
+            ></div>
           <Link to="/washington">
             <h2 className={classes["grid__item--text"]}>WASHINGTON</h2>
           </Link>

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useInView } from "react-intersection-observer";
+import { Link } from "react-router-dom";
 import classes from "./Homepage.module.css";
 import ImageSlider from "../ImageSlider";
 import { HiOutlineArrowSmRight } from "react-icons/hi";
@@ -70,7 +71,9 @@ const Homepage = (props) => {
               edition prints. Designed to completely transform the look of any
               room.
             </p>
-            <button className={classes["feature-box__link"]}>SHOP NOW</button>
+            <Link to="/shop">
+              <button className={classes["feature-box__link"]}>SHOP NOW</button>
+            </Link>
           </div>
           <div className={classes["feature-box__image"]}></div>
         </div>
@@ -89,7 +92,9 @@ const Homepage = (props) => {
               alpine lakes of Wyoming. Check out the raw beauty of 6 Western
               States
             </p>
-            <button className={classes["feature-box__link"]}>EXPLORE</button>
+            <Link to="/portfolio">
+              <button className={classes["feature-box__link"]}>EXPLORE</button>
+            </Link>
           </div>
         </div>
 
@@ -106,10 +111,9 @@ const Homepage = (props) => {
               All prints are handcrafted with the finest materials. High quality
               items guaranteed.
             </p>
-            <button className={classes["feature-box__link"]}>
-              SHOP NOW
-              {/* <HiOutlineArrowSmRight size={'30px'} /> */}
-            </button>
+            <Link to="/shop">
+              <button className={classes["feature-box__link"]}>SHOP NOW</button>
+            </Link>
           </div>
           <div className={classes["feature-box__image-2"]}></div>
         </div>
