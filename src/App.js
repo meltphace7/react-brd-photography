@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import Navigation from "./components/Navigation";
 import { Switch } from "react-router-dom";
 import { Route } from "react-router-dom";
@@ -16,14 +15,11 @@ import Idaho from "./components/pages/Idaho";
 import Wyoming from "./components/pages/Wyoming";
 import Montana from "./components/pages/Montana";
 import Cart from "./components/pages/Cart";
-import CartProvider from './store/CartProvider'
+import CartProvider from "./store/CartProvider";
 import { FormspreeProvider } from "@formspree/react";
-import ScrollToTop from './components/ScrollToTop';
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
-  
-  
-
   return (
     <CartProvider>
       <Navigation />

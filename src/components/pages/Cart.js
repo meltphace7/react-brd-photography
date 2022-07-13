@@ -23,8 +23,6 @@ const Cart = () => {
     return acc + curItem.amount
   }, 0);
 
-  
-
   return (
     <div className={classes.cart}>
       <h1>Your Cart</h1>
