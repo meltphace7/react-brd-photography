@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useState, useEffect } from "react";
 import classes from "./Navigation.module.css";
 import { Link } from "react-router-dom";
 import Logo from "../assets/BDLOGO-white.png";
@@ -8,10 +8,21 @@ import CartContext from '../store/cart-context';
 
 const Navigation = () => {
   const cartCtx = useContext(CartContext);
+  const [cartIsEmpty, setCartIsEmpty] = useState(true);
 
   const numberOfCartItems = cartCtx.items.reduce((acc, curItem) => {
     return acc + curItem.amount;
   }, 0)
+
+  useEffect(() => {
+    if (numberOfCartItems === 0) {
+      setCartIsEmpty(true)
+    } else {
+      setCartIsEmpty(false);
+    }
+  }, [numberOfCartItems])
+
+  console.log(cartIsEmpty);
 
   return (
     <nav className={classes.nav}>
@@ -68,8 +79,9 @@ const Navigation = () => {
         </ul>
         <Link to="/cart">
           <div className={classes["cart-container"]}>
-            <IoMdCart size="25px" color="rgb(60, 215, 60)" />
-            <span>{numberOfCartItems}</span>
+            {/* <IoMdCart size="25px" color="rgb(60, 215, 60)" /> */}
+            <IoMdCart size="25px" color={!cartIsEmpty ? "rgb(60, 215, 60)" : 'white'} />
+            <span className={cartIsEmpty ? classes['cart-empty'] : classes['cart-not-empty']}>{numberOfCartItems}</span>
           </div>
         </Link>
       </div>

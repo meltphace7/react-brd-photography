@@ -1,12 +1,13 @@
 import React, { useState, useEffect, useContext } from "react";
 import classes from "./CartItem.module.css";
-import CartContext from '../store/cart-context';
+import CartContext from "../store/cart-context";
 
 const CartItem = (props) => {
-
   const cartCtx = useContext(CartContext);
 
-  const currentItemIndex = cartCtx.items.findIndex(item => item.id === props.id);
+  const currentItemIndex = cartCtx.items.findIndex(
+    (item) => item.id === props.id
+  );
   const currentItem = cartCtx.items[currentItemIndex];
   const currentQuantity = currentItem.amount;
   const totalItemPrice = +currentItem.price * +currentItem.amount;

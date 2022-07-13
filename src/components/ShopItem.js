@@ -1,7 +1,7 @@
 import React, { useContext, useState, useEffect } from "react";
 import Cart from "./pages/Cart";
 import classes from "./ShopItem.module.css";
-import CartContext from '../store/cart-context';
+import CartContext from "../store/cart-context";
 
 const ShopItem = (props) => {
   const cartCtx = useContext(CartContext);
@@ -16,7 +16,6 @@ const ShopItem = (props) => {
       image: props.image,
       stock: props.stock,
     });
-
   };
 
   useEffect(() => {
@@ -28,10 +27,7 @@ const ShopItem = (props) => {
     if (existingItem && existingItem.stock === 0) {
       setIsOutOfStock(true);
     }
-  }, [cartCtx])
-
-  
-  
+  }, [cartCtx]);
 
   return (
     <div className={classes["shop__items__item"]}>
@@ -43,8 +39,8 @@ const ShopItem = (props) => {
         <h3>Limited Edition</h3>
         <h1 className={classes["shop__item__price"]}>{`$${props.price}`}</h1>
         <button onClick={addItemHandler}>
-          {isOutOfStock ? 'OUT OF STOCK' : 'ADD TO CART'}
-          </button>
+          {isOutOfStock ? "OUT OF STOCK" : "ADD TO CART"}
+        </button>
       </div>
     </div>
   );

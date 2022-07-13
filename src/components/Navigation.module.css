@@ -9,15 +9,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-
 }
 
 .logo-container {
-     margin: 1rem 0;
-     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  margin: 1rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo-container h2 {
@@ -26,7 +25,7 @@
 }
 
 .logo {
-   margin-left: 2rem;
+  margin-left: 2rem;
   font-size: 2rem;
   display: flex;
   align-items: center;
@@ -34,20 +33,20 @@
 
 .logo-icon {
   height: 5rem;
-  margin-right: .5rem;
+  margin-right: 0.5rem;
 }
 
 .line {
-      width: 28%;
-    border-bottom: 1px solid white;
+  width: 28%;
+  border-bottom: 1px solid white;
 }
 
 .line-1 {
-    animation: move 2000ms ease-in-out forwards;
+  animation: move 2000ms ease-in-out forwards;
 }
 
 .line-2 {
-      animation: move2 2000ms ease-in-out forwards;
+  animation: move2 2000ms ease-in-out forwards;
 }
 
 @keyframes move {
@@ -73,7 +72,7 @@
 }
 
 .nav-row {
-  width: 100%; 
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -81,29 +80,29 @@
 
 .nav-menu {
   position: relative;
-    font-size: 1.75rem;
-    font-weight: 200;
-    width: 45%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: 2rem;
+  font-size: 1.75rem;
+  font-weight: 200;
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 2rem;
 }
 
 .nav-menu a {
-    text-decoration: none;
-    color: white;
-    cursor: pointer;
-    transition: all .2s;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s;
 }
 
 .nav-menu a:hover {
-    color: var(--color-primary-green)
+  color: var(--color-primary-green);
 }
 
-.nav-menu li{
-    list-style: none;
-    padding-bottom: 2rem;
+.nav-menu li {
+  list-style: none;
+  padding-bottom: 2rem;
 }
 
 .dropdown-menu {
@@ -114,7 +113,7 @@
   background-color: black;
   padding: 1rem;
   z-index: 999999;
-  animation: dropDown .5s ease-in-out forwards;
+  animation: dropDown 0.5s ease-in-out forwards;
 }
 
 .nav-menu li:hover .dropdown-menu {
@@ -142,15 +141,20 @@
   margin-bottom: 1.75rem;
 }
 
-.cart-container span {
-  text-decoration: none;
+.cart-not-empty {
   color: var(--color-secondary-green);
-   font-size: 1.5rem;
-   margin-left: .5rem;
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
 }
 
 .cart {
   padding: 3rem;
   background-color: aquamarine;
   color: red;
+}
+
+.cart-empty {
+  color: white;
+   font-size: 1.5rem;
+  margin-left: 0.5rem;
 }
