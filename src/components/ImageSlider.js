@@ -1,11 +1,13 @@
 import React from "react";
 import classes from "./ImageSlider.module.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { HiOutlineArrowSmLeft } from 'react-icons/hi'
 import { HiOutlineArrowSmRight } from "react-icons/hi";
+import { useInView } from "react-intersection-observer";
 
 const ImageSlider = (props) => {
   const [currentSlide, setCurrentSlide] = useState(1);
+  const [controlsRevealed, setControlsRevealed] = useState(false);
   const length = 8;
 
   const nextSlideHandler = () => {
@@ -16,9 +18,15 @@ const ImageSlider = (props) => {
     setCurrentSlide(currentSlide === 1 ? length : currentSlide - 1);
   };
 
-  // setTimeout(() => {
-  //   setCurrentSlide(currentSlide === length ? 1 : currentSlide + 1);
-  // }, 10000);
+  const options = { root: null, threshold: 0.2 };
+
+  const { ref: controlsRef, inView: controlsVisible } = useInView(options);
+
+    useEffect(() => {
+      if (controlsVisible) {
+        setControlsRevealed(true);
+      }
+    }, [controlsVisible]);
 
   console.log(currentSlide);
 
@@ -59,7 +67,12 @@ const ImageSlider = (props) => {
         {/* <div className={`${classes['header-slide']} ${classes[`header-slide-${currentSlide}`]}`}></div> */}
         {slides[currentSlide]}
       </div>
-      <div className={classes["slider-controls"]}>
+      <div
+        ref={controlsRef}
+        className={`${classes["slider-controls"]} ${
+          !controlsRevealed ? classes["slider-controls--hidden"] : ""
+        }`}
+      >
         <button className={classes["prev-slide"]} onClick={prevSlideHandler}>
           <HiOutlineArrowSmLeft size="30px" />
         </button>
