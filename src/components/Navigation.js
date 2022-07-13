@@ -22,8 +22,6 @@ const Navigation = () => {
     }
   }, [numberOfCartItems])
 
-  console.log(cartIsEmpty);
-
   return (
     <nav className={classes.nav}>
       <div className={classes["logo-container"]}>
