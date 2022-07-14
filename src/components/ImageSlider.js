@@ -18,6 +18,17 @@ const ImageSlider = (props) => {
     setCurrentSlide(currentSlide === 1 ? length : currentSlide - 1);
   };
 
+  // Changes Slide every 10s / timer resets after usermanually changes slide
+  useEffect(() => {
+    const slideChangeTimer = setTimeout(() => {
+      setCurrentSlide(currentSlide === length ? 1 : currentSlide + 1);
+    }, 10000);
+
+    return () => {
+      clearTimeout(slideChangeTimer);
+    }
+  }, [currentSlide])
+
   const dotOneHandler = () => {
     setCurrentSlide(1);
   };
@@ -74,9 +85,104 @@ const ImageSlider = (props) => {
     <div className={classes["slider-container"]}>
       <div className={classes.slider}>
         <div
-          className={`${classes["header-slide"]} ${
-            classes[`header-slide-${currentSlide}`]
-          }`}
+          className={
+            currentSlide === 1
+              ? `${classes["header-slide"]} ${
+                  classes[`header-slide-${currentSlide}`]
+                }
+                ${classes["header-slide--active"]}`
+              : classes["header-slide--hidden"]
+          }
+        ></div>
+        <div
+          className={
+            currentSlide === 2
+              ? `${classes["header-slide"]} ${
+                  classes[`header-slide-${currentSlide}`]
+                }
+                ${classes["header-slide--active"]}`
+              : classes["header-slide--hidden"]
+          }
+        ></div>
+        <div
+          className={
+            currentSlide === 3
+              ? `${classes["header-slide"]} ${
+                  classes[`header-slide-${currentSlide}`]
+                }
+                ${classes["header-slide--active"]}`
+              : classes["header-slide--hidden"]
+          }
+        ></div>
+        <div
+          className={
+            currentSlide === 4
+              ? `${classes["header-slide"]} ${
+                  classes[`header-slide-${currentSlide}`]
+                }
+                ${classes["header-slide--active"]}`
+              : classes["header-slide--hidden"]
+          }
+        ></div>
+        <div
+          className={
+            currentSlide === 5
+              ? `${classes["header-slide"]} ${
+                  classes[`header-slide-${currentSlide}`]
+                }
+                ${classes["header-slide--active"]}`
+              : classes["header-slide--hidden"]
+          }
+        ></div>
+        <div
+          className={
+            currentSlide === 6
+              ? `${classes["header-slide"]} ${
+                  classes[`header-slide-${currentSlide}`]
+                }
+                ${classes["header-slide--active"]}`
+              : classes["header-slide--hidden"]
+          }
+        ></div>
+        <div
+          className={
+            currentSlide === 7
+              ? `${classes["header-slide"]} ${
+                  classes[`header-slide-${currentSlide}`]
+                }
+                ${classes["header-slide--active"]}`
+              : classes["header-slide--hidden"]
+          }
+        ></div>
+        <div
+          className={
+            currentSlide === 8
+              ? `${classes["header-slide"]} ${
+                  classes[`header-slide-${currentSlide}`]
+                }
+                ${classes["header-slide--active"]}`
+              : classes["header-slide--hidden"]
+          }
+        ></div>
+        <div
+          className={
+            currentSlide === 9
+              ? `${classes["header-slide"]} ${
+                  classes[`header-slide-${currentSlide}`]
+                }
+                ${classes["header-slide--active"]}`
+              : classes["header-slide--hidden"]
+          }
+        ></div>
+        <div
+          className={
+            currentSlide === 10
+              ? `${classes["header-slide"]} ${
+                  classes[`header-slide-${currentSlide}`]
+                }
+                ${classes["header-slide--active"]}`
+              : classes["header-slide--hidden"]
+          }
         ></div>
       </div>
       <div
