@@ -94,3 +94,25 @@
     color: var(--color-secondary-green);
     border: 1px solid var(--color-secondary-green);
 }
+
+
+.success-message {
+    font-size: 2.5rem;
+    margin-top: 3rem;
+}
+
+.ok-button {
+    margin-top: 5rem;
+    width: 100%;
+    height: 5rem;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    transition: all .2s ease-in;
+}
+
+.ok-button:hover {
+    color: var(--color-secondary-green);
+    border: 1px solid var(--color-secondary-green);
+}
