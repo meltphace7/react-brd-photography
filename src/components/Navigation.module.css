@@ -140,17 +140,16 @@
   justify-content: center;
   margin-bottom: 1.75rem;
 }
+.cart {
+  padding: 3rem;
+  background-color: aquamarine;
+  color: red;
+}
 
 .cart-not-empty {
   color: var(--color-secondary-green);
   font-size: 1.5rem;
   margin-left: 0.5rem;
-}
-
-.cart {
-  padding: 3rem;
-  background-color: aquamarine;
-  color: red;
 }
 
 .cart-empty {

@@ -22,6 +22,27 @@
     font-size: 1.2rem;
 }
 
+.cart-container {
+  width: 8rem;
+  margin-right: 5.5rem;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-not-empty {
+  color: var(--color-secondary-green);
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+}
+
+.cart-empty {
+  color: white;
+   font-size: 1.5rem;
+  margin-left: 0.5rem;
+}
+
 
 .navigation__checkbox {
   display: none;
@@ -141,5 +162,6 @@
 @media (max-width: 40em) {
   .nav {
     display: flex;
+    align-items: center;
   }
 }

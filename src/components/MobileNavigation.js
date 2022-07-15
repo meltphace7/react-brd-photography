@@ -1,10 +1,26 @@
-import React, { useState } from "react";
+import React, { useState, useContext, useEffect } from "react";
 import classes from "./MobileNavigation.module.css";
 import Logo from "../assets/BDLOGO-white.png";
 import { Link } from "react-router-dom";
+import { IoMdCart } from "react-icons/io";
+import CartContext from "../store/cart-context";
 
 const MobileNavigation = () => {
-    const [isChecked, setIsChecked] = useState(false);
+  const [isChecked, setIsChecked] = useState(false);
+   const cartCtx = useContext(CartContext);
+   const [cartIsEmpty, setCartIsEmpty] = useState(true);
+
+   const numberOfCartItems = cartCtx.items.reduce((acc, curItem) => {
+     return acc + curItem.amount;
+   }, 0);
+
+   useEffect(() => {
+     if (numberOfCartItems === 0) {
+       setCartIsEmpty(true);
+     } else {
+       setCartIsEmpty(false);
+     }
+   }, [numberOfCartItems]);
 
     const handleCheck = () => {
         setIsChecked((prevState) => !prevState);
@@ -26,6 +42,20 @@ const MobileNavigation = () => {
           alt="Brock Dallman Photography logo"
         />
         <p>BROCK DALLMAN PHOTOGRAPHY</p>
+      </div>
+      <div className={classes["cart-container"]}>
+        {/* <IoMdCart size="25px" color="rgb(60, 215, 60)" /> */}
+        <IoMdCart
+          size="25px"
+          color={!cartIsEmpty ? "rgb(60, 215, 60)" : "white"}
+        />
+        <span
+          className={
+            cartIsEmpty ? classes["cart-empty"] : classes["cart-not-empty"]
+          }
+        >
+          {numberOfCartItems}
+        </span>
       </div>
       <div className={classes.navigation}>
         <input
