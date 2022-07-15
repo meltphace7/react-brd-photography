@@ -133,14 +133,6 @@
   color: white;
 }
 
-/* .gallery-section {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  transition: transform 1s, opacity 1s; 
-
-}
-*/
 .trigger {
   width: 100%;
   height: .1rem;
@@ -249,4 +241,94 @@
   align-items: center;
   margin-bottom: 20rem;
   transition: transform 1s, opacity 1s;
+}
+
+@media (max-width: 40em) {
+  .feature-box {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+  .feature-box__text {
+  width: 90%;
+  margin-top: 2rem;
+}
+
+
+  .feature-box__image {
+  width: 98%;
+  height: 45rem;
+}
+
+.feature-box__image-2 {
+  width: 98%;
+  height: 40rem;
+}
+
+.feature-box-2 {
+  height: 50rem;
+  background-image: url(/public/img/OR_FRAZIER-LAKE_lowRes.jpg);
+  background-position: 50% 50%;
+}
+
+.feature-box-2__text {
+  width: 45%;
+  margin-left: 2rem;
+}
+
+.gallery__grid--item-1 {
+  height: 25rem;
+}
+
+.gallery__grid--item-2 {
+  grid-column: 1 / 13;
+  height: 35rem;
+}
+
+.gallery__grid--item-3 {
+  grid-column: 1 / 13;
+  height: 40rem;
+}
+
+.gallery__grid--item-4 {
+  grid-column: 1 / 13;
+  height: 60rem;
+}
+
+.gallery__grid--item-5 {
+  grid-column: 1 / 13;
+  height: 60rem;
+}
+
+.gallery__grid--item-6 {
+  grid-column: 1 / 13;
+  height: 60rem;
+}
+
+.gallery__grid--item-7 {
+  height: 30rem;
+}
+
+.gallery__grid--item-8 {
+  height: 25rem;
+}
+
+.gallery__grid--item-9 {
+  height: 30rem;
+}
+
+.gallery__grid--item-10 {
+  grid-column: 1 / 13;
+  height: 60rem;
+}
+
+.gallery__grid--item-11 {
+  grid-column: 1 / 13;
+  height: 26rem;
+}
+
+.gallery__grid--item-12 {
+  height: 20rem;
+}
+
 }

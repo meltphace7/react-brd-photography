@@ -156,3 +156,23 @@
 .active {
   background-color: var(--color-secondary-green);
 }
+
+
+@media (max-width: 40em) {
+  .slider-container {
+    min-height: 20rem;
+  }
+
+  .header-slide {
+    height: 28rem;
+  }
+
+  .slider-controls {
+    width: 95%;
+  }
+
+  .dot {
+    margin: .3rem;
+  }
+
+}

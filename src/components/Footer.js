@@ -7,7 +7,7 @@ const Footer = () => {
       <footer className={classes.footer}>
         <div className={classes["logo-container"]}>
           <img className={classes.logo} src={Logo} alt="Brock Dallman Photography logo" />
-          <h2>BROCK DALLMAN PHOTOGRAPHY 2022 ALL RIGHTS RESERVED</h2>
+          <p>BROCK DALLMAN PHOTOGRAPHY 2022 ALL RIGHTS RESERVED</p>
         </div>
         <div className={classes.social}>
           <a

@@ -1,9 +1,10 @@
-import React, { useContext, useState, useEffect } from "react";
+import React, { useContext, useState, useEffect, Fragment } from "react";
 import classes from "./Navigation.module.css";
 import { Link } from "react-router-dom";
 import Logo from "../assets/BDLOGO-white.png";
 import { IoMdCart } from "react-icons/io";
 import CartContext from '../store/cart-context';
+import MobileNavigation from './MobileNavigation';
 
 
 const Navigation = () => {
@@ -23,67 +24,81 @@ const Navigation = () => {
   }, [numberOfCartItems])
 
   return (
-    <nav className={classes.nav}>
-      <div className={classes["logo-container"]}>
-        <div className={`${classes.line} ${classes["line-1"]}`}></div>
-        <div className={classes.logo}>
-          <img
-            className={classes["logo-icon"]}
-            src={Logo}
-            alt="Brock Dallman Photography logo"
-          />
-          <h2>BROCK DALLMAN PHOTOGRAPHY</h2>
-        </div>
-        <div className={`${classes.line} ${classes["line-2"]}`}></div>
-      </div>
-      <div className={classes["nav-row"]}>
-        <div></div>
-        <ul className={classes["nav-menu"]}>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/portfolio">Portfolio</Link>
-            <ul className={classes["dropdown-menu"]}>
-              <li>
-                <Link to="/washington">Washington</Link>
-              </li>
-              <li>
-                <Link to="/oregon">Oregon</Link>
-              </li>
-              <li>
-                <Link to="/california">California</Link>
-              </li>
-              <li>
-                <Link to="/idaho">Idaho</Link>
-              </li>
-              <li>
-                <Link to="/wyoming">Wyoming</Link>
-              </li>
-              <li>
-                <Link to="/montana">Montana</Link>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <Link to="/about">About</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contact</Link>
-          </li>
-          <li>
-            <Link to="/shop">Shop</Link>
-          </li>
-        </ul>
-        <Link to="/cart">
-          <div className={classes["cart-container"]}>
-            {/* <IoMdCart size="25px" color="rgb(60, 215, 60)" /> */}
-            <IoMdCart size="25px" color={!cartIsEmpty ? "rgb(60, 215, 60)" : 'white'} />
-            <span className={cartIsEmpty ? classes['cart-empty'] : classes['cart-not-empty']}>{numberOfCartItems}</span>
+    <Fragment>
+      <nav className={classes.nav}>
+        <div className={classes["logo-container"]}>
+          <div className={`${classes.line} ${classes["line-1"]}`}></div>
+          <div className={classes.logo}>
+            <img
+              className={classes["logo-icon"]}
+              src={Logo}
+              alt="Brock Dallman Photography logo"
+            />
+            <h2>BROCK DALLMAN PHOTOGRAPHY</h2>
           </div>
-        </Link>
-      </div>
-    </nav>
+          <div className={`${classes.line} ${classes["line-2"]}`}></div>
+        </div>
+        <div className={classes["nav-row"]}>
+          <div></div>
+          <ul className={classes["nav-menu"]}>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/portfolio">Portfolio</Link>
+              <ul className={classes["dropdown-menu"]}>
+                <li>
+                  <Link to="/washington">Washington</Link>
+                </li>
+                <li>
+                  <Link to="/oregon">Oregon</Link>
+                </li>
+                <li>
+                  <Link to="/california">California</Link>
+                </li>
+                <li>
+                  <Link to="/idaho">Idaho</Link>
+                </li>
+                <li>
+                  <Link to="/wyoming">Wyoming</Link>
+                </li>
+                <li>
+                  <Link to="/montana">Montana</Link>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <Link to="/about">About</Link>
+            </li>
+            <li>
+              <Link to="/contact">Contact</Link>
+            </li>
+            <li>
+              <Link to="/shop">Shop</Link>
+            </li>
+          </ul>
+          <Link to="/cart">
+            <div className={classes["cart-container"]}>
+              {/* <IoMdCart size="25px" color="rgb(60, 215, 60)" /> */}
+              <IoMdCart
+                size="25px"
+                color={!cartIsEmpty ? "rgb(60, 215, 60)" : "white"}
+              />
+              <span
+                className={
+                  cartIsEmpty
+                    ? classes["cart-empty"]
+                    : classes["cart-not-empty"]
+                }
+              >
+                {numberOfCartItems}
+              </span>
+            </div>
+          </Link>
+        </div>
+      </nav>
+      <MobileNavigation />
+    </Fragment>
   );
 };
 

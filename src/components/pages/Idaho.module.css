@@ -68,3 +68,7 @@
 .grid__item--11 {
     grid-column: 8 / 13;
 }
+
+.grid__item--12 {
+    grid-column: 1 / 13;
+}

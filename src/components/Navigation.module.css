@@ -158,3 +158,21 @@
    font-size: 1.5rem;
   margin-left: 0.5rem;
 }
+
+@media (max-width: 65em) {
+  .logo-container h2 {
+  font-size: 1.8rem;
+  font-weight: 100;
+  
+}
+.line {
+  width: 24%;
+  border-bottom: 1px solid white;
+}
+}
+
+@media (max-width: 40em) {
+  .nav {
+    display: none;
+  }
+}

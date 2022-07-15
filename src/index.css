@@ -31,7 +31,7 @@ a {
   text-decoration: none;
 }
 
-h1 {
+/* h1 {
   font-size: 3rem;
 }
 
@@ -41,4 +41,16 @@ h3 {
 
 p {
   font-size: 1.6rem;
+}  */
+
+@media (max-width: 65em) {
+  html {
+  font-size: 55%;
+}
+}
+
+@media (max-width: 40em) {
+  html {
+  font-size: 50%;
+}
 }

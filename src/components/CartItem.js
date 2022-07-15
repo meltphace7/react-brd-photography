@@ -33,8 +33,10 @@ const CartItem = (props) => {
 
   return (
     <div className={classes["cart-item"]}>
-      <img src={props.image} alt={props.name} />
-      <button onClick={removeItemHandler}>X</button>
+      <div className={classes["cart-item__image-container"]}>
+        <img src={props.image} alt={props.name} />
+        <button onClick={removeItemHandler}>X</button>
+      </div>
       <h2>{props.name}</h2>
       <p>${props.price}</p>
       <div className={classes["amount-controls"]}>
@@ -42,7 +44,7 @@ const CartItem = (props) => {
         <p>{currentQuantity}</p>
         <button onClick={incrementItemHandler}>+</button>
       </div>
-      <p>${totalItemPrice}</p>
+      <p className={classes["total-price"]}>${totalItemPrice}</p>
     </div>
   );
 };
