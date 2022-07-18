@@ -7,11 +7,25 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 5rem;
+    position: relative;
 }
 
 .title {
     margin-bottom: 4rem;
     font-size: 3rem;
+}
+
+.cart-link {
+    position: absolute;
+    right: 2.5rem;
+    top: 1rem;
+    font-size: 1.8rem;
+    transition: color .5s ease;
+    color: black;
+}
+
+.cart-link:hover {
+    color: var(--color-secondary-green);
 }
 
 .shop__items {

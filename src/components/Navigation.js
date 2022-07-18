@@ -39,7 +39,9 @@ const Navigation = () => {
           <div className={`${classes.line} ${classes["line-2"]}`}></div>
         </div>
         <div className={classes["nav-row"]}>
-          <div></div>
+          <div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </div>
           <ul className={classes["nav-menu"]}>
             <li>
               <Link to="/">Home</Link>

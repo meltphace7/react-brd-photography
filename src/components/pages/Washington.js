@@ -4,7 +4,7 @@ import classes from './Washington.module.css'
 const Washington = () => {
     return (
       <div className={classes.washington}>
-        <h1>WASHINGTON</h1>
+        <h1 className={classes.title}>WASHINGTON</h1>
         <div className={classes.grid}>
           <div className={`${classes.grid__item} ${classes["grid__item--1"]}`}>
             <img
