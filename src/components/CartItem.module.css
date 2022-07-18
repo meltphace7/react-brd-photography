@@ -17,7 +17,6 @@
 .cart-item button {
     height: 2.5rem;
     width: 2.5rem;
-    margin-left: .5rem;
     border-radius: 100px;
     border: none; 
     background-color: white;
@@ -31,12 +30,18 @@
     width: auto;
 }
 
+.delete-button {
+    margin-left: .5rem;
+}
+
 .amount-controls {
     width: 8rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+  
 }
+
 
 @media (max-width: 40em) {
     .cart-item {
