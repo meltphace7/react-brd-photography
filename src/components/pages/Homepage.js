@@ -72,7 +72,10 @@ const Homepage = (props) => {
               room.
             </p>
             <Link to="/shop">
-              <button className={classes["feature-box__link"]}>SHOP NOW</button>
+              <button className={classes["feature-box__link"]}>
+                SHOP NOW
+                <HiOutlineArrowSmRight className={classes.arrow} size="30px" />
+              </button>
             </Link>
           </div>
           <div className={classes["feature-box__image"]}></div>
@@ -93,7 +96,10 @@ const Homepage = (props) => {
               States
             </p>
             <Link to="/portfolio">
-              <button className={classes["feature-box__link"]}>EXPLORE</button>
+              <button className={classes["feature-box__link"]}>
+                EXPLORE
+                <HiOutlineArrowSmRight className={classes['arrow-2']} size="30px" />
+              </button>
             </Link>
           </div>
         </div>
@@ -112,7 +118,10 @@ const Homepage = (props) => {
               items guaranteed.
             </p>
             <Link to="/shop">
-              <button className={classes["feature-box__link"]}>SHOP NOW</button>
+              <button className={classes["feature-box__link"]}>
+                SHOP NOW
+                <HiOutlineArrowSmRight className={classes.arrow} size="30px" />
+              </button>
             </Link>
           </div>
           <div className={classes["feature-box__image-2"]}></div>
