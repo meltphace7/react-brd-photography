@@ -36,6 +36,7 @@
 
 .feature-box__text h3 {
   font-size: 2rem;
+  font-weight: 100;
 }
 
 .feature-box__text h1 {
@@ -148,6 +149,7 @@
 
 .feature-box-2__text h3 {
   font-size: 2rem;
+  font-weight: 100;
   color: white;
 }
 

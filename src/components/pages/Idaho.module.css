@@ -63,13 +63,27 @@
 }
 
 .grid__item--10 {
-    grid-column: 1 / 8;
+    grid-column: 1 / 13;
 }
 
 .grid__item--11 {
-    grid-column: 8 / 13;
+    grid-column: 1 / 13;
 }
 
 .grid__item--12 {
+    grid-column: 1 / 7;
+}
+
+.grid__item--13 {
+    grid-column: 7 / 13;
+}
+
+@media (max-width: 40em) {
+    .grid__item--12 {
     grid-column: 1 / 13;
+}
+
+.grid__item--13 {
+    grid-column: 1 / 13;
+}
 }

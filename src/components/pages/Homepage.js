@@ -89,7 +89,7 @@ const Homepage = (props) => {
         >
           <div className={classes["feature-box-2__text"]}>
             <h3>Explore The West By State</h3>
-            <h1>GALLERIES</h1>
+            <h1>Galleries</h1>
             <p>
               From the jagged mountains of Washington state, to the massive high
               alpine lakes of Wyoming. Check out the raw beauty of 6 Western
@@ -112,7 +112,7 @@ const Homepage = (props) => {
         >
           <div className={classes["feature-box__text"]}>
             <h3>Display the Wild World on Your Wall</h3>
-            <h1>PRINTS</h1>
+            <h1>Prints</h1>
             <p>
               All prints are handcrafted with the finest materials. High quality
               items guaranteed.
