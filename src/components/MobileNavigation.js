@@ -35,15 +35,15 @@ const MobileNavigation = () => {
 
   return (
     <div className={classes.nav}>
-      <div className={classes.logo}>
+      <Link to="/" className={classes.logo}>
         <img
           className={classes["logo-icon"]}
           src={Logo}
           alt="Brock Dallman Photography logo"
         />
         <p>BROCK DALLMAN PHOTOGRAPHY</p>
-      </div>
-      <div className={classes["cart-container"]}>
+      </Link>
+      <Link to="/cart" className={classes["cart-container"]}>
         {/* <IoMdCart size="25px" color="rgb(60, 215, 60)" /> */}
         <IoMdCart
           size="25px"
@@ -56,7 +56,7 @@ const MobileNavigation = () => {
         >
           {numberOfCartItems}
         </span>
-      </div>
+      </Link>
       <div className={classes.navigation}>
         <input
           type="checkbox"
