@@ -41,6 +41,10 @@
     cursor: pointer;
 }
 
+.social-link img {
+    height: 3.5;
+}
+
 .social-link:hover {
   background-color: var(--color-secondary-green);
 }
