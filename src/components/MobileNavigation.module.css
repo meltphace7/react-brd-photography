@@ -109,14 +109,14 @@
 }
 
 .navigation__link {
-  font-size: 2rem;
+  font-size: 3.5rem;
   color: white;
   text-decoration: none;
   text-transform: uppercase;
 }
 
 .navigation__item {
-  margin: 2rem;
+  margin-bottom: 4rem;
 }
 
 .navigation__icon {
