@@ -15,6 +15,8 @@ const Navigation = () => {
     return acc + curItem.amount;
   }, 0)
 
+  console.log(numberOfCartItems);
+
   useEffect(() => {
     if (numberOfCartItems === 0) {
       setCartIsEmpty(true)
