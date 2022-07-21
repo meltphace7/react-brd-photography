@@ -93,7 +93,7 @@ const Navigation = () => {
                     : classes["cart-not-empty"]
                 }
               >
-                {numberOfCartItems}
+                {numberOfCartItems ? numberOfCartItems : 0}
               </span>
             </div>
           </Link>
