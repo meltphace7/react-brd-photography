@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Portfolio = () => {
   return (
     <div className={classes.portfolio}>
-      <h1>PORTFOLIO</h1>
+      <h1>GALLERY</h1>
       <div className={classes.grid}>
         <Link
           to="/washington"

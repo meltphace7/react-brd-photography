@@ -86,7 +86,7 @@ const MobileNavigation = () => {
                 className={classes["navigation__link"]}
                 to="/portfolio"
               >
-                Portfolio
+                Gallery
               </Link>
             </li>
             <li className={classes["navigation__item"]}>
