@@ -1,5 +1,6 @@
 import React from "react";
 import classes from "./About.module.css";
+import brockBioPic from "../../assets/images/CA_PORTRAIT_lowRes.jpg";
 
 
 const About = () => {
@@ -19,7 +20,7 @@ const About = () => {
           </p>
         </div>
         <div className={classes["about__image"]}>
-          <img src={"/img/CA_PORTRAIT_lowRes.jpg"} alt="Brock Dallman" />
+          <img src={brockBioPic} alt="Brock Dallman" />
         </div>
       </div>
     </div>

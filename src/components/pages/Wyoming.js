@@ -1,5 +1,15 @@
 import React from 'react'
 import classes from './Wyoming.module.css'
+import lonesomeLake from "../../assets/images/WY_LONESOME-LAKE_lowRes.jpg";
+import islandLakeDawn from "../../assets/images/WY_ISLAND-LAKE-DAWN_lowRes.jpg";
+import islandLakeEvening from "../../assets/images/WY_ISLAND-LAKE-EVENING_lowRes.jpg";
+import baptistLake from "../../assets/images/WY_BAPTIST-LAKE_lowRes.jpg";
+import pyramidPeak from "../../assets/images/WY_PYRAMID-PEAK-VERT_lowRes.jpg";
+import lizardsHead from "../../assets/images/WY_LIZARD-HEAD-PANO_lowRes.jpg";
+import morraineLake from "../../assets/images/WY_MORRAINE-LAKE_PANO_lowRes.jpg";
+import spiderLake from "../../assets/images/WY-SPIDER-LAKE_PANO_lowRes.jpg";
+import pyramidPeakSummit from "../../assets/images/WY_PYRAMID-PEAK_lowRes.jpg";
+import bigLakePano from "../../assets/images/WY_BIG-LAKE-PANO_lowRes.jpg";
 
 const Wyoming = () => {
     return (
@@ -7,43 +17,34 @@ const Wyoming = () => {
         <h1>WYOMING</h1>
         <div className={classes.grid}>
           <div className={`${classes.grid__item} ${classes["grid__item--1"]}`}>
-            <img src="img/WY_LONESOME-LAKE_lowRes.jpg" alt="Lonesome Lake" />
+            <img src={lonesomeLake} alt="Lonesome Lake" />
           </div>
           <div className={`${classes.grid__item} ${classes["grid__item--2"]}`}>
-            <img
-              src="img/WY_ISLAND-LAKE-DAWN_lowRes.jpg"
-              alt="Island Lake Dawn"
-            />
+            <img src={islandLakeDawn} alt="Island Lake Dawn" />
           </div>
           <div className={`${classes.grid__item} ${classes["grid__item--3"]}`}>
-            <img
-              src="img/WY_ISLAND-LAKE-EVENING_lowRes.jpg"
-              alt="Island Lake Evening"
-            />
+            <img src={islandLakeEvening} alt="Island Lake Evening" />
           </div>
           <div className={`${classes.grid__item} ${classes["grid__item--4"]}`}>
-            <img src="img/WY_BAPTIST-LAKE_lowRes.jpg" alt="Baptist Lake" />
+            <img src={baptistLake} alt="Baptist Lake" />
           </div>
           <div className={`${classes.grid__item} ${classes["grid__item--5"]}`}>
-            <img src="img/WY_PYRAMID-PEAK-VERT_lowRes.jpg" alt="Pyramid Lake" />
+            <img src={pyramidPeak} alt="Pyramid Lake" />
           </div>
           <div className={`${classes.grid__item} ${classes["grid__item--6"]}`}>
-            <img src="img/WY_LIZARD-HEAD-PANO_lowRes.jpg" alt="Lizard Head" />
+            <img src={lizardsHead} alt="Lizard Head" />
           </div>
           <div className={`${classes.grid__item} ${classes["grid__item--7"]}`}>
-            <img
-              src="img/WY_MORRAINE-LAKE_PANO_lowRes.jpg"
-              alt="Morraine Lake"
-            />
+            <img src={morraineLake} alt="Morraine Lake" />
           </div>
           <div className={`${classes.grid__item} ${classes["grid__item--8"]}`}>
-            <img src="img/WY-SPIDER-LAKE_PANO_lowRes.jpg" alt="Spider Lake" />
+            <img src={spiderLake} alt="Spider Lake" />
           </div>
           <div className={`${classes.grid__item} ${classes["grid__item--9"]}`}>
-            <img src="img/WY_PYRAMID-PEAK_lowRes.jpg" alt="Pyramid Peak" />
+            <img src={pyramidPeakSummit} alt="Pyramid Peak" />
           </div>
           <div className={`${classes.grid__item} ${classes["grid__item--10"]}`}>
-            <img src="img/WY_BIG-LAKE-PANO_lowRes.jpg" alt="Big Lake Pass" />
+            <img src={bigLakePano} alt="Big Lake Pass" />
           </div>
         </div>
       </div>

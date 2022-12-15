@@ -130,7 +130,7 @@
 .feature-box__image {
   width: 65%;
   height: 55rem;
-  background-image: url(/public/img/CA-GannetLakePano-699kb-lowRes.jpg);
+  background-image: url('../../assets/images/CA-GannetLakePano-699kb-lowRes.jpg');
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -138,7 +138,7 @@
 .feature-box__image-2 {
   width: 70%;
   height: 50rem;
-  background-image: url(/public/img/WA_SPECTACLE-LAKE_PANO_lowRes.jpg);
+  background-image: url('../../assets/images/WA_SPECTACLE-LAKE_PANO_lowRes.jpg');
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -151,7 +151,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background-image: url(/public/img/CA-Iceberg-Lake-538KB_lowRes.jpg);
+  background-image: url('../../assets/images/CA-Iceberg-Lake-538KB_lowRes.jpg');
   background-position: 65% 50%;
   background-size: cover;
   transition: transform 1s, opacity 1s;
@@ -210,73 +210,73 @@
 }
 
 .gallery__grid--item-1 {
-  background-image: url(/public/img/CA_THOUSAND-ISLAND-LAKE_PANO_lowRes.jpg);
+  background-image: url('../../assets/images/CA_THOUSAND-ISLAND-LAKE_PANO_lowRes.jpg');
   height: 54rem;
   grid-column: 1 / 13;
 }
 
 .gallery__grid--item-2 {
-  background-image: url(/public/img/WA_RAINER-PINK_lowRes.jpg);
+  background-image: url('../../assets/images/WA_RAINER-PINK_lowRes.jpg');
   height: 58rem;
   grid-column: 1 / 7;
 }
 
 .gallery__grid--item-3 {
-  background-image: url(/public/img/ID_MCGOWAN-PEAK_lowRes.jpg);
+  background-image: url('../../assets/images/ID_MCGOWAN-PEAK_lowRes.jpg');
   height: 58rem;
   grid-column: 7 / 13;
 }
 
 .gallery__grid--item-4 {
-  background-image: url(/public/img/MO_OLLIE-SUNSET_VERT__lowRes.jpg);
+  background-image: url('../../assets/images/MO_OLLIE-SUNSET_VERT__lowRes.jpg');
   height: 60rem;
   grid-column: 1 / 5;
 }
 
 .gallery__grid--item-5 {
-  background-image: url(/public/img/WA_RAINIER-EAST-VERT_lowRes.jpg);
+  background-image: url('../../assets/images/WA_RAINIER-EAST-VERT_lowRes.jpg');
   height: 60rem;
   grid-column: 5 / 9;
 }
 
 .gallery__grid--item-6 {
-  background-image: url(/public/img/ID_ALICE_VERT_lowRes.jpg);
+  background-image: url('../../assets/images/ID_ALICE_VERT_lowRes.jpg');
   height: 60rem;
   grid-column: 9 / 13;
 }
 
 .gallery__grid--item-7 {
-  background-image: url(/public/img/WY_ISLAND-LAKE-DAWN_lowRes.jpg);
+  background-image: url('../../assets/images/WY_ISLAND-LAKE-DAWN_lowRes.jpg');
   height: 60rem;
   grid-column: 1 / 13;
 }
 
 .gallery__grid--item-8 {
-  background-image: url(/public/img/WA_GOAT-ROCKS_olSNOWY_pano_lowRes.jpg);
+  background-image: url('../../assets/images/WA_GOAT-ROCKS_olSNOWY_pano_lowRes.jpg');
   height: 60rem;
   grid-column: 1 / 13;
 }
 
 .gallery__grid--item-9 {
-  background-image: url(/public/img/WA_RANIER_WEST-PANO_lowRes.jpg);
+  background-image: url('../../assets/images/WA_RANIER_WEST-PANO_lowRes.jpg');
   height: 60rem;
   grid-column: 1 / 13;
 }
 
 .gallery__grid--item-10 {
-  background-image: url(/public/img/ID_TWIN-LAKE_VERT_lowRes.jpg);
+  background-image: url('../../assets/images/ID_TWIN-LAKE_VERT_lowRes.jpg');
   height: 60rem;
   grid-column: 1 / 6;
 }
 
 .gallery__grid--item-11 {
-  background-image: url(/public/img/WA_BIGHEART_LAKE_lowRes2.jpg);
+  background-image: url('../../assets/images/WA_BIGHEART_LAKE_lowRes2.jpg');
   height: 60rem;
   grid-column: 6 / 13;
 }
 
 .gallery__grid--item-12 {
-  background-image: url(/public/img/WA_GLACIER-PEAK-PANO_lowRes.jpg);
+  background-image: url('../../assets/images/WA_GLACIER-PEAK-PANO_lowRes.jpg');
   height: 60rem;
   grid-column: 1 / 13;
 }
@@ -317,7 +317,7 @@
 
 .feature-box-2 {
   height: 50rem;
-  background-image: url(/public/img/OR_FRAZIER-LAKE_lowRes.jpg);
+  background-image: url('../../assets/images/OR_FRAZIER-LAKE_lowRes.jpg');
   background-position: 50% 50%;
 }
 

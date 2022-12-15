@@ -1,5 +1,15 @@
 import React from 'react'
 import classes from './Montana.module.css'
+import hiddenLake from "../../assets/images/MO_HIDDEN-LAKE_lowRes.jpg";
+import ollieLake from "../../assets/images/MO_OLLIE-LAKE_PANO_lowRes.jpg";
+import meadowVert from "../../assets/images/MO_MEADOW-VERT_lowRes.jpg";
+import ollieLakeVert from "../../assets/images/MO_OLLIE-SUNSET_VERT__lowRes.jpg";
+import sunsetCreekVert from "../../assets/images/MO_CREEK-SUNSET_VERT__lowRes.jpg";
+import fossilLake from "../../assets/images/MO_FOSSIL-LAKE_lowRes.jpg";
+import highLakePano from "../../assets/images/MO_HIGH-LAKE_PANO__lowRes.jpg";
+import fallsPano from "../../assets/images/MO_FALLS_PANO_lowRes.jpg";
+import glacierValley from "../../assets/images/MO_GLACIER_VALLEY_lowRes.jpg";
+import beartoothAlpine from "../../assets/images/MO_HIGH-LAKE_PANO__lowRes.jpg";
 
 const Montana = () => {
     return (
@@ -7,43 +17,34 @@ const Montana = () => {
         <h1>MONTANA</h1>
         <div className={classes.grid}>
           <div className={`${classes.grid__item} ${classes["grid__item--1"]}`}>
-            <img src="img/MO_HIDDEN-LAKE_lowRes.jpg" alt="Hidden Lake" />
+            <img src={hiddenLake} alt="Hidden Lake" />
           </div>
           <div className={`${classes.grid__item} ${classes["grid__item--2"]}`}>
-            <img src="img/MO_OLLIE-LAKE_PANO_lowRes.jpg" alt="Ollie Lake" />
+            <img src={ollieLake} alt="Ollie Lake" />
           </div>
           <div className={`${classes.grid__item} ${classes["grid__item--3"]}`}>
-            <img src="img/MO_MEADOW-VERT_lowRes.jpg" alt="Mountain Meadow" />
+            <img src={meadowVert} alt="Mountain Meadow" />
           </div>
           <div className={`${classes.grid__item} ${classes["grid__item--4"]}`}>
-            <img
-              src="img/MO_OLLIE-SUNSET_VERT__lowRes.jpg"
-              alt="Ollie Lake Sunset"
-            />
+            <img src={ollieLakeVert} alt="Ollie Lake Sunset" />
           </div>
           <div className={`${classes.grid__item} ${classes["grid__item--5"]}`}>
-            <img
-              src="img/MO_CREEK-SUNSET_VERT__lowRes.jpg"
-              alt="Creek Sunset"
-            />
+            <img src={sunsetCreekVert} alt="Creek Sunset" />
           </div>
           <div className={`${classes.grid__item} ${classes["grid__item--6"]}`}>
-            <img src="img/MO_FOSSIL-LAKE_lowRes.jpg" alt="Fossil Lake" />
+            <img src={fossilLake} alt="Fossil Lake" />
           </div>
           <div className={`${classes.grid__item} ${classes["grid__item--7"]}`}>
-            <img
-              src="img/MO_HIGH-LAKE_PANO__lowRes.jpg"
-              alt="Bear Tooth High Country"
-            />
+            <img src={highLakePano} alt="Bear Tooth High Country" />
           </div>
           <div className={`${classes.grid__item} ${classes["grid__item--8"]}`}>
-            <img src="img/MO_FALLS_PANO_lowRes.jpg" alt="Water falls" />
+            <img src={fallsPano} alt="Water falls" />
           </div>
           <div className={`${classes.grid__item} ${classes["grid__item--9"]}`}>
-            <img src="img/MO_GLACIER_VALLEY_lowRes.jpg" alt="Glacier Valley" />
+            <img src={glacierValley} alt="Glacier Valley" />
           </div>
           <div className={`${classes.grid__item} ${classes["grid__item--10"]}`}>
-            <img src="img/MO_HIGH-LAKE_PANO__lowRes.jpg" alt="Alpine Lake" />
+            <img src={beartoothAlpine} alt="Alpine Lake" />
           </div>
         </div>
       </div>

@@ -5,6 +5,7 @@ import classes from "./Homepage.module.css";
 import ImageSlider from "../ImageSlider";
 import { HiOutlineArrowSmRight } from "react-icons/hi";
 import SectionSierras from '../homepage/SectionSierras'
+import SectionBlog from "../homepage/SectionBlog";
 
 const Homepage = (props) => {
   // Parallax Scroll
@@ -76,6 +77,7 @@ const Homepage = (props) => {
       </header>
     
       <SectionSierras />
+      <SectionBlog />
     
       <section className={classes["feature-section"]}>
         <div

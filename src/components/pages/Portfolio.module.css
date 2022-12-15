@@ -52,7 +52,7 @@
 .grid__item--image {
   width: 100%;
   height: 100%;
-  background-color: blueviolet;
+  background-color: black;
   z-index: 10;
 }
 
@@ -61,7 +61,7 @@
 }
 
 .grid__item--image--1 {
-  background-image: url(/public/img/WA_RAINIER-EAST-VERT_lowRes.jpg);
+  background-image: url('../../assets/images/WA_RAINIER-EAST-VERT_lowRes.jpg');
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -71,7 +71,7 @@
 }
 
 .grid__item--image--2 {
-   background-image: url(/public/img/OR_OLALLIE-BUTTE_lowRes.jpg);
+   background-image: url('../../assets/images/OR_OLALLIE-BUTTE_lowRes.jpg');
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -81,7 +81,7 @@
 }
 
 .grid__item--image--3 {
-  background-image: url(/public/img/CA-ThousandIsland-Lake-671KB_lowRes.jpg);
+  background-image: url('../../assets/images/CA-ThousandIsland-Lake-671KB_lowRes.jpg');
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -91,7 +91,7 @@
 }
 
 .grid__item--image--4 {
-    background-image: url(/public/img/ID_ALICE_VERT_lowRes-1.jpg);
+    background-image: url('../../assets/images/ID_ALICE_VERT_lowRes-1.jpg');
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -101,7 +101,7 @@
 }
 
 .grid__item--image--5 {
-  background-image: url(/public/img/WY_FREMONT_CROP_lowRes.jpg);
+  background-image: url("../../assets/images/WY_FREMONT_CROP_lowRes.jpg");
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -112,7 +112,7 @@
 }
 
 .grid__item--image--6 {
- background-image: url(/public/img/MO_OLLIE-SUNSET_VERT__lowRes.jpg);
+ background-image: url('../../assets/images/MO_OLLIE-SUNSET_VERT__lowRes.jpg');
   background-size: cover;
   background-position: 50% 50%;
 }

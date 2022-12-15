@@ -14,6 +14,7 @@ import California from "./components/pages/California";
 import Idaho from "./components/pages/Idaho";
 import Wyoming from "./components/pages/Wyoming";
 import Montana from "./components/pages/Montana";
+import Sierras from "./components/pages/Sierras"
 import Cart from "./components/pages/Cart";
 import CartProvider from "./store/CartProvider";
 import { FormspreeProvider } from "@formspree/react";
@@ -59,6 +60,9 @@ function App() {
         </Route>
         <Route path="/montana">
           <Montana />
+        </Route>
+        <Route path="/sierras">
+          <Sierras />
         </Route>
         <Route path="/cart">
           <Cart />

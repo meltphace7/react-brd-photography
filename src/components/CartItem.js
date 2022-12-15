@@ -34,7 +34,7 @@ const CartItem = (props) => {
   return (
     <div className={classes["cart-item"]}>
       <div className={classes["cart-item__image-container"]}>
-        <img src={props.image} alt={props.name} />
+        <img src={`./images/${props.image}`} alt={props.name} />
         <button className={classes['delete-button']} onClick={removeItemHandler}>X</button>
       </div>
       <h2>{props.name}</h2>

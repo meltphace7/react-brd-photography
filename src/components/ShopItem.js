@@ -2,6 +2,7 @@ import React, { useContext, useState, useEffect } from "react";
 import Cart from "./pages/Cart";
 import classes from "./ShopItem.module.css";
 import CartContext from "../store/cart-context";
+// import image from "../assets/images/CA_EDIZA-LAKE_PANO_tiny.jpg";
 
 const ShopItem = (props) => {
   const cartCtx = useContext(CartContext);
@@ -29,10 +30,12 @@ const ShopItem = (props) => {
     }
   }, [cartCtx]);
 
+  console.log(props.image)
+
   return (
     <div className={classes["shop__items__item"]}>
       <div className={classes["shop__items__item__image-container"]}>
-        <img src={props.image} alt={props.name} />
+        <img src={`./images/${props.image}`} />
       </div>
       <div className={classes["shop__item__text"]}>
         <h2>{props.name}</h2>

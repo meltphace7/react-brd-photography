@@ -18,6 +18,8 @@ import marieOrange from "../../assets/images/CA_MARIE-LAKE_ORANGE_HI-RES.jpg";
 import bullfrogWide from "../../assets/images/CA_BULLFROG-LAKE_DAY-PANO_HI-RES.jpg";
 import treasureLakePano from "../../assets/images/CA_TREASURE-LAKES_PANO_lowRes.jpg";
 import { useInView } from "react-intersection-observer";
+import kearsarge from "../../assets/images/CA_KEARSARGE-LAKE_REFLECTION_HI-RES.jpg";
+import marieBlue from "../../assets/images/CA_MARIE-LAKE_SHADOW-BLUE_HI-RES.jpg";
 
 
 const SectionSierras = () => {
@@ -44,78 +46,78 @@ const SectionSierras = () => {
           !sectionOneRevealed ? classes["section--hidden"] : ""
         }`}
       >
-        <div className={classes["sierras__feature-box__header"]}>
+        <Link to="/sierras" className={classes["sierras__feature-box__header"]}>
           <div className={classes["sierras__feature-box__header__text"]}>
             <h1>The Sierra Collection</h1>
             <p>Discover the Range Of Light</p>
           </div>
-        </div>
+        </Link>
         <div className={classes["sierras__feature-box__text-box"]}>
-          <p>
+          <h2>
             Select images from one of the most beautiful mountain ranges on
             Earth.
-          </p>
+          </h2>
         </div>
         <div className={classes["homepage-grid"]}>
           <Link
             to={`/product-detail/6398ea3add1cb8c4baf82e4a`}
             className={`${classes["grid-item"]} ${classes["grid-item-1"]}`}
           >
-            <img src={paradiseLake} alt="paradise-lake" />
+            <img src={sevenGables} alt="paradise-lake" />
           </Link>
           <Link
             to={`/product-detail/639296261d72a73a340ba245`}
             className={`${classes["grid-item"]} ${classes["grid-item-2"]}`}
           >
-            <img src={sevenGables} alt="lucille-lake" />
+            <img src={thousandIsland} alt="lucille-lake" />
           </Link>
           <Link
             to={"/product-detail/6398e878dd1cb8c4baf82e3a"}
             className={`${classes["grid-item"]} ${classes["grid-item-3"]}`}
           >
-            <img src={goldMtn} alt="mt. st. helens" />
+            <img src={treasureLakePano} alt="mt. st. helens" />
           </Link>
           <Link
             to={"/product-detail/6398e9b8dd1cb8c4baf82e47"}
             className={`${classes["grid-item"]} ${classes["grid-item-4"]}`}
           >
-            <img src={marieOrange} alt="rae-lakes" />
+            <img src={bearBasinPano} alt="rae-lakes" />
           </Link>
           <Link
             to={"/product-detail/6398e7e9dd1cb8c4baf82e37"}
             className={`${classes["grid-item"]} ${classes["grid-item-5"]}`}
           >
-            <img src={thousandIsland} alt="granite park" />
+            <img src={marieBlue} alt="granite park" />
           </Link>
           <Link
             to={"/product-detail/639299da1d72a73a340ba2c1"}
             className={`${classes["grid-item"]} ${classes["grid-item-6"]}`}
           >
-            <img src={raeCalm} alt="rae-lakes" />
+            <img src={sevenGablesCreek} alt="rae-lakes" />
           </Link>
           <Link
             to={"/product-detail/639295df1d72a73a340ba23f"}
             className={`${classes["grid-item"]} ${classes["grid-item-7"]}`}
           >
-            <img src={graniteOrange} alt="bullfrog lake" />
+            <img src={raeCalm} alt="bullfrog lake" />
           </Link>
           <Link
             to={"/product-detail/639296c61d72a73a340ba252"}
             className={`${classes["grid-item"]} ${classes["grid-item-8"]}`}
           >
-            <img src={bearBasinPano} alt="thousand island lake" />
+            <img src={graniteOrange} alt="thousand island lake" />
           </Link>
           <Link
             to={"/product-detail/6398e95ddd1cb8c4baf82e42"}
             className={`${classes["grid-item"]} ${classes["grid-item-9"]}`}
           >
-            <img src={sevenGablesCreek} alt="twin lakes" />
+            <img src={marieOrange} alt="twin lakes" />
           </Link>
           <Link
             to={"/product-detail/6392968b1d72a73a340ba24c"}
             className={`${classes["grid-item"]} ${classes["grid-item-10"]}`}
           >
-            <img src={bullfrogWide} alt="McGowan Peak" />
+            <img src={paradiseLake} alt="McGowan Peak" />
           </Link>
           <Link
             to={"/product-detail/6398e8dfdd1cb8c4baf82e3f"}
@@ -129,6 +131,15 @@ const SectionSierras = () => {
           >
             <img src={minarets} alt="lil lakes" />
           </Link>
+        </div>
+      </div>
+      <div className={classes["muir-quote-container"]}>
+        <div className={classes["muir-quote-container__overlay"]}>
+          <h2 className={classes["muir-quote"]}>
+            “This grand show is eternal. It is always sunrise somewhere. The dew
+            is never all dried at once. A shower is forever falling. Vapor ever
+            rising." - John Muir
+          </h2>
         </div>
       </div>
     </section>
