@@ -1,5 +1,5 @@
 .shop {
-    padding-top: 4rem;
+    padding-top: 14rem;
     min-height: 100vh;
     width: 100%;
     background-color: var(--color-bg-tan);
@@ -18,7 +18,7 @@
 .cart-link {
     position: absolute;
     right: 2.5rem;
-    top: 1rem;
+    top: 12rem;
     font-size: 1.8rem;
     transition: color .5s ease;
     color: black;

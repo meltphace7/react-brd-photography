@@ -4,14 +4,30 @@ import { Link } from "react-router-dom";
 import classes from "./Homepage.module.css";
 import ImageSlider from "../ImageSlider";
 import { HiOutlineArrowSmRight } from "react-icons/hi";
+import SectionSierras from '../homepage/SectionSierras'
 
 const Homepage = (props) => {
-  // For Section Fadie In animations
+  // Parallax Scroll
+  const [offsetY, setOffsetY] = useState(0);
+  // Intersection Observer pop-up / fade animation
   const [sectionOneRevealed, setSectionOneRevealed] = useState(false);
   const [sectionTwoRevealed, setSectionTwoRevealed] = useState(false);
   const [sectionThreeRevealed, setSectionThreeRevealed] = useState(false);
   const [galleryRevealed, setGalleryRevealed] = useState(false);
+  // Parallax Scroll
 
+  const handleScroll = () => {
+    setOffsetY(window.pageYOffset);
+    console.log(offsetY);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  // Intersection Observer pop-up / fade animation
   const options = { root: null, threshold: 0.2 };
 
   const { ref: featureOneRef, inView: featOneIsVisible } = useInView(options);
@@ -21,15 +37,16 @@ const Homepage = (props) => {
   const { ref: featureThreeRef, inView: featThreeIsVisible } =
     useInView(options);
 
-  const { ref: galleryRef, inView: galleryIsVisible } = useInView({root: null, threshold: 0.4});
-
+  const { ref: galleryRef, inView: galleryIsVisible } = useInView({
+    root: null,
+    threshold: 0.4,
+  });
 
   useEffect(() => {
     if (featOneIsVisible) {
       setSectionOneRevealed(true);
     }
-  
-  }, [featOneIsVisible])
+  }, [featOneIsVisible]);
 
   useEffect(() => {
     if (featTwoIsVisible) {
@@ -43,19 +60,23 @@ const Homepage = (props) => {
     }
   }, [featThreeIsVisible]);
 
-   useEffect(() => {
-     if (galleryIsVisible) {
-       setGalleryRevealed(true);
-     }
-   }, [galleryIsVisible]);
-
-
-  
+  useEffect(() => {
+    if (galleryIsVisible) {
+      setGalleryRevealed(true);
+    }
+  }, [galleryIsVisible]);
 
   return (
     <div className={classes["home-page"]}>
-      <ImageSlider sliderImages={props.images} />
-
+      <header
+        className={classes.header}
+        style={{ transform: `translateY(${offsetY * 0.5}px)` }}
+      >
+        <ImageSlider sliderImages={props.images} />
+      </header>
+    
+      <SectionSierras />
+    
       <section className={classes["feature-section"]}>
         <div
           ref={featureOneRef}
@@ -98,7 +119,10 @@ const Homepage = (props) => {
             <Link to="/portfolio">
               <button className={classes["feature-box__link"]}>
                 EXPLORE
-                <HiOutlineArrowSmRight className={classes['arrow-2']} size="30px" />
+                <HiOutlineArrowSmRight
+                  className={classes["arrow-2"]}
+                  size="30px"
+                />
               </button>
             </Link>
           </div>
@@ -233,37 +257,34 @@ const Homepage = (props) => {
 
 export default Homepage;
 
+// useEffect(() => {
+//   const observer = new IntersectionObserver((entries) => {
+//     const [entry] = entries;
+//     console.log('entry', entry);
+//     setGalleryIsVisible(entry.isIntersecting);
+//   }, {root: null, threshold: 0.2})
+
+//   observer.observe(galleryRef.current);
+// }, [])
 
 // useEffect(() => {
-  //   const observer = new IntersectionObserver((entries) => {
-  //     const [entry] = entries;
-  //     console.log('entry', entry);
-  //     setGalleryIsVisible(entry.isIntersecting);
-  //   }, {root: null, threshold: 0.2})
+//   const observer = new IntersectionObserver(
+//     (entries) => {
+//       const [entry] = entries;
+//       console.log("entry", entry);
+//       setFeatOneIsVisible(entry.isIntersecting);
+//     },
+//     { root: null, threshold: 0.2 }
+//   );
 
-  //   observer.observe(galleryRef.current);
-  // }, [])
+//   observer.observe(featureTwoRef.current);
+// }, []);
 
-  // useEffect(() => {
-  //   const observer = new IntersectionObserver(
-  //     (entries) => {
-  //       const [entry] = entries;
-  //       console.log("entry", entry);
-  //       setFeatOneIsVisible(entry.isIntersecting);
-  //     },
-  //     { root: null, threshold: 0.2 }
-  //   );
+//   .section {
+//   transition: transform 1s, opacity 1s;
+// }
 
-  //   observer.observe(featureTwoRef.current);
-  // }, []);
-
-
-
-  //   .section {
-  //   transition: transform 1s, opacity 1s;
-  // }
-
-  // .section--hidden {
-  //   opacity: 0;
-  //   transform: translateY(8rem);
-  // }
+// .section--hidden {
+//   opacity: 0;
+//   transform: translateY(8rem);
+// }

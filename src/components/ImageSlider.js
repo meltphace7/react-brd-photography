@@ -197,7 +197,7 @@ const ImageSlider = (props) => {
         >
           <HiOutlineArrowSmLeft size="30px" />
         </button>
-        <div className={classes["dots-container"]}>
+        {/* <div className={classes["dots-container"]}>
           <button
             className={
               currentSlide === 1
@@ -278,7 +278,7 @@ const ImageSlider = (props) => {
             }
             onClick={dotTenHandler}
           ></button>
-        </div>
+        </div> */}
         <button
           className={`${classes["next-slide"]} ${classes["slider-control-button"]}`}
           onClick={nextSlideHandler}

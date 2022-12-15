@@ -1,4 +1,5 @@
 .about {
+  padding-top: 10rem;
     background-color: var(--color-bg-tan);
     min-height: 100vh;
     display: flex;
