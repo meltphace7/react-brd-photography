@@ -54,6 +54,11 @@ import backToTrailhead from "../../../assets/images/blog-images/BLOG_KCNP_DOWN_T
 import raeLakeCouples from "../../../assets/images/blog-images/BLOG_KCNP_RAE_COUPLES.jpg";
 // DAY 7
 
+import paradiseVideo from "../../../assets/images/Video_paradise_bg_hq.mp4";
+import bullfrogGoldenVideo from "../../../assets/images/Video_BullfrogGoldenHour.mp4";
+import raeValleyVideo from "../../../assets/images/Video_RAE_VALLEY.mp4";
+import glennPassVideo from "../../../assets/images/Video_GLENN_PASS.mp4";
+import kearsargePassVideo from "../../../assets/images/Video_KEARSARGE_PASS.mp4";
 
 const Blog = () => {
   const [offsetY, setOffsetY] = useState(0);
@@ -73,9 +78,18 @@ const Blog = () => {
         className={classes["blog-header"]}
         style={{ transform: `translateY(${offsetY * 0.5}px)` }}
       >
-        <h1 className={classes["blog-header__title"]}>Backpacking Kings Canyon National Park</h1>
-        <h2>A 5 day trek to Kearsarge Pass, Kearsarge Lakes,</h2>
-        <h2>Glenn Pass, Rae Lakes and the 60 Lake Basin</h2>
+        <div className={classes["blog-header__overlay"]}>
+          <div className={classes["blog-header__title-container"]}>
+            <h1 className={classes["blog-header__title"]}>
+              Backpacking Kings Canyon
+            </h1>
+            <h1 className={classes["blog-header__title"]}>National Park</h1>
+            <h2 className={classes["blog-header__sub-title"]}>
+              A 5 day trek to Kearsarge Pass Kearsarge Lakes, Glenn Pass, Rae
+              Lakes and the 60 Lake Basin
+            </h2>
+          </div>
+        </div>
       </header>
       <div className={classes["blog-body"]}>
         <div className={classes["blog-body__overlay"]}>
@@ -106,6 +120,18 @@ const Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
+            <div className={classes["video"]}>
+              <video
+                className={classes["video__content"]}
+                autoPlay
+                playsInline
+                muted
+                loop
+              >
+                <source src={kearsargePassVideo} type={"video/mp4"} />
+                Your browser is not supported
+              </video>
+            </div>
             <div className={classes["blog__image-container-1"]}>
               <img src={kearsargePano} alt="Kearsarge Pass" />
             </div>
@@ -169,6 +195,18 @@ const Blog = () => {
             <div className={classes["blog__image-container-1"]}>
               <img src={glennPass} alt="Sundown over Kearsarge Lake" />
             </div>
+            <div className={classes["video"]}>
+              <video
+                className={classes["video__content"]}
+                autoPlay
+                playsInline
+                muted
+                loop
+              >
+                <source src={glennPassVideo} type={"video/mp4"} />
+                Your browser is not supported
+              </video>
+            </div>
             <p className={classes["blog__text"]}>
               Arguably the finest coastal backpacking trail in the United
               States, this 25 mile stretch of California coast is truly a unique
@@ -212,9 +250,18 @@ const Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
-              <img src={raeReflection} alt="Sundown over Kearsarge Lake" />
-              <img src={samBoat} alt="Sundown over Kearsarge Lake" />
+
+            <div className={classes["blog__image-container-5"]}>
+              <img
+                className={classes["blog__image-container-5__img__1"]}
+                src={raeReflection}
+                alt="Sundown over Kearsarge Lake"
+              />
+              <img
+                className={classes["blog__image-container-5__img__2"]}
+                src={samBoat}
+                alt="Sundown over Kearsarge Lake"
+              />
             </div>
             <p className={classes["blog__text"]}>
               Arguably the finest coastal backpacking trail in the United
@@ -225,9 +272,17 @@ const Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
-              <img src={raeFinn} alt="Sundown over Kearsarge Lake" />
-              <img src={raeSunset} alt="Sundown over Kearsarge Lake" />
+            <div className={classes["blog__image-container-6"]}>
+              <img
+                className={classes["blog__image-container-6__img__1"]}
+                src={raeFinn}
+                alt="Sundown over Kearsarge Lake"
+              />
+              <img
+                className={classes["blog__image-container-6__img__2"]}
+                src={raeSunset}
+                alt="Sundown over Kearsarge Lake"
+              />
             </div>
           </section>
           <section className={classes["blog__section"]}>
@@ -278,10 +333,24 @@ const Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
-              <img src={uphillTrees} alt="Sundown over Kearsarge Lake" />
-              <img src={offTrailRocks} alt="Sundown over Kearsarge Lake" />
-              <img src={sixtyLakeMTNVert} alt="Sundown over Kearsarge Lake" />
+
+            {/* custom */}
+            <div className={classes["blog__image-container-4"]}>
+              <img
+                className={classes["blog__image-container-4__img__1"]}
+                src={uphillTrees}
+                alt="Sundown over Kearsarge Lake"
+              />
+              <img
+                className={classes["blog__image-container-4__img__2"]}
+                src={offTrailRocks}
+                alt="Sundown over Kearsarge Lake"
+              />
+              <img
+                className={classes["blog__image-container-4__img__3"]}
+                src={sixtyLakeMTNVert}
+                alt="Sundown over Kearsarge Lake"
+              />
             </div>
             <div className={classes["blog__image-container-1"]}>
               <img src={sixtyLakeMtnPano} alt="Sundown over Kearsarge Lake" />
@@ -295,14 +364,26 @@ const Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
+            <div className={classes["video"]}>
+              <video
+                className={classes["video__content"]}
+                autoPlay
+                playsInline
+                muted
+                loop
+              >
+                <source src={paradiseVideo} type={"video/mp4"} />
+                Your browser is not supported
+              </video>
+            </div>
             <div className={classes["blog__image-container-1"]}>
               <img src={paradiseFound} alt="Sundown over Kearsarge Lake" />
               <img src={paradiseLake} alt="Sundown over Kearsarge Lake" />
             </div>
             <div className={classes["blog__image-container-1"]}>
               <img src={cutieBabeBandit} alt="Sundown over Kearsarge Lake" />
-              <img src={boatParadise} alt="Sundown over Kearsarge Lake" />
               <img src={skinnyDipParadise} alt="Sundown over Kearsarge Lake" />
+              <img src={boatParadise} alt="Sundown over Kearsarge Lake" />
             </div>
             <p className={classes["blog__text"]}>
               Arguably the finest coastal backpacking trail in the United
@@ -336,7 +417,21 @@ const Blog = () => {
             </p>
             <div className={classes["blog__image-container-1"]}>
               <img src={raeValleyMornPano} alt="Sundown over Kearsarge Lake" />
+            </div>
+            <div className={classes["blog__image-container-1"]}>
               <img src={paradiseTopView} alt="Sundown over Kearsarge Lake" />
+            </div>
+            <div className={classes["video"]}>
+              <video
+                className={classes["video__content"]}
+                autoPlay
+                playsInline
+                muted
+                loop
+              >
+                <source src={raeValleyVideo} type={"video/mp4"} />
+                Your browser is not supported
+              </video>
             </div>
             <p className={classes["blog__text"]}>
               Arguably the finest coastal backpacking trail in the United
@@ -347,10 +442,25 @@ const Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+
+            {/* <div className={classes["blog__image-container-1"]}>
               <img src={sixtyLakeTrekLake} alt="Sundown over Kearsarge Lake" />
               <img src={sixtyLakeSideTrip} alt="Sundown over Kearsarge Lake" />
+            </div> */}
+
+            <div className={classes["blog__image-container-3"]}>
+              <img
+                className={classes["blog__image-container-3__img__1"]}
+                src={sixtyLakeTrekLake}
+                alt="Sundown over Kearsarge Lake"
+              />
+              <img
+                className={classes["blog__image-container-3__img__2"]}
+                src={sixtyLakeSideTrip}
+                alt="Sundown over Kearsarge Lake"
+              />
             </div>
+
             <div className={classes["blog__image-container-1"]}>
               <img src={trailSideLake} alt="Sundown over Kearsarge Lake" />
             </div>
@@ -385,6 +495,18 @@ const Blog = () => {
             <div className={classes["blog__image-container-1"]}>
               <img src={bullfrogEvening} alt="Sundown over Kearsarge Lake" />
             </div>
+            <div className={classes["video"]}>
+              <video
+                className={classes["video__content"]}
+                autoPlay
+                playsInline
+                muted
+                loop
+              >
+                <source src={bullfrogGoldenVideo} type={"video/mp4"} />
+                Your browser is not supported
+              </video>
+            </div>
           </section>
           <section className={classes["blog__section"]}>
             <div className={classes["blog__section-title-container"]}>
@@ -401,13 +523,22 @@ const Blog = () => {
               hiking it!
             </p>
             <div className={classes["blog__image-container-1"]}>
-              <img src={brockKearsarge} alt="Sundown over Kearsarge Lake" />
-            </div>
-            <div className={classes["blog__image-container-1"]}>
               <img src={potholeLakePano} alt="Sundown over Kearsarge Lake" />
-              <img src={backToTrailhead} alt="Sundown over Kearsarge Lake" />
             </div>
-            <div className={classes["blog__image-container-1"]}></div>
+            {/* custom */}
+            <div className={classes["blog__image-container-2"]}>
+              <img
+                className={classes["blog__image-container-2__img__1"]}
+                src={brockKearsarge}
+                alt="Sundown over Kearsarge Lake"
+              />
+              <img
+                className={classes["blog__image-container-2__img__2"]}
+                src={backToTrailhead}
+                alt="Sundown over Kearsarge Lake"
+              />
+            </div>
+
             <p className={classes["blog__text"]}>
               Arguably the finest coastal backpacking trail in the United
               States, this 25 mile stretch of California coast is truly a unique
