@@ -182,3 +182,14 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 91
   line-height: 4rem;
   margin: 5rem 3rem;
 }
+
+@media (max-width: 40em) {
+.sierras__feature-box__text-box h2 { 
+  font-size: 1.8rem;
+}
+
+.muir-quote {
+  font-size: 2rem;
+  line-height: 4rem;
+}
+}

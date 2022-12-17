@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./SectionBlog.module.css";
 import videoBg from "../../assets/images/paradise_bg_hq.mp4";
+import{ Link }from 'react-router-dom'
 import profilePic from "../../assets/images/PROFILE_SHOT.jpeg";
 import { HiOutlineArrowSmRight } from "react-icons/hi";
 
@@ -24,13 +25,13 @@ const SectionBlog = () => {
           <div className={classes["blog__feature__text"]}>
             <h1>Adventure Blog</h1>
             <p>
-              The mountains are my home. Follow me on my moutainous quests to
+              The mountains are home. Follow me on my moutainous quests to
               get the shot.
             </p>
-            <button className={classes["feature-box__link"]}>
-              BLOG
+            <Link to="/blog" className={classes["feature-box__link"]}>
+              Adventure
               <HiOutlineArrowSmRight className={classes.arrow} size="30px" />
-            </button>
+            </Link>
           </div>
           <div className={classes["blog__feature__img-container"]}>
             <img src={profilePic} alt="brock dallman" />

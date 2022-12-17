@@ -60,73 +60,73 @@ const SectionSierras = () => {
         </div>
         <div className={classes["homepage-grid"]}>
           <Link
-            to={`/product-detail/6398ea3add1cb8c4baf82e4a`}
+            to={`/sierras`}
             className={`${classes["grid-item"]} ${classes["grid-item-1"]}`}
           >
             <img src={sevenGables} alt="paradise-lake" />
           </Link>
           <Link
-            to={`/product-detail/639296261d72a73a340ba245`}
+            to={`/sierras`}
             className={`${classes["grid-item"]} ${classes["grid-item-2"]}`}
           >
             <img src={thousandIsland} alt="lucille-lake" />
           </Link>
           <Link
-            to={"/product-detail/6398e878dd1cb8c4baf82e3a"}
+            to={"/sierras"}
             className={`${classes["grid-item"]} ${classes["grid-item-3"]}`}
           >
             <img src={treasureLakePano} alt="mt. st. helens" />
           </Link>
           <Link
-            to={"/product-detail/6398e9b8dd1cb8c4baf82e47"}
+            to={"/sierras"}
             className={`${classes["grid-item"]} ${classes["grid-item-4"]}`}
           >
             <img src={bearBasinPano} alt="rae-lakes" />
           </Link>
           <Link
-            to={"/product-detail/6398e7e9dd1cb8c4baf82e37"}
+            to={"/sierras"}
             className={`${classes["grid-item"]} ${classes["grid-item-5"]}`}
           >
             <img src={marieBlue} alt="granite park" />
           </Link>
           <Link
-            to={"/product-detail/639299da1d72a73a340ba2c1"}
+            to={"/sierras"}
             className={`${classes["grid-item"]} ${classes["grid-item-6"]}`}
           >
             <img src={sevenGablesCreek} alt="rae-lakes" />
           </Link>
           <Link
-            to={"/product-detail/639295df1d72a73a340ba23f"}
+            to={"/sierras"}
             className={`${classes["grid-item"]} ${classes["grid-item-7"]}`}
           >
             <img src={raeCalm} alt="bullfrog lake" />
           </Link>
           <Link
-            to={"/product-detail/639296c61d72a73a340ba252"}
+            to={"/sierras"}
             className={`${classes["grid-item"]} ${classes["grid-item-8"]}`}
           >
             <img src={graniteOrange} alt="thousand island lake" />
           </Link>
           <Link
-            to={"/product-detail/6398e95ddd1cb8c4baf82e42"}
+            to={"/sierras"}
             className={`${classes["grid-item"]} ${classes["grid-item-9"]}`}
           >
             <img src={marieOrange} alt="twin lakes" />
           </Link>
           <Link
-            to={"/product-detail/6392968b1d72a73a340ba24c"}
+            to={"/sierras"}
             className={`${classes["grid-item"]} ${classes["grid-item-10"]}`}
           >
             <img src={paradiseLake} alt="McGowan Peak" />
           </Link>
           <Link
-            to={"/product-detail/6398e8dfdd1cb8c4baf82e3f"}
+            to={"/sierras"}
             className={`${classes["grid-item"]} ${classes["grid-item-11"]}`}
           >
             <img src={marbleMtn} alt="Kearsarge Lakes" />
           </Link>
           <Link
-            to={"/product-detail/6398eac4dd1cb8c4baf82e4d"}
+            to={"/sierras"}
             className={`${classes["grid-item"]} ${classes["grid-item-12"]}`}
           >
             <img src={minarets} alt="lil lakes" />

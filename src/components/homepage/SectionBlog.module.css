@@ -68,6 +68,7 @@
      font-weight: 100;
 }
 
+
 .feature-box__link {
     margin-top: 3rem;
   font-family: "Barlow", sans-serif, Arial, Helvetica, sans-serif;
@@ -100,3 +101,25 @@
   color: var(--color-primary-green);
   transform: translateX(10px);
 }
+
+@media (max-width: 40em) {
+    .video-text-box__container {
+        justify-content: center;
+    }
+
+     .blog__feature {
+        margin-right: 0;
+    }
+
+
+    .blog__feature__img-container {
+    height: 30rem;
+
+}
+}
+
+@media (max-width: 35em) {
+     .blog__feature {
+        flex-direction: column-reverse;
+    }
+ }
