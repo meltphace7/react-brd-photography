@@ -18,6 +18,7 @@ import Sierras from "./components/pages/Sierras"
 import Cart from "./components/pages/Cart";
 import Blog from "./components/pages/blog/Blog";
 import KingsCanyon22Blog from './components/pages/blog/KingsCanyon22Blog'
+import GranitePark22Blog from './components/pages/blog/GranitePark22Blog'
 import CartProvider from "./store/CartProvider";
 import { FormspreeProvider } from "@formspree/react";
 import ScrollToTop from "./components/ScrollToTop";
@@ -71,6 +72,9 @@ function App() {
         </Route>
         <Route path="/kings-canyon-22">
           <KingsCanyon22Blog />
+        </Route>
+        <Route path="/granite-park-22">
+          <GranitePark22Blog />
         </Route>
         <Route path="/cart">
           <Cart />

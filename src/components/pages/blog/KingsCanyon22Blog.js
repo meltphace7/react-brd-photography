@@ -2,56 +2,55 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import classes from "./KingsCanyon22Blog.module.css";
 import blogOneImage from "../../../assets/images/CA_RAE-LAKES_HIGH-VIEW_HI-RES.jpg";
-import trailSign from "../../../assets/images/blog-images/BLOG_KCNP_Inyo_sign-vert.jpeg";
-import potholeLake from "../../../assets/images/blog-images/BLOG_KCNP_Pothole-lake-vert.jpeg";
-import kearsargePano from "../../../assets/images/blog-images/BLOG_KCNP-kearsarge-pass-pano.jpeg";
-import kearsargeLakePano from "../../../assets/images/blog-images/BLOG_KCNP_kearsarge-pano.jpeg";
-import redMountainSundown from "../../../assets/images/blog-images/BLOG_KCNP_red-mountian-vert.jpeg";
-import kearsargeSundown from "../../../assets/images/blog-images/BLOG_KCNP_kearsarge-sundown.jpeg";
-import samBullfrogLake from "../../../assets/images/blog-images/BLOG_KCNP-cutie-babe-bullfrog-lk.jpeg";
-import brockBullfrogLake from "../../../assets/images/blog-images/KCNP_BLOG_BROCK_BULLFROG-LK.jpeg";
-import bullfrogLake from "../../../assets/images/blog-images/BLOG_KCNP_BULLFROG_LK_VERT.jpeg";
-import glennPass from "../../../assets/images/blog-images/BLOG_KCNP_GLENN_PASS_PANO.jpeg";
-import paintedLadyPano from "../../../assets/images/blog-images/BLOG_KCNP_PAINTED_LADY_PANO.jpeg";
-import raeLakeTrailPano from "../../../assets/images/blog-images/BLOG_KCNP_RAE_LAKE_TRAIL_PANO.jpeg";
-import raePeninsula from "../../../assets/images/blog-images/BLOG_RAE_PENINSULA_BEAUT.jpeg";
-import raeTentSpot from "../../../assets/images/blog-images/BLOG_KCNP_RAE_TENT.jpeg";
-import raeReflection from "../../../assets/images/blog-images/BLOG_KCNP_RAE_REFLECTION.jpeg";
-import samBoat from "../../../assets/images/blog-images/BLOG_KCNP_SAM_BOAT.jpeg";
-import raeFinn from "../../../assets/images/blog-images/BLOG_KCNP_RAE_FINN.jpeg";
-import raeSunset from "../../../assets/images/blog-images/BLOG_KCNP_RAE_SUNSET.jpeg";
-import finDomePano from "../../../assets/images/blog-images/BLOG_KCNP_FINN_DOME_PANO.jpeg";
-import finDomeMeadow from "../../../assets/images/blog-images/BLOG_KCNP_FINNDOME_MEADOW.jpeg";
-import samJohnMuir from "../../../assets/images/blog-images/BLOG_KCNP_SAM_JOHN-MUIR.jpeg";
-import bigLakePano from "../../../assets/images/blog-images/BLOG_KCNP_Big_LAKE-PANO.jpeg";
-import uphillTrees from "../../../assets/images/blog-images/BLOG_UPHILL-TREK_TREES-VERT.jpeg";
-import offTrailRocks from "../../../assets/images/blog-images/BLOG_KCNP_OFFTRAIL_ROCKS.jpeg";
-import sixtyLakeMTNVert from "../../../assets/images/blog-images/BLOG_KCNP_60-LAKE-MTN.jpeg";
-import sixtyLakeMtnPano from "../../../assets/images/blog-images/BLOG_KCNP_60-LAKE-MTN-PANO.jpeg";
-import paradiseFound from "../../../assets/images/blog-images/BLOG_KCNP_PARADISE-FOUND_VERT.jpeg";
-import skinnyDipParadise from "../../../assets/images/blog-images/BLOG_KCNP_PARADISE_SAM_VERT.jpeg";
-import cutieBabeBandit from "../../../assets/images/blog-images/BLOG_KCNP_CUTIE_BABE_BANDIT.jpeg";
-import boatParadise from "../../../assets/images/blog-images/BLOG_KCNP_BOAT-PARADISE.jpeg";
-import paradiseLake from "../../../assets/images/blog-images/BLOG_KCNP_PARADISE-LAKE.jpeg";
-import paradiseLakePano from "../../../assets/images/blog-images/BLOG_PARADISE-PANO.jpeg";
-import raeValleyPano from "../../../assets/images/blog-images/BLOG_KCNP_RAE_VALLEY_PANO.jpeg";
+import trailSign from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_Inyo_sign-vert.jpeg";
+import potholeLake from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_Pothole-lake-vert.jpeg";
+import kearsargePano from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP-kearsarge-pass-pano.jpeg";
+import kearsargeLakePano from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_kearsarge-pano.jpeg";
+import redMountainSundown from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_red-mountian-vert.jpeg";
+import kearsargeSundown from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_kearsarge-sundown.jpeg";
+import samBullfrogLake from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP-cutie-babe-bullfrog-lk.jpeg";
+import brockBullfrogLake from "../../../assets/images/blog-images/kcnp-22/KCNP_BLOG_BROCK_BULLFROG-LK.jpeg";
+import bullfrogLake from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_BULLFROG_LK_VERT.jpeg";
+import glennPass from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_GLENN_PASS_PANO.jpeg";
+import paintedLadyPano from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_PAINTED_LADY_PANO.jpeg";
+import raeLakeTrailPano from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_RAE_LAKE_TRAIL_PANO.jpeg";
+import raePeninsula from "../../../assets/images/blog-images/kcnp-22/BLOG_RAE_PENINSULA_BEAUT.jpeg";
+import raeTentSpot from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_RAE_TENT.jpeg";
+import raeReflection from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_RAE_REFLECTION.jpeg";
+import samBoat from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_SAM_BOAT.jpeg";
+import raeFinn from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_RAE_FINN.jpeg";
+import raeSunset from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_RAE_SUNSET.jpeg";
+import finDomePano from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_FINN_DOME_PANO.jpeg";
+import finDomeMeadow from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_FINNDOME_MEADOW.jpeg";
+import samJohnMuir from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_SAM_JOHN-MUIR.jpeg";
+import bigLakePano from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_Big_LAKE-PANO.jpeg";
+import uphillTrees from "../../../assets/images/blog-images/kcnp-22/BLOG_UPHILL-TREK_TREES-VERT.jpeg";
+import offTrailRocks from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_OFFTRAIL_ROCKS.jpeg";
+import sixtyLakeMTNVert from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_60-LAKE-MTN.jpeg";
+import sixtyLakeMtnPano from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_60-LAKE-MTN-PANO.jpeg";
+import paradiseFound from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_PARADISE-FOUND_VERT.jpeg";
+import skinnyDipParadise from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_PARADISE_SAM_VERT.jpeg";
+import cutieBabeBandit from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_CUTIE_BABE_BANDIT.jpeg";
+import boatParadise from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_BOAT-PARADISE.jpeg";
+import paradiseLake from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_PARADISE-LAKE.jpeg";
+import paradiseLakePano from "../../../assets/images/blog-images/kcnp-22/BLOG_PARADISE-PANO.jpeg";
+import raeValleyPano from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_RAE_VALLEY_PANO.jpeg";
 // DAY 5
-import raeValleyMornPano from "../../../assets/images/blog-images/BLOG_KCNP_RAE_LAKES_VALLEY_PANO.jpeg";
-import paradiseTopView from "../../../assets/images/blog-images/BLOG_KCNP-PARADISE_TOP-VIEW-PANO.jpeg";
-import sixtyLakeTrekLake from "../../../assets/images/blog-images/BLOG_KCNP_60-LAKE-TREK.jpeg";
-import trailSideLake from "../../../assets/images/blog-images/BLOG_KCNP_TRAILSIDE_LAKE.jpeg";
-import sixtyLakeSideTrip from "../../../assets/images/blog-images/BLOG_KCNP_60-LAKE-SIDETRIP.jpeg";
-import glennPassReturn from "../../../assets/images/blog-images/BLOG_KCNP_RETURN_GLENN_PASS.jpeg";
-import raeLakesReturn from "../../../assets/images/blog-images/BLOG_KCNP_RETURN_RAE-LAKES-PANO.jpeg";
-import bullfrogVistaCamp from "../../../assets/images/blog-images/BLOG_KCNP_BULLFROG-CAMP.jpeg";
-import bullfrogGrandPano from "../../../assets/images/blog-images/BLOG_KCNP_GRAND-BULLFROG-PANO.jpeg";
-import bullfrogEvening from "../../../assets/images/blog-images/BLOG_KCNP_BULLFROG-EVENING.jpeg";
+import raeValleyMornPano from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_RAE_LAKES_VALLEY_PANO.jpeg";
+import paradiseTopView from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP-PARADISE_TOP-VIEW-PANO.jpeg";
+import sixtyLakeTrekLake from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_60-LAKE-TREK.jpeg";
+import trailSideLake from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_TRAILSIDE_LAKE.jpeg";
+import sixtyLakeSideTrip from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_60-LAKE-SIDETRIP.jpeg";
+import glennPassReturn from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_RETURN_GLENN_PASS.jpeg";
+import raeLakesReturn from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_RETURN_RAE-LAKES-PANO.jpeg";
+import bullfrogVistaCamp from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_BULLFROG-CAMP.jpeg";
+import bullfrogGrandPano from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_GRAND-BULLFROG-PANO.jpeg";
+import bullfrogEvening from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_BULLFROG-EVENING.jpeg";
 // DAY 6
-import brockKearsarge from "../../../assets/images/blog-images/BLOG_KCNP_BROCK_KEARSARGE-PASS.jpeg";
-import samKearsarge from "../../../assets/images/blog-images/BLOG_KCNP_SAM_KEARSARGE_PASS.jpeg";
-import potholeLakePano from "../../../assets/images/blog-images/BLOG_KCNP_POTHOLE-LAKE-PANO.jpeg";
-import backToTrailhead from "../../../assets/images/blog-images/BLOG_KCNP_DOWN_TO_TRAILHEAD.jpeg";
-import raeLakeCouples from "../../../assets/images/blog-images/BLOG_KCNP_RAE_COUPLES.jpg";
+import brockKearsarge from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_BROCK_KEARSARGE-PASS.jpeg";
+import potholeLakePano from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_POTHOLE-LAKE-PANO.jpeg";
+import backToTrailhead from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_DOWN_TO_TRAILHEAD.jpeg";
+import raeLakeCouples from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_RAE_COUPLES.jpg";
 // DAY 7
 
 import paradiseVideo from "../../../assets/images/Video_paradise_bg_hq.mp4";
@@ -60,7 +59,7 @@ import raeValleyVideo from "../../../assets/images/Video_RAE_VALLEY.mp4";
 import glennPassVideo from "../../../assets/images/Video_GLENN_PASS.mp4";
 import kearsargePassVideo from "../../../assets/images/Video_KEARSARGE_PASS.mp4";
 
-const Blog = () => {
+const KingsCanyon22Blog = () => {
   const [offsetY, setOffsetY] = useState(0);
   const handleScroll = () => {
     setOffsetY(window.pageYOffset);
@@ -85,7 +84,7 @@ const Blog = () => {
             </h1>
             <h1 className={classes["blog-header__title"]}>National Park</h1>
             <h2 className={classes["blog-header__sub-title"]}>
-              A 5 day trek to Kearsarge Pass Kearsarge Lakes, Glenn Pass, Rae
+              A 7 day trek to Kearsarge Pass Kearsarge Lakes, Glenn Pass, Rae
               Lakes and the 60 Lake Basin
             </h2>
           </div>
@@ -558,4 +557,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default KingsCanyon22Blog;
