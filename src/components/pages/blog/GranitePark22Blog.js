@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import classes from "./GranitePark22Blog.module.css";
 
-// DAY 1 IMAGES
+// DAY 1 IMAGES - 10 IMAGES
 
 import tungstenMine from "../../../assets/images/blog-images/granite-park-22/BLOG_GRANITE-P_TUNGSTEN_MINE.jpg";
 import pineCreekClouds from "../../../assets/images/blog-images/granite-park-22/BLOG_GRANITE-P_PINE_CREEK_CLOUDS.jpg";
@@ -14,22 +14,38 @@ import pineLakeVert from "../../../assets/images/blog-images/granite-park-22/BLO
 import samRockHop from "../../../assets/images/blog-images/granite-park-22/BLOG_GRANITE_P_SAM_ROCK_HOP.jpeg";
 import honeymoonSunset from "../../../assets/images/blog-images/granite-park-22/BLOG_GRANITE-P_HONEYMOON_SUNSET.jpeg";
 
-// DAY 2 IMAGES
+// DAY 2 IMAGES - 12 IMAGES
 
 import honeymoonMorn from "../../../assets/images/blog-images/granite-park-22/honeymoon_morning.jpeg";
 import honeymoonVert from "../../../assets/images/blog-images/granite-park-22/hooneymoon_morn_vert.jpeg";
 import honeymoonMtnsVert from "../../../assets/images/blog-images/granite-park-22/honeymoon_morn_mtns_vert.jpeg";
 import graniteParkMtnVert from "../../../assets/images/blog-images/granite-park-22/granite-park_mtn_vert.jpeg";
 import graniteParkCreekPano from "../../../assets/images/blog-images/granite-park-22/granite-park_creek-pano.jpeg";
+
+import graniteParkTarn from "../../../assets/images/blog-images/granite-park-22/GRANITE_PARK_POND.jpg";
+
+import graniteParkMtnsPano from "../../../assets/images/blog-images/granite-park-22/GRANITE_PARK_MTN_PANO_ONE.jpg";
+
+import graniteParkCloudsShot from "../../../assets/images/blog-images/granite-park-22/GRANITE_PARK_CLOUD_MTN_SHOT.jpg";
+
+
 import graniteParkBrockVert from "../../../assets/images/blog-images/granite-park-22/granite-park_brock_vert.jpeg";
 import graniteParkTrail from "../../../assets/images/blog-images/granite-park-22/granite-park_trail.jpeg";
-import graniteParkCloudsPano from "../../../assets/images/blog-images/granite-park-22/granite-park_couds-pano.jpeg";
+
+
+import graniteParkCloudsPano from "../../../assets/images/blog-images/granite-park-22/GRANITE_GRAND_PANO.jpg";
+
+
+
+
 import graniteParkCloudsVert from "../../../assets/images/blog-images/granite-park-22/granite-park_couds-vert.jpeg";
 import graniteParkEveningPano from "../../../assets/images/blog-images/granite-park-22/granite-park_evening-pano.jpeg";
 import graniteParkEveningLakes from "../../../assets/images/blog-images/granite-park-22/granite-park_evening-lakes.jpeg";
 import graniteParkSam from "../../../assets/images/blog-images/granite-park-22/granite-park_sam-vert.jpeg";
 
-// DAY 3 IMAGES
+// DAY 3 IMAGES - 25 IMAGES
+
+import graniteOrangeMorn from "../../../assets/images/blog-images/granite-park-22/GRANITE_ORANGE_SHOT.jpg";
 
 import graniteOrangeMornPano from "../../../assets/images/blog-images/granite-park-22/granite-park_orange_pano.jpeg";
 import graniteGooSlam from "../../../assets/images/blog-images/granite-park-22/granite-park_sam_goo-slam.jpeg";
@@ -37,6 +53,10 @@ import graniteSamBoulderHop from "../../../assets/images/blog-images/granite-par
 import graniteSamClimb from "../../../assets/images/blog-images/granite-park-22/granite-park_sam-climb.jpeg";
 import italyPassSummit from "../../../assets/images/blog-images/granite-park-22/italy-pass-pano.jpeg";
 import italyPassBoulder from "../../../assets/images/blog-images/granite-park-22/italy-pass-bolder-mtn.jpeg";
+import blackBearLakePano from "../../../assets/images/blog-images/granite-park-22/BLACK-BEAR_LAKE_PANO.jpg";
+
+import brockPortrait from "../../../assets/images/blog-images/granite-park-22/BROCK-PORTRAIT.jpg";
+
 import bearLakesBrockPano from "../../../assets/images/blog-images/granite-park-22/bear-lakes-brock_pano.jpeg";
 import brockAlpinePano from "../../../assets/images/blog-images/granite-park-22/brock-alpine-pano.jpeg";
 import bearLakesAlpinePano from "../../../assets/images/blog-images/granite-park-22/bear_lakes_alpine-pano.jpeg";
@@ -44,6 +64,11 @@ import sevenGablesBrock from "../../../assets/images/blog-images/granite-park-22
 import bearBasinOffTrail from "../../../assets/images/blog-images/granite-park-22/bear-basin-off-trail.jpeg";
 import bearBasinOffTrailTwo from "../../../assets/images/blog-images/granite-park-22/bear-basin_off-trail-2.jpeg";
 import bearBasinSamVert from "../../../assets/images/blog-images/granite-park-22/bear-basin_Sam-trail-vert.jpeg";
+
+import veeLakePano from "../../../assets/images/blog-images/granite-park-22/CA_VEE-LAKE-PANO.jpg";
+
+
+
 import sevenGablesRainPano from "../../../assets/images/blog-images/granite-park-22/seven-gables-rain_pano.jpeg";
 import sevenGablesSlopesVert from "../../../assets/images/blog-images/granite-park-22/seven-gables_slope-vert.jpeg";
 import sevenGablesGrassPano from "../../../assets/images/blog-images/granite-park-22/seven-gables_grass-pano.jpeg";
@@ -58,15 +83,15 @@ import samSignageOne from "../../../assets/images/blog-images/granite-park-22/sa
 import samSignageTwo from "../../../assets/images/blog-images/granite-park-22/sam_signage-2.jpeg";
 import marieLakeSunsetPano from "../../../assets/images/blog-images/granite-park-22/marie-lake_evening-bliss-pano.jpeg";
 
-// DAY 4 IMAGES
+// DAY 4 IMAGES - 28 IMAGES
 
 import marieGrassyMornView from "../../../assets/images/blog-images/granite-park-22/MARIE_GRASSY_MORN_VIEW-1.jpg";
 import marieVertShot from "../../../assets/images/blog-images/granite-park-22/MARIE_MORN_PANO.jpg";
 import marieMornView from "../../../assets/images/blog-images/granite-park-22/MARIE_MORN_VIEW.jpg";
 import marieMornTrailVert from "../../../assets/images/blog-images/granite-park-22/MARIE_MORN_TRAIL_VERT.jpg";
-import marieTrailView from "../../../assets/images/blog-images/granite-park-22/Marie_trail-view-2.jpeg";
 import marieMornWidePano from "../../../assets/images/blog-images/granite-park-22/MARIE_MORN_WIDE_PANO.jpg";
 import marieTarnPano from "../../../assets/images/blog-images/granite-park-22/MARIE_TARN_PANO.jpg";
+import marieBlue from "../../../assets/images/blog-images/granite-park-22/MARIE-LAKE_BLUE.jpg";
 import marieTrailSidePano from "../../../assets/images/blog-images/granite-park-22/MARIE_MORN_TRAIL-SIDE_PANO.jpg";
 import marieMornTrailSideView from "../../../assets/images/blog-images/granite-park-22/MARIE_MORN_TRAIL-SIDE_VIEW.jpg";
 import tentPano from "../../../assets/images/blog-images/granite-park-22/Marie_tent-pano.jpeg";
@@ -86,33 +111,69 @@ import tigerGrass from "../../../assets/images/blog-images/granite-park-22/MARIE
 import postStormSamVert from "../../../assets/images/blog-images/granite-park-22/SAM_POST_STORM_VERT.jpg";
 import postStormSam from "../../../assets/images/blog-images/granite-park-22/Sam_post-thunderstorm.jpeg";
 import postStormPano from "../../../assets/images/blog-images/granite-park-22/MARIE_POST-STORM_PANO.jpg";
+import samPortrait from "../../../assets/images/blog-images/granite-park-22/POST-RAIN_SAM_PORTRAIT.jpg";
+import postRainSamLake from "../../../assets/images/blog-images/granite-park-22/POST-RAIN_SAM_2.jpg";
+import marieEveningPano from "../../../assets/images/blog-images/granite-park-22/MARIE-LAKE-PANO-1.jpg";
 import marieOrangeSunsetPano from "../../../assets/images/blog-images/granite-park-22/MARIE_ORANGE_SUNSET_PANO.jpg";
 import marieOrangeSunset from "../../../assets/images/blog-images/granite-park-22/MARIE_ORANGE_SUNSET.jpg";
 
-// DAY 5 IMAGES
+// DAY 5 IMAGES - 11 IMAGES
+
 import samRainVert from "../../../assets/images/blog-images/granite-park-22/SAM-RAINJACKET-VERT.jpg";
-
 import rainSign from "../../../assets/images/blog-images/granite-park-22/RAIN_SIGN.jpg";
-
 import brockRainJacket from "../../../assets/images/blog-images/granite-park-22/BROCK_RAINJACKET.jpg";
-
 import samRiverCrossing from "../../../assets/images/blog-images/granite-park-22/SAM_RIVER-CROSSING.jpg";
-
 import italyCreek from "../../../assets/images/blog-images/granite-park-22/italy_canyon_creek.jpeg";
-
 import italyMeadowPano from "../../../assets/images/blog-images/granite-park-22/ITALY_MEADOW_PANO.jpg";
-
 import rainMountainVert from "../../../assets/images/blog-images/granite-park-22/RAIN_MTN-VERT.jpg";
-
 import italyMeadow from "../../../assets/images/blog-images/granite-park-22/ITALY_MEADOW.jpg";
-
 import italyCanyonSunet from "../../../assets/images/blog-images/granite-park-22/ITALY_CANYON_ORANGE-SUNSET.jpg";
-
 import italyCanyonSunsetVert from "../../../assets/images/blog-images/granite-park-22/ITALY_ORANGE_SUNSET_VERT.jpg";
+import italyOrangeSunsetPano from "../../../assets/images/blog-images/granite-park-22/ITALY_SKY_MELT.jpg";
 
-import italyOrangeSunsetPano from "../../../assets/images/blog-images/granite-park-22/ITALY_ORANGESUNSET_PANO.jpeg";
+import italyOrangeSunsetPanoTwo from "../../../assets/images/blog-images/granite-park-22/ITALY_ORANGESUNSET_PANO.jpeg";
 
-// DAY 6 IMAGES
+// DAY 6 IMAGES - 30 IMAGES
+import clothingPano from "../../../assets/images/blog-images/granite-park-22/ITALY-CLOTHING_PANO.jpeg";
+import samItalyHiker from "../../../assets/images/blog-images/granite-park-22/ITALY_SAM_HIKE.jpeg";
+import italySamCliffVert from "../../../assets/images/blog-images/granite-park-22/ITALY_CREEK_CLIFF_SAM_VERT.jpg";
+import italyCreekMtnVert from "../../../assets/images/blog-images/granite-park-22/ITALY_CREEK_MTNS_VERT.jpg";
+import samCreekCrossMtn from "../../../assets/images/blog-images/granite-park-22/ITALY_CREEK_SAM_PANO.jpg";
+import samHikeMtns from "../../../assets/images/blog-images/granite-park-22/ITALY-CREEK_SAM_MTNS.jpeg";
+import italyLakePano from "../../../assets/images/blog-images/granite-park-22/ITALY_LAKE_PANO.jpg";
+import italyLakeBrockVert from "../../../assets/images/blog-images/granite-park-22/ITALY_LAKE_BROCK_VERT.jpg";
+import italyLakeSam from "../../../assets/images/blog-images/granite-park-22/ITALY-LAKE_SAM.jpeg";
+import italyLakePanoTwo from "../../../assets/images/blog-images/granite-park-22/ITALY_LAKE_WIDE_PANO.jpeg";
+import italyPassDayPano from "../../../assets/images/blog-images/granite-park-22/ITALY_PASS_DAY.jpeg";
+import italyPassBrock from "../../../assets/images/blog-images/granite-park-22/GRANITE-PARK_BROCK.jpg";
+import juliusCeaserGrandPano from "../../../assets/images/blog-images/granite-park-22/JULIUS-CAESER_GRAND-PANO.jpeg";
+import juiliusCeaserPanoTwo from "../../../assets/images/blog-images/granite-park-22/julius_caeser_pano_2.jpeg";
+import juliusCeaserShot from "../../../assets/images/blog-images/granite-park-22/JULIUS-CEASER_SQUARE_SHOT.jpg";
+import graniteParkLakePano from "../../../assets/images/blog-images/granite-park-22/granite_park_lake_pano.jpeg";
+import chalfantXCountrySamPano from "../../../assets/images/blog-images/granite-park-22/CHALANT_X-COUNTRY_SAM_PANO.jpg";
+import chalfantLakeClouds from "../../../assets/images/blog-images/granite-park-22/CHALFANT_LAKE_CLOUDS.jpg";
+
+import chalfantLakePANO from "../../../assets/images/blog-images/granite-park-22/CHALFANT_LAKE_PANO.jpg";
+
+
+import chalfantLakeCloudsTwo from "../../../assets/images/blog-images/granite-park-22/CHALANT_LAKE_CLOUD-SKY-2.jpg";
+import chalfantLakeCloudsThree from "../../../assets/images/blog-images/granite-park-22/CHALANT_LAKE_CLOUD-SKY.jpg";
+import chalfantMtn from "../../../assets/images/blog-images/granite-park-22/GRANITE_OFFTRAIL_CAESAR_MTN.jpg";
+import chalfantJuliusMtnVert from "../../../assets/images/blog-images/granite-park-22/JULIUS_MTN_VERT.jpeg";
+import offTrailMtnWaterFallVert from "../../../assets/images/blog-images/granite-park-22/GRANITE_OFFTRAIL_WATERFALL_VERT.jpg";
+import offTrailMtnShot from "../../../assets/images/blog-images/granite-park-22/OFFTRAIL_MTN_SHOT.jpg";
+import offTrailMtnCreekVert from "../../../assets/images/blog-images/granite-park-22/OFFTRAIL_MTN_CREEK_VERT.jpeg";
+import offTrailCreekPano from "../../../assets/images/blog-images/granite-park-22/GRANITE_OFFTRAIL_CREEK_PANO.jpg";
+import honeymoonLakePano from "../../../assets/images/blog-images/granite-park-22/HONEYMOON-LAKE-RETURN-PANO.jpg";
+import marbleMtnVert from "../../../assets/images/blog-images/granite-park-22/MARBLE_MTN_QUAL_VERT.jpg";
+import samPineCreekVert from "../../../assets/images/blog-images/granite-park-22/SAM_PINECREEK_RETURN_VERT.jpeg";
+
+import goldMtn from "../../../assets/images/blog-images/granite-park-22/GOLD_MTN.jpg";
+
+import pineCreekValleyPano from "../../../assets/images/blog-images/granite-park-22/PINE_CREEK_VALLEY_PANO.jpg";
+
+import pineCreekGrandPano from "../../../assets/images/blog-images/granite-park-22/PINE_CREEK_GRAND_PANO.jpg";
+import sevenGablesCouples from "../../../assets/images/blog-images/granite-park-22/Seven_gables_couple.jpg";
 
 // VIDEOS
 
@@ -246,7 +307,6 @@ const GranitePark22Blog = () => {
               <img src={honeymoonMtnsVert} alt="Inyo national forest sign" />
               <img src={honeymoonVert} alt="Inyo national forest sign" />
             </div>
-
             <p className={classes["blog__text"]}>
               Arguably the finest coastal backpacking trail in the United
               States, this 25 mile stretch of California coast is truly a unique
@@ -259,7 +319,6 @@ const GranitePark22Blog = () => {
             <div className={classes["blog__image-container-1"]}>
               <img src={honeymoonMorn} alt="Inyo national forest sign" />
             </div>
-
             {/* <div className={classes["video"]}>
               <video
                 className={classes["video__content"]}
@@ -281,7 +340,6 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-
             <div className={classes["blog__image-container-1"]}>
               <img src={graniteParkCreekPano} alt="Inyo national forest sign" />
             </div>
@@ -300,6 +358,18 @@ const GranitePark22Blog = () => {
                 alt="Inyo national forest sign"
               />
             </div>
+            <div className={classes["blog__image-container-1"]}>
+              <img src={graniteParkTarn} alt="Inyo national forest sign" />
+            </div>
+            <div className={classes["blog__image-container-1"]}>
+              <img src={graniteParkMtnsPano} alt="Inyo national forest sign" />
+            </div>
+            <div className={classes["blog__image-container-1"]}>
+              <img
+                src={graniteParkCloudsShot}
+                alt="Inyo national forest sign"
+              />
+            </div>
 
             <div className={classes["blog__image-container-1"]}>
               <img
@@ -308,7 +378,6 @@ const GranitePark22Blog = () => {
               />
               <img src={graniteParkMtnVert} alt="Inyo national forest sign" />
             </div>
-
             <p className={classes["blog__text"]}>
               Arguably the finest coastal backpacking trail in the United
               States, this 25 mile stretch of California coast is truly a unique
@@ -360,6 +429,9 @@ const GranitePark22Blog = () => {
               hiking it!
             </p>
             <div className={classes["blog__image-container-1"]}>
+              <img src={graniteOrangeMorn} alt="Italy Pass Pano" />
+            </div>
+            <div className={classes["blog__image-container-1"]}>
               <img src={graniteOrangeMornPano} alt="Italy Pass Pano" />
             </div>
             <div className={classes["blog__image-container-1"]}>
@@ -406,6 +478,22 @@ const GranitePark22Blog = () => {
             <div className={classes["blog__image-container-1"]}>
               <img src={bearLakesAlpinePano} alt="Italy Pass Pano" />
             </div>
+            <div className={classes["blog__image-container-1"]}>
+              <img src={blackBearLakePano} alt="Italy Pass Pano" />
+            </div>
+            <p className={classes["blog__text"]}>
+              Arguably the finest coastal backpacking trail in the United
+              States, this 25 mile stretch of California coast is truly a unique
+              trail where you’ll get to experience untouched wilderness and true
+              remoteness. Due to the cliffs being too steep to build roads, the
+              Lost Coast is the longest stretch of undeveloped coast in
+              California, but the cool thing is we can still experience it by
+              hiking it!
+            </p>
+
+            <div className={classes["blog__image-container-1"]}>
+              <img src={brockPortrait} alt="Italy Pass Pano" />
+            </div>
             <p className={classes["blog__text"]}>
               Arguably the finest coastal backpacking trail in the United
               States, this 25 mile stretch of California coast is truly a unique
@@ -425,6 +513,18 @@ const GranitePark22Blog = () => {
             <div className={classes["blog__image-container-1"]}>
               <img src={bearBasinOffTrailTwo} alt="Italy Pass Pano" />
               <img src={sevenGablesSlotVert} alt="Italy Pass Pano" />
+            </div>
+            <p className={classes["blog__text"]}>
+              Arguably the finest coastal backpacking trail in the United
+              States, this 25 mile stretch of California coast is truly a unique
+              trail where you’ll get to experience untouched wilderness and true
+              remoteness. Due to the cliffs being too steep to build roads, the
+              Lost Coast is the longest stretch of undeveloped coast in
+              California, but the cool thing is we can still experience it by
+              hiking it!
+            </p>
+            <div className={classes["blog__image-container-1"]}>
+              <img src={veeLakePano} alt="Italy Pass Pano" />
             </div>
             <p className={classes["blog__text"]}>
               Arguably the finest coastal backpacking trail in the United
@@ -503,10 +603,12 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-
             <div className={classes["blog__image-container-1"]}>
               <img src={samSignageOne} alt="Italy Pass Pano" />
               <img src={samSignageTwo} alt="Italy Pass Pano" />
+            </div>
+            <div className={classes["blog__image-container-1"]}>
+              <img src={marieEveningPano} alt="Italy Pass Pano" />
             </div>
             <div className={classes["blog__image-container-1"]}>
               <img src={marieLakeSunsetPano} alt="Italy Pass Pano" />
@@ -563,7 +665,7 @@ const GranitePark22Blog = () => {
               <img src={marieTrailSidePano} alt="Italy Pass Pano" />
             </div>
             <div className={classes["blog__image-container-1"]}>
-              <img src={marieTrailView} alt="Italy Pass Pano" />
+              <img src={marieBlue} alt="Italy Pass Pano" />
               <img src={marieMornTrailVert} alt="Italy Pass Pano" />
             </div>
             <div className={classes["blog__image-container-1"]}></div>
@@ -642,6 +744,10 @@ const GranitePark22Blog = () => {
               <img src={postStormSamVert} alt="Italy Pass Pano" />
               <img src={tigerGrass} alt="Italy Pass Pano" />
             </div>
+            <div className={classes["blog__image-container-1"]}>
+              <img src={postRainSamLake} alt="Italy Pass Pano" />
+              <img src={samPortrait} alt="Italy Pass Pano" />
+            </div>
 
             <div className={classes["blog__image-container-1"]}>
               <img src={postStormPano} alt="Italy Pass Pano" />
@@ -692,7 +798,6 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-
             <div className={classes["blog__image-container-1"]}>
               <img src={rainSign} alt="Italy Pass Pano" />
             </div>
@@ -703,9 +808,7 @@ const GranitePark22Blog = () => {
             <div className={classes["blog__image-container-1"]}>
               <img src={italyMeadowPano} alt="Italy Pass Pano" />
             </div>
-
             {/* custom */}
-
             <p className={classes["blog__text"]}>
               Arguably the finest coastal backpacking trail in the United
               States, this 25 mile stretch of California coast is truly a unique
@@ -718,7 +821,6 @@ const GranitePark22Blog = () => {
             <div className={classes["blog__image-container-1"]}>
               <img src={italyMeadow} alt="Italy Pass Pano" />
             </div>
-
             <p className={classes["blog__text"]}>
               Arguably the finest coastal backpacking trail in the United
               States, this 25 mile stretch of California coast is truly a unique
@@ -735,6 +837,18 @@ const GranitePark22Blog = () => {
             <div className={classes["blog__image-container-1"]}>
               <img src={italyOrangeSunsetPano} alt="Italy Pass Pano" />
             </div>
+            <p className={classes["blog__text"]}>
+              Arguably the finest coastal backpacking trail in the United
+              States, this 25 mile stretch of California coast is truly a unique
+              trail where you’ll get to experience untouched wilderness and true
+              remoteness. Due to the cliffs being too steep to build roads, the
+              Lost Coast is the longest stretch of undeveloped coast in
+              California, but the cool thing is we can still experience it by
+              hiking it!
+            </p>
+            <div className={classes["blog__image-container-1"]}>
+              <img src={italyOrangeSunsetPanoTwo} alt="Italy Pass Pano" />
+            </div>
           </section>
           <section className={classes["blog__section"]}>
             <div className={classes["blog__section-title-container"]}>
@@ -750,7 +864,9 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-
+            <div className={classes["blog__image-container-1"]}>
+              <img src={clothingPano} alt="Italy Pass Pano" />
+            </div>
             <p className={classes["blog__text"]}>
               Arguably the finest coastal backpacking trail in the United
               States, this 25 mile stretch of California coast is truly a unique
@@ -760,7 +876,14 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-
+            <div className={classes["blog__image-container-1"]}>
+              <img src={samItalyHiker} alt="Italy Pass Pano" />
+              <img src={italySamCliffVert} alt="Italy Pass Pano" />
+            </div>
+            <div className={classes["blog__image-container-1"]}>
+              <img src={italyCreekMtnVert} alt="Italy Pass Pano" />
+              <img src={samCreekCrossMtn} alt="Italy Pass Pano" />
+            </div>
             <p className={classes["blog__text"]}>
               Arguably the finest coastal backpacking trail in the United
               States, this 25 mile stretch of California coast is truly a unique
@@ -770,7 +893,9 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-
+            <div className={classes["blog__image-container-1"]}>
+              <img src={samHikeMtns} alt="Italy Pass Pano" />
+            </div>
             <p className={classes["blog__text"]}>
               Arguably the finest coastal backpacking trail in the United
               States, this 25 mile stretch of California coast is truly a unique
@@ -780,6 +905,128 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
+            <div className={classes["blog__image-container-1"]}>
+              <img src={italyLakePano} alt="Italy Pass Pano" />
+            </div>
+            <div className={classes["blog__image-container-1"]}>
+              <img src={italyLakeBrockVert} alt="Italy Pass Pano" />
+              <img src={italyLakeSam} alt="Italy Pass Pano" />
+            </div>
+            <div className={classes["blog__image-container-1"]}>
+              <img src={italyLakePanoTwo} alt="Italy Pass Pano" />
+            </div>
+            <p className={classes["blog__text"]}>
+              Arguably the finest coastal backpacking trail in the United
+              States, this 25 mile stretch of California coast is truly a unique
+              trail where you’ll get to experience untouched wilderness and true
+              remoteness. Due to the cliffs being too steep to build roads, the
+              Lost Coast is the longest stretch of undeveloped coast in
+              California, but the cool thing is we can still experience it by
+              hiking it!
+            </p>
+            <div className={classes["blog__image-container-1"]}>
+              <img src={italyPassDayPano} alt="Italy Pass Pano" />
+            </div>
+            <div className={classes["blog__image-container-1"]}>
+              <img src={italyPassBrock} alt="Italy Pass Pano" />
+              <img src={juliusCeaserShot} alt="Italy Pass Pano" />
+            </div>
+            <div className={classes["blog__image-container-1"]}>
+              <img src={juiliusCeaserPanoTwo} alt="Italy Pass Pano" />
+            </div>
+            <div className={classes["blog__image-container-1"]}>
+              <img src={juliusCeaserGrandPano} alt="Italy Pass Pano" />
+            </div>
+            <p className={classes["blog__text"]}>
+              Arguably the finest coastal backpacking trail in the United
+              States, this 25 mile stretch of California coast is truly a unique
+              trail where you’ll get to experience untouched wilderness and true
+              remoteness. Due to the cliffs being too steep to build roads, the
+              Lost Coast is the longest stretch of undeveloped coast in
+              California, but the cool thing is we can still experience it by
+              hiking it!
+            </p>
+            <div className={classes["blog__image-container-1"]}>
+              <img src={graniteParkLakePano} alt="Italy Pass Pano" />
+            </div>
+            <p className={classes["blog__text"]}>
+              Arguably the finest coastal backpacking trail in the United
+              States, this 25 mile stretch of California coast is truly a unique
+              trail where you’ll get to experience untouched wilderness and true
+              remoteness. Due to the cliffs being too steep to build roads, the
+              Lost Coast is the longest stretch of undeveloped coast in
+              California, but the cool thing is we can still experience it by
+              hiking it!
+            </p>
+            <div className={classes["blog__image-container-1"]}>
+              <img src={chalfantXCountrySamPano} alt="Italy Pass Pano" />
+            </div>
+            <div className={classes["blog__image-container-1"]}>
+              <img src={chalfantLakePANO} alt="Italy Pass Pano" />
+            </div>
+            <div className={classes["blog__image-container-1"]}>
+              <img src={chalfantLakeClouds} alt="Italy Pass Pano" />
+              <img src={chalfantJuliusMtnVert} alt="Italy Pass Pano" />
+            </div>
+            <div className={classes["blog__image-container-1"]}>
+              <img src={chalfantMtn} alt="Italy Pass Pano" />
+              <img src={chalfantLakeCloudsTwo} alt="Italy Pass Pano" />
+            </div>
+            <div className={classes["blog__image-container-1"]}>
+              <img src={chalfantLakeCloudsThree} alt="Italy Pass Pano" />
+              <img src={offTrailMtnWaterFallVert} alt="Italy Pass Pano" />
+            </div>
+            <p className={classes["blog__text"]}>
+              Arguably the finest coastal backpacking trail in the United
+              States, this 25 mile stretch of California coast is truly a unique
+              trail where you’ll get to experience untouched wilderness and true
+              remoteness. Due to the cliffs being too steep to build roads, the
+              Lost Coast is the longest stretch of undeveloped coast in
+              California, but the cool thing is we can still experience it by
+              hiking it!
+            </p>
+            <div className={classes["blog__image-container-1"]}>
+              <img src={offTrailCreekPano} alt="Italy Pass Pano" />
+            </div>
+            <div className={classes["blog__image-container-1"]}>
+              <img src={offTrailMtnCreekVert} alt="Italy Pass Pano" />
+              <img src={offTrailMtnShot} alt="Italy Pass Pano" />
+            </div>
+            <p className={classes["blog__text"]}>
+              Arguably the finest coastal backpacking trail in the United
+              States, this 25 mile stretch of California coast is truly a unique
+              trail where you’ll get to experience untouched wilderness and true
+              remoteness. Due to the cliffs being too steep to build roads, the
+              Lost Coast is the longest stretch of undeveloped coast in
+              California, but the cool thing is we can still experience it by
+              hiking it!
+            </p>
+            <div className={classes["blog__image-container-1"]}>
+              <img src={honeymoonLakePano} alt="Italy Pass Pano" />
+            </div>
+            <p className={classes["blog__text"]}>
+              Arguably the finest coastal backpacking trail in the United
+              States, this 25 mile stretch of California coast is truly a unique
+              trail where you’ll get to experience untouched wilderness and true
+              remoteness. Due to the cliffs being too steep to build roads, the
+              Lost Coast is the longest stretch of undeveloped coast in
+              California, but the cool thing is we can still experience it by
+              hiking it!
+            </p>
+            <div className={classes["blog__image-container-1"]}>
+              <img src={pineCreekValleyPano} alt="Italy Pass Pano" />
+            </div>
+            <div className={classes["blog__image-container-1"]}>
+              <img src={marbleMtnVert} alt="Italy Pass Pano" />
+              <img src={goldMtn} alt="Italy Pass Pano" />
+            </div>
+            <div className={classes["blog__image-container-1"]}>
+              <img src={pineCreekGrandPano} alt="Italy Pass Pano" />
+            </div>
+            <div className={classes["blog__image-container-1"]}>
+              <img src={samPineCreekVert} alt="Italy Pass Pano" />
+              <img src={sevenGablesCouples} alt="Italy Pass Pano" />
+            </div>
           </section>
         </div>
       </div>
