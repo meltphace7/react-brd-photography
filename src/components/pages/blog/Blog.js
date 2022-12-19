@@ -24,7 +24,7 @@ const Blog = () => {
           className={classes["blog-header"]}
           style={{ transform: `translateY(${offsetY * 0.5}px)` }}
         >
-          <h1>Adventure Blogs</h1>
+          <h1>Adventure Blog</h1>
         </div>
         <div className={classes["blog-body"]}>
           <div className={classes["blog-body__overlay"]}>

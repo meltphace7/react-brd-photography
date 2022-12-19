@@ -173,7 +173,7 @@ import goldMtn from "../../../assets/images/blog-images/granite-park-22/GOLD_MTN
 import pineCreekValleyPano from "../../../assets/images/blog-images/granite-park-22/PINE_CREEK_VALLEY_PANO.jpg";
 
 import pineCreekGrandPano from "../../../assets/images/blog-images/granite-park-22/PINE_CREEK_GRAND_PANO.jpg";
-import sevenGablesCouples from "../../../assets/images/blog-images/granite-park-22/Seven_gables_couple.jpg";
+import sevenGablesCouples from "../../../assets/images/blog-images/granite-park-22/Seven_gables_couple-1.jpg";
 
 // VIDEOS
 
@@ -270,7 +270,7 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-pano-full"]}>
+            <div className={classes["responsive__container-full"]}>
               <img src={pineCreekFallsPano} alt="Inyo national forest sign" />
             </div>
             <p className={classes["blog__text"]}>
@@ -310,7 +310,7 @@ const GranitePark22Blog = () => {
               </div>
             </div>
 
-            <div className={classes["blog__image-container-pano-small"]}>
+            <div className={classes["responsive__container-80"]}>
               <img src={honeymoonSunset} alt="Inyo national forest sign" />
             </div>
             {/* <div className={classes["video"]}>
@@ -340,14 +340,14 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["split-block__container"]}>
+            <div className={classes["responsive__container-split"]}>
               <img
-                className={classes["split-block__item-1"]}
+                className={classes["responsive__container-split__item-1"]}
                 src={honeymoonMtnsVert}
                 alt="Inyo national forest sign"
               />
               <img
-                className={classes["split-block__item-2"]}
+                className={classes["responsive__container-split__item-2"]}
                 src={honeymoonVert}
                 alt="Inyo national forest sign"
               />
@@ -361,7 +361,7 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-pano-smaller"]}>
+            <div className={classes["responsive__container-70"]}>
               <img src={honeymoonMorn} alt="Inyo national forest sign" />
             </div>
             {/* <div className={classes["video"]}>
@@ -385,7 +385,7 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-pano-full"]}>
+            <div className={classes["responsive__container-full"]}>
               <img src={graniteParkCreekPano} alt="Inyo national forest sign" />
             </div>
             <p className={classes["blog__text"]}>
@@ -397,33 +397,33 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-pano-full"]}>
+            <div className={classes["responsive__container-full"]}>
               <img
                 src={graniteParkCloudsPano}
                 alt="Inyo national forest sign"
               />
             </div>
-            <div className={classes["blog__image-container-pano-small"]}>
+            <div className={classes["responsive__container-80"]}>
               <img src={graniteParkTarn} alt="Inyo national forest sign" />
             </div>
-            <div className={classes["blog__image-container-pano-small"]}>
+            <div className={classes["responsive__container-80"]}>
               <img
                 src={graniteParkCloudsShot}
                 alt="Inyo national forest sign"
               />
             </div>
-            <div className={classes["blog__image-container-pano"]}>
+            <div className={classes["responsive__container-90"]}>
               <img src={graniteParkMtnsPano} alt="Inyo national forest sign" />
             </div>
 
-            <div className={classes["split-block__container"]}>
+            <div className={classes["responsive__container-split"]}>
               <img
-                className={classes["split-block__item-1"]}
+                className={classes["responsive__container-split__item-1"]}
                 src={graniteParkCloudsVert}
                 alt="Inyo national forest sign"
               />
               <img
-                className={classes["split-block__item-2"]}
+                className={classes["responsive__container-split__item-2"]}
                 src={graniteParkMtnVert}
                 alt="Inyo national forest sign"
               />
@@ -470,7 +470,7 @@ const GranitePark22Blog = () => {
                 alt="Inyo national forest sign"
               />
             </div>
-            <div className={classes["blog__image-container-pano"]}>
+            <div className={classes["responsive__container-90"]}>
               <img
                 src={graniteParkEveningPano}
                 alt="Inyo national forest sign"
@@ -491,22 +491,22 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-pano-small"]}>
+            <div className={classes["responsive__container-80"]}>
               <img src={graniteOrangeMorn} alt="Italy Pass Pano" />
             </div>
-            <div className={classes["blog__image-container-pano-full"]}>
+            <div className={classes["responsive__container-full"]}>
               <img src={graniteOrangeMornPano} alt="Italy Pass Pano" />
             </div>
 
-            <div className={classes["split-block__container"]}>
+            <div className={classes["responsive__container-split"]}>
               <img
-                className={classes["split-block__item-1"]}
+                className={classes["responsive__container-split__item-1"]}
                 src={graniteGooSlam}
                 alt="Italy Pass Pano"
               />
 
               <img
-                className={classes["split-block__item-2"]}
+                className={classes["responsive__container-split__item-2"]}
                 src={graniteSamBoulderHop}
                 alt="Italy Pass"
               />
@@ -525,7 +525,7 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-pano"]}>
+            <div className={classes["responsive__container-90"]}>
               <img src={italyPassSummit} alt="Italy Pass Pano" />
             </div>
             <p className={classes["blog__text"]}>
@@ -537,15 +537,15 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["split-block__container"]}>
+            <div className={classes["responsive__container-split"]}>
               <img
-                className={classes["split-block__item-1"]}
+                className={classes["responsive__container-split__item-1"]}
                 src={italyPassBoulder}
                 alt="Italy Pass Pano"
               />
 
               <img
-                className={classes["split-block__item-2"]}
+                className={classes["responsive__container-split__item-2"]}
                 src={bearLakesBrockPano}
                 alt="Italy Pass Pano"
               />
@@ -559,13 +559,13 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-pano-full"]}>
+            <div className={classes["responsive__container-full"]}>
               <img src={brockAlpinePano} alt="Italy Pass Pano" />
             </div>
-            <div className={classes["blog__image-container-pano-full"]}>
+            <div className={classes["responsive__container-full"]}>
               <img src={bearLakesAlpinePano} alt="Italy Pass Pano" />
             </div>
-            <div className={classes["blog__image-container-pano-full"]}>
+            <div className={classes["responsive__container-full"]}>
               <img src={blackBearLakePano} alt="Italy Pass Pano" />
             </div>
             <p className={classes["blog__text"]}>
@@ -578,7 +578,7 @@ const GranitePark22Blog = () => {
               hiking it!
             </p>
 
-            <div className={classes["blog__image-container-pano-smaller"]}>
+            <div className={classes["responsive__container-70"]}>
               <img src={brockPortrait} alt="Italy Pass Pano" />
             </div>
             <p className={classes["blog__text"]}>
@@ -590,7 +590,7 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-pano-smaller"]}>
+            <div className={classes["responsive__container-70"]}>
               <img src={sevenGablesBrock} alt="Italy Pass Pano" />
             </div>
             <div className={classes["thirty-sixty__container"]}>
@@ -626,7 +626,7 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-pano"]}>
+            <div className={classes["responsive__container-90"]}>
               <img src={veeLakePano} alt="Italy Pass Pano" />
             </div>
             <p className={classes["blog__text"]}>
@@ -638,17 +638,17 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-pano"]}>
+            <div className={classes["responsive__container-90"]}>
               <img src={sevenGablesWide} alt="Italy Pass Pano" />
             </div>
-            <div className={classes["split-block__container"]}>
+            <div className={classes["responsive__container-split"]}>
               <img
-                className={classes["split-block__item-1"]}
+                className={classes["responsive__container-split__item-1"]}
                 src={sevenGablesSlopesVert}
                 alt="Italy Pass Pano"
               />
               <img
-                className={classes["split-block__item-2"]}
+                className={classes["responsive__container-split__item-2"]}
                 src={sevenGablesMountainVert}
                 alt="Italy Pass Pano"
               />
@@ -662,7 +662,7 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-pano-smaller"]}>
+            <div className={classes["responsive__container-70"]}>
               <img src={sevenGablesCreekShot} alt="Italy Pass Pano" />
             </div>
             <p className={classes["blog__text"]}>
@@ -674,7 +674,7 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-pano"]}>
+            <div className={classes["responsive__container-90"]}>
               <img src={sevenGablesGrassPano} alt="Italy Pass Pano" />
             </div>
             <p className={classes["blog__text"]}>
@@ -686,7 +686,7 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-pano"]}>
+            <div className={classes["responsive__container-90"]}>
               <img src={sevenGablesMarshPano} alt="Italy Pass Pano" />
             </div>
             <p className={classes["blog__text"]}>
@@ -698,17 +698,17 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-pano-full"]}>
+            <div className={classes["responsive__container-full"]}>
               <img src={sevenGablesRainPano} alt="Italy Pass Pano" />
             </div>
-            <div className={classes["split-block__container"]}>
+            <div className={classes["responsive__container-split"]}>
               <img
-                className={classes["split-block__item-1"]}
+                className={classes["responsive__container-split__item-1"]}
                 src={sevenGablesStorm}
                 alt="Italy Pass Pano"
               />
               <img
-                className={classes["split-block__item-2"]}
+                className={classes["responsive__container-split__item-2"]}
                 src={thunderstormSam}
                 alt="Italy Pass Pano"
               />
@@ -722,14 +722,22 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
-              <img src={samSignageOne} alt="Italy Pass Pano" />
-              <img src={samSignageTwo} alt="Italy Pass Pano" />
+            <div className={classes["custom__container-signage"]}>
+              <img
+                className={classes["custom__container-signage__item-1"]}
+                src={samSignageOne}
+                alt="Italy Pass Pano"
+              />
+              <img
+                className={classes["custom__container-signage__item-2"]}
+                src={samSignageTwo}
+                alt="Italy Pass Pano"
+              />
             </div>
-            <div className={classes["blog__image-container-pano"]}>
+            <div className={classes["responsive__container-90"]}>
               <img src={marieEveningPano} alt="Italy Pass Pano" />
             </div>
-            <div className={classes["blog__image-container-pano-full"]}>
+            <div className={classes["responsive__container-full"]}>
               <img src={marieLakeSunsetPano} alt="Italy Pass Pano" />
             </div>
           </section>
@@ -748,7 +756,7 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-pano-smaller"]}>
+            <div className={classes["responsive__container-70"]}>
               <img src={marieGrassyMornView} alt="Italy Pass Pano" />
             </div>
 
@@ -764,7 +772,7 @@ const GranitePark22Blog = () => {
                 alt="Italy Pass Pano"
               />
             </div>
-            <div className={classes["blog__image-container-pano-full"]}>
+            <div className={classes["responsive__container-full"]}>
               <img src={marieMornWidePano} alt="Italy Pass Pano" />
             </div>
             <p className={classes["blog__text"]}>
@@ -776,7 +784,7 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-pano-smaller"]}>
+            <div className={classes["responsive__container-70"]}>
               <img src={marieTarnPano} alt="Italy Pass Pano" />
             </div>
             <p className={classes["blog__text"]}>
@@ -788,22 +796,30 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-pano-smaller"]}>
+            <div className={classes["responsive__container-70"]}>
               <img src={marieTrailSidePano} alt="Italy Pass Pano" />
             </div>
-            <div className={classes["blog__image-container-1"]}>
-              <img src={marieBlue} alt="Italy Pass Pano" />
-              <img src={marieMornTrailVert} alt="Italy Pass Pano" />
+            <div className={classes["custom__container-marie"]}>
+              <img
+                className={classes["custom__container-marie__item-1"]}
+                src={marieBlue}
+                alt="Italy Pass Pano"
+              />
+              <img
+                className={classes["custom__container-marie__item-2"]}
+                src={marieMornTrailVert}
+                alt="Italy Pass Pano"
+              />
             </div>
 
-            <div className={classes["split-block__container"]}>
+            <div className={classes["responsive__container-split"]}>
               <img
-                className={classes["split-block__item-1"]}
+                className={classes["responsive__container-split__item-1"]}
                 src={marieMornTrailSideView}
                 alt="Italy Pass Pano"
               />
               <img
-                className={classes["split-block__item-2"]}
+                className={classes["responsive__container-split__item-2"]}
                 src={marieSky}
                 alt="Italy Pass Pano"
               />
@@ -817,7 +833,7 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-pano-full"]}>
+            <div className={classes["responsive__container-full"]}>
               <img src={tentPano} alt="Italy Pass Pano" />
             </div>
             <p className={classes["blog__text"]}>
@@ -829,20 +845,20 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["split-block__container"]}>
+            <div className={classes["responsive__container-split"]}>
               <img
-                className={classes["split-block__item-1"]}
+                className={classes["responsive__container-split__item-1"]}
                 src={tentView}
                 alt="Italy Pass Pano"
               />
               <img
-                className={classes["split-block__item-2"]}
+                className={classes["responsive__container-split__item-2"]}
                 src={stormRidge}
                 alt="Italy Pass Pano"
               />
             </div>
 
-            <div className={classes["blog__image-container-pano-full"]}>
+            <div className={classes["responsive__container-full"]}>
               <img src={blueSkyReflectionPano} alt="Italy Pass Pano" />
             </div>
             <div className={classes["sixty-thirty__container"]}>
@@ -879,7 +895,7 @@ const GranitePark22Blog = () => {
               />
             </div>
             <div className={classes["blog__image-container-1"]}></div>
-            <div className={classes["blog__image-container-pano"]}>
+            <div className={classes["responsive__container-90"]}>
               <img src={stormRidgePano} alt="Italy Pass Pano" />
             </div>
             <div className={classes["thirty-sixty__container"]}>
@@ -927,23 +943,23 @@ const GranitePark22Blog = () => {
                 alt="Italy Pass Pano"
               />
             </div>
-            <div className={classes["split-block__container"]}>
+            <div className={classes["responsive__container-split"]}>
               <img
-                className={classes["split-block__item-1"]}
+                className={classes["responsive__container-split__item-1"]}
                 src={postRainSamLake}
                 alt="Italy Pass Pano"
               />
               <img
-                className={classes["split-block__item-2"]}
+                className={classes["responsive__container-split__item-2"]}
                 src={samPortrait}
                 alt="Italy Pass Pano"
               />
             </div>
 
-            <div className={classes["blog__image-container-pano"]}>
+            <div className={classes["responsive__container-90"]}>
               <img src={postStormPano} alt="Italy Pass Pano" />
             </div>
-            <div className={classes["blog__image-container-pano"]}>
+            <div className={classes["responsive__container-90"]}>
               <img src={marieOrangeSunsetPano} alt="Italy Pass Pano" />
             </div>
             <p className={classes["blog__text"]}>
@@ -955,7 +971,7 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-pano-smaller"]}>
+            <div className={classes["responsive__container-70"]}>
               <img src={marieOrangeSunset} alt="Italy Pass Pano" />
             </div>
           </section>
@@ -973,17 +989,17 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-pano-smaller"]}>
+            <div className={classes["responsive__container-70"]}>
               <img src={brockRainJacket} alt="Italy Pass Pano" />
             </div>
-            <div className={classes["split-block__container"]}>
+            <div className={classes["responsive__container-split"]}>
               <img
-                className={classes["split-block__item-1"]}
+                className={classes["responsive__container-split__item-1"]}
                 src={samRainVert}
                 alt="Italy Pass Pano"
               />
               <img
-                className={classes["split-block__item-2"]}
+                className={classes["responsive__container-split__item-2"]}
                 src={rainMountainVert}
                 alt="Italy Pass Pano"
               />
@@ -997,22 +1013,22 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-pano-smaller"]}>
+            <div className={classes["responsive__container-70"]}>
               <img src={rainSign} alt="Italy Pass Pano" />
             </div>
-            <div className={classes["split-block__container"]}>
+            <div className={classes["responsive__container-split"]}>
               <img
-                className={classes["split-block__item-1"]}
+                className={classes["responsive__container-split__item-1"]}
                 src={samRiverCrossing}
                 alt="Italy Pass Pano"
               />
               <img
-                className={classes["split-block__item-2"]}
+                className={classes["responsive__container-split__item-2"]}
                 src={italyCreek}
                 alt="Italy Pass Pano"
               />
             </div>
-            <div className={classes["blog__image-container-pano-full"]}>
+            <div className={classes["responsive__container-full"]}>
               <img src={italyMeadowPano} alt="Italy Pass Pano" />
             </div>
             {/* custom */}
@@ -1025,7 +1041,7 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-pano-smaller"]}>
+            <div className={classes["responsive__container-70"]}>
               <img src={italyMeadow} alt="Italy Pass Pano" />
             </div>
             <p className={classes["blog__text"]}>
@@ -1049,7 +1065,7 @@ const GranitePark22Blog = () => {
                 alt="Italy Pass Pano"
               />
             </div>
-            <div className={classes["blog__image-container-pano-small"]}>
+            <div className={classes["responsive__container-80"]}>
               <img src={italyOrangeSunsetPano} alt="Italy Pass Pano" />
             </div>
             <p className={classes["blog__text"]}>
@@ -1061,7 +1077,7 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-pano-small"]}>
+            <div className={classes["responsive__container-80"]}>
               <img src={italyOrangeSunsetPanoTwo} alt="Italy Pass Pano" />
             </div>
           </section>
@@ -1079,7 +1095,7 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-pano"]}>
+            <div className={classes["responsive__container-90"]}>
               <img src={clothingPano} alt="Italy Pass Pano" />
             </div>
             <p className={classes["blog__text"]}>
@@ -1124,7 +1140,7 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-pano-smaller"]}>
+            <div className={classes["responsive__container-70"]}>
               <img src={samHikeMtns} alt="Italy Pass Pano" />
             </div>
             <p className={classes["blog__text"]}>
@@ -1136,7 +1152,7 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-pano-full"]}>
+            <div className={classes["responsive__container-full"]}>
               <img src={italyLakePano} alt="Italy Pass Pano" />
             </div>
             <div className={classes["thirty-sixty__container"]}>
@@ -1151,7 +1167,7 @@ const GranitePark22Blog = () => {
                 alt="Italy Pass Pano"
               />
             </div>
-            <div className={classes["blog__image-container-pano-full"]}>
+            <div className={classes["responsive__container-full"]}>
               <img src={italyLakePanoTwo} alt="Italy Pass Pano" />
             </div>
             <p className={classes["blog__text"]}>
@@ -1163,25 +1179,25 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-pano"]}>
+            <div className={classes["responsive__container-90"]}>
               <img src={italyPassDayPano} alt="Italy Pass Pano" />
             </div>
-            <div className={classes["split-block__container"]}>
+            <div className={classes["responsive__container-split"]}>
               <img
-                className={classes["split-block__item-1"]}
+                className={classes["responsive__container-split__item-1"]}
                 src={italyPassBrock}
                 alt="Italy Pass Pano"
               />
               <img
-                className={classes["split-block__item-2"]}
+                className={classes["responsive__container-split__item-2"]}
                 src={juliusCeaserShot}
                 alt="Italy Pass Pano"
               />
             </div>
-            <div className={classes["blog__image-container-pano"]}>
+            <div className={classes["responsive__container-90"]}>
               <img src={juiliusCeaserPanoTwo} alt="Italy Pass Pano" />
             </div>
-            <div className={classes["blog__image-container-pano-full"]}>
+            <div className={classes["responsive__container-full"]}>
               <img src={juliusCeaserGrandPano} alt="Italy Pass Pano" />
             </div>
             <p className={classes["blog__text"]}>
@@ -1193,7 +1209,7 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-pano"]}>
+            <div className={classes["responsive__container-90"]}>
               <img src={graniteParkLakePano} alt="Italy Pass Pano" />
             </div>
             <p className={classes["blog__text"]}>
@@ -1205,10 +1221,10 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-pano"]}>
+            <div className={classes["responsive__container-90"]}>
               <img src={chalfantXCountrySamPano} alt="Italy Pass Pano" />
             </div>
-            <div className={classes["blog__image-container-pano"]}>
+            <div className={classes["responsive__container-90"]}>
               <img src={chalfantLakePANO} alt="Italy Pass Pano" />
             </div>
             <div className={classes["sixty-thirty__container"]}>
@@ -1223,14 +1239,14 @@ const GranitePark22Blog = () => {
                 alt="Italy Pass Pano"
               />
             </div>
-            <div className={classes["split-block__container"]}>
+            <div className={classes["responsive__container-split"]}>
               <img
-                className={classes["split-block__item-1"]}
+                className={classes["responsive__container-split__item-1"]}
                 src={chalfantMtn}
                 alt="Italy Pass Pano"
               />
               <img
-                className={classes["split-block__item-2"]}
+                className={classes["responsive__container-split__item-2"]}
                 src={chalfantLakeCloudsTwo}
                 alt="Italy Pass Pano"
               />
@@ -1256,12 +1272,20 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-pano"]}>
+            <div className={classes["responsive__container-90"]}>
               <img src={offTrailCreekPano} alt="Italy Pass Pano" />
             </div>
-            <div className={classes["blog__image-container-1"]}>
-              <img src={offTrailMtnCreekVert} alt="Italy Pass Pano" />
-              <img src={offTrailMtnShot} alt="Italy Pass Pano" />
+            <div className={classes["custom__container-off-trail"]}>
+              <img
+                className={classes["custom__container-off-trail__item-1"]}
+                src={offTrailMtnCreekVert}
+                alt="Italy Pass Pano"
+              />
+              <img
+                className={classes["custom__container-off-trail__item-2"]}
+                src={offTrailMtnShot}
+                alt="Italy Pass Pano"
+              />
             </div>
             <p className={classes["blog__text"]}>
               Arguably the finest coastal backpacking trail in the United
@@ -1272,7 +1296,7 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-pano-smaller"]}>
+            <div className={classes["responsive__container-70"]}>
               <img src={honeymoonLakePano} alt="Italy Pass Pano" />
             </div>
             <p className={classes["blog__text"]}>
@@ -1284,24 +1308,32 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-pano"]}>
+            <div className={classes["responsive__container-90"]}>
               <img src={pineCreekValleyPano} alt="Italy Pass Pano" />
             </div>
-            <div className={classes["blog__image-container-1"]}>
-              <img src={marbleMtnVert} alt="Italy Pass Pano" />
-              <img src={goldMtn} alt="Italy Pass Pano" />
+            <div className={classes["custom__container-mtn"]}>
+              <img
+                className={classes["custom__container-mtn__item-1"]}
+                src={marbleMtnVert}
+                alt="Italy Pass Pano"
+              />
+              <img
+                className={classes["custom__container-mtn__item-2"]}
+                src={goldMtn}
+                alt="Italy Pass Pano"
+              />
             </div>
-            <div className={classes["blog__image-container-pano-full"]}>
+            <div className={classes["responsive__container-full"]}>
               <img src={pineCreekGrandPano} alt="Italy Pass Pano" />
             </div>
-            <div className={classes["split-block__container"]}>
+            <div className={classes["custom__container-final"]}>
               <img
-                className={classes["split-block__item-1"]}
+                className={classes["custom__container-final__item-1"]}
                 src={samPineCreekVert}
                 alt="Italy Pass Pano"
               />
               <img
-                className={classes["split-block__item-2"]}
+                className={classes["custom__container-final__item-2"]}
                 src={sevenGablesCouples}
                 alt="Italy Pass Pano"
               />
