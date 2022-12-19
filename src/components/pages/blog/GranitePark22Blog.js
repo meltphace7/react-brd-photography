@@ -14,49 +14,34 @@ import pineLakeVert from "../../../assets/images/blog-images/granite-park-22/BLO
 import samRockHop from "../../../assets/images/blog-images/granite-park-22/BLOG_GRANITE_P_SAM_ROCK_HOP.jpeg";
 import honeymoonSunset from "../../../assets/images/blog-images/granite-park-22/BLOG_GRANITE-P_HONEYMOON_SUNSET.jpeg";
 
-// DAY 2 IMAGES - 12 IMAGES
+// DAY 2 IMAGES - 15 IMAGES
 
 import honeymoonMorn from "../../../assets/images/blog-images/granite-park-22/honeymoon_morning.jpeg";
 import honeymoonVert from "../../../assets/images/blog-images/granite-park-22/hooneymoon_morn_vert.jpeg";
 import honeymoonMtnsVert from "../../../assets/images/blog-images/granite-park-22/honeymoon_morn_mtns_vert.jpeg";
 import graniteParkMtnVert from "../../../assets/images/blog-images/granite-park-22/granite-park_mtn_vert.jpeg";
 import graniteParkCreekPano from "../../../assets/images/blog-images/granite-park-22/granite-park_creek-pano.jpeg";
-
 import graniteParkTarn from "../../../assets/images/blog-images/granite-park-22/GRANITE_PARK_POND.jpg";
-
 import graniteParkMtnsPano from "../../../assets/images/blog-images/granite-park-22/GRANITE_PARK_MTN_PANO_ONE.jpg";
-
 import graniteParkCloudsShot from "../../../assets/images/blog-images/granite-park-22/GRANITE_PARK_CLOUD_MTN_SHOT.jpg";
-
-
 import graniteParkBrockVert from "../../../assets/images/blog-images/granite-park-22/granite-park_brock_vert.jpeg";
 import graniteParkTrail from "../../../assets/images/blog-images/granite-park-22/granite-park_trail.jpeg";
-
-
 import graniteParkCloudsPano from "../../../assets/images/blog-images/granite-park-22/GRANITE_GRAND_PANO.jpg";
-
-
-
-
 import graniteParkCloudsVert from "../../../assets/images/blog-images/granite-park-22/granite-park_couds-vert.jpeg";
 import graniteParkEveningPano from "../../../assets/images/blog-images/granite-park-22/granite-park_evening-pano.jpeg";
 import graniteParkEveningLakes from "../../../assets/images/blog-images/granite-park-22/granite-park_evening-lakes.jpeg";
 import graniteParkSam from "../../../assets/images/blog-images/granite-park-22/granite-park_sam-vert.jpeg";
 
-// DAY 3 IMAGES - 25 IMAGES
+// DAY 3 IMAGES - 29 IMAGES
 
 import graniteOrangeMorn from "../../../assets/images/blog-images/granite-park-22/GRANITE_ORANGE_SHOT.jpg";
-
 import graniteOrangeMornPano from "../../../assets/images/blog-images/granite-park-22/granite-park_orange_pano.jpeg";
 import graniteGooSlam from "../../../assets/images/blog-images/granite-park-22/granite-park_sam_goo-slam.jpeg";
 import graniteSamBoulderHop from "../../../assets/images/blog-images/granite-park-22/granite-park_sam_rock-hop.jpeg";
-import graniteSamClimb from "../../../assets/images/blog-images/granite-park-22/granite-park_sam-climb.jpeg";
 import italyPassSummit from "../../../assets/images/blog-images/granite-park-22/italy-pass-pano.jpeg";
 import italyPassBoulder from "../../../assets/images/blog-images/granite-park-22/italy-pass-bolder-mtn.jpeg";
 import blackBearLakePano from "../../../assets/images/blog-images/granite-park-22/BLACK-BEAR_LAKE_PANO.jpg";
-
 import brockPortrait from "../../../assets/images/blog-images/granite-park-22/BROCK-PORTRAIT.jpg";
-
 import bearLakesBrockPano from "../../../assets/images/blog-images/granite-park-22/bear-lakes-brock_pano.jpeg";
 import brockAlpinePano from "../../../assets/images/blog-images/granite-park-22/brock-alpine-pano.jpeg";
 import bearLakesAlpinePano from "../../../assets/images/blog-images/granite-park-22/bear_lakes_alpine-pano.jpeg";
@@ -64,11 +49,7 @@ import sevenGablesBrock from "../../../assets/images/blog-images/granite-park-22
 import bearBasinOffTrail from "../../../assets/images/blog-images/granite-park-22/bear-basin-off-trail.jpeg";
 import bearBasinOffTrailTwo from "../../../assets/images/blog-images/granite-park-22/bear-basin_off-trail-2.jpeg";
 import bearBasinSamVert from "../../../assets/images/blog-images/granite-park-22/bear-basin_Sam-trail-vert.jpeg";
-
 import veeLakePano from "../../../assets/images/blog-images/granite-park-22/CA_VEE-LAKE-PANO.jpg";
-
-
-
 import sevenGablesRainPano from "../../../assets/images/blog-images/granite-park-22/seven-gables-rain_pano.jpeg";
 import sevenGablesSlopesVert from "../../../assets/images/blog-images/granite-park-22/seven-gables_slope-vert.jpeg";
 import sevenGablesGrassPano from "../../../assets/images/blog-images/granite-park-22/seven-gables_grass-pano.jpeg";
@@ -83,7 +64,7 @@ import samSignageOne from "../../../assets/images/blog-images/granite-park-22/sa
 import samSignageTwo from "../../../assets/images/blog-images/granite-park-22/sam_signage-2.jpeg";
 import marieLakeSunsetPano from "../../../assets/images/blog-images/granite-park-22/marie-lake_evening-bliss-pano.jpeg";
 
-// DAY 4 IMAGES - 28 IMAGES
+// DAY 4 IMAGES - 31 IMAGES
 
 import marieGrassyMornView from "../../../assets/images/blog-images/granite-park-22/MARIE_GRASSY_MORN_VIEW-1.jpg";
 import marieVertShot from "../../../assets/images/blog-images/granite-park-22/MARIE_MORN_PANO.jpg";
@@ -117,7 +98,7 @@ import marieEveningPano from "../../../assets/images/blog-images/granite-park-22
 import marieOrangeSunsetPano from "../../../assets/images/blog-images/granite-park-22/MARIE_ORANGE_SUNSET_PANO.jpg";
 import marieOrangeSunset from "../../../assets/images/blog-images/granite-park-22/MARIE_ORANGE_SUNSET.jpg";
 
-// DAY 5 IMAGES - 11 IMAGES
+// DAY 5 IMAGES - 12 IMAGES
 
 import samRainVert from "../../../assets/images/blog-images/granite-park-22/SAM-RAINJACKET-VERT.jpg";
 import rainSign from "../../../assets/images/blog-images/granite-park-22/RAIN_SIGN.jpg";
@@ -130,10 +111,9 @@ import italyMeadow from "../../../assets/images/blog-images/granite-park-22/ITAL
 import italyCanyonSunet from "../../../assets/images/blog-images/granite-park-22/ITALY_CANYON_ORANGE-SUNSET.jpg";
 import italyCanyonSunsetVert from "../../../assets/images/blog-images/granite-park-22/ITALY_ORANGE_SUNSET_VERT.jpg";
 import italyOrangeSunsetPano from "../../../assets/images/blog-images/granite-park-22/ITALY_SKY_MELT.jpg";
-
 import italyOrangeSunsetPanoTwo from "../../../assets/images/blog-images/granite-park-22/ITALY_ORANGESUNSET_PANO.jpeg";
 
-// DAY 6 IMAGES - 30 IMAGES
+// DAY 6 IMAGES - 34 IMAGES
 import clothingPano from "../../../assets/images/blog-images/granite-park-22/ITALY-CLOTHING_PANO.jpeg";
 import samItalyHiker from "../../../assets/images/blog-images/granite-park-22/ITALY_SAM_HIKE.jpeg";
 import italySamCliffVert from "../../../assets/images/blog-images/granite-park-22/ITALY_CREEK_CLIFF_SAM_VERT.jpg";
@@ -152,10 +132,7 @@ import juliusCeaserShot from "../../../assets/images/blog-images/granite-park-22
 import graniteParkLakePano from "../../../assets/images/blog-images/granite-park-22/granite_park_lake_pano.jpeg";
 import chalfantXCountrySamPano from "../../../assets/images/blog-images/granite-park-22/CHALANT_X-COUNTRY_SAM_PANO.jpg";
 import chalfantLakeClouds from "../../../assets/images/blog-images/granite-park-22/CHALFANT_LAKE_CLOUDS.jpg";
-
 import chalfantLakePANO from "../../../assets/images/blog-images/granite-park-22/CHALFANT_LAKE_PANO.jpg";
-
-
 import chalfantLakeCloudsTwo from "../../../assets/images/blog-images/granite-park-22/CHALANT_LAKE_CLOUD-SKY-2.jpg";
 import chalfantLakeCloudsThree from "../../../assets/images/blog-images/granite-park-22/CHALANT_LAKE_CLOUD-SKY.jpg";
 import chalfantMtn from "../../../assets/images/blog-images/granite-park-22/GRANITE_OFFTRAIL_CAESAR_MTN.jpg";
@@ -167,19 +144,25 @@ import offTrailCreekPano from "../../../assets/images/blog-images/granite-park-2
 import honeymoonLakePano from "../../../assets/images/blog-images/granite-park-22/HONEYMOON-LAKE-RETURN-PANO.jpg";
 import marbleMtnVert from "../../../assets/images/blog-images/granite-park-22/MARBLE_MTN_QUAL_VERT.jpg";
 import samPineCreekVert from "../../../assets/images/blog-images/granite-park-22/SAM_PINECREEK_RETURN_VERT.jpeg";
-
 import goldMtn from "../../../assets/images/blog-images/granite-park-22/GOLD_MTN.jpg";
-
 import pineCreekValleyPano from "../../../assets/images/blog-images/granite-park-22/PINE_CREEK_VALLEY_PANO.jpg";
-
 import pineCreekGrandPano from "../../../assets/images/blog-images/granite-park-22/PINE_CREEK_GRAND_PANO.jpg";
 import sevenGablesCouples from "../../../assets/images/blog-images/granite-park-22/Seven_gables_couple-1.jpg";
 
-// VIDEOS
+// VIDEOS - 7 videos
 
-// import paradiseVideo from "../../../assets/images/Video_paradise_bg_hq.mp4";
+import graniteParkVideo from "../../../assets/videos/Video_Granite-park.mp4";
+import marieLakeEveningVideo from "../../../assets/videos/Video_Marie-Lake_Evening.mp4";
+import marieLakeMornVideo from "../../../assets/videos/Video_Marie-Lake_Morn.mp4";
+import marieLakeCloudsVideo from "../../../assets/videos/Video_Marie-Lake_Clouds.mp4";
+import marieLakeSunsetVideo from "../../../assets/videos/Video_Marie-Lake_Sunset.mp4";
+import italyLakeTrailVideo from "../../../assets/videos/Video_Italy_Lake_Trail.mp4";
+import mtJuliusCeaserVideo from "../../../assets/videos/Video_Mt.Julius_Ceaser.mp4";
+ 
+
 
 const GranitePark22Blog = () => {
+  // Parallax effect for Header
   const [offsetY, setOffsetY] = useState(0);
   const handleScroll = () => {
     setOffsetY(window.pageYOffset);
@@ -191,6 +174,7 @@ const GranitePark22Blog = () => {
 
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
   return (
     <div className={classes.blog}>
       <header
@@ -200,13 +184,12 @@ const GranitePark22Blog = () => {
         <div className={classes["blog-header__overlay"]}>
           <div className={classes["blog-header__title-container"]}>
             <h1 className={classes["blog-header__title"]}>
-              Backpacking Granite Park, Bear Lakes Basin, Seven Gabels, Marie
+              Backpacking Granite Park, Bear Lakes Basin, Seven Gables, Marie
               Lake
             </h1>
-            <h1 className={classes["blog-header__title"]}>National Park</h1>
             <h2 className={classes["blog-header__sub-title"]}>
-              A Rugged 6 Day Trek, through Granite Park, Bear Lakes Basin, Seven
-              Gables, Marie Lake, Italy Lake and Mt. Julius Caeser
+              A Rugged 6 Day Trek, featuring Granite Park, Bear Lakes Basin,
+              Seven Gables, Marie Lake, Italy Lake and Mt. Julius Caeser
             </h2>
           </div>
         </div>
@@ -218,7 +201,6 @@ const GranitePark22Blog = () => {
               <h2>Day 1</h2>
               <h3>Trailhead to Honeymoon Lake</h3>
             </div>
-
             <p className={classes["blog__text"]}>
               Arguably the finest coastal backpacking trail in the United
               States, this 25 mile stretch of California coast is truly a unique
@@ -228,7 +210,6 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-
             <div className={classes["grid_day-one_1"]}>
               <div
                 className={`${classes["day-one__grid-item"]} ${classes["day-one__grid-item-1"]}`}
@@ -251,16 +232,6 @@ const GranitePark22Blog = () => {
                 <img src={samPineCreek} alt="paradise-lake" />
               </div>
             </div>
-
-            {/* <div className={classes["blog__image-container-1"]}>
-              <img src={tungstenMine} alt="Inyo national forest sign" />
-              <img src={pineCreekClouds} alt="Inyo national forest sign" />
-            </div>
-            <div className={classes["blog__image-container-1"]}>
-              <img src={pineCreekFalls} alt="Inyo national forest sign" />
-              <img src={samPineCreek} alt="Inyo national forest sign" />
-            </div> */}
-
             <p className={classes["blog__text"]}>
               Arguably the finest coastal backpacking trail in the United
               States, this 25 mile stretch of California coast is truly a unique
@@ -282,16 +253,9 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            {/*             
-            <div className={classes["blog__image-container-pano"]}>
+            <div className={classes["responsive__container-90"]}>
               <img src={pineLakePano} alt="Inyo national forest sign" />
             </div>
-            <div className={classes["blog__image-container-1"]}>
-              <img src={samPineLakeVert} alt="Inyo national forest sign" />
-              <img src={pineLakeVert} alt="Inyo national forest sign" />
-              <img src={samRockHop} alt="Inyo national forest sign" />
-            </div> */}
-
             <div className={classes["grid_day-one_2"]}>
               <div
                 className={`${classes["day-one__2-grid-item"]} ${classes["day-one__2-grid-item-1"]}`}
@@ -313,18 +277,6 @@ const GranitePark22Blog = () => {
             <div className={classes["responsive__container-80"]}>
               <img src={honeymoonSunset} alt="Inyo national forest sign" />
             </div>
-            {/* <div className={classes["video"]}>
-              <video
-                className={classes["video__content"]}
-                autoPlay
-                playsInline
-                muted
-                loop
-              >
-                <source src={kearsargePassVideo} type={"video/mp4"} />
-                Your browser is not supported
-              </video>
-            </div> */}
           </section>
           <section className={classes["blog__section"]}>
             <div className={classes["blog__section-title-container"]}>
@@ -364,18 +316,6 @@ const GranitePark22Blog = () => {
             <div className={classes["responsive__container-70"]}>
               <img src={honeymoonMorn} alt="Inyo national forest sign" />
             </div>
-            {/* <div className={classes["video"]}>
-              <video
-                className={classes["video__content"]}
-                autoPlay
-                playsInline
-                muted
-                loop
-              >
-                <source src={glennPassVideo} type={"video/mp4"} />
-                Your browser is not supported
-              </video>
-            </div> */}
             <p className={classes["blog__text"]}>
               Arguably the finest coastal backpacking trail in the United
               States, this 25 mile stretch of California coast is truly a unique
@@ -402,6 +342,18 @@ const GranitePark22Blog = () => {
                 src={graniteParkCloudsPano}
                 alt="Inyo national forest sign"
               />
+            </div>
+            <div className={classes["video"]}>
+              <video
+                className={classes["video__content"]}
+                autoPlay
+                playsInline
+                muted
+                loop
+              >
+                <source src={graniteParkVideo} type={"video/mp4"} />
+                Your browser is not supported
+              </video>
             </div>
             <div className={classes["responsive__container-80"]}>
               <img src={graniteParkTarn} alt="Inyo national forest sign" />
@@ -511,11 +463,6 @@ const GranitePark22Blog = () => {
                 alt="Italy Pass"
               />
             </div>
-
-            {/* <div className={classes["blog__image-container-1"]}>
-              <img src={graniteGooSlam} alt="Italy Pass Pano" />
-              <img src={graniteSamBoulderHop} alt="Italy Pass Pano" />
-            </div> */}
             <p className={classes["blog__text"]}>
               Arguably the finest coastal backpacking trail in the United
               States, this 25 mile stretch of California coast is truly a unique
@@ -737,6 +684,20 @@ const GranitePark22Blog = () => {
             <div className={classes["responsive__container-90"]}>
               <img src={marieEveningPano} alt="Italy Pass Pano" />
             </div>
+
+            <div className={classes["video"]}>
+              <video
+                className={classes["video__content"]}
+                autoPlay
+                playsInline
+                muted
+                loop
+              >
+                <source src={marieLakeEveningVideo} type={"video/mp4"} />
+                Your browser is not supported
+              </video>
+            </div>
+
             <div className={classes["responsive__container-full"]}>
               <img src={marieLakeSunsetPano} alt="Italy Pass Pano" />
             </div>
@@ -774,6 +735,19 @@ const GranitePark22Blog = () => {
             </div>
             <div className={classes["responsive__container-full"]}>
               <img src={marieMornWidePano} alt="Italy Pass Pano" />
+            </div>
+
+            <div className={classes["video"]}>
+              <video
+                className={classes["video__content"]}
+                autoPlay
+                playsInline
+                muted
+                loop
+              >
+                <source src={marieLakeMornVideo} type={"video/mp4"} />
+                Your browser is not supported
+              </video>
             </div>
             <p className={classes["blog__text"]}>
               Arguably the finest coastal backpacking trail in the United
@@ -898,6 +872,18 @@ const GranitePark22Blog = () => {
             <div className={classes["responsive__container-90"]}>
               <img src={stormRidgePano} alt="Italy Pass Pano" />
             </div>
+            <div className={classes["video"]}>
+              <video
+                className={classes["video__content"]}
+                autoPlay
+                playsInline
+                muted
+                loop
+              >
+                <source src={marieLakeCloudsVideo} type={"video/mp4"} />
+                Your browser is not supported
+              </video>
+            </div>
             <div className={classes["thirty-sixty__container"]}>
               <img
                 className={classes["thirty-sixty__item-1"]}
@@ -971,6 +957,18 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
+            <div className={classes["video"]}>
+              <video
+                className={classes["video__content"]}
+                autoPlay
+                playsInline
+                muted
+                loop
+              >
+                <source src={marieLakeSunsetVideo} type={"video/mp4"} />
+                Your browser is not supported
+              </video>
+            </div>
             <div className={classes["responsive__container-70"]}>
               <img src={marieOrangeSunset} alt="Italy Pass Pano" />
             </div>
@@ -1031,7 +1029,6 @@ const GranitePark22Blog = () => {
             <div className={classes["responsive__container-full"]}>
               <img src={italyMeadowPano} alt="Italy Pass Pano" />
             </div>
-            {/* custom */}
             <p className={classes["blog__text"]}>
               Arguably the finest coastal backpacking trail in the United
               States, this 25 mile stretch of California coast is truly a unique
@@ -1131,6 +1128,18 @@ const GranitePark22Blog = () => {
                 alt="Italy Pass Pano"
               />
             </div>
+            <div className={classes["video"]}>
+              <video
+                className={classes["video__content"]}
+                autoPlay
+                playsInline
+                muted
+                loop
+              >
+                <source src={italyLakeTrailVideo} type={"video/mp4"} />
+                Your browser is not supported
+              </video>
+            </div>
             <p className={classes["blog__text"]}>
               Arguably the finest coastal backpacking trail in the United
               States, this 25 mile stretch of California coast is truly a unique
@@ -1199,6 +1208,18 @@ const GranitePark22Blog = () => {
             </div>
             <div className={classes["responsive__container-full"]}>
               <img src={juliusCeaserGrandPano} alt="Italy Pass Pano" />
+            </div>
+            <div className={classes["video"]}>
+              <video
+                className={classes["video__content"]}
+                autoPlay
+                playsInline
+                muted
+                loop
+              >
+                <source src={mtJuliusCeaserVideo} type={"video/mp4"} />
+                Your browser is not supported
+              </video>
             </div>
             <p className={classes["blog__text"]}>
               Arguably the finest coastal backpacking trail in the United

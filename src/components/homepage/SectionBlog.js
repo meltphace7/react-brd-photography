@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./SectionBlog.module.css";
-import videoBg from "../../assets/images/Video_paradise_bg_hq.mp4";
+import videoBg from "../../assets/videos/Video_paradise_bg_hq.mp4";
 import{ Link }from 'react-router-dom'
 import profilePic from "../../assets/images/PROFILE_SHOT.jpeg";
 import { HiOutlineArrowSmRight } from "react-icons/hi";

@@ -53,11 +53,11 @@ import backToTrailhead from "../../../assets/images/blog-images/kcnp-22/BLOG_KCN
 import raeLakeCouples from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_RAE_COUPLES.jpg";
 // DAY 7
 
-import paradiseVideo from "../../../assets/images/Video_paradise_bg_hq.mp4";
-import bullfrogGoldenVideo from "../../../assets/images/Video_BullfrogGoldenHour.mp4";
-import raeValleyVideo from "../../../assets/images/Video_RAE_VALLEY.mp4";
-import glennPassVideo from "../../../assets/images/Video_GLENN_PASS.mp4";
-import kearsargePassVideo from "../../../assets/images/Video_KEARSARGE_PASS.mp4";
+import paradiseVideo from "../../../assets/videos/Video_paradise_bg_hq.mp4";
+import bullfrogGoldenVideo from "../../../assets/videos/Video_BullfrogGoldenHour.mp4";
+import raeValleyVideo from "../../../assets/videos/Video_RAE_VALLEY.mp4";
+import glennPassVideo from "../../../assets/videos/Video_GLENN_PASS.mp4";
+import kearsargePassVideo from "../../../assets/videos/Video_KEARSARGE_PASS.mp4";
 
 const KingsCanyon22Blog = () => {
   const [offsetY, setOffsetY] = useState(0);
