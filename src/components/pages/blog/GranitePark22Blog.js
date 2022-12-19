@@ -218,6 +218,7 @@ const GranitePark22Blog = () => {
               <h2>Day 1</h2>
               <h3>Trailhead to Honeymoon Lake</h3>
             </div>
+
             <p className={classes["blog__text"]}>
               Arguably the finest coastal backpacking trail in the United
               States, this 25 mile stretch of California coast is truly a unique
@@ -227,14 +228,39 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+
+            <div className={classes["grid_day-one_1"]}>
+              <div
+                className={`${classes["day-one__grid-item"]} ${classes["day-one__grid-item-1"]}`}
+              >
+                <img src={tungstenMine} alt="paradise-lake" />
+              </div>
+              <div
+                className={`${classes["day-one__grid-item"]} ${classes["day-one__grid-item-2"]}`}
+              >
+                <img src={pineCreekClouds} alt="paradise-lake" />
+              </div>
+              <div
+                className={`${classes["day-one__grid-item"]} ${classes["day-one__grid-item-3"]}`}
+              >
+                <img src={pineCreekFalls} alt="paradise-lake" />
+              </div>
+              <div
+                className={`${classes["day-one__grid-item"]} ${classes["day-one__grid-item-4"]}`}
+              >
+                <img src={samPineCreek} alt="paradise-lake" />
+              </div>
+            </div>
+
+            {/* <div className={classes["blog__image-container-1"]}>
               <img src={tungstenMine} alt="Inyo national forest sign" />
               <img src={pineCreekClouds} alt="Inyo national forest sign" />
             </div>
             <div className={classes["blog__image-container-1"]}>
               <img src={pineCreekFalls} alt="Inyo national forest sign" />
               <img src={samPineCreek} alt="Inyo national forest sign" />
-            </div>
+            </div> */}
+
             <p className={classes["blog__text"]}>
               Arguably the finest coastal backpacking trail in the United
               States, this 25 mile stretch of California coast is truly a unique
@@ -244,7 +270,7 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano-full"]}>
               <img src={pineCreekFallsPano} alt="Inyo national forest sign" />
             </div>
             <p className={classes["blog__text"]}>
@@ -256,15 +282,35 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+            {/*             
+            <div className={classes["blog__image-container-pano"]}>
               <img src={pineLakePano} alt="Inyo national forest sign" />
             </div>
             <div className={classes["blog__image-container-1"]}>
               <img src={samPineLakeVert} alt="Inyo national forest sign" />
               <img src={pineLakeVert} alt="Inyo national forest sign" />
               <img src={samRockHop} alt="Inyo national forest sign" />
+            </div> */}
+
+            <div className={classes["grid_day-one_2"]}>
+              <div
+                className={`${classes["day-one__2-grid-item"]} ${classes["day-one__2-grid-item-1"]}`}
+              >
+                <img src={samPineLakeVert} alt="paradise-lake" />
+              </div>
+              <div
+                className={`${classes["day-one__2-grid-item"]} ${classes["day-one__2-grid-item-2"]}`}
+              >
+                <img src={pineLakeVert} alt="paradise-lake" />
+              </div>
+              <div
+                className={`${classes["day-one__2-grid-item"]} ${classes["day-one__2-grid-item-3"]}`}
+              >
+                <img src={samRockHop} alt="paradise-lake" />
+              </div>
             </div>
-            <div className={classes["blog__image-container-1"]}>
+
+            <div className={classes["blog__image-container-pano-small"]}>
               <img src={honeymoonSunset} alt="Inyo national forest sign" />
             </div>
             {/* <div className={classes["video"]}>
@@ -279,15 +325,6 @@ const GranitePark22Blog = () => {
                 Your browser is not supported
               </video>
             </div> */}
-            <p className={classes["blog__text"]}>
-              Arguably the finest coastal backpacking trail in the United
-              States, this 25 mile stretch of California coast is truly a unique
-              trail where you’ll get to experience untouched wilderness and true
-              remoteness. Due to the cliffs being too steep to build roads, the
-              Lost Coast is the longest stretch of undeveloped coast in
-              California, but the cool thing is we can still experience it by
-              hiking it!
-            </p>
           </section>
           <section className={classes["blog__section"]}>
             <div className={classes["blog__section-title-container"]}>
@@ -303,9 +340,17 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
-              <img src={honeymoonMtnsVert} alt="Inyo national forest sign" />
-              <img src={honeymoonVert} alt="Inyo national forest sign" />
+            <div className={classes["split-block__container"]}>
+              <img
+                className={classes["split-block__item-1"]}
+                src={honeymoonMtnsVert}
+                alt="Inyo national forest sign"
+              />
+              <img
+                className={classes["split-block__item-2"]}
+                src={honeymoonVert}
+                alt="Inyo national forest sign"
+              />
             </div>
             <p className={classes["blog__text"]}>
               Arguably the finest coastal backpacking trail in the United
@@ -316,7 +361,7 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano-smaller"]}>
               <img src={honeymoonMorn} alt="Inyo national forest sign" />
             </div>
             {/* <div className={classes["video"]}>
@@ -340,7 +385,7 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano-full"]}>
               <img src={graniteParkCreekPano} alt="Inyo national forest sign" />
             </div>
             <p className={classes["blog__text"]}>
@@ -352,62 +397,80 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano-full"]}>
               <img
                 src={graniteParkCloudsPano}
                 alt="Inyo national forest sign"
               />
             </div>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano-small"]}>
               <img src={graniteParkTarn} alt="Inyo national forest sign" />
             </div>
-            <div className={classes["blog__image-container-1"]}>
-              <img src={graniteParkMtnsPano} alt="Inyo national forest sign" />
-            </div>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano-small"]}>
               <img
                 src={graniteParkCloudsShot}
                 alt="Inyo national forest sign"
               />
             </div>
+            <div className={classes["blog__image-container-pano"]}>
+              <img src={graniteParkMtnsPano} alt="Inyo national forest sign" />
+            </div>
 
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["split-block__container"]}>
               <img
+                className={classes["split-block__item-1"]}
                 src={graniteParkCloudsVert}
                 alt="Inyo national forest sign"
               />
-              <img src={graniteParkMtnVert} alt="Inyo national forest sign" />
-            </div>
-            <p className={classes["blog__text"]}>
-              Arguably the finest coastal backpacking trail in the United
-              States, this 25 mile stretch of California coast is truly a unique
-              trail where you’ll get to experience untouched wilderness and true
-              remoteness. Due to the cliffs being too steep to build roads, the
-              Lost Coast is the longest stretch of undeveloped coast in
-              California, but the cool thing is we can still experience it by
-              hiking it!
-            </p>
-            <div className={classes["blog__image-container-1"]}>
-              <img src={graniteParkBrockVert} alt="Inyo national forest sign" />
-              <img src={graniteParkTrail} alt="Inyo national forest sign" />
-            </div>
-            <p className={classes["blog__text"]}>
-              Arguably the finest coastal backpacking trail in the United
-              States, this 25 mile stretch of California coast is truly a unique
-              trail where you’ll get to experience untouched wilderness and true
-              remoteness. Due to the cliffs being too steep to build roads, the
-              Lost Coast is the longest stretch of undeveloped coast in
-              California, but the cool thing is we can still experience it by
-              hiking it!
-            </p>
-            <div className={classes["blog__image-container-1"]}>
-              <img src={graniteParkSam} alt="Inyo national forest sign" />
               <img
-                src={graniteParkEveningLakes}
+                className={classes["split-block__item-2"]}
+                src={graniteParkMtnVert}
                 alt="Inyo national forest sign"
               />
             </div>
-            <div className={classes["blog__image-container-1"]}>
+            <p className={classes["blog__text"]}>
+              Arguably the finest coastal backpacking trail in the United
+              States, this 25 mile stretch of California coast is truly a unique
+              trail where you’ll get to experience untouched wilderness and true
+              remoteness. Due to the cliffs being too steep to build roads, the
+              Lost Coast is the longest stretch of undeveloped coast in
+              California, but the cool thing is we can still experience it by
+              hiking it!
+            </p>
+            <div className={classes["thirty-sixty__container"]}>
+              <img
+                className={classes["thirty-sixty__item-1"]}
+                src={graniteParkBrockVert}
+                alt="Inyo national forest sign"
+              />
+              <img
+                className={classes["thirty-sixty__item-2"]}
+                src={graniteParkTrail}
+                alt="Inyo national forest sign"
+              />
+            </div>
+            <p className={classes["blog__text"]}>
+              Arguably the finest coastal backpacking trail in the United
+              States, this 25 mile stretch of California coast is truly a unique
+              trail where you’ll get to experience untouched wilderness and true
+              remoteness. Due to the cliffs being too steep to build roads, the
+              Lost Coast is the longest stretch of undeveloped coast in
+              California, but the cool thing is we can still experience it by
+              hiking it!
+            </p>
+            <div className={classes["thirty-sixty__container"]}>
+              <img
+                className={classes["sixty-thirty__item-1"]}
+                src={graniteParkEveningLakes}
+                alt="Inyo national forest sign"
+              />
+              <img
+                className={classes["sixty-thirty__item-2"]}
+                src={graniteParkSam}
+                alt="Inyo national forest sign"
+              />
+            </div>
+            <div className={classes["blog__image-container-pano"]}>
               <img
                 src={graniteParkEveningPano}
                 alt="Inyo national forest sign"
@@ -428,16 +491,31 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano-small"]}>
               <img src={graniteOrangeMorn} alt="Italy Pass Pano" />
             </div>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano-full"]}>
               <img src={graniteOrangeMornPano} alt="Italy Pass Pano" />
             </div>
-            <div className={classes["blog__image-container-1"]}>
+
+            <div className={classes["split-block__container"]}>
+              <img
+                className={classes["split-block__item-1"]}
+                src={graniteGooSlam}
+                alt="Italy Pass Pano"
+              />
+
+              <img
+                className={classes["split-block__item-2"]}
+                src={graniteSamBoulderHop}
+                alt="Italy Pass"
+              />
+            </div>
+
+            {/* <div className={classes["blog__image-container-1"]}>
               <img src={graniteGooSlam} alt="Italy Pass Pano" />
               <img src={graniteSamBoulderHop} alt="Italy Pass Pano" />
-            </div>
+            </div> */}
             <p className={classes["blog__text"]}>
               Arguably the finest coastal backpacking trail in the United
               States, this 25 mile stretch of California coast is truly a unique
@@ -447,7 +525,7 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano"]}>
               <img src={italyPassSummit} alt="Italy Pass Pano" />
             </div>
             <p className={classes["blog__text"]}>
@@ -459,9 +537,18 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
-              <img src={italyPassBoulder} alt="Italy Pass Pano" />
-              <img src={bearLakesBrockPano} alt="Italy Pass Pano" />
+            <div className={classes["split-block__container"]}>
+              <img
+                className={classes["split-block__item-1"]}
+                src={italyPassBoulder}
+                alt="Italy Pass Pano"
+              />
+
+              <img
+                className={classes["split-block__item-2"]}
+                src={bearLakesBrockPano}
+                alt="Italy Pass Pano"
+              />
             </div>
             <p className={classes["blog__text"]}>
               Arguably the finest coastal backpacking trail in the United
@@ -472,13 +559,13 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano-full"]}>
               <img src={brockAlpinePano} alt="Italy Pass Pano" />
             </div>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano-full"]}>
               <img src={bearLakesAlpinePano} alt="Italy Pass Pano" />
             </div>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano-full"]}>
               <img src={blackBearLakePano} alt="Italy Pass Pano" />
             </div>
             <p className={classes["blog__text"]}>
@@ -491,7 +578,7 @@ const GranitePark22Blog = () => {
               hiking it!
             </p>
 
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano-smaller"]}>
               <img src={brockPortrait} alt="Italy Pass Pano" />
             </div>
             <p className={classes["blog__text"]}>
@@ -503,16 +590,32 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano-smaller"]}>
               <img src={sevenGablesBrock} alt="Italy Pass Pano" />
             </div>
-            <div className={classes["blog__image-container-1"]}>
-              <img src={bearBasinSamVert} alt="Italy Pass Pano" />
-              <img src={bearBasinOffTrail} alt="Italy Pass Pano" />
+            <div className={classes["thirty-sixty__container"]}>
+              <img
+                className={classes["thirty-sixty__item-1"]}
+                src={bearBasinSamVert}
+                alt="Italy Pass Pano"
+              />
+              <img
+                className={classes["thirty-sixty__item-2"]}
+                src={bearBasinOffTrail}
+                alt="Italy Pass Pano"
+              />
             </div>
-            <div className={classes["blog__image-container-1"]}>
-              <img src={bearBasinOffTrailTwo} alt="Italy Pass Pano" />
-              <img src={sevenGablesSlotVert} alt="Italy Pass Pano" />
+            <div className={classes["sixty-thirty__container"]}>
+              <img
+                className={classes["sixty-thirty__item-1"]}
+                src={bearBasinOffTrailTwo}
+                alt="Italy Pass Pano"
+              />
+              <img
+                className={classes["sixty-thirty__item-2"]}
+                src={sevenGablesSlotVert}
+                alt="Italy Pass Pano"
+              />
             </div>
             <p className={classes["blog__text"]}>
               Arguably the finest coastal backpacking trail in the United
@@ -523,7 +626,7 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano"]}>
               <img src={veeLakePano} alt="Italy Pass Pano" />
             </div>
             <p className={classes["blog__text"]}>
@@ -535,12 +638,20 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano"]}>
               <img src={sevenGablesWide} alt="Italy Pass Pano" />
             </div>
-            <div className={classes["blog__image-container-1"]}>
-              <img src={sevenGablesSlopesVert} alt="Italy Pass Pano" />
-              <img src={sevenGablesMountainVert} alt="Italy Pass Pano" />
+            <div className={classes["split-block__container"]}>
+              <img
+                className={classes["split-block__item-1"]}
+                src={sevenGablesSlopesVert}
+                alt="Italy Pass Pano"
+              />
+              <img
+                className={classes["split-block__item-2"]}
+                src={sevenGablesMountainVert}
+                alt="Italy Pass Pano"
+              />
             </div>
             <p className={classes["blog__text"]}>
               Arguably the finest coastal backpacking trail in the United
@@ -551,7 +662,7 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano-smaller"]}>
               <img src={sevenGablesCreekShot} alt="Italy Pass Pano" />
             </div>
             <p className={classes["blog__text"]}>
@@ -563,7 +674,7 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano"]}>
               <img src={sevenGablesGrassPano} alt="Italy Pass Pano" />
             </div>
             <p className={classes["blog__text"]}>
@@ -575,7 +686,7 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano"]}>
               <img src={sevenGablesMarshPano} alt="Italy Pass Pano" />
             </div>
             <p className={classes["blog__text"]}>
@@ -587,12 +698,20 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano-full"]}>
               <img src={sevenGablesRainPano} alt="Italy Pass Pano" />
             </div>
-            <div className={classes["blog__image-container-1"]}>
-              <img src={sevenGablesStorm} alt="Italy Pass Pano" />
-              <img src={thunderstormSam} alt="Italy Pass Pano" />
+            <div className={classes["split-block__container"]}>
+              <img
+                className={classes["split-block__item-1"]}
+                src={sevenGablesStorm}
+                alt="Italy Pass Pano"
+              />
+              <img
+                className={classes["split-block__item-2"]}
+                src={thunderstormSam}
+                alt="Italy Pass Pano"
+              />
             </div>
             <p className={classes["blog__text"]}>
               Arguably the finest coastal backpacking trail in the United
@@ -607,10 +726,10 @@ const GranitePark22Blog = () => {
               <img src={samSignageOne} alt="Italy Pass Pano" />
               <img src={samSignageTwo} alt="Italy Pass Pano" />
             </div>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano"]}>
               <img src={marieEveningPano} alt="Italy Pass Pano" />
             </div>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano-full"]}>
               <img src={marieLakeSunsetPano} alt="Italy Pass Pano" />
             </div>
           </section>
@@ -629,15 +748,23 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano-smaller"]}>
               <img src={marieGrassyMornView} alt="Italy Pass Pano" />
             </div>
 
-            <div className={classes["blog__image-container-1"]}>
-              <img src={marieMornView} alt="Italy Pass Pano" />
-              <img src={marieVertShot} alt="Italy Pass Pano" />
+            <div className={classes["sixty-thirty__container"]}>
+              <img
+                className={classes["sixty-thirty__item-1"]}
+                src={marieMornView}
+                alt="Italy Pass Pano"
+              />
+              <img
+                className={classes["sixty-thirty__item-2"]}
+                src={marieVertShot}
+                alt="Italy Pass Pano"
+              />
             </div>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano-full"]}>
               <img src={marieMornWidePano} alt="Italy Pass Pano" />
             </div>
             <p className={classes["blog__text"]}>
@@ -649,7 +776,7 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano-smaller"]}>
               <img src={marieTarnPano} alt="Italy Pass Pano" />
             </div>
             <p className={classes["blog__text"]}>
@@ -661,17 +788,25 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano-smaller"]}>
               <img src={marieTrailSidePano} alt="Italy Pass Pano" />
             </div>
             <div className={classes["blog__image-container-1"]}>
               <img src={marieBlue} alt="Italy Pass Pano" />
               <img src={marieMornTrailVert} alt="Italy Pass Pano" />
             </div>
-            <div className={classes["blog__image-container-1"]}></div>
-            <div className={classes["blog__image-container-1"]}>
-              <img src={marieMornTrailSideView} alt="Italy Pass Pano" />
-              <img src={marieSky} alt="Italy Pass Pano" />
+
+            <div className={classes["split-block__container"]}>
+              <img
+                className={classes["split-block__item-1"]}
+                src={marieMornTrailSideView}
+                alt="Italy Pass Pano"
+              />
+              <img
+                className={classes["split-block__item-2"]}
+                src={marieSky}
+                alt="Italy Pass Pano"
+              />
             </div>
             <p className={classes["blog__text"]}>
               Arguably the finest coastal backpacking trail in the United
@@ -682,7 +817,7 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano-full"]}>
               <img src={tentPano} alt="Italy Pass Pano" />
             </div>
             <p className={classes["blog__text"]}>
@@ -694,17 +829,33 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
-              <img src={tentView} alt="Italy Pass Pano" />
-              <img src={stormRidge} alt="Italy Pass Pano" />
+            <div className={classes["split-block__container"]}>
+              <img
+                className={classes["split-block__item-1"]}
+                src={tentView}
+                alt="Italy Pass Pano"
+              />
+              <img
+                className={classes["split-block__item-2"]}
+                src={stormRidge}
+                alt="Italy Pass Pano"
+              />
             </div>
 
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano-full"]}>
               <img src={blueSkyReflectionPano} alt="Italy Pass Pano" />
             </div>
-            <div className={classes["blog__image-container-1"]}>
-              <img src={samBoat} alt="Italy Pass Pano" />
-              <img src={skyCloudReflection} alt="Italy Pass Pano" />
+            <div className={classes["sixty-thirty__container"]}>
+              <img
+                className={classes["sixty-thirty__item-1"]}
+                src={samBoat}
+                alt="Italy Pass Pano"
+              />
+              <img
+                className={classes["sixty-thirty__item-2"]}
+                src={skyCloudReflection}
+                alt="Italy Pass Pano"
+              />
             </div>
             <p className={classes["blog__text"]}>
               Arguably the finest coastal backpacking trail in the United
@@ -715,17 +866,33 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
-              <img src={marieStormShore} alt="Italy Pass Pano" />
-              <img src={stormReflection} alt="Italy Pass Pano" />
+            <div className={classes["thirty-sixty__container"]}>
+              <img
+                className={classes["thirty-sixty__item-1"]}
+                src={stormReflection}
+                alt="Italy Pass Pano"
+              />
+              <img
+                className={classes["thirty-sixty__item-2"]}
+                src={marieStormShore}
+                alt="Italy Pass Pano"
+              />
             </div>
             <div className={classes["blog__image-container-1"]}></div>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano"]}>
               <img src={stormRidgePano} alt="Italy Pass Pano" />
             </div>
-            <div className={classes["blog__image-container-1"]}>
-              <img src={stormRigeVert} alt="Italy Pass Pano" />
-              <img src={postStormSam} alt="Italy Pass Pano" />
+            <div className={classes["thirty-sixty__container"]}>
+              <img
+                className={classes["thirty-sixty__item-1"]}
+                src={stormRigeVert}
+                alt="Italy Pass Pano"
+              />
+              <img
+                className={classes["thirty-sixty__item-2"]}
+                src={postStormSam}
+                alt="Italy Pass Pano"
+              />
             </div>
             <p className={classes["blog__text"]}>
               Arguably the finest coastal backpacking trail in the United
@@ -736,23 +903,47 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
-              <img src={stormSky} alt="Italy Pass Pano" />
-              <img src={samTarp} alt="Italy Pass Pano" />
+            <div className={classes["sixty-thirty__container"]}>
+              <img
+                className={classes["sixty-thirty__item-1"]}
+                src={stormSky}
+                alt="Italy Pass Pano"
+              />
+              <img
+                className={classes["sixty-thirty__item-2"]}
+                src={samTarp}
+                alt="Italy Pass Pano"
+              />
             </div>
-            <div className={classes["blog__image-container-1"]}>
-              <img src={postStormSamVert} alt="Italy Pass Pano" />
-              <img src={tigerGrass} alt="Italy Pass Pano" />
+            <div className={classes["thirty-sixty__container"]}>
+              <img
+                className={classes["thirty-sixty__item-1"]}
+                src={postStormSamVert}
+                alt="Italy Pass Pano"
+              />
+              <img
+                className={classes["thirty-sixty__item-2"]}
+                src={tigerGrass}
+                alt="Italy Pass Pano"
+              />
             </div>
-            <div className={classes["blog__image-container-1"]}>
-              <img src={postRainSamLake} alt="Italy Pass Pano" />
-              <img src={samPortrait} alt="Italy Pass Pano" />
+            <div className={classes["split-block__container"]}>
+              <img
+                className={classes["split-block__item-1"]}
+                src={postRainSamLake}
+                alt="Italy Pass Pano"
+              />
+              <img
+                className={classes["split-block__item-2"]}
+                src={samPortrait}
+                alt="Italy Pass Pano"
+              />
             </div>
 
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano"]}>
               <img src={postStormPano} alt="Italy Pass Pano" />
             </div>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano"]}>
               <img src={marieOrangeSunsetPano} alt="Italy Pass Pano" />
             </div>
             <p className={classes["blog__text"]}>
@@ -764,7 +955,7 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano-smaller"]}>
               <img src={marieOrangeSunset} alt="Italy Pass Pano" />
             </div>
           </section>
@@ -782,12 +973,20 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano-smaller"]}>
               <img src={brockRainJacket} alt="Italy Pass Pano" />
             </div>
-            <div className={classes["blog__image-container-1"]}>
-              <img src={samRainVert} alt="Italy Pass Pano" />
-              <img src={rainMountainVert} alt="Italy Pass Pano" />
+            <div className={classes["split-block__container"]}>
+              <img
+                className={classes["split-block__item-1"]}
+                src={samRainVert}
+                alt="Italy Pass Pano"
+              />
+              <img
+                className={classes["split-block__item-2"]}
+                src={rainMountainVert}
+                alt="Italy Pass Pano"
+              />
             </div>
             <p className={classes["blog__text"]}>
               Arguably the finest coastal backpacking trail in the United
@@ -798,14 +997,22 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano-smaller"]}>
               <img src={rainSign} alt="Italy Pass Pano" />
             </div>
-            <div className={classes["blog__image-container-1"]}>
-              <img src={samRiverCrossing} alt="Italy Pass Pano" />
-              <img src={italyCreek} alt="Italy Pass Pano" />
+            <div className={classes["split-block__container"]}>
+              <img
+                className={classes["split-block__item-1"]}
+                src={samRiverCrossing}
+                alt="Italy Pass Pano"
+              />
+              <img
+                className={classes["split-block__item-2"]}
+                src={italyCreek}
+                alt="Italy Pass Pano"
+              />
             </div>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano-full"]}>
               <img src={italyMeadowPano} alt="Italy Pass Pano" />
             </div>
             {/* custom */}
@@ -818,7 +1025,7 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano-smaller"]}>
               <img src={italyMeadow} alt="Italy Pass Pano" />
             </div>
             <p className={classes["blog__text"]}>
@@ -830,11 +1037,19 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
-              <img src={italyCanyonSunet} alt="Italy Pass Pano" />
-              <img src={italyCanyonSunsetVert} alt="Italy Pass Pano" />
+            <div className={classes["sixty-thirty__container"]}>
+              <img
+                className={classes["sixty-thirty__item-1"]}
+                src={italyCanyonSunet}
+                alt="Italy Pass Pano"
+              />
+              <img
+                className={classes["sixty-thirty__item-2"]}
+                src={italyCanyonSunsetVert}
+                alt="Italy Pass Pano"
+              />
             </div>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano-small"]}>
               <img src={italyOrangeSunsetPano} alt="Italy Pass Pano" />
             </div>
             <p className={classes["blog__text"]}>
@@ -846,7 +1061,7 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano-small"]}>
               <img src={italyOrangeSunsetPanoTwo} alt="Italy Pass Pano" />
             </div>
           </section>
@@ -864,7 +1079,7 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano"]}>
               <img src={clothingPano} alt="Italy Pass Pano" />
             </div>
             <p className={classes["blog__text"]}>
@@ -876,13 +1091,29 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
-              <img src={samItalyHiker} alt="Italy Pass Pano" />
-              <img src={italySamCliffVert} alt="Italy Pass Pano" />
+            <div className={classes["sixty-thirty__container"]}>
+              <img
+                className={classes["sixty-thirty__item-1"]}
+                src={samItalyHiker}
+                alt="Italy Pass Pano"
+              />
+              <img
+                className={classes["sixty-thirty__item-2"]}
+                src={italySamCliffVert}
+                alt="Italy Pass Pano"
+              />
             </div>
-            <div className={classes["blog__image-container-1"]}>
-              <img src={italyCreekMtnVert} alt="Italy Pass Pano" />
-              <img src={samCreekCrossMtn} alt="Italy Pass Pano" />
+            <div className={classes["thirty-sixty__container"]}>
+              <img
+                className={classes["thirty-sixty__item-1"]}
+                src={italyCreekMtnVert}
+                alt="Italy Pass Pano"
+              />
+              <img
+                className={classes["thirty-sixty__item-2"]}
+                src={samCreekCrossMtn}
+                alt="Italy Pass Pano"
+              />
             </div>
             <p className={classes["blog__text"]}>
               Arguably the finest coastal backpacking trail in the United
@@ -893,7 +1124,7 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano-smaller"]}>
               <img src={samHikeMtns} alt="Italy Pass Pano" />
             </div>
             <p className={classes["blog__text"]}>
@@ -905,14 +1136,22 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano-full"]}>
               <img src={italyLakePano} alt="Italy Pass Pano" />
             </div>
-            <div className={classes["blog__image-container-1"]}>
-              <img src={italyLakeBrockVert} alt="Italy Pass Pano" />
-              <img src={italyLakeSam} alt="Italy Pass Pano" />
+            <div className={classes["thirty-sixty__container"]}>
+              <img
+                className={classes["thirty-sixty__item-1"]}
+                src={italyLakeBrockVert}
+                alt="Italy Pass Pano"
+              />
+              <img
+                className={classes["thirty-sixty__item-2"]}
+                src={italyLakeSam}
+                alt="Italy Pass Pano"
+              />
             </div>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano-full"]}>
               <img src={italyLakePanoTwo} alt="Italy Pass Pano" />
             </div>
             <p className={classes["blog__text"]}>
@@ -924,17 +1163,25 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano"]}>
               <img src={italyPassDayPano} alt="Italy Pass Pano" />
             </div>
-            <div className={classes["blog__image-container-1"]}>
-              <img src={italyPassBrock} alt="Italy Pass Pano" />
-              <img src={juliusCeaserShot} alt="Italy Pass Pano" />
+            <div className={classes["split-block__container"]}>
+              <img
+                className={classes["split-block__item-1"]}
+                src={italyPassBrock}
+                alt="Italy Pass Pano"
+              />
+              <img
+                className={classes["split-block__item-2"]}
+                src={juliusCeaserShot}
+                alt="Italy Pass Pano"
+              />
             </div>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano"]}>
               <img src={juiliusCeaserPanoTwo} alt="Italy Pass Pano" />
             </div>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano-full"]}>
               <img src={juliusCeaserGrandPano} alt="Italy Pass Pano" />
             </div>
             <p className={classes["blog__text"]}>
@@ -946,7 +1193,7 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano"]}>
               <img src={graniteParkLakePano} alt="Italy Pass Pano" />
             </div>
             <p className={classes["blog__text"]}>
@@ -958,23 +1205,47 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano"]}>
               <img src={chalfantXCountrySamPano} alt="Italy Pass Pano" />
             </div>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano"]}>
               <img src={chalfantLakePANO} alt="Italy Pass Pano" />
             </div>
-            <div className={classes["blog__image-container-1"]}>
-              <img src={chalfantLakeClouds} alt="Italy Pass Pano" />
-              <img src={chalfantJuliusMtnVert} alt="Italy Pass Pano" />
+            <div className={classes["sixty-thirty__container"]}>
+              <img
+                className={classes["sixty-thirty__item-1"]}
+                src={chalfantLakeClouds}
+                alt="Italy Pass Pano"
+              />
+              <img
+                className={classes["sixty-thirty__item-2"]}
+                src={chalfantJuliusMtnVert}
+                alt="Italy Pass Pano"
+              />
             </div>
-            <div className={classes["blog__image-container-1"]}>
-              <img src={chalfantMtn} alt="Italy Pass Pano" />
-              <img src={chalfantLakeCloudsTwo} alt="Italy Pass Pano" />
+            <div className={classes["split-block__container"]}>
+              <img
+                className={classes["split-block__item-1"]}
+                src={chalfantMtn}
+                alt="Italy Pass Pano"
+              />
+              <img
+                className={classes["split-block__item-2"]}
+                src={chalfantLakeCloudsTwo}
+                alt="Italy Pass Pano"
+              />
             </div>
-            <div className={classes["blog__image-container-1"]}>
-              <img src={chalfantLakeCloudsThree} alt="Italy Pass Pano" />
-              <img src={offTrailMtnWaterFallVert} alt="Italy Pass Pano" />
+            <div className={classes["thirty-sixty__container"]}>
+              <img
+                className={classes["thirty-sixty__item-1"]}
+                src={offTrailMtnWaterFallVert}
+                alt="Italy Pass Pano"
+              />
+              <img
+                className={classes["thirty-sixty__item-2"]}
+                src={chalfantLakeCloudsThree}
+                alt="Italy Pass Pano"
+              />
             </div>
             <p className={classes["blog__text"]}>
               Arguably the finest coastal backpacking trail in the United
@@ -985,7 +1256,7 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano"]}>
               <img src={offTrailCreekPano} alt="Italy Pass Pano" />
             </div>
             <div className={classes["blog__image-container-1"]}>
@@ -1001,7 +1272,7 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano-smaller"]}>
               <img src={honeymoonLakePano} alt="Italy Pass Pano" />
             </div>
             <p className={classes["blog__text"]}>
@@ -1013,19 +1284,27 @@ const GranitePark22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano"]}>
               <img src={pineCreekValleyPano} alt="Italy Pass Pano" />
             </div>
             <div className={classes["blog__image-container-1"]}>
               <img src={marbleMtnVert} alt="Italy Pass Pano" />
               <img src={goldMtn} alt="Italy Pass Pano" />
             </div>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["blog__image-container-pano-full"]}>
               <img src={pineCreekGrandPano} alt="Italy Pass Pano" />
             </div>
-            <div className={classes["blog__image-container-1"]}>
-              <img src={samPineCreekVert} alt="Italy Pass Pano" />
-              <img src={sevenGablesCouples} alt="Italy Pass Pano" />
+            <div className={classes["split-block__container"]}>
+              <img
+                className={classes["split-block__item-1"]}
+                src={samPineCreekVert}
+                alt="Italy Pass Pano"
+              />
+              <img
+                className={classes["split-block__item-2"]}
+                src={sevenGablesCouples}
+                alt="Italy Pass Pano"
+              />
             </div>
           </section>
         </div>
