@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 import classes from "./KingsCanyon22Blog.module.css";
-import blogOneImage from "../../../assets/images/CA_RAE-LAKES_HIGH-VIEW_HI-RES.jpg";
+// DAY 1 IMAGES - 6 IMAGES
 import trailSign from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_Inyo_sign-vert.jpeg";
 import potholeLake from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_Pothole-lake-vert.jpeg";
 import kearsargePano from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP-kearsarge-pass-pano.jpeg";
 import kearsargeLakePano from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_kearsarge-pano.jpeg";
 import redMountainSundown from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_red-mountian-vert.jpeg";
 import kearsargeSundown from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_kearsarge-sundown.jpeg";
+// DAY 2 IMAGES - 8 IMAGES
 import samBullfrogLake from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP-cutie-babe-bullfrog-lk.jpeg";
 import brockBullfrogLake from "../../../assets/images/blog-images/kcnp-22/KCNP_BLOG_BROCK_BULLFROG-LK.jpeg";
 import bullfrogLake from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_BULLFROG_LK_VERT.jpeg";
@@ -16,14 +16,18 @@ import paintedLadyPano from "../../../assets/images/blog-images/kcnp-22/BLOG_KCN
 import raeLakeTrailPano from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_RAE_LAKE_TRAIL_PANO.jpeg";
 import raePeninsula from "../../../assets/images/blog-images/kcnp-22/BLOG_RAE_PENINSULA_BEAUT.jpeg";
 import raeTentSpot from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_RAE_TENT.jpeg";
+// DAY 3 IMAGES - 4 IMAGES
 import raeReflection from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_RAE_REFLECTION.jpeg";
 import samBoat from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_SAM_BOAT.jpeg";
+import brockBoatPano from "../../../assets/images/blog-images/kcnp-22/BROCK_BOAT_RAE_LAKES.jpg";
 import raeFinn from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_RAE_FINN.jpeg";
 import raeSunset from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_RAE_SUNSET.jpeg";
+// DAY 4 IMAGES - 4 IMAGES
 import finDomePano from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_FINN_DOME_PANO.jpeg";
 import finDomeMeadow from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_FINNDOME_MEADOW.jpeg";
 import samJohnMuir from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_SAM_JOHN-MUIR.jpeg";
 import bigLakePano from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_Big_LAKE-PANO.jpeg";
+// DAY 5 IMAGES - 11 IMAGES
 import uphillTrees from "../../../assets/images/blog-images/kcnp-22/BLOG_UPHILL-TREK_TREES-VERT.jpeg";
 import offTrailRocks from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_OFFTRAIL_ROCKS.jpeg";
 import sixtyLakeMTNVert from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_60-LAKE-MTN.jpeg";
@@ -32,10 +36,15 @@ import paradiseFound from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_
 import skinnyDipParadise from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_PARADISE_SAM_VERT.jpeg";
 import cutieBabeBandit from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_CUTIE_BABE_BANDIT.jpeg";
 import boatParadise from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_BOAT-PARADISE.jpeg";
-import paradiseLake from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_PARADISE-LAKE.jpeg";
+
+import paradiseLakeWide from "../../../assets/images/blog-images/kcnp-22/PARADISE_LAKE-WIDE.jpg";
+
+import paradiseLake from "../../../assets/images/blog-images/kcnp-22/PARADISE_LAKE-2.jpg";
+
+
 import paradiseLakePano from "../../../assets/images/blog-images/kcnp-22/BLOG_PARADISE-PANO.jpeg";
 import raeValleyPano from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_RAE_VALLEY_PANO.jpeg";
-// DAY 5
+// DAY 6 IMAGES - 10 IMAGES
 import raeValleyMornPano from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_RAE_LAKES_VALLEY_PANO.jpeg";
 import paradiseTopView from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP-PARADISE_TOP-VIEW-PANO.jpeg";
 import sixtyLakeTrekLake from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_60-LAKE-TREK.jpeg";
@@ -46,13 +55,13 @@ import raeLakesReturn from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP
 import bullfrogVistaCamp from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_BULLFROG-CAMP.jpeg";
 import bullfrogGrandPano from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_GRAND-BULLFROG-PANO.jpeg";
 import bullfrogEvening from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_BULLFROG-EVENING.jpeg";
-// DAY 6
+// DAY 7 IMAGES - 4 IMAGES
 import brockKearsarge from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_BROCK_KEARSARGE-PASS.jpeg";
 import potholeLakePano from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_POTHOLE-LAKE-PANO.jpeg";
 import backToTrailhead from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_DOWN_TO_TRAILHEAD.jpeg";
 import raeLakeCouples from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_RAE_COUPLES.jpg";
-// DAY 7
 
+// VIDEOS - 5 videos
 import paradiseVideo from "../../../assets/videos/Video_paradise_bg_hq.mp4";
 import bullfrogGoldenVideo from "../../../assets/videos/Video_BullfrogGoldenHour.mp4";
 import raeValleyVideo from "../../../assets/videos/Video_RAE_VALLEY.mp4";
@@ -60,6 +69,7 @@ import glennPassVideo from "../../../assets/videos/Video_GLENN_PASS.mp4";
 import kearsargePassVideo from "../../../assets/videos/Video_KEARSARGE_PASS.mp4";
 
 const KingsCanyon22Blog = () => {
+  // Header Parallax Effect
   const [offsetY, setOffsetY] = useState(0);
   const handleScroll = () => {
     setOffsetY(window.pageYOffset);
@@ -71,6 +81,7 @@ const KingsCanyon22Blog = () => {
 
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
   return (
     <div className={classes.blog}>
       <header
@@ -84,8 +95,8 @@ const KingsCanyon22Blog = () => {
             </h1>
             <h1 className={classes["blog-header__title"]}>National Park</h1>
             <h2 className={classes["blog-header__sub-title"]}>
-              A 7 day trek to Kearsarge Pass Kearsarge Lakes, Glenn Pass, Rae
-              Lakes and the 60 Lake Basin
+              A 7 day trek featuring Kearsarge Pass, Kearsarge Lakes, Bullfrog
+              Lake, Glenn Pass, Rae Lakes and The 60 Lakes Basin
             </h2>
           </div>
         </div>
@@ -106,9 +117,17 @@ const KingsCanyon22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
-              <img src={trailSign} alt="Inyo national forest sign" />
-              <img src={potholeLake} alt="Inyo national forest sign" />
+            <div className={classes["responsive__container-split"]}>
+              <img
+                className={classes["responsive__container-split__item-1"]}
+                src={trailSign}
+                alt="Inyo national forest sign"
+              />
+              <img
+                className={classes["responsive__container-split__item-2"]}
+                src={potholeLake}
+                alt="Inyo national forest sign"
+              />
             </div>
             <p className={classes["blog__text"]}>
               Arguably the finest coastal backpacking trail in the United
@@ -131,7 +150,7 @@ const KingsCanyon22Blog = () => {
                 Your browser is not supported
               </video>
             </div>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["responsive__container-90"]}>
               <img src={kearsargePano} alt="Kearsarge Pass" />
             </div>
             <p className={classes["blog__text"]}>
@@ -143,7 +162,7 @@ const KingsCanyon22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["responsive__container-90"]}>
               <img src={kearsargeLakePano} alt="Kearsarge Lake" />
             </div>
             <p className={classes["blog__text"]}>
@@ -155,9 +174,17 @@ const KingsCanyon22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
-              <img src={redMountainSundown} alt="Red light on mountain" />
-              <img src={kearsargeSundown} alt="Sundown over Kearsarge Lake" />
+            <div className={classes["thirty-sixty__container"]}>
+              <img
+                className={classes["thirty-sixty__item-1"]}
+                src={redMountainSundown}
+                alt="Red light on mountain"
+              />
+              <img
+                className={classes["thirty-sixty__item-2"]}
+                src={kearsargeSundown}
+                alt="Sundown over Kearsarge Lake"
+              />
             </div>
           </section>
           <section className={classes["blog__section"]}>
@@ -174,13 +201,22 @@ const KingsCanyon22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["responsive__container-triple"]}>
               <img
+                className={classes["responsive__container-triple__item"]}
                 src={samBullfrogLake}
                 alt="Brock Dallman above Kearsarge Lakes"
               />
-              <img src={bullfrogLake} alt="Sundown over Kearsarge Lake" />
-              <img src={brockBullfrogLake} alt="Sundown over Kearsarge Lake" />
+              <img
+                className={classes["responsive__container-triple__item"]}
+                src={bullfrogLake}
+                alt="Sundown over Kearsarge Lake"
+              />
+              <img
+                className={classes["responsive__container-triple__item"]}
+                src={brockBullfrogLake}
+                alt="Sundown over Kearsarge Lake"
+              />
             </div>
             <p className={classes["blog__text"]}>
               Arguably the finest coastal backpacking trail in the United
@@ -191,7 +227,7 @@ const KingsCanyon22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["responsive__container-80"]}>
               <img src={glennPass} alt="Sundown over Kearsarge Lake" />
             </div>
             <div className={classes["video"]}>
@@ -215,10 +251,10 @@ const KingsCanyon22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["responsive__container-80"]}>
               <img src={paintedLadyPano} alt="Sundown over Kearsarge Lake" />
             </div>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["responsive__container-full"]}>
               <img src={raeLakeTrailPano} alt="Sundown over Kearsarge Lake" />
             </div>
             <p className={classes["blog__text"]}>
@@ -230,9 +266,17 @@ const KingsCanyon22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
-              <img src={raePeninsula} alt="Sundown over Kearsarge Lake" />
-              <img src={raeTentSpot} alt="Sundown over Kearsarge Lake" />
+            <div className={classes["sixty-thirty__container"]}>
+              <img
+                className={classes["sixty-thirty__item-1"]}
+                src={raePeninsula}
+                alt="Sundown over Kearsarge Lake"
+              />
+              <img
+                className={classes["sixty-thirty__item-2"]}
+                src={raeTentSpot}
+                alt="Sundown over Kearsarge Lake"
+              />
             </div>
           </section>
           <section className={classes["blog__section"]}>
@@ -249,18 +293,20 @@ const KingsCanyon22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-
-            <div className={classes["blog__image-container-5"]}>
+            <div className={classes["responsive__container-split"]}>
               <img
-                className={classes["blog__image-container-5__img__1"]}
+                className={classes["responsive__container-split__item-1"]}
                 src={raeReflection}
                 alt="Sundown over Kearsarge Lake"
               />
               <img
-                className={classes["blog__image-container-5__img__2"]}
+                className={classes["responsive__container-split__item-2"]}
                 src={samBoat}
                 alt="Sundown over Kearsarge Lake"
               />
+            </div>
+            <div className={classes["responsive__container-90"]}>
+              <img src={brockBoatPano} alt="Sundown over Kearsarge Lake" />
             </div>
             <p className={classes["blog__text"]}>
               Arguably the finest coastal backpacking trail in the United
@@ -271,14 +317,14 @@ const KingsCanyon22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-6"]}>
+            <div className={classes["custom__container-fin-rae"]}>
               <img
-                className={classes["blog__image-container-6__img__1"]}
+                className={classes["custom__container-fin-rae__item-1"]}
                 src={raeFinn}
                 alt="Sundown over Kearsarge Lake"
               />
               <img
-                className={classes["blog__image-container-6__img__2"]}
+                className={classes["custom__container-fin-rae__item-2"]}
                 src={raeSunset}
                 alt="Sundown over Kearsarge Lake"
               />
@@ -298,12 +344,20 @@ const KingsCanyon22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["responsive__container-90"]}>
               <img src={finDomePano} alt="Sundown over Kearsarge Lake" />
             </div>
-            <div className={classes["blog__image-container-1"]}>
-              <img src={finDomeMeadow} alt="Sundown over Kearsarge Lake" />
-              <img src={samJohnMuir} alt="Sundown over Kearsarge Lake" />
+            <div className={classes["sixty-thirty__container "]}>
+              <img
+                className={classes["sixty-thirty__item-1"]}
+                src={finDomeMeadow}
+                alt="Sundown over Kearsarge Lake"
+              />
+              <img
+                className={classes["sixty-thirty__item-2"]}
+                src={samJohnMuir}
+                alt="Sundown over Kearsarge Lake"
+              />
             </div>
             <p className={classes["blog__text"]}>
               Arguably the finest coastal backpacking trail in the United
@@ -314,7 +368,7 @@ const KingsCanyon22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["responsive__container-90"]}>
               <img src={bigLakePano} alt="Sundown over Kearsarge Lake" />
             </div>
           </section>
@@ -332,26 +386,24 @@ const KingsCanyon22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-
-            {/* custom */}
-            <div className={classes["blog__image-container-4"]}>
+            <div className={classes["custom__container-off-trail"]}>
               <img
-                className={classes["blog__image-container-4__img__1"]}
+                className={classes["custom__container-off-trail__item-1"]}
                 src={uphillTrees}
                 alt="Sundown over Kearsarge Lake"
               />
               <img
-                className={classes["blog__image-container-4__img__2"]}
+                className={classes["custom__container-off-trail__item-2"]}
                 src={offTrailRocks}
                 alt="Sundown over Kearsarge Lake"
               />
               <img
-                className={classes["blog__image-container-4__img__3"]}
+                className={classes["custom__container-off-trail__item-3"]}
                 src={sixtyLakeMTNVert}
                 alt="Sundown over Kearsarge Lake"
               />
             </div>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["responsive__container-full"]}>
               <img src={sixtyLakeMtnPano} alt="Sundown over Kearsarge Lake" />
             </div>
             <p className={classes["blog__text"]}>
@@ -375,14 +427,37 @@ const KingsCanyon22Blog = () => {
                 Your browser is not supported
               </video>
             </div>
-            <div className={classes["blog__image-container-1"]}>
-              <img src={paradiseFound} alt="Sundown over Kearsarge Lake" />
-              <img src={paradiseLake} alt="Sundown over Kearsarge Lake" />
+            <div className={classes["responsive__container-90"]}>
+              <img src={paradiseLakeWide} alt="Sundown over Kearsarge Lake" />
             </div>
-            <div className={classes["blog__image-container-1"]}>
-              <img src={cutieBabeBandit} alt="Sundown over Kearsarge Lake" />
-              <img src={skinnyDipParadise} alt="Sundown over Kearsarge Lake" />
-              <img src={boatParadise} alt="Sundown over Kearsarge Lake" />
+            <div className={classes["thirty-sixty__container"]}>
+              <img
+                className={classes["thirty-sixty__item-1"]}
+                src={paradiseFound}
+                alt="Sundown over Kearsarge Lake"
+              />
+              <img
+                className={classes["thirty-sixty__item-2"]}
+                src={paradiseLake}
+                alt="Sundown over Kearsarge Lake"
+              />
+            </div>
+            <div className={classes["responsive__container-triple"]}>
+              <img
+                className={classes["responsive__container-triple__item"]}
+                src={cutieBabeBandit}
+                alt="Sundown over Kearsarge Lake"
+              />
+              <img
+                className={classes["responsive__container-triple__item"]}
+                src={skinnyDipParadise}
+                alt="Sundown over Kearsarge Lake"
+              />
+              <img
+                className={classes["responsive__container-triple__item"]}
+                src={boatParadise}
+                alt="Sundown over Kearsarge Lake"
+              />
             </div>
             <p className={classes["blog__text"]}>
               Arguably the finest coastal backpacking trail in the United
@@ -393,10 +468,10 @@ const KingsCanyon22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["responsive__container-full"]}>
               <img src={paradiseLakePano} alt="Sundown over Kearsarge Lake" />
             </div>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["responsive__container-90"]}>
               <img src={raeValleyPano} alt="Sundown over Kearsarge Lake" />
             </div>
           </section>
@@ -414,10 +489,10 @@ const KingsCanyon22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["responsive__container-80"]}>
               <img src={raeValleyMornPano} alt="Sundown over Kearsarge Lake" />
             </div>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["responsive__container-80"]}>
               <img src={paradiseTopView} alt="Sundown over Kearsarge Lake" />
             </div>
             <div className={classes["video"]}>
@@ -441,26 +516,19 @@ const KingsCanyon22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-
-            {/* <div className={classes["blog__image-container-1"]}>
-              <img src={sixtyLakeTrekLake} alt="Sundown over Kearsarge Lake" />
-              <img src={sixtyLakeSideTrip} alt="Sundown over Kearsarge Lake" />
-            </div> */}
-
-            <div className={classes["blog__image-container-3"]}>
+            <div className={classes["custom__container-mtn-lakes"]}>
               <img
-                className={classes["blog__image-container-3__img__1"]}
+                className={classes["custom__container-mtn-lakes__item-1"]}
                 src={sixtyLakeTrekLake}
                 alt="Sundown over Kearsarge Lake"
               />
               <img
-                className={classes["blog__image-container-3__img__2"]}
+                className={classes["custom__container-mtn-lakes__item-2"]}
                 src={sixtyLakeSideTrip}
                 alt="Sundown over Kearsarge Lake"
               />
             </div>
-
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["responsive__container-90"]}>
               <img src={trailSideLake} alt="Sundown over Kearsarge Lake" />
             </div>
             <p className={classes["blog__text"]}>
@@ -472,12 +540,20 @@ const KingsCanyon22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["responsive__container-90"]}>
               <img src={raeLakesReturn} alt="Sundown over Kearsarge Lake" />
             </div>
-            <div className={classes["blog__image-container-1"]}>
-              <img src={glennPassReturn} alt="Sundown over Kearsarge Lake" />
-              <img src={bullfrogVistaCamp} alt="Sundown over Kearsarge Lake" />
+            <div className={classes["sixty-thirty__container"]}>
+              <img
+                className={classes["sixty-thirty__item-1"]}
+                src={glennPassReturn}
+                alt="Sundown over Kearsarge Lake"
+              />
+              <img
+                className={classes["sixty-thirty__item-2"]}
+                src={bullfrogVistaCamp}
+                alt="Sundown over Kearsarge Lake"
+              />
             </div>
             <p className={classes["blog__text"]}>
               Arguably the finest coastal backpacking trail in the United
@@ -488,10 +564,10 @@ const KingsCanyon22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["responsive__container-full"]}>
               <img src={bullfrogGrandPano} alt="Sundown over Kearsarge Lake" />
             </div>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["responsive__container-70"]}>
               <img src={bullfrogEvening} alt="Sundown over Kearsarge Lake" />
             </div>
             <div className={classes["video"]}>
@@ -521,23 +597,21 @@ const KingsCanyon22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["responsive__container-90"]}>
               <img src={potholeLakePano} alt="Sundown over Kearsarge Lake" />
             </div>
-            {/* custom */}
-            <div className={classes["blog__image-container-2"]}>
+            <div className={classes["sixty-thirty__container"]}>
               <img
-                className={classes["blog__image-container-2__img__1"]}
+                className={classes["sixty-thirty__item-1"]}
                 src={brockKearsarge}
                 alt="Sundown over Kearsarge Lake"
               />
               <img
-                className={classes["blog__image-container-2__img__2"]}
+                className={classes["sixty-thirty__item-2"]}
                 src={backToTrailhead}
                 alt="Sundown over Kearsarge Lake"
               />
             </div>
-
             <p className={classes["blog__text"]}>
               Arguably the finest coastal backpacking trail in the United
               States, this 25 mile stretch of California coast is truly a unique
@@ -547,7 +621,7 @@ const KingsCanyon22Blog = () => {
               California, but the cool thing is we can still experience it by
               hiking it!
             </p>
-            <div className={classes["blog__image-container-1"]}>
+            <div className={classes["responsive__container-70"]}>
               <img src={raeLakeCouples} alt="Sundown over Kearsarge Lake" />
             </div>
           </section>
