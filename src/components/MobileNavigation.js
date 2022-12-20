@@ -84,7 +84,7 @@ const MobileNavigation = () => {
               <Link
                 onClick={closeMenuHandler}
                 className={classes["navigation__link"]}
-                to="/portfolio"
+                to="/gallery"
               >
                 Gallery
               </Link>

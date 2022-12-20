@@ -2,7 +2,7 @@ import Navigation from "./components/Navigation";
 import { Switch } from "react-router-dom";
 import { Route } from "react-router-dom";
 import HomePage from "./components/pages/Homepage";
-import Portfolio from "./components/pages/Portfolio";
+import Gallery from "./components/pages/Gallery";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import Shop from "./components/pages/Shop";
@@ -32,8 +32,8 @@ function App() {
         <Route path="/" exact>
           <HomePage images={SLIDER_IMAGES} />
         </Route>
-        <Route path="/portfolio">
-          <Portfolio />
+        <Route path="/gallery">
+          <Gallery />
         </Route>
         <Route path="/about">
           <About />

@@ -161,15 +161,32 @@
 @media (max-width: 40em) {
   .slider-container {
     min-height: 20rem;
+    background-color: white;
   }
 
+  .slider {
+     position: relative;
+    top: -5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
   .header-slide {
-    height: 28rem;
+    /* height: 28rem; */
+   
+    height: 40rem;
   }
 
   .slider-controls {
     width: 95%;
+    top: 37rem;
   }
+
+  .slider-control-button {
+   background-color: rgba(0, 0, 0, 0.351);
+}
 
   .dot {
     height: 1.5rem;
@@ -177,4 +194,10 @@
     margin: .1rem;
   }
 
+   /* .header-slide {
+  width: 100%;
+  height: 90vh;
+  transition: all 1s ease;
+  animation: fadeIn 3s ease;
+}  */
 }

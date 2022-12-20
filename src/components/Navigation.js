@@ -49,7 +49,7 @@ const Navigation = () => {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/portfolio">Gallery</Link>
+              <Link to="/gallery">Gallery</Link>
               <ul className={classes["dropdown-menu"]}>
                 <li>
                   <Link to="/washington">Washington</Link>

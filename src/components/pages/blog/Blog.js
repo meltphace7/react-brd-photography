@@ -20,12 +20,12 @@ const Blog = () => {
   }, []);
     return (
       <div className={classes.blog}>
-        <div
+        <header
           className={classes["blog-header"]}
           style={{ transform: `translateY(${offsetY * 0.5}px)` }}
         >
           <h1>Adventure Blog</h1>
-        </div>
+        </header>
         <div className={classes["blog-body"]}>
           <div className={classes["blog-body__overlay"]}>
             <div className={classes["blog-post"]}>
