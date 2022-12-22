@@ -92,8 +92,16 @@ background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.133512780112044
   margin-right: 2rem;
 }
 
-.nav-menu a {
+/* .nav-menu a {
   text-decoration: none;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-size: 2.1rem;
+} */
+
+.nav-menu__link {
+   text-decoration: none;
   color: white;
   cursor: pointer;
   transition: all 0.2s;
@@ -101,7 +109,7 @@ background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.133512780112044
 }
 
 .nav-menu a:hover {
-  color: var(--color-primary-green);
+  color: var(--color-primary-green); 
 }
 
 .nav-menu li {
@@ -160,6 +168,10 @@ background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.133512780112044
   color: white;
    font-size: 1.5rem;
   margin-left: 0.5rem;
+}
+
+.active {
+   color: var(--color-primary-green); 
 }
 
 @media (max-width: 65em) {

@@ -25,28 +25,32 @@ const Cart = () => {
 
   return (
     <div className={classes.cart}>
-      <h1>Your Cart</h1>
-      {isEmpty && <p className={classes["cart-empty"]}>Your Cart Is Empty</p>}
-      <div className={classes["cart-container"]}>
-        <div className={classes["cart-item__container"]}>
-          {cartCtx.items.map((item) => {
-            return (
-              <CartItem
-                name={item.name}
-                price={item.price}
-                image={item.image}
-                key={item.id}
-                id={item.id}
-                stock={item.stock}
-              />
-            );
-          })}
-        </div>
-        <div className={classes["cart-total__container"]}>
-          <div className={classes["cart-total__info"]}>
-            <h3>{`Items: ${totalItems}`}</h3>
-            <h2>{`Total: $${cartCtx.totalAmount}`}</h2>
-            <button>Checkout</button>
+      <div className={classes["cart-overlay"]}>
+        <h1>Your Cart</h1>
+        {isEmpty && <p className={classes["cart-empty"]}>Your Cart Is Empty</p>}
+        <div className={classes["cart-container"]}>
+          <div className={classes["cart-item__container"]}>
+            {cartCtx.items.map((item) => {
+              return (
+                <CartItem
+                  name={item.name}
+                  price={item.price}
+                  image={item.image}
+                  key={item.id}
+                  id={item.id}
+                  stock={item.stock}
+                />
+              );
+            })}
+          </div>
+          <div className={classes["cart-total__container"]}>
+            <div className={classes["cart-total__info"]}>
+              <h3>{`Items: ${totalItems}`}</h3>
+              <h2>{`Total: $${cartCtx.totalAmount}`}</h2>
+              <button className={classes["cart-total__container__button"]}>
+                Checkout
+              </button>
+            </div>
           </div>
         </div>
       </div>

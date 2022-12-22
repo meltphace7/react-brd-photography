@@ -1,11 +1,10 @@
 import React, { useContext, useState, useEffect, Fragment } from "react";
 import classes from "./Navigation.module.css";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Logo from "../assets/BDLOGO-white.png";
 import { IoMdCart } from "react-icons/io";
-import CartContext from '../store/cart-context';
-import MobileNavigation from './MobileNavigation';
-
+import CartContext from "../store/cart-context";
+import MobileNavigation from "./MobileNavigation";
 
 const Navigation = () => {
   const cartCtx = useContext(CartContext);
@@ -13,17 +12,17 @@ const Navigation = () => {
 
   const numberOfCartItems = cartCtx.items.reduce((acc, curItem) => {
     return acc + curItem.amount;
-  }, 0)
+  }, 0);
 
   console.log(numberOfCartItems);
 
   useEffect(() => {
     if (numberOfCartItems === 0) {
-      setCartIsEmpty(true)
+      setCartIsEmpty(true);
     } else {
       setCartIsEmpty(false);
     }
-  }, [numberOfCartItems])
+  }, [numberOfCartItems]);
 
   return (
     <Fragment>
@@ -46,42 +45,90 @@ const Navigation = () => {
           </div>
           <ul className={classes["nav-menu"]}>
             <li>
-              <Link to="/">Home</Link>
+              <NavLink
+                className={classes["nav-menu__link"]}
+                activeClassName={classes.active}
+                to="/home"
+              >
+                Home
+              </NavLink>
             </li>
             <li>
-              <Link to="/gallery">Gallery</Link>
+              <NavLink
+                className={classes["nav-menu__link"]}
+                activeClassName={classes.active}
+                to="/gallery"
+              >
+                Gallery
+              </NavLink>
               <ul className={classes["dropdown-menu"]}>
                 <li>
-                  <Link to="/washington">Washington</Link>
+                  <Link className={classes["nav-menu__link"]} to="/washington">
+                    Washington
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/oregon">Oregon</Link>
+                  <Link className={classes["nav-menu__link"]} to="/oregon">
+                    Oregon
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/california">California</Link>
+                  <Link className={classes["nav-menu__link"]} to="/california">
+                    California
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/idaho">Idaho</Link>
+                  <Link className={classes["nav-menu__link"]} to="/idaho">
+                    Idaho
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/wyoming">Wyoming</Link>
+                  <Link className={classes["nav-menu__link"]} to="/wyoming">
+                    Wyoming
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/montana">Montana</Link>
+                  <Link className={classes["nav-menu__link"]} to="/montana">
+                    Montana
+                  </Link>
                 </li>
               </ul>
             </li>
             <li>
-              <Link to="/blog">Blog</Link>
+              <NavLink
+                className={classes["nav-menu__link"]}
+                activeClassName={classes.active}
+                to="/blog"
+              >
+                Blog
+              </NavLink>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <NavLink
+                className={classes["nav-menu__link"]}
+                activeClassName={classes.active}
+                to="/about"
+              >
+                About
+              </NavLink>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <NavLink
+                className={classes["nav-menu__link"]}
+                activeClassName={classes.active}
+                to="/contact"
+              >
+                Contact
+              </NavLink>
             </li>
             <li>
-              <Link to="/shop">Shop</Link>
+              <NavLink
+                className={classes["nav-menu__link"]}
+                to="/shop"
+                activeClassName={classes.active}
+              >
+                Shop
+              </NavLink>
             </li>
           </ul>
           <Link to="/cart">

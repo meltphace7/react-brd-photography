@@ -61,7 +61,10 @@ const Blog = () => {
                 also jaw dropping scenery. It ended up being a trip we would not
                 soon forget...
               </p>
-              <Link to="/granite-park-22" className={classes["feature-box__link"]}>
+              <Link
+                to="/granite-park-22"
+                className={classes["feature-box__link"]}
+              >
                 READ MORE
                 <HiOutlineArrowSmRight className={classes.arrow} size="30px" />
               </Link>
@@ -79,7 +82,10 @@ const Blog = () => {
                 Clouds provided unique and gorgeous scenery, solitude and some
                 challenging routes...
               </p>
-              <Link to="/blog" className={classes["feature-box__link"]}>
+              <Link
+                to="/white-clouds-22"
+                className={classes["feature-box__link"]}
+              >
                 READ MORE
                 <HiOutlineArrowSmRight className={classes.arrow} size="30px" />
               </Link>

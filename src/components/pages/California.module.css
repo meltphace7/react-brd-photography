@@ -15,8 +15,8 @@
 }
 
 .grid {
-     margin-top: 5rem;
-  width: 90%;
+  margin-top: 5rem;
+  width: 98%;
   display: grid;
   grid-column: full-start / full-end;
   grid-template-columns: repeat(19, 1fr);

@@ -1,6 +1,6 @@
 import Navigation from "./components/Navigation";
 import { Switch } from "react-router-dom";
-import { Route } from "react-router-dom";
+import { Route, Redirect } from "react-router-dom";
 import HomePage from "./components/pages/Homepage";
 import Gallery from "./components/pages/Gallery";
 import About from "./components/pages/About";
@@ -19,6 +19,7 @@ import Cart from "./components/pages/Cart";
 import Blog from "./components/pages/blog/Blog";
 import KingsCanyon22Blog from './components/pages/blog/KingsCanyon22Blog'
 import GranitePark22Blog from './components/pages/blog/GranitePark22Blog'
+import WhiteClouds22Blog from "./components/pages/blog/WhiteClouds22Blog";
 import CartProvider from "./store/CartProvider";
 import { FormspreeProvider } from "@formspree/react";
 import ScrollToTop from "./components/ScrollToTop";
@@ -29,7 +30,7 @@ function App() {
       <Navigation />
       <ScrollToTop />
       <Switch>
-        <Route path="/" exact>
+        <Route path="/home" exact>
           <HomePage images={SLIDER_IMAGES} />
         </Route>
         <Route path="/gallery">
@@ -76,8 +77,14 @@ function App() {
         <Route path="/granite-park-22">
           <GranitePark22Blog />
         </Route>
+        <Route path="/white-clouds-22">
+          <WhiteClouds22Blog />
+        </Route>
         <Route path="/cart">
           <Cart />
+        </Route>
+        <Route path="*">
+          <Redirect to="/home" />
         </Route>
       </Switch>
       <Footer />
