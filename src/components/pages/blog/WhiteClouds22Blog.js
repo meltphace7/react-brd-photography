@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import classes from "./WhiteClouds22Blog.module.css";
 
-// DAY 1 IMAGES - 10 IMAGES
+// DAY 1 IMAGES - 8 IMAGES
 import fourthOfJulyLakePano from "../../../assets/images/blog-images/white-clouds-22/ID_FORTH_OF_JULY_LAKE-PANO.jpeg";
 import secondLakePano from "../../../assets/images/blog-images/white-clouds-22/ID_SECOND_LAKE.jpeg";
 import brockCastlePeakVert from "../../../assets/images/blog-images/white-clouds-22/ID_CASTLE_PEAK_BROCK_VERT.jpg";
@@ -10,8 +11,7 @@ import castlePeakSmallLakePano from "../../../assets/images/blog-images/white-cl
 import castlePeakMeadowPano from "../../../assets/images/blog-images/white-clouds-22/ID_CASTLE_MEADOW-PANO.jpg";
 import castlePeakReflectionPano from "../../../assets/images/blog-images/white-clouds-22/ID_CASTLE_REFLECTION-PANO.jpg";
 import castlePeakGrandPano from "../../../assets/images/blog-images/white-clouds-22/ID_CASTLE_PEAK_GRAND_PANO.jpg";
-
-// DAY 2 IMAGES - 15 IMAGES
+// DAY 2 IMAGES - 13 IMAGES
 import castleLakeMornReflection from "../../../assets/images/blog-images/white-clouds-22/ID_CASTLE_LAKE_MORN-PANO.jpg";
 import hazySun from "../../../assets/images/blog-images/white-clouds-22/ID_HAZY_SUN.jpeg";
 import castleMornShot from "../../../assets/images/blog-images/white-clouds-22/ID_CASTLE-MORN-SHOT.jpg";
@@ -19,17 +19,14 @@ import castleTopShot from "../../../assets/images/blog-images/white-clouds-22/ID
 import castleTopShotVert from "../../../assets/images/blog-images/white-clouds-22/ID_CASTLE_TOP_VERT.jpg";
 import eveningSlopeOne from "../../../assets/images/blog-images/white-clouds-22/ID_EVENING_TRAIL_SLOPE-1.jpg";
 import eveningSlopeTwo from "../../../assets/images/blog-images/white-clouds-22/ID_EVENING_TRAIL_SLOPE-2.jpg";
-
 import eveningSlopeThree from "../../../assets/images/blog-images/white-clouds-22/ID_EVENING_TRAIL_SLOPE-3.jpg";
 import eveningDivideSam from "../../../assets/images/blog-images/white-clouds-22/ID_EVENING-DIVIDE_SAM.jpg";
 import eveningCastleShot from "../../../assets/images/blog-images/white-clouds-22/ID_EVENING-CASTLE-SHOT.jpg";
 import eveningCastleDivideShot from "../../../assets/images/blog-images/white-clouds-22/ID_CASTLE-DIVIDE-SHOT.jpg";
-
-
 import castlePeakDivideSunsetPano from "../../../assets/images/blog-images/white-clouds-22/ID_CASTLE-PEAK_SUN-TRAIL_PANO.jpg";
 import castleDividePano from "../../../assets/images/blog-images/white-clouds-22/ID-Castle-Divide-Pano-V.1.jpg";
 
-// DAY 3 IMAGES - 29 IMAGES
+// DAY 3 IMAGES - 14 IMAGES
 import samCastleTrailVert from "../../../assets/images/blog-images/white-clouds-22/ID_SAM_CASTLE_TRAIL_VERT.jpg";
 import logLake from "../../../assets/images/blog-images/white-clouds-22/LOG_LAKE_SHOT.jpg";
 import logLakePano from "../../../assets/images/blog-images/white-clouds-22/ID_LOG_LAKE_MOUNTAIN-PANO.jpg";
@@ -40,29 +37,20 @@ import hummocksRock from "../../../assets/images/blog-images/white-clouds-22/ID_
 import hummocksMarshLakePano from "../../../assets/images/blog-images/white-clouds-22/ID_HUMMOCK-LAKE_MARSH_PANO.jpg";
 import hummocksPeninsulaPano from "../../../assets/images/blog-images/white-clouds-22/ID_HUMMOCK-LAKE_PENINSULA_PANO.jpg";
 import hummocksLakeGrandShot from "../../../assets/images/blog-images/white-clouds-22/ID_HUMMOCKS_GRAND-PANO.jpg";
-
 import hummocksLakeMornPano from "../../../assets/images/blog-images/white-clouds-22/ID_HUMMOCKS_SHORE-PANO.jpg";
-
 import hummocksVert from "../../../assets/images/blog-images/white-clouds-22/ID_HUMMOCKS_VERT.jpeg";
 import hummocksGoldenPano from "../../../assets/images/blog-images/white-clouds-22/ID_HUMMOCKS-GOLDEN-PANO.jpg";
 import hummocksSunRocks from "../../../assets/images/blog-images/white-clouds-22/ID_SUN-ROCKS.jpg";
 
-
-// DAY 4 IMAGES - 31 IMAGES
+// DAY 4 IMAGES - 15 IMAGES
 import hummocksSamTrail from "../../../assets/images/blog-images/white-clouds-22/ID_HUMMOCKS_DAY_SAM-TRAIL.jpg";
 import scoopLakePano from "../../../assets/images/blog-images/white-clouds-22/ID_SCOOP-LAKE-PANO.jpg";
-
 import scoopLakeVert from "../../../assets/images/blog-images/white-clouds-22/ID_SCOOP-LAKE_VERT.jpg";
-
 import windyDevilVert from "../../../assets/images/blog-images/white-clouds-22/ID_WINDY-DEVIL_VERT.jpg";
 import windyDevilPano from "../../../assets/images/blog-images/white-clouds-22/ID_WINDY-DEVIL-GRAND-PANO.jpg";
 import windyDevilSam from "../../../assets/images/blog-images/white-clouds-22/ID_WINDY-DEVIL_SAM.jpg";
-
 import castleTarn from "../../../assets/images/blog-images/white-clouds-22/ID_CASTLE-TARN.jpg";
 import windyDevilValley from "../../../assets/images/blog-images/white-clouds-22/ID_WINDY_DEVIL_VALLEY.jpg";
-
-
-
 import slateLake from "../../../assets/images/blog-images/white-clouds-22/ID_SLATE_LAKE.jpg";
 import quietLakeTopShot from "../../../assets/images/blog-images/white-clouds-22/ID_QUIET-CASTLE-SHOT.jpg";
 import quietLakeVert from "../../../assets/images/blog-images/white-clouds-22/ID_QUIET-LAKE_VERT.jpg";
@@ -70,8 +58,7 @@ import quietLakeFieldPano from "../../../assets/images/blog-images/white-clouds-
 import quietLakeShorePano from "../../../assets/images/blog-images/white-clouds-22/ID_QUIET-LAKE_SHORE_PANO.jpg";
 import quietLakeReflectionPano from "../../../assets/images/blog-images/white-clouds-22/ID_QUIET-LAKE_REFLECTION_PANO.jpg";
 import quietLakeSunsetPano from "../../../assets/images/blog-images/white-clouds-22/ID_QUIET-LAKE_SUNSET_PANO.jpg";
-
-// DAY 5 IMAGES - 12 IMAGES
+// DAY 5 IMAGES - 18 IMAGES
 import fourLakeBasinPanoOne from "../../../assets/images/blog-images/white-clouds-22/ID_FOUR-LAKE_BASIN_PANO-1.jpg";
 import fourLakeBasinPanoTwo from "../../../assets/images/blog-images/white-clouds-22/ID_FOUR-LAKE_BASIN_PANO-2.jpg";
 import fourLakeSamVert from "../../../assets/images/blog-images/white-clouds-22/ID_FOUR-LAKE_SAM-VERT.jpg";
@@ -84,21 +71,18 @@ import samAntsBasinShot from "../../../assets/images/blog-images/white-clouds-22
 import samAntsBasinVert from "../../../assets/images/blog-images/white-clouds-22/ID_ANTS_BASIN_SAM_ROCK_VERT.jpg";
 import antsBasinMeadow from "../../../assets/images/blog-images/white-clouds-22/ID_ANTS_BASIN_MEADOW.jpg";
 import antsBasinTrailShot from "../../../assets/images/blog-images/white-clouds-22/ID_ANTS_BASIN_TRAIL_SHOT.jpg";
-
 import antsBasinShot from "../../../assets/images/blog-images/white-clouds-22/ID_ANTS-BASIN_SHOT.jpg";
-
 import antsBasinPano from "../../../assets/images/blog-images/white-clouds-22/ID_ANTS_BASIN_GRAND-PANO.jpg";
-import brockSignage from "../../../assets/images/blog-images/white-clouds-22/ID-signage-low-res.jpg";
+import brockSignage from "../../../assets/images/blog-images/white-clouds-22/ID_BROCK_SIGNAGE-1.jpg";
 import mtnTarn from "../../../assets/images/blog-images/white-clouds-22/ID_MTN_TARN.jpg";
 import mtnBurn from "../../../assets/images/blog-images/white-clouds-22/ID_MTN_BURN.jpg";
 import mtnLake from "../../../assets/images/blog-images/white-clouds-22/ID_MTN_LAKE.jpg";
 
-// VIDEOS - 7 videos
+// VIDEOS - 3 videos
 
 import castlePeakVideo from "../../../assets/videos/Video_Castle-Peak.mp4";
 import castleDivideVideo from "../../../assets/videos/Video_Castle-Divide.mp4";
 import hummocksLakeVideo from "../../../assets/videos/Video_Hummocks-Lake.mp4";
-
 
 const WhiteClouds22Blog = () => {
   // Parallax effect for Header
@@ -752,6 +736,9 @@ const WhiteClouds22Blog = () => {
               </video>
             </div> */}
           </section>
+          <Link className={classes["blogs-link"]} to="/blog">
+            Back to Blogs
+          </Link>
         </div>
       </div>
     </div>

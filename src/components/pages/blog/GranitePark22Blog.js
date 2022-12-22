@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import classes from "./GranitePark22Blog.module.css";
+import { Link } from "react-router-dom";
 
 // DAY 1 IMAGES - 10 IMAGES
 
@@ -158,8 +159,6 @@ import marieLakeCloudsVideo from "../../../assets/videos/Video_Marie-Lake_Clouds
 import marieLakeSunsetVideo from "../../../assets/videos/Video_Marie-Lake_Sunset.mp4";
 import italyLakeTrailVideo from "../../../assets/videos/Video_Italy_Lake_Trail.mp4";
 import mtJuliusCeaserVideo from "../../../assets/videos/Video_Mt.Julius_Ceaser.mp4";
- 
-
 
 const GranitePark22Blog = () => {
   // Parallax effect for Header
@@ -1360,6 +1359,9 @@ const GranitePark22Blog = () => {
               />
             </div>
           </section>
+          <Link className={classes["blogs-link"]} to="/blog">
+            Back to Blogs
+          </Link>
         </div>
       </div>
     </div>

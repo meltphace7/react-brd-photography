@@ -247,7 +247,7 @@
 }
 
 .sony-sixty-thirty__item-1 {
-   width: 63.5%;
+  width: 63.5%;
   margin: 0.75rem;
 }
 
@@ -255,8 +255,6 @@
   width: 28.25%;
   margin: 0.5rem;
 }
-
-
 
 /* CUSTOM RESPONSIVE CONTAINERS - DAY - 3  */
 .custom__container_hummocks {
@@ -292,8 +290,6 @@
   margin: 0.5rem;
 }
 
-
-
 /* VIDEOS */
 .video {
   margin: 2rem 0;
@@ -305,6 +301,15 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.blogs-link {
+  font-size: 3rem;
+  margin: 5rem 0 3rem 0;
+}
+
+.blogs-link:hover {
+  color: var(--color-primary-green);
 }
 
 @media (max-width: 40em) {
@@ -372,43 +377,6 @@
     width: 100%;
   }
 
-  /* Custom grids */
-  .grid_day-one_1 {
-    width: 98%;
-  }
-
-  .day-one__grid-item-1 {
-    grid-column: 1 / 20;
-  }
-
-  .day-one__grid-item-2 {
-    grid-column: 1 / 20;
-  }
-
-  .day-one__grid-item-3 {
-    grid-column: 1 / 20;
-  }
-
-  .day-one__grid-item-4 {
-    grid-column: 1 / 20;
-  }
-
-  .grid_day-one_2 {
-    width: 98%;
-  }
-
-  .day-one__2-grid-item-1 {
-    grid-column: 1 / 20;
-  }
-
-  .day-one__2-grid-item-2 {
-    grid-column: 1 / 20;
-  }
-
-  .day-one__2-grid-item-3 {
-    grid-column: 1 / 20;
-  }
-
   .sixty-thirty__container {
     flex-direction: column;
   }
@@ -437,69 +405,56 @@
     margin: 0.75rem;
   }
 
+  /* RESPONSIVE-CONTAINER - For 2 SONY a6400 images - portrait - landscape */
+  .sony-thirty-sixty__container {
+   flex-direction: column;
+  }
+
+  .sony-thirty-sixty__item-1 {
+    width: 98%;
+  }
+
+  .sony-thirty-sixty__item-2 {
+    width: 98%;
+  }
+
+  /* RESPONSIVE-CONTAINER - For 2 SONY a6400 images - landscape - portrait */
+  .sony-sixty-thirty__container {
+    flex-direction: column;
+  }
+
+  .sony-sixty-thirty__item-1 {
+    width: 98%;
+  }
+
+  .sony-sixty-thirty__item-2 {
+    width: 98%;
+  }
+
   /* CUSTOM RESPONSIVE CONTAINERS - DAY - 3  */
-  .custom__container-signage {
+  .custom__container_hummocks {
     flex-direction: column;
   }
 
-  .custom__container-signage__item-1 {
-    width: 100%;
+  .custom__hummocks__item-1 {
+    width: 98%;
   }
 
-  .custom__container-signage__item-2 {
-    width: 100%;
+  .custom__hummocks__item-2 {
+    width: 98%;
   }
 
-  /* CUSTOM RESPONSIVE CONTAINERS - DAY - 4  */
-  .custom__container-marie {
+  /* CUSTOM RESPONSIVE CONTAINERS - DAY - 3  */
+  .custom__container_scoop {
     flex-direction: column;
   }
 
-  .custom__container-marie__item-1 {
-    width: 100%;
+  .custom__scoop__item-1 {
+    width: 98%;
   }
 
-  .custom__container-marie__item-2 {
-    width: 100%;
-  }
-
-  /* CUSTOM RESPONSIVE CONTAINERS - DAY - 6  */
-  .custom__container-off-trail {
-    flex-direction: column;
-  }
-
-  .custom__container-off-trail__item-1 {
-    width: 100%;
-  }
-
-  .custom__container-off-trail__item-2 {
-    width: 100%;
-  }
-
-  /* CUSTOM RESPONSIVE CONTAINERS - DAY - 6__ 2  */
-  .custom__container-mtn {
-    flex-direction: column;
-  }
-
-  .custom__container-mtn__item-1 {
-    width: 100%;
-  }
-
-  .custom__container-mtn__item-2 {
-    width: 100%;
-  }
-
-  /* CUSTOM RESPONSIVE CONTAINERS - DAY - 6__ 2  */
-  .custom__container-final {
-    flex-direction: column;
-  }
-
-  .custom__container-final__item-1 {
-    width: 100%;
-  }
-
-  .custom__container-final__item-2 {
-    width: 100%;
+  .custom__scoop__item-2 {
+    width: 98%;
   }
 }
 

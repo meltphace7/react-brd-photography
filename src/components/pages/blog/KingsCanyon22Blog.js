@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import classes from "./KingsCanyon22Blog.module.css";
 // DAY 1 IMAGES - 6 IMAGES
 import trailSign from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_Inyo_sign-vert.jpeg";
@@ -40,7 +41,6 @@ import boatParadise from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_B
 import paradiseLakeWide from "../../../assets/images/blog-images/kcnp-22/PARADISE_LAKE-WIDE.jpg";
 
 import paradiseLake from "../../../assets/images/blog-images/kcnp-22/PARADISE_LAKE-2.jpg";
-
 
 import paradiseLakePano from "../../../assets/images/blog-images/kcnp-22/BLOG_PARADISE-PANO.jpeg";
 import raeValleyPano from "../../../assets/images/blog-images/kcnp-22/BLOG_KCNP_RAE_VALLEY_PANO.jpeg";
@@ -625,6 +625,9 @@ const KingsCanyon22Blog = () => {
               <img src={raeLakeCouples} alt="Sundown over Kearsarge Lake" />
             </div>
           </section>
+          <Link className={classes["blogs-link"]} to="/blog">
+            Back to Blogs
+          </Link>
         </div>
       </div>
     </div>
