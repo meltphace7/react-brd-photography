@@ -1,6 +1,7 @@
 :root {
   --color-primary-green: rgb(161, 218, 48);
   --color-secondary-green: rgb(60, 215, 60);
+  --color-tertiary-green: rgb(53, 99, 53);
   --color-bg-tan: rgb(241, 238, 228);
   --color-grey-dark: rgb(63, 63, 63);
   --color-grey-light: rgb(136, 136, 136);
@@ -49,12 +50,12 @@ p {
 
 @media (max-width: 65em) {
   html {
-  font-size: 55%;
-}
+    font-size: 55%;
+  }
 }
 
 @media (max-width: 40em) {
   html {
-  font-size: 50%;
-}
+    font-size: 50%;
+  }
 }
