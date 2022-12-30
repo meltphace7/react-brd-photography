@@ -221,7 +221,42 @@
   margin: 0.75rem;
 }
 
+/* RESPONSIVE-CONTAINER - For 2 SONY a6400 images - landscape - portrait */
+.sony-sixty-thirty__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sony-sixty-thirty__item-1 {
+  width: 63.5%;
+  margin: 0.75rem;
+}
+
+.sony-sixty-thirty__item-2 {
+  width: 28.25%;
+  margin: 0.5rem;
+}
+
 /* ___________CUSTOM IMAGE CONTAINERS_________________*/
+  /* ___________CUSTOM IMAGE CONTAINERS_________________*/
+  /* CUSTOM-CONTAINER Day 1 -  RED MTN - DUSK */
+  .custom__container-red-dusk {
+      display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .custom__container-red-dusk__item-1 {
+     width: 50%;
+  margin: 0.5rem;
+  }
+
+  .custom__container-red-dusk__item-2 {
+     width: 44.5%;
+  margin: 0.5rem;
+  }
+
 /* CUSTOM-CONTAINER Day 3 -  FIN DOME - RAE SUNSET */
 .custom__container-fin-rae {
   display: flex;
@@ -382,6 +417,33 @@
   }
 
   .thirty-sixty__item-2 {
+    width: 99%;
+  }
+
+  .sony-sixty-thirty__container {
+  flex-direction: column;
+}
+
+.sony-sixty-thirty__item-1 {
+  width: 99%;
+}
+
+.sony-sixty-thirty__item-2 {
+  width: 99%;
+  
+}
+
+  /* ___________CUSTOM IMAGE CONTAINERS_________________*/
+  /* CUSTOM-CONTAINER Day 1 -  RED MTN - DUSK */
+  .custom__container-red-dusk {
+    flex-direction: column;
+  }
+
+  .custom__container-red-dusk__item-1 {
+    width: 99%;
+  }
+
+  .custom__container-red-dusk__item-2 {
     width: 99%;
   }
 

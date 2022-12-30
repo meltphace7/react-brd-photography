@@ -25,7 +25,7 @@ const SectionBlog = () => {
           <div className={classes["blog__feature__text"]}>
             <h1>Adventure Blog</h1>
             <p>
-              The mountains are home. Follow me on my moutainous quests to
+              The mountains are home. Follow me on my alpine quests to
               get the shot.
             </p>
             <Link to="/blog" className={classes["feature-box__link"]}>

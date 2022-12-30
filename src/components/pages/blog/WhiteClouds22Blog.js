@@ -125,13 +125,20 @@ const WhiteClouds22Blog = () => {
               <h3>Trailhead to Castle Lake</h3>
             </div>
             <p className={classes["blog__text"]}>
-              Arguably the finest coastal backpacking trail in the United
-              States, this 25 mile stretch of California coast is truly a unique
-              trail where you’ll get to experience untouched wilderness and true
-              remoteness. Due to the cliffs being too steep to build roads, the
-              Lost Coast is the longest stretch of undeveloped coast in
-              California, but the cool thing is we can still experience it by
-              hiking it!
+              The Castle Lake Loop had been on my radar for a few years and I
+              was excited to finally hike it. Sam and I arrived at the trailhead
+              around 8am. The parking lot had a hand full of cars. The weather
+              was great and the smoke was not too bad considering we were only a
+              few miles away from a wildfire that had been burning for a
+              few months. We hit the trail towards Fourth of July Lake, where
+              the loop junction is. After about a mile and half, we reached the
+              lake. I decided to do the loop counter clockwise, towards the
+              Chamberlain Basin first instead of the more popular clockwise
+              approach. I knew The Chamberlain Basin was one of the highlights
+              of the trip and wanted to experience it with as few other hikers
+              as possible. Since it was Thursday, I knew we would have a better
+              chance at solitude during a weekday as opposed to the weekend. We
+              headed South.
             </p>
 
             <div className={classes["responsive__container-80"]}>
@@ -141,6 +148,33 @@ const WhiteClouds22Blog = () => {
             <div className={classes["responsive__container-80"]}>
               <img src={secondLakePano} alt="Inyo national forest sign" />
             </div>
+
+            <p className={classes["blog__text"]}>
+              A large fire had burned this area more than a decade ago but there
+              were still many stands of healthy trees. We were hiking parallel
+              to a large ridge, on the other side of which contained the
+              Chamberlain Basin. In about a mile we reached the shores of
+              Washington Lake which lay at the base of the ridge. We continued
+              for another few easy miles until the trail started switchbacking
+              up the ridge. It was at this point we entered mostly burned
+              forest. As we approached our pass, we could see the tip of Castle
+              Peak, the most distinct land mark of the White Clouds. We finally
+              reached the pass and were treated with a stunning view of Castle
+              Peak and the Chamberlain Basin below it. Castle Peak was
+              incredible. A large mountain with a variety of textures and
+              colors. The left side of the mountain is orange-red and has large
+              channels eroded into it while the right side is white in color and
+              has a much smoother surface in comparison. It is one of the most
+              unique and eye-catching mountains I had ever seen. The basin below
+              is comprised of rolling hills, open grassy meadows, stands of pine
+              trees and small alpine lakes. After taking some pictures we
+              eagerly continued down into the lovely valley. The trail meandered
+              through the meadows and took us by a small lake with a nice
+              campsite above it’s shore. For whatever reason none of the lakes
+              in this basin have names on the map. My destination was the medium
+              sized lake at the base of Castle Peak. After a leisurely downhill
+              stroll we arrived at the lake.
+            </p>
 
             <div className={classes["thirty-sixty__container"]}>
               <img
@@ -161,6 +195,20 @@ const WhiteClouds22Blog = () => {
                 alt="Inyo national forest sign"
               />
             </div>
+            <p className={classes["blog__text"]}>
+              There was only one other small group camping at the Eastern end of
+              the lake. We gave them a wide birth and found a great spot on the
+              South side of the lake with an incredible view of Castle Peak on
+              the other side. We set up camp and our hammocks and began to
+              relax. The days hike was not super difficult but it was quite hot.
+              We spent the afternoon chilling in our hammocks and admiring the
+              view. In the late afternoon I decided to go on a walk with my
+              camera and get some photos. The lake was very still and gave a
+              beautiful reflection of Castle Peak. I headed West and rounded the
+              lake and continued uphill. I found a scenic meadow and took some
+              photos. I returned backed to camp, we had dinner and then turned
+              in for the night.
+            </p>
 
             <div className={classes["responsive__container-95"]}>
               <img src={castlePeakMeadowPano} alt="Inyo national forest sign" />
@@ -179,13 +227,12 @@ const WhiteClouds22Blog = () => {
               <h3>Castle Lake to Trail Side Camp</h3>
             </div>
             <p className={classes["blog__text"]}>
-              Arguably the finest coastal backpacking trail in the United
-              States, this 25 mile stretch of California coast is truly a unique
-              trail where you’ll get to experience untouched wilderness and true
-              remoteness. Due to the cliffs being too steep to build roads, the
-              Lost Coast is the longest stretch of undeveloped coast in
-              California, but the cool thing is we can still experience it by
-              hiking it!
+              Our second day we had planned to spend at camp and enjoy the
+              scenery. I woke up early and went on a walk with my camera and
+              scrambled a peak to get some early morning shots of Castle Peak.
+              When I returned, the water on the lake was still and reflected the
+              Peak. It was very serene. We had our breakfast and had a lazy
+              morning.
             </p>
             <div className={classes["responsive__container-full"]}>
               <img
@@ -193,15 +240,7 @@ const WhiteClouds22Blog = () => {
                 alt="Inyo national forest sign"
               />
             </div>
-            <p className={classes["blog__text"]}>
-              Arguably the finest coastal backpacking trail in the United
-              States, this 25 mile stretch of California coast is truly a unique
-              trail where you’ll get to experience untouched wilderness and true
-              remoteness. Due to the cliffs being too steep to build roads, the
-              Lost Coast is the longest stretch of undeveloped coast in
-              California, but the cool thing is we can still experience it by
-              hiking it!
-            </p>
+
             <div className={classes["sony-sixty-thirty__container"]}>
               <img
                 className={classes["sony-sixty-thirty__item-1"]}
@@ -214,6 +253,15 @@ const WhiteClouds22Blog = () => {
                 alt="Inyo national forest sign"
               />
             </div>
+            <p className={classes["blog__text"]}>
+              Around noon we inflated our pack raft and went on a float around
+              the lake and enjoyed some beers. After some talk, we agreed we
+              should pack up and cover a few miles to break up the trips mileage
+              a little better. Before we left I scrambled the peak again and got
+              some great late afternoon shots of Caste Peak and the Chamberlain
+              Basin below. I returned to camp and we left in the hazy late
+              afternoon light.
+            </p>
             <div className={classes["responsive__container-80"]}>
               <img src={castleTopShot} alt="Inyo national forest sign" />
             </div>
@@ -233,13 +281,11 @@ const WhiteClouds22Blog = () => {
               </video>
             </div>
             <p className={classes["blog__text"]}>
-              Arguably the finest coastal backpacking trail in the United
-              States, this 25 mile stretch of California coast is truly a unique
-              trail where you’ll get to experience untouched wilderness and true
-              remoteness. Due to the cliffs being too steep to build roads, the
-              Lost Coast is the longest stretch of undeveloped coast in
-              California, but the cool thing is we can still experience it by
-              hiking it!
+              We headed out towards the Castle Divide which was the Eastern
+              shoulder of Castle Peak. It was a beautiful section of trail and
+              the golden hour light made it all the more magical. The trail
+              slowly climbed and meandered higher, offering views of the
+              mountains and valleys off to the East.
             </p>
             <div className={classes["responsive__container-70"]}>
               <img src={hazySun} alt="Inyo national forest sign" />
@@ -290,13 +336,16 @@ const WhiteClouds22Blog = () => {
               />
             </div>
             <p className={classes["blog__text"]}>
-              Arguably the finest coastal backpacking trail in the United
-              States, this 25 mile stretch of California coast is truly a unique
-              trail where you’ll get to experience untouched wilderness and true
-              remoteness. Due to the cliffs being too steep to build roads, the
-              Lost Coast is the longest stretch of undeveloped coast in
-              California, but the cool thing is we can still experience it by
-              hiking it!
+              The light was fading as we finally made it to the top of the
+              Castle Divide. The view of Castle Peak from this angle was
+              stunning and unique. We gazed at the rest of the White Cloud range
+              which extended North. It was getting dark and we needed to move on
+              and find camp. I had read about a lake that was hidden in a nook
+              North East of Castle Peak. I was looking for a goat trail that led
+              there but the lack of light made it very hard. We continued
+              downhill back into the tree line. It had gotten dark. I was a
+              little disappointed we didn’t find the lake. We found a suitable
+              camp spot near the trail and called it a night.
             </p>
 
             <div className={classes["responsive__container-full"]}>
@@ -322,13 +371,18 @@ const WhiteClouds22Blog = () => {
               <h3>Trail Side Camp to Hummocks Lake</h3>
             </div>
             <p className={classes["blog__text"]}>
-              Arguably the finest coastal backpacking trail in the United
-              States, this 25 mile stretch of California coast is truly a unique
-              trail where you’ll get to experience untouched wilderness and true
-              remoteness. Due to the cliffs being too steep to build roads, the
-              Lost Coast is the longest stretch of undeveloped coast in
-              California, but the cool thing is we can still experience it by
-              hiking it!
+              We woke up at our impromptu camp and packed our stuff. It was less
+              smokey and the winds had brought a few clouds. We got back on the
+              trail and headed for our next destination, Hummock Lake in the
+              Boulder Chain Lakes area. The trail took us downhill first to a
+              junction with the Livingston Mill Castle Divide Trail. We went
+              West, up towards Boulder Chain Lakes. It wasn’t long before we
+              arrived at the lowest in a the series of alpine lakes. The Boulder
+              Chain Lakes are a chain of medium sized lakes that all feed into
+              one another. The lakes lay between two high rugged ridges on
+              either side. The trail weaved through these lakes, slowly gaining
+              elevation. Each lake was unique and had its own charm. We stopped
+              at one and had lunch.
             </p>
             <div className={classes["thirty-sixty__container"]}>
               <img
@@ -358,13 +412,12 @@ const WhiteClouds22Blog = () => {
               />
             </div>
             <p className={classes["blog__text"]}>
-              Arguably the finest coastal backpacking trail in the United
-              States, this 25 mile stretch of California coast is truly a unique
-              trail where you’ll get to experience untouched wilderness and true
-              remoteness. Due to the cliffs being too steep to build roads, the
-              Lost Coast is the longest stretch of undeveloped coast in
-              California, but the cool thing is we can still experience it by
-              hiking it!
+              After lunch we started out again and the trail got a little
+              steeper as it took us to the higher cluster of lakes. These lakes
+              turned out to be the prettiest of the lot. We were greeted with a
+              lake with a unique hourglass shape. Just beyond that was Hummock
+              Lake, the largest of the Boulder Chain Lakes. After some scouting
+              we found a nice camp spot.
             </p>
 
             <div className={classes["thirty-sixty__container"]}>
@@ -400,13 +453,11 @@ const WhiteClouds22Blog = () => {
               />
             </div>
             <p className={classes["blog__text"]}>
-              Arguably the finest coastal backpacking trail in the United
-              States, this 25 mile stretch of California coast is truly a unique
-              trail where you’ll get to experience untouched wilderness and true
-              remoteness. Due to the cliffs being too steep to build roads, the
-              Lost Coast is the longest stretch of undeveloped coast in
-              California, but the cool thing is we can still experience it by
-              hiking it!
+              The lake had great views of the rugged mountain ridges on almost
+              all sides. This whole area was very beautiful and almost looked
+              landscaped. There were many inlets rimmed with grassy meadows and
+              rocks. It was however, quite a windy lake which made it hard to
+              boat around in our little pack raft.
             </p>
 
             <div className={classes["responsive__container-80"]}>
@@ -432,22 +483,18 @@ const WhiteClouds22Blog = () => {
               </video>
             </div>
             <p className={classes["blog__text"]}>
-              Arguably the finest coastal backpacking trail in the United
-              States, this 25 mile stretch of California coast is truly a unique
-              trail where you’ll get to experience untouched wilderness and true
-              remoteness. Due to the cliffs being too steep to build roads, the
-              Lost Coast is the longest stretch of undeveloped coast in
-              California, but the cool thing is we can still experience it by
-              hiking it!
+              In the late afternoon we went on a walk around the South shore of
+              Hummock lake and continued up the trail to Scoop lake which
+              featured a higher vista of Hummock Lake below. We hung out for a
+              bit, taking some pictures and enjoying the view before continuing
+              back to camp. That night the wind blew in smoke from the wildfire,
+              which combined with the high winds, made for a difficult night
+              sleep.
             </p>
 
             <div className={classes["responsive__container-70"]}>
               <img src={hummocksSunRocks} alt="Inyo national forest sign" />
             </div>
-
-            {/* <div className={classes["responsive__container-70"]}>
-              <img src={marieGrassyMornView} alt="Italy Pass Pano" />
-            </div> */}
           </section>
           <section className={classes["blog__section"]}>
             <div className={classes["blog__section-title-container"]}>
@@ -455,13 +502,11 @@ const WhiteClouds22Blog = () => {
               <h3>Hummocks Lake to Quiet Lake</h3>
             </div>
             <p className={classes["blog__text"]}>
-              Arguably the finest coastal backpacking trail in the United
-              States, this 25 mile stretch of California coast is truly a unique
-              trail where you’ll get to experience untouched wilderness and true
-              remoteness. Due to the cliffs being too steep to build roads, the
-              Lost Coast is the longest stretch of undeveloped coast in
-              California, but the cool thing is we can still experience it by
-              hiking it!
+              After a smokey windy night, I awoke to clear skies and went on a morning stroll
+              with my camera to nearby Hourglass Lake. Upon some exploration I
+              found a great spot that I kind of regretted not finding earlier.
+              The spot and Hourglass lake in general was much more sheltered
+              from the winds than Hummock lake.
             </p>
             <div className={classes["responsive__container-90"]}>
               <img src={hummocksLakeMornPano} alt="Inyo national forest sign" />
@@ -479,7 +524,16 @@ const WhiteClouds22Blog = () => {
                 alt="Inyo national forest sign"
               />
             </div>
-
+            <p className={classes["blog__text"]}>
+              After some breakfast and coffee, Sam and I continued our journey
+              which would take us past Scoop lake and up to the pass above,
+              rightfully called Windy Devil Pass. The smoke had mostly cleared
+              by this point and it was a beautiful sunny day. We headed back up
+              to Scoop lake and continued past it to a series of rocky
+              switchbacks. In not to long we were at the top of Windy Devil Pass
+              which offered great views of the Boulder Chain Lakes we had just
+              hiked up from. We were now in open rocky high country.
+            </p>
             <div className={classes["responsive__container-90"]}>
               <img src={scoopLakePano} alt="Inyo national forest sign" />
             </div>
@@ -513,13 +567,16 @@ const WhiteClouds22Blog = () => {
               />
             </div>
             <p className={classes["blog__text"]}>
-              Arguably the finest coastal backpacking trail in the United
-              States, this 25 mile stretch of California coast is truly a unique
-              trail where you’ll get to experience untouched wilderness and true
-              remoteness. Due to the cliffs being too steep to build roads, the
-              Lost Coast is the longest stretch of undeveloped coast in
-              California, but the cool thing is we can still experience it by
-              hiking it!
+              We continued a little ways until we saw a small alpine tarn with
+              Castle Peak standing prominently behind it. We were heading to
+              Quiet Lake which is located at the bottom of the South side of
+              Castle Peak. This tarn marked where we must leave the trail and
+              begin an off trail traverse down to Quiet Lake. We continued
+              downhill to a couple of small lakes. The route got steep in some
+              places but there was a well traveled goat trail to follow. The
+              views of Castle Peak got better and were a lot different than the
+              views from the Chamberlain Basin. We continued the steep descent down and got
+              our first glimpse of Quiet Lake down below.
             </p>
             <div className={classes["responsive__container-70"]}>
               <img src={slateLake} alt="Inyo national forest sign" />
@@ -537,7 +594,18 @@ const WhiteClouds22Blog = () => {
                 alt="Inyo national forest sign"
               />
             </div>
-
+            <p className={classes["blog__text"]}>
+              Finally we reached the bottom and headed South to the shores of
+              Quiet Lake. The lake was stunning and located below a sawtooth
+              ridge that extended from Castle Peak. We headed South along the
+              Western Shore until we found a great campsite at the lake's
+              southern end. We set up our tent and hammocks and enjoyed the
+              afternoon. It appeared we had the lake all to ourselves. The lake
+              was mostly windy but the Southern end, where we were, offered some
+              shelter from it. I went on a little walk and took some photos in
+              the afternoon. It was a very photogenic lake. I returned to our
+              camp and continued taking photos as the light changed.
+            </p>
             <div className={classes["responsive__container-90"]}>
               <img src={quietLakeFieldPano} alt="Inyo national forest sign" />
             </div>
@@ -553,13 +621,13 @@ const WhiteClouds22Blog = () => {
               />
             </div>
             <p className={classes["blog__text"]}>
-              Arguably the finest coastal backpacking trail in the United
-              States, this 25 mile stretch of California coast is truly a unique
-              trail where you’ll get to experience untouched wilderness and true
-              remoteness. Due to the cliffs being too steep to build roads, the
-              Lost Coast is the longest stretch of undeveloped coast in
-              California, but the cool thing is we can still experience it by
-              hiking it!
+              We made dinner and were treated to a nice sunset. The smoke from
+              the nearby wildfire was rising up behind Castle Peak and being lit
+              up by the setting sun. Sam turned in for the night as it got
+              darker. I decided to do a little fishing as we were in an ideal
+              spot for that. Within four casts I had a fish on! It put up a good
+              fight and was quite the specimen. I fried it up and ate it before
+              turning in for the night.
             </p>
             <div className={classes["responsive__container-full"]}>
               <img src={quietLakeSunsetPano} alt="Inyo national forest sign" />
@@ -571,13 +639,15 @@ const WhiteClouds22Blog = () => {
               <h3>Quiet Lake to Trailhead</h3>
             </div>
             <p className={classes["blog__text"]}>
-              Arguably the finest coastal backpacking trail in the United
-              States, this 25 mile stretch of California coast is truly a unique
-              trail where you’ll get to experience untouched wilderness and true
-              remoteness. Due to the cliffs being too steep to build roads, the
-              Lost Coast is the longest stretch of undeveloped coast in
-              California, but the cool thing is we can still experience it by
-              hiking it!
+              We awoke fairly early for we had some serious scrambling and
+              hiking to do, not to mention a seven hour car ride back home. We
+              ate breakfast and headed out. This was to be the most challenging
+              section of our trip. There was no official trail for the next
+              couple miles. We had to scramble up a boulder field to the rugged
+              Four Lake Basin above us, then summit the pass above that, and
+              descend steeply into the Born Lakes area on the other side. The
+              trail description I had read noted it as very steep and
+              precarious. We started our uphill scramble.
             </p>
             <div className={classes["responsive__container-full"]}>
               <img src={fourLakeBasinPanoOne} alt="Inyo national forest sign" />
@@ -586,13 +656,11 @@ const WhiteClouds22Blog = () => {
               <img src={fourLakeBasinPanoTwo} alt="Inyo national forest sign" />
             </div>
             <p className={classes["blog__text"]}>
-              Arguably the finest coastal backpacking trail in the United
-              States, this 25 mile stretch of California coast is truly a unique
-              trail where you’ll get to experience untouched wilderness and true
-              remoteness. Due to the cliffs being too steep to build roads, the
-              Lost Coast is the longest stretch of undeveloped coast in
-              California, but the cool thing is we can still experience it by
-              hiking it!
+              After a while we reached the Four Lakes Basin and our route
+              leveled out as we followed a path through the lakes. It was still
+              a very rocky desolate area with a few groupings of trees. We
+              continued on our faint and rugged path up the steep rocky slope to
+              our pass.
             </p>
             <div className={classes["sony-thirty-sixty__container"]}>
               <img
@@ -613,25 +681,23 @@ const WhiteClouds22Blog = () => {
               />
             </div>
             <p className={classes["blog__text"]}>
-              Arguably the finest coastal backpacking trail in the United
-              States, this 25 mile stretch of California coast is truly a unique
-              trail where you’ll get to experience untouched wilderness and true
-              remoteness. Due to the cliffs being too steep to build roads, the
-              Lost Coast is the longest stretch of undeveloped coast in
-              California, but the cool thing is we can still experience it by
-              hiking it!
+              At last we reached the top. I spotted our steep goat trail down to
+              the valley below and we began to descend.
             </p>
             <div className={classes["responsive__container-70"]}>
               <img src={devilsStaircaseShot} alt="Inyo national forest sign" />
             </div>
             <p className={classes["blog__text"]}>
-              Arguably the finest coastal backpacking trail in the United
-              States, this 25 mile stretch of California coast is truly a unique
-              trail where you’ll get to experience untouched wilderness and true
-              remoteness. Due to the cliffs being too steep to build roads, the
-              Lost Coast is the longest stretch of undeveloped coast in
-              California, but the cool thing is we can still experience it by
-              hiking it!
+              On our way down we met a couple from White Salmon who were just
+              starting their loop. They told us of a beautiful section of the
+              White Clouds to the North that we should check out. After some
+              chit chat we continued on down. We finally left the loose rocky
+              slopes and followed a goat trail into sparse pine forest towards
+              the largest of the Born Lakes. We emerged from the woods with the
+              lake in sight and circled around the shoreline. We took a much
+              deserved lakeside break and had some snacks. The lake was fairly
+              shallow, rimmed with grassy meadows and had a mountainous
+              backdrop.
             </p>
             <div className={classes["responsive__container-full"]}>
               <img src={bornLakesPano} alt="Inyo national forest sign" />
@@ -641,13 +707,12 @@ const WhiteClouds22Blog = () => {
               <img src={bornLakesPanoWide} alt="Inyo national forest sign" />
             </div>
             <p className={classes["blog__text"]}>
-              Arguably the finest coastal backpacking trail in the United
-              States, this 25 mile stretch of California coast is truly a unique
-              trail where you’ll get to experience untouched wilderness and true
-              remoteness. Due to the cliffs being too steep to build roads, the
-              Lost Coast is the longest stretch of undeveloped coast in
-              California, but the cool thing is we can still experience it by
-              hiking it!
+              The hardest hiking was behind us. We continued on, through
+              sporadic stands of pine forest and open rocky areas.  It was getting smokier as the day progressed. We entered
+              the open Ants Basin area which yielded wide open views of the
+              White Clouds mountains to the North. The trail started to
+              switchback up a pass and we were treated to a grand view of the
+              Ants Basin and surrounding mountains.
             </p>
             <div className={classes["sony-thirty-sixty__container"]}>
               <img
@@ -683,13 +748,11 @@ const WhiteClouds22Blog = () => {
               <img src={antsBasinPano} alt="Inyo national forest sign" />
             </div>
             <p className={classes["blog__text"]}>
-              Arguably the finest coastal backpacking trail in the United
-              States, this 25 mile stretch of California coast is truly a unique
-              trail where you’ll get to experience untouched wilderness and true
-              remoteness. Due to the cliffs being too steep to build roads, the
-              Lost Coast is the longest stretch of undeveloped coast in
-              California, but the cool thing is we can still experience it by
-              hiking it!
+              We continued on leaving the Ants Basin behind and Fourth of July
+              Lake came into view on the valley floor below. The end of our hike
+              was near. The moderately graded trail took us past a large tarn
+              and eventually took us back to Fourth of July lake, where we took
+              the 1.5 mile trail back to the parking lot.
             </p>
 
             <div className={classes["responsive__container-split"]}>
@@ -710,31 +773,19 @@ const WhiteClouds22Blog = () => {
             </div>
 
             <p className={classes["blog__text"]}>
-              Arguably the finest coastal backpacking trail in the United
-              States, this 25 mile stretch of California coast is truly a unique
-              trail where you’ll get to experience untouched wilderness and true
-              remoteness. Due to the cliffs being too steep to build roads, the
-              Lost Coast is the longest stretch of undeveloped coast in
-              California, but the cool thing is we can still experience it by
-              hiking it!
+              This had been a wonderful trip. Lots of gorgeous unique views and
+              not many other backpackers. I would definitely to it again. After
+              the rugged 14 mile drive on a gravel road back to the main
+              highway, we saw a huge smoke plume coming from the South a few
+              miles away. High winds had apparently whipped up the wildfire into a
+              roaring blaze. We were lucky to have completed this hike when we
+              did because the smoke and fire continued to get much worse in the
+              following weeks before eventually being put out from the weather.
             </p>
 
             <div className={classes["responsive__container-70"]}>
               <img src={brockSignage} alt="Inyo national forest sign" />
             </div>
-
-            {/* <div className={classes["video"]}>
-              <video
-                className={classes["video__content"]}
-                autoPlay
-                playsInline
-                muted
-                loop
-              >
-                <source src={italyLakeTrailVideo} type={"video/mp4"} />
-                Your browser is not supported
-              </video>
-            </div> */}
           </section>
           <Link className={classes["blogs-link"]} to="/blog">
             Back to Blogs
