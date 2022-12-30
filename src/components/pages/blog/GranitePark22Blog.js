@@ -239,7 +239,7 @@ const GranitePark22Blog = () => {
               got higher, the views opened up. We could see the old mine far
               below. The mountains were beautiful and varied in their color and
               texture. The swirling mist and clouds gave the area a moody,
-              mysterious vibe. As we continued up Pine Creek falls came into
+              mysterious vibe. As we continued up, Pine Creek Falls came into
               view. It was raging from all the rain the previous night.
             </p>
             <div className={classes["responsive__container-full"]}>
@@ -248,9 +248,9 @@ const GranitePark22Blog = () => {
             <p className={classes["blog__text"]}>
               Finally the trail met and followed Pine Creek, and the trail began
               to level out. As we arrived at the shores of Pine Lake it began to
-              rain. We took shelter under some pine trees and had some ramen for
+              rain. We took shelter under some pine trees and had ramen for
               lunch. Above Pine Lake to the North was a beautiful granite
-              mountain with white stripes in it. The rain stopped and we
+              mountain, adorned with lateral white stripes. The rain stopped and we
               continued along the trail to Upper Pine Lake. The creeks and
               streams were raging. After about a mile we arrived at Honeymoon
               Lake, our destination for the night. As we began setting up our
@@ -315,7 +315,7 @@ const GranitePark22Blog = () => {
             <p className={classes["blog__text"]}>
               We saw few people. Granite Park was exceptionally beautiful. At
               the base of immense, white granite peaks were rushing creeks,
-              small alpine meadows, tarns, and sporadic clusters of alpine
+              small alpine meadows, tarns, and sporadic clusters of
               trees. Huge granite boulders were strewn about. The trail weaved
               through the parkland terrain on a slow and steady ascent.
             </p>
@@ -323,7 +323,7 @@ const GranitePark22Blog = () => {
               <img src={graniteParkCreekPano} alt="Inyo national forest sign" />
             </div>
             <p className={classes["blog__text"]}>
-              As the day went on large white clouds began to materialize
+              As the day went on, large white clouds began to materialize
               seemingly from no where. We took lunch at a mid-sized unnamed
               alpine lake. The blue skies were almost entirely covered by the
               ominous clouds by the time we finished our lunch.
@@ -393,11 +393,11 @@ const GranitePark22Blog = () => {
             </div>
             <p className={classes["blog__text"]}>
               The rain kept on for at least three or four hours. Our camp spot
-              was the last suitable spot for at least several miles and I knew
+              was the last suitable spot for several miles and I knew
               it made the most sense to spend the night there and make up the
               miles the next day. The rain finally stopped in the evening, so we
               emerged from our tent and took a short walk to a vista of the
-              Chalfant Lakes basin below us just as the sun was setting. We had
+              Chalfant Lakes basin below us, just as the sun was setting. We had
               dinner and retired to our tent. The following day would be arduous
               and long but would also yield some incredible alpine scenery.
             </p>
@@ -453,7 +453,7 @@ const GranitePark22Blog = () => {
               />
             </div>
             <p className={classes["blog__text"]}>
-              Highly caffeinated we powered up the bare granite landscape up
+              Highly caffeinated, we powered up the bare granite landscape
               towards Italy Pass. In about an hour we made it and were treated
               to beautiful views of Granite Park and beyond.
             </p>
@@ -462,9 +462,8 @@ const GranitePark22Blog = () => {
             </div>
             <p className={classes["blog__text"]}>
               We continued over the pass but left the trail towards a mountain
-              col that was the entrance to the Bear Lake Basin. Our next
-              destination. We slowly traversed a steep boulder field for a
-              couple miles until we finally arrived at the gap. After continuing
+              col that was the entrance to the Bear Lake Basin, our next
+              destination. We slowly traversed a steep boulder field which took a while, until we finally arrived at the gap. After continuing
               through the gap we were treated to a sweeping view of the Bear
               Lakes Basin and the Seven Gables Mountains beyond.
             </p>
@@ -503,7 +502,7 @@ const GranitePark22Blog = () => {
               We continued down the Bear Lakes Basin to Black Bear Lake, then
               followed the drainage downhill towards Big Bear Lake. As we
               followed the creek down, a gorgeous view emerged of Big Bear Lakes
-              with the Seven Gables Range in the background. We took some great
+              with the Seven Gables mountains in the background. We took some great
               photos and continued down to the lake and around the shore.
             </p>
             <div className={classes["responsive__container-70"]}>
@@ -545,7 +544,7 @@ const GranitePark22Blog = () => {
             <p className={classes["blog__text"]}>
               By now the skies were once again completely overcast with dark
               grey clouds. It began to sprinkle. Sam was pretty tired at this
-              point and not happy to be once again, in a thunderstorm. We had
+              point and not happy to be once again, caught out in a thunderstorm. We had
               already covered many rugged off trail miles but we still had quite
               a distance to go to arrive at our destination at Marie Lake, off
               the John Muir Trail.
@@ -567,7 +566,7 @@ const GranitePark22Blog = () => {
             </div>
             <p className={classes["blog__text"]}>
               We rain proofed our packs and continued our off trail descent,
-              following the Seven gables creek downhill. By now there was
+              following the Seven Gables creek downhill. By now there was
               thunder booming around us. Luckily the terrain yielded more
               shelter as we descended and we left the open granite parkland of
               the Bear Lake Basin and Seven Gables drainage. We were looking for
@@ -609,8 +608,8 @@ const GranitePark22Blog = () => {
               We were back in the forest now but stuck in a full on downpour
               with frequent lightning strikes booming through the walls of the
               canyon. After some route finding, that involved some class 3
-              scrambling, we reached the Bear Creek and the John Muir Trail at
-              the bottom of the valley.
+              scrambling, we reached Bear Creek and the John Muir Trail at
+              the valley bottom.
             </p>
             <div className={classes["custom__container-signage"]}>
               <img
@@ -626,15 +625,15 @@ const GranitePark22Blog = () => {
             </div>
             <p className={classes["blog__text"]}>
               We finally had a good trail but we were still several miles from
-              Marie Lake and It was still pouring rain. Sam’s spirits were
+              Marie Lake and It was pouring rain. Sam’s spirits were
               dampened at this point but we stoically continued up the trail
               towards the lake. After several soggy miles the rain subsided. We
               were getting close but Sam was very clearly ready to be done with
               this challenging day. We finally arrived at the shores of
               beautiful Marie Lake. We couldn’t see anyone else around. We found
               a nice spot near the lake and set up our tent. It was evening now
-              and the sun decided to treat us with a nice sunset. The Water was
-              still and clear and it was a nice reward for a very challenging
+              and the sun decided to treat us with a nice sunset. The water was
+              still and offered a pretty reflection of the surrounding mountains.  The serene view was a nice reward for a very challenging
               day.
             </p>
             <div className={classes["responsive__container-90"]}>
@@ -666,10 +665,10 @@ const GranitePark22Blog = () => {
             </div>
             <p className={classes["blog__text"]}>
               I got an early start on the day as I wanted to take some pictures
-              of the lake from Selden pass above. The day again, started off
+              of the lake from Selden Pass, high above. The day again, started off
               clear and beautiful but I knew that didn’t mean it would stay that
               way. I took the trail along the shoreline of Marie Lake and up a
-              small ascent to Selden Pass.
+              short ascent to Selden Pass.
             </p>
             <div className={classes["responsive__container-70"]}>
               <img src={marieGrassyMornView} alt="Italy Pass Pano" />
@@ -708,7 +707,7 @@ const GranitePark22Blog = () => {
               backpacking trip through the California Pacific Crest Trail back
               in 2011. It was still just as stunning. I got some good shots from
               the pass, then I scrambled farther up the hill side and got some
-              good sweeping panos from the top of the hillside. After exploring
+              good sweeping panos from the top of the hillside. After exploring the
               area above Selden Pass a bit, I decided to head back.
             </p>
             <div className={classes["responsive__container-70"]}>
@@ -746,7 +745,7 @@ const GranitePark22Blog = () => {
             <p className={classes["blog__text"]}>
               I got back and had breakfast and coffee with Sam and enjoyed a
               leisurely morning. This was our layover day. Much needed after the
-              previous days stormy, off trail exploits. We broke into the box
+              previous day's stormy, off trail exploits. We broke into the box
               wine and went on a little pack raft excursion around the lake.
             </p>
             <div className={classes["responsive__container-full"]}>
@@ -793,13 +792,13 @@ const GranitePark22Blog = () => {
             </div>
             <p className={classes["blog__text"]}>
               This time the rain came with deafening thunder. We hid out under a
-              tarp shelter in the tree grover for awhile then decided to escape
+              tarp shelter in the tree grove for awhile then decided to escape
               to the tent as the thunderstorm worsened. It preceded to downpour
               for the next four hours while we remained confined to the tent.
               Our layover day at Marie Lake was turning out to be less glamorous
               than I had hoped. The funny thing was, In my combined month of
               time I had spent in the Sierras in previous Summers, I had never
-              even experienced an overcast day! Now I guess I was paying my
+             experienced some much as an overcast day! Now I guess I was paying my
               dues.
             </p>
             <div className={classes["thirty-sixty__container"]}>
@@ -1037,7 +1036,7 @@ const GranitePark22Blog = () => {
               We continued up the trail toward Lake Italy. The scenery got more
               dramatic the higher we climbed. We were surrounded by large
               granite canyon walls. The sound of running water was every where
-              has the mountains drained from the previous days deluge.
+              as the mountains drained from the previous day's deluge.
             </p>
             <div className={classes["sixty-thirty__container"]}>
               <img
@@ -1147,11 +1146,11 @@ const GranitePark22Blog = () => {
               </video>
             </div>
             <p className={classes["blog__text"]}>
-              After many pictures I returned to the Pass, and we continued on
+              After many pictures I returned to the pass, and we continued on
               our quest to the car. We still had a ways to go. Instead of
               returning the way we came back down Granite Park, we decided to
               follow the adjacent Chalfant Lakes drainage back down to Honeymoon
-              Lake. I’m Glad we did for it was a beautiful detour.
+              Lake. I’m glad we did for it was a beautiful detour.
             </p>
             <div className={classes["responsive__container-90"]}>
               <img src={graniteParkLakePano} alt="Italy Pass Pano" />
@@ -1161,7 +1160,7 @@ const GranitePark22Blog = () => {
               on some grass and soil for a change. The weather held up and the
               Chalfant Lakes were beautiful and inviting. Sadly we didn’t have
               time to stay. We passed the series of lakes and our route
-              steepened as we followed the Chalfant Lake drainage down to
+              steepened as we continued down the drainage down to
               Honeymoon Lake. We were treated to more glorious mountain views as
               we descended.
             </p>
