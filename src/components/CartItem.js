@@ -35,13 +35,18 @@ const CartItem = (props) => {
     <div className={classes["cart-item"]}>
       <div className={classes["cart-item__image-container"]}>
         <img src={`./images/${props.image}`} alt={props.name} />
-        <button className={classes['delete-button']} onClick={removeItemHandler}>X</button>
+        <button
+          className={classes["delete-button"]}
+          onClick={removeItemHandler}
+        >
+          X
+        </button>
       </div>
-      <h2>{props.name}</h2>
-      <p>${props.price}</p>
+      <h2 className={classes["cart-item__text"]}>{props.name}</h2>
+      <p className={classes["cart-item__text"]}>${props.price}</p>
       <div className={classes["amount-controls"]}>
         <button onClick={decrementItemHandler}>-</button>
-        <p>{currentQuantity}</p>
+        <p className={classes["cart-item__text"]}>{currentQuantity}</p>
         <button onClick={incrementItemHandler}>+</button>
       </div>
       <p className={classes["total-price"]}>${totalItemPrice}</p>
