@@ -8,6 +8,7 @@
   flex-direction: column;
   align-items: center;
   margin-bottom: 5rem;
+   overflow: hidden;
 }
 
 /* BLOG HEADER */
@@ -344,6 +345,10 @@
     position: relative;
     top: -5rem;
   }
+
+  .blog-header__title-container {
+  width: 95%;
+}
 
   .blog-header__title {
     font-size: 4rem;

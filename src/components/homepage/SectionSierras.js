@@ -3,22 +3,22 @@ import { Link } from 'react-router-dom';
 import classes from './SectionSierras.module.css'
 import paradiseLake from "../../assets/images/CA_PARADISE-LAKE_DAY_HI-RES.jpg";
 import sevenGables from "../../assets/images/CA_7-GABLES_LAKE_VERT_HI-RES.jpg";
-import goldMtn from "../../assets/images/CA_GOLD-MTN_HI_RES.jpg";
+// import goldMtn from "../../assets/images/CA_GOLD-MTN_HI_RES.jpg";
 import thousandIsland from "../../assets/images/CA_THOUSAND-ISLAND-LAKE_PANO_lowRes.jpg";
-import raeGold from "../../assets/images/CA_RAE-LAKESE_EVE-PANO_HI-RES.jpg";
+// import raeGold from "../../assets/images/CA_RAE-LAKESE_EVE-PANO_HI-RES.jpg";
 import graniteOrange from "../../assets/images/CA_GRANITE-PARK_ORANGE_HI-RES.jpg";
 import minarets from "../../assets/images/CA_MINARETS-PANO_HI-RES-2.jpg";
 
-import bullfrogVert from "../../assets/images/CA_BULLFROG-LAKE_VERT_HI-RES-1.jpg";
+// import bullfrogVert from "../../assets/images/CA_BULLFROG-LAKE_VERT_HI-RES-1.jpg";
 import sevenGablesCreek from "../../assets/images/CA_7-GABLES_VERT_HI-RES.jpg";
 import marbleMtn from "../../assets/images/CA_MARBLE-STRIPE-MTN_HI_RES.jpg";
 import bearBasinPano from "../../assets/images/CA_BEAR-LAKES_ALPINE-PANO_HI-RES.jpg";
 import raeCalm from "../../assets/images/CA_RAE-LAKES_CALM-EVE_HI-RES.jpg";
 import marieOrange from "../../assets/images/CA_MARIE-LAKE_ORANGE_HI-RES.jpg";
-import bullfrogWide from "../../assets/images/CA_BULLFROG-LAKE_DAY-PANO_HI-RES.jpg";
+// import bullfrogWide from "../../assets/images/CA_BULLFROG-LAKE_DAY-PANO_HI-RES.jpg";
 import treasureLakePano from "../../assets/images/CA_TREASURE-LAKES_PANO_lowRes.jpg";
 import { useInView } from "react-intersection-observer";
-import kearsarge from "../../assets/images/CA_KEARSARGE-LAKE_REFLECTION_HI-RES.jpg";
+// import kearsarge from "../../assets/images/CA_KEARSARGE-LAKE_REFLECTION_HI-RES.jpg";
 import marieBlue from "../../assets/images/CA_MARIE-LAKE_SHADOW-BLUE_HI-RES.jpg";
 
 

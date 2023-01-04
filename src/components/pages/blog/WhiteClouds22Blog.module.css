@@ -8,6 +8,7 @@
   flex-direction: column;
   align-items: center;
   margin-bottom: 5rem;
+  overflow: hidden;
 }
 
 /* BLOG HEADER */
@@ -328,6 +329,10 @@
     top: -5rem;
   }
 
+  .blog-header__title-container {
+    width: 95%;
+  }
+
   .blog-header__title {
     font-size: 4rem;
   }
@@ -408,7 +413,7 @@
 
   /* RESPONSIVE-CONTAINER - For 2 SONY a6400 images - portrait - landscape */
   .sony-thirty-sixty__container {
-   flex-direction: column;
+    flex-direction: column;
   }
 
   .sony-thirty-sixty__item-1 {
