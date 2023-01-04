@@ -6,6 +6,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
   background: rgb(255, 255, 255);
   background: linear-gradient(
     0deg,
@@ -75,6 +76,9 @@
 
 .sierras__feature-box__text-box h2 {
   font-size: 2.5rem;
+  color: var(--color-primary-green);
+   text-shadow: 1px 1px 2px rgb(80, 79, 79);
+
 }
 
 /* GALLERY GRID */
@@ -197,9 +201,16 @@
   .sierras__feature-box__header__text h1 {
     font-size: 3rem;
   }
+
+  .sierras__feature-box__text-box {
+  margin: 3rem 1rem;
+
+}
+
   .sierras__feature-box__text-box h2 {
-    font-size: 1.8rem;
-  }
+  font-size: 1.8rem;
+  margin: 0 1.5rem;
+}
 
   .homepage-grid {
     width: 99%;

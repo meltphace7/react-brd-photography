@@ -95,6 +95,7 @@
 .blog__section-title-container h3 {
   font-size: 2.5rem;
   color: black;
+  line-height: 1.25;
 }
 
 .blog__text {
@@ -238,7 +239,6 @@
   margin: 0.5rem;
 }
 
-/* ___________CUSTOM IMAGE CONTAINERS_________________*/
   /* ___________CUSTOM IMAGE CONTAINERS_________________*/
   /* CUSTOM-CONTAINER Day 1 -  RED MTN - DUSK */
   .custom__container-red-dusk {
@@ -350,7 +350,7 @@
   }
 
   .blog__text {
-    margin: 4rem 4rem;
+    margin: 4rem 2rem;
     font-size: 2rem;
     line-height: 2.75rem;
   }
