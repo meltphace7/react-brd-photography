@@ -1,5 +1,5 @@
 .section-sierras {
-  padding: 20rem 0 5rem 0;
+  padding: 20rem 0rem 5rem 0rem;
   position: relative;
   z-index: 10;
   width: 100%;
@@ -82,10 +82,8 @@
   width: 90%;
   display: grid;
   grid-column: full-start / full-end;
-  /* grid-template-columns: repeat(8, 1fr); */
   grid-template-columns: repeat(19, 1fr);
   grid-template-rows: repeat(10, 5vw);
-  /* grid-template-rows: repeat(7, 5vw); */
   gap: 1rem;
 }
 
@@ -189,8 +187,23 @@
 }
 
 @media (max-width: 40em) {
+  .sierras__feature-box {
+    width: 100%;
+  }
+
+  .sierras__feature-box__header {
+    width: 100%;
+  }
+  .sierras__feature-box__header__text h1 {
+    font-size: 3rem;
+  }
   .sierras__feature-box__text-box h2 {
     font-size: 1.8rem;
+  }
+
+  .homepage-grid {
+    width: 99%;
+    gap: 0.5rem;
   }
 
   .muir-quote {
