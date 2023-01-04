@@ -121,5 +121,13 @@
 @media (max-width: 35em) {
      .blog__feature {
         flex-direction: column-reverse;
+        width: 70%;
     }
+    .blog__feature__img-container {
+    height: 35rem;
+
+}
+    .blog__feature__text {
+    width: 80%;
+}
  }

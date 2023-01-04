@@ -66,9 +66,3 @@ background: linear-gradient(0deg, rgba(79,79,79,1) 0%, rgba(0,0,0,1) 100%);
   color: var(--color-primary-green);
   border: 1px solid var(--color-primary-green);
 }
-
-@media (max-width: 40em) {
-  .shop__items__item {
-    width: 80%;
-  }
-}

@@ -46,115 +46,144 @@ const California = () => {
     return (
       <div className={classes.california}>
         <h1>CALIFORNIA</h1>
-        <div className={classes.grid}>
-          <div className={`${classes.grid__item} ${classes["grid__item--1"]}`}>
-            <img src={thousandIsland} alt="Thousand Island Lake" />
-          </div>
-          <div className={`${classes.grid__item} ${classes["grid__item--2"]}`}>
-            <img src={edizaLake} alt="Ediza Lake" />
-          </div>
-          <div className={`${classes.grid__item} ${classes["grid__item--3"]}`}>
-            <img src={gannetPano} alt="Gannet Lake" />
-          </div>
-          <div className={`${classes.grid__item} ${classes["grid__item--4"]}`}>
-            <img src={graniteOrange} alt="Chickenfoot Meadows" />
-          </div>
-          <div className={`${classes.grid__item} ${classes["grid__item--5"]}`}>
-            <img src={bullfrogWide} />
-          </div>
-          <div className={`${classes.grid__item} ${classes["grid__item--6"]}`}>
-            <img src={raeCalm} alt="Gem Lake Park" />
-          </div>
-          <div className={`${classes.grid__item} ${classes["grid__item--7"]}`}>
-            <img src={icebergLake} alt="Iceberg Lake" />
-          </div>
-          <div className={`${classes.grid__item} ${classes["grid__item--8"]}`}>
-            <img src={chickenfootLake} alt="Chickenfoot Lake" />
-          </div>
-          <div className={`${classes.grid__item} ${classes["grid__item--9"]}`}>
-            <img src={treasureLakes} alt="Treasure Lakes" />
-          </div>
-          <div className={`${classes.grid__item} ${classes["grid__item--10"]}`}>
-            <img src={bannerPeak} alt="Banner Peak" />
-          </div>
-          <div className={`${classes.grid__item} ${classes["grid__item--11"]}`}>
-            <img src={kearsarge} alt="Banner Peak" />
-          </div>
-          <div className={`${classes.grid__item} ${classes["grid__item--12"]}`}>
-            <img src={raeLakeHiView} alt="Banner Peak" />
-          </div>
-          <div className={`${classes.grid__item} ${classes["grid__item--13"]}`}>
-            <img src={paradiseLake} alt="Banner Peak" />
-          </div>
-          <div className={`${classes.grid__item} ${classes["grid__item--14"]}`}>
-            <img src={goldMtn} alt="Banner Peak" />
-          </div>
-          <div className={`${classes.grid__item} ${classes["grid__item--15"]}`}>
-            <img src={marieBlue} alt="Banner Peak" />
-          </div>
-          <div className={`${classes.grid__item} ${classes["grid__item--16"]}`}>
-            <img src={marieOrange} alt="Banner Peak" />
-          </div>
-          <div className={`${classes.grid__item} ${classes["grid__item--17"]}`}>
-            <img src={bearBasinPano} alt="Banner Peak" />
-          </div>
-          <div className={`${classes.grid__item} ${classes["grid__item--18"]}`}>
-            <img src={minarets} alt="Banner Peak" />
-          </div>
-          <div className={`${classes.grid__item} ${classes["grid__item--19"]}`}>
-            <img src={raeGold} alt="Banner Peak" />
-          </div>
-          <div className={`${classes.grid__item} ${classes["grid__item--20"]}`}>
-            <img src={pineCreekPano} alt="Banner Peak" />
-          </div>
-          <div className={`${classes.grid__item} ${classes["grid__item--21"]}`}>
-            <img src={bullfrogGold} alt="Banner Peak" />
-          </div>
-          <div className={`${classes.grid__item} ${classes["grid__item--22"]}`}>
-            <img src={goldValley} alt="Banner Peak" />
-          </div>
-          <div className={`${classes.grid__item} ${classes["grid__item--23"]}`}>
-            <img src={raeMorning} alt="Banner Peak" />
-          </div>
-          <div className={`${classes.grid__item} ${classes["grid__item--24"]}`}>
-            <img src={mariePano} alt="Banner Peak" />
-          </div>
-          <div className={`${classes.grid__item} ${classes["grid__item--25"]}`}>
-            <img src={raeBasin} alt="Banner Peak" />
-          </div>
-          <div className={`${classes.grid__item} ${classes["grid__item--26"]}`}>
-            <img src={granitePond} alt="Banner Peak" />
-          </div>
-          <div className={`${classes.grid__item} ${classes["grid__item--27"]}`}>
-            <img src={sherbertSky} alt="Banner Peak" />
-          </div>
-          <div className={`${classes.grid__item} ${classes["grid__item--28"]}`}>
-            <img src={granitePano} alt="Banner Peak" />
-          </div>
-          <div className={`${classes.grid__item} ${classes["grid__item--29"]}`}>
-            <img src={graniteParkMtns} alt="Banner Peak" />
-          </div>
-          <div className={`${classes.grid__item} ${classes["grid__item--30"]}`}>
-            <img src={graniteParkClouds} alt="Banner Peak" />
-          </div>
-          <div className={`${classes.grid__item} ${classes["grid__item--31"]}`}>
-            <img src={honeymoonLake} alt="Banner Peak" />
-          </div>
-          <div className={`${classes.grid__item} ${classes["grid__item--32"]}`}>
-            <img src={kearsargeMorn} alt="Banner Peak" />
-          </div>
-          <div className={`${classes.grid__item} ${classes["grid__item--33"]}`}>
-            <img src={bearPano} alt="Banner Peak" />
-          </div>
-          <div className={`${classes.grid__item} ${classes["grid__item--34"]}`}>
-            <img src={bearPano} alt="Banner Peak" />
-          </div>
-          <div className={`${classes.grid__item} ${classes["grid__item--35"]}`}>
-            <img src={bearPano} alt="Banner Peak" />
-          </div>
-          <div className={`${classes.grid__item} ${classes["grid__item--36"]}`}>
-            <img src={bearPano} alt="Banner Peak" />
-          </div>
+        <div className={classes["responsive__container-full"]}>
+          <img src={thousandIsland} alt="Inyo national forest sign" />
+        </div>
+        <div className={classes["responsive__container-full"]}>
+          <img src={edizaLake} alt="Inyo national forest sign" />
+        </div>
+
+        <div className={classes["responsive__container-full"]}>
+          <img src={gannetPano} alt="Inyo national forest sign" />
+        </div>
+
+        <div className={classes["custom-container__triple-vert-1"]}>
+          <img
+            className={classes["custom-container__triple-vert-1__item-1"]}
+            src={bullfrogVert}
+            alt="Inyo national forest sign"
+          />
+          <img
+            className={classes["custom-container__triple-vert-1__item-2"]}
+            src={marbleMtnVert}
+            alt="Inyo national forest sign"
+          />
+          <img
+            className={classes["custom-container__triple-vert-1__item-3"]}
+            src={chickenfootMeadowsVert}
+            alt="Inyo national forest sign"
+          />
+        </div>
+
+        <div className={classes["responsive__container-full"]}>
+          <img src={graniteOrange} alt="Inyo national forest sign" />
+        </div>
+        <div className={classes["responsive__container-full"]}>
+          <img src={bullfrogWide} alt="Inyo national forest sign" />
+        </div>
+        <div className={classes["responsive__container-full"]}>
+          <img src={raeCalm} alt="Inyo national forest sign" />
+        </div>
+        <div className={classes["custom-container__triple-vert-2"]}>
+          <img
+            className={classes["custom-container__triple-vert-2__item-1"]}
+            src={shadowLakeVert}
+            alt="Inyo national forest sign"
+          />
+          <img
+            className={classes["custom-container__triple-vert-2__item-2"]}
+            src={sevenGablesVert}
+            alt="Inyo national forest sign"
+          />
+          <img
+            className={classes["custom-container__triple-vert-2__item-3"]}
+            src={sevenGablesMtnVert}
+            alt="Inyo national forest sign"
+          />
+        </div>
+        <div className={classes["responsive__container-full"]}>
+          <img src={icebergLake} alt="Inyo national forest sign" />
+        </div>
+        <div className={classes["responsive__container-full"]}>
+          <img src={chickenfootLake} alt="Inyo national forest sign" />
+        </div>
+        <div className={classes["responsive__container-full"]}>
+          <img src={treasureLakes} alt="Inyo national forest sign" />
+        </div>
+        <div className={classes["responsive__container-full"]}>
+          <img src={bannerPeak} alt="Inyo national forest sign" />
+        </div>
+        <div className={classes["responsive__container-full"]}>
+          <img src={kearsarge} alt="Inyo national forest sign" />
+        </div>
+        <div className={classes["responsive__container-full"]}>
+          <img src={raeLakeHiView} alt="Inyo national forest sign" />
+        </div>
+        <div className={classes["responsive__container-full"]}>
+          <img src={paradiseLake} alt="Inyo national forest sign" />
+        </div>
+        <div className={classes["responsive__container-full"]}>
+          <img src={goldMtn} alt="Inyo national forest sign" />
+        </div>
+        <div className={classes["responsive__container-full"]}>
+          <img src={marieBlue} alt="Inyo national forest sign" />
+        </div>
+        <div className={classes["responsive__container-full"]}>
+          <img src={marieOrange} alt="Inyo national forest sign" />
+        </div>
+        <div className={classes["responsive__container-full"]}>
+          <img src={bearBasinPano} alt="Inyo national forest sign" />
+        </div>
+        <div className={classes["responsive__container-full"]}>
+          <img src={minarets} alt="Inyo national forest sign" />
+        </div>
+        <div className={classes["responsive__container-full"]}>
+          <img src={raeGold} alt="Inyo national forest sign" />
+        </div>
+        <div className={classes["responsive__container-full"]}>
+          <img src={pineCreekPano} alt="Inyo national forest sign" />
+        </div>
+        <div className={classes["responsive__container-full"]}>
+          <img src={bullfrogGold} alt="Inyo national forest sign" />
+        </div>
+        <div className={classes["responsive__container-full"]}>
+          <img src={goldValley} alt="Inyo national forest sign" />
+        </div>
+        <div className={classes["responsive__container-full"]}>
+          <img src={raeMorning} alt="Inyo national forest sign" />
+        </div>
+        <div className={classes["responsive__container-full"]}>
+          <img src={mariePano} alt="Inyo national forest sign" />
+        </div>
+        <div className={classes["responsive__container-full"]}>
+          <img src={raeBasin} alt="Inyo national forest sign" />
+        </div>
+        <div className={classes["responsive__container-full"]}>
+          <img src={granitePond} alt="Inyo national forest sign" />
+        </div>
+        <div className={classes["responsive__container-full"]}>
+          <img src={sherbertSky} alt="Inyo national forest sign" />
+        </div>
+        <div className={classes["responsive__container-full"]}>
+          <img src={granitePano} alt="Inyo national forest sign" />
+        </div>
+        <div className={classes["responsive__container-full"]}>
+          <img src={graniteParkMtns} alt="Inyo national forest sign" />
+        </div>
+        <div className={classes["responsive__container-full"]}>
+          <img src={graniteParkClouds} alt="Inyo national forest sign" />
+        </div>
+        <div className={classes["responsive__container-full"]}>
+          <img src={honeymoonLake} alt="Inyo national forest sign" />
+        </div>
+        <div className={classes["responsive__container-full"]}>
+          <img src={kearsargeMorn} alt="Inyo national forest sign" />
+        </div>
+        <div className={classes["responsive__container-full"]}>
+          <img src={bearPano} alt="Inyo national forest sign" />
+        </div>
+        <div className={classes["responsive__container-full"]}>
+          <img src={juliusCeaserPano} alt="Inyo national forest sign" />
         </div>
       </div>
     );

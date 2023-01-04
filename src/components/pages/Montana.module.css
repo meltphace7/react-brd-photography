@@ -70,3 +70,9 @@
 .grid__item--11 {
     grid-column: 1 / 13;
 }
+
+@media (max-width: 40em) {
+  .montana {
+    padding-top: 0rem;
+  }
+}
