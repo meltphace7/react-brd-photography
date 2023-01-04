@@ -6,7 +6,7 @@ import brockBioPic from "../../assets/images/CA_PORTRAIT_lowRes.jpg";
 const About = () => {
   return (
     <div className={classes.about}>
-      <div className={classes["about__over-lay"]}>
+      <div className={classes["about__overlay"]}>
         <div className={classes["about-container"]}>
           <div className={classes["about__text"]}>
             <h3>Amateur Photographer</h3>
