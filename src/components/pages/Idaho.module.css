@@ -10,105 +10,146 @@
 }
 
 .idaho h1 {
-  margin-top: 4rem;
+  margin: 4rem 0 2rem 0;
   font-size: 3rem;
 }
 
-.grid {
-  margin-top: 5rem;
+/* RESPONSIVE-CONTAINER - single-image - 100% */
+.responsive__container-full {
   width: 98%;
-  display: grid;
-  grid-template-columns: repeat(12 1fr);
-  gap: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0rem;
 }
 
-.grid__item img {
+.responsive__container-full img {
   width: 100%;
   height: auto;
 }
 
-.grid__item--1 {
-  grid-column: 1 / 13;
+/* RESPONSIVE-CONTAINER - For 2 SONY a6400 images - portrait - landscape */
+.sony-thirty-sixty__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.grid__item--2 {
-  grid-column: 1 / 13;
+.sony-thirty-sixty__item-1 {
+  width: 30%;
+  margin: 0.5rem;
 }
 
-.grid__item--3 {
-  grid-column: 1 / 13;
+.sony-thirty-sixty__item-2 {
+  width: 67.25%;
+  margin: 0.75rem;
 }
 
-.grid__item--4 {
-  grid-column: 1 / 13;
+/* RESPONSIVE-CONTAINER - For 2 SONY a6400 images - portrait - landscape */
+.custom-thirty-sixty__container-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.grid__item--5 {
-  grid-column: 1 / 13;
+.custom-thirty-sixty-1__item-1 {
+  width: 59%;
+  margin: 0.5rem;
 }
 
-.grid__item--6 {
-  grid-column: 1 / 13;
+.custom-thirty-sixty-1__item-2 {
+  width: 38%;
+  margin: 0.75rem;
 }
 
-.grid__item--7 {
-  grid-column: 1 / 13;
+/* RESPONSIVE-CONTAINER - For 2 SONY a6400 images - portrait - landscape */
+.custom-container__slate-alpine {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.grid__item--8 {
-  grid-column: 1 / 13;
+.custom-container__slate-alpine__item-1 {
+  width: 65.5%;
+  margin: 0.5rem;
 }
 
-.grid__item--9 {
-  grid-column: 1 / 13;
+.custom-container__slate-alpine__item-2 {
+  width: 31.75%;
+  margin: 0.75rem;
 }
 
-.grid__item--10 {
-  grid-column: 1 / 13;
+/* RESPONSIVE-CONTAINER - For 2 SONY a6400 images - portrait - landscape */
+.custom-container__alice-twin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.grid__item--11 {
-  grid-column: 1 / 13;
+.custom-container__alice-twin__item-1 {
+  width: 28%;
+  margin: 0.5rem;
 }
 
-.grid__item--12 {
-  grid-column: 1 / 7;
-}
-
-.grid__item--13 {
-  grid-column: 7 / 13;
-}
-
-.grid__item--14 {
-  grid-column: 1 / 13;
-}
-
-.grid__item--15 {
-  grid-column: 1 / 13;
-}
-
-.grid__item--16 {
-  grid-column: 1 / 13;
-}
-
-.grid__item--17 {
-  grid-column: 1 / 13;
-}
-
-.grid__item--18 {
-  grid-column: 1 / 13;
+.custom-container__alice-twin__item-2 {
+  width: 68%;
+  margin: 0.75rem;
 }
 
 @media (max-width: 40em) {
-  .grid__item--12 {
-    grid-column: 1 / 13;
-  }
-
-  .grid__item--13 {
-    grid-column: 1 / 13;
-  }
-
   .idaho {
     padding-top: 0rem;
   }
+
+  /* RESPONSIVE-CONTAINER - For 2 SONY a6400 images - portrait - landscape */
+.sony-thirty-sixty__container {
+  flex-direction: column;
+}
+
+.sony-thirty-sixty__item-1 {
+  width: 98%;
+}
+
+.sony-thirty-sixty__item-2 {
+  width: 98%;
+}
+
+/* RESPONSIVE-CONTAINER - For 2 SONY a6400 images - portrait - landscape */
+.custom-thirty-sixty__container-1 {
+  flex-direction: column;
+}
+
+.custom-thirty-sixty-1__item-1 {
+   width: 98%;
+}
+
+.custom-thirty-sixty-1__item-2 {
+   width: 98%;
+}
+
+/* RESPONSIVE-CONTAINER - For 2 SONY a6400 images - portrait - landscape */
+.custom-container__slate-alpine {
+  flex-direction: column;
+}
+
+.custom-container__slate-alpine__item-1 {
+   width: 98%;
+}
+
+.custom-container__slate-alpine__item-2 {
+   width: 98%;
+}
+
+/* RESPONSIVE-CONTAINER - For 2 SONY a6400 images - portrait - landscape */
+.custom-container__alice-twin {
+  flex-direction: column;
+}
+
+.custom-container__alice-twin__item-1 {
+   width: 98%;
+}
+
+.custom-container__alice-twin__item-2 {
+   width: 98%;
+}
 }

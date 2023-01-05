@@ -15,19 +15,7 @@ import CartProvider from "./store/CartProvider";
 import { FormspreeProvider } from "@formspree/react";
 import ScrollToTop from "./components/ScrollToTop";
 import LoadingSpinner from "./components/UI/LoadingSpinner";
-// import Washington from "./components/pages/Washington";
-// import Oregon from "./components/pages/Oregon";
-// import California from "./components/pages/California";
-// import Idaho from "./components/pages/Idaho";
-// import Wyoming from "./components/pages/Wyoming";
-// import Montana from "./components/pages/Montana";
-// import Sierras from "./components/pages/Sierras"
-
-// import KingsCanyon22Blog from './components/pages/blog/KingsCanyon22Blog'
-// import GranitePark22Blog from './components/pages/blog/GranitePark22Blog'
-// import WhiteClouds22Blog from "./components/pages/blog/WhiteClouds22Blog";
-
-// GALLERIES
+// LAZY-LOADING GALLERIES
 const Washington = React.lazy(() =>
   import("./components/pages/Washington")
 );
@@ -37,7 +25,7 @@ const Idaho = React.lazy(() => import("./components/pages//Idaho"));
 const Wyoming = React.lazy(() => import("./components/pages/Wyoming"));
 const Montana = React.lazy(() => import("./components/pages/Montana"));
 
-// BLOGS
+//LAZY-LOADING BLOGS
 const KingsCanyon22Blog = React.lazy(() =>
   import("./components/pages/blog/KingsCanyon22Blog")
 );

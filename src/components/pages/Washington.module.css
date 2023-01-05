@@ -1,127 +1,126 @@
 .washington {
-    padding-top: 10rem;
-    min-height: 100vh;
-    width: 100%;
-    background-color: black;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  padding-top: 10rem;
+  min-height: 100vh;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .washington h1 {
-    margin-top: 4rem;
-    font-size: 3rem;
+ margin: 4rem 0 2rem 0;
+  font-size: 3rem;
 }
 
-.grid {
-    margin-top: 5rem;
-    width: 98%;
-    display: grid;
-    grid-template-columns: repeat(12 1fr);
-    gap: 1rem;
+/* RESPONSIVE-CONTAINER - single-image - 100% */
+.responsive__container-full {
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0rem;
 }
 
-.grid__item img {
- width: 100%;
- height: auto;
+.responsive__container-full img {
+  width: 100%;
+  height: auto;
+}
+
+/* RESPONSIVE-CONTAINER - For 2 SONY a6400 images - portrait - landscape */
+.custom-container__ranier {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-container__ranier__item-1 {
+  width: 67%;
+  margin: 0.5rem;
+}
+
+.custom-container__ranier__item-2 {
+  width: 30.25%;
+  margin: 0.75rem;
+}
+
+/* RESPONSIVE-CONTAINER - For 2 SONY a6400 images - portrait - landscape */
+.custom-container__maple-adams {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-container__maple-adams__item-1 {
+  width: 30.75%;
+  margin: 0.5rem;
+}
+
+.custom-container__maple-adams__item-2 {
+  width: 66.5%;
+  margin: 0.75rem;
+}
+
+/* RESPONSIVE-CONTAINER - For 2 SONY a6400 images - portrait - landscape */
+.custom-container__rainier-helens {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-container__rainier-helens__item-1 {
+  width: 57%;
+  margin: 0.5rem;
+}
+
+.custom-container__rainier-helens__item-2 {
+  width: 40%;
+  margin: 0.75rem;
 }
 
 @media (max-width: 40em) {
-    .washington {
+  .washington {
     padding-top: 0rem;
-}
+  }
+
+  /* RESPONSIVE-CONTAINER - For 2 SONY a6400 images - portrait - landscape */
+.custom-container__ranier {
+  flex-direction: column;
 }
 
-/*
-
-.grid__item--1 {
-    height: 45rem;
-    grid-column: 1 / 12;
-    background-image: url(/public/img/WA_St.HELENS_SUNRISE_lowRes5.jpg);
+.custom-container__ranier__item-1 {
+  width: 98%;
+  
 }
 
-.grid__item--2 {
-    height: 50rem;
-    grid-column: 1 / 12;
-    background-image: url(/public/img/WA_RANIER_WEST-PANO_lowRes.jpg);
-}
-.grid__item--3 {
-    height: 40rem;
-    grid-column: 1 / 12;
-    background-image: url(/public/img/WA_GLACIER-PEAK-PANO_lowRes.jpg);
-}
-.grid__item--4 {
-    height: 40rem;
-    grid-column: 1 / 12;
-    background-image: url(/public/img/WA_SPECTACLE-LAKE_PANO_lowRes.jpg);
-}
-.grid__item--5 {
-    height: 40rem;
-    grid-column: 1 / 12;
-    background-image: url(/public/img/WA_RANIER-EAST_lowRes-1.jpg);
-}
-.grid__item--6 {
-    height: 40rem;
-    grid-column: 1 / 12;
-    background-image: url(/public/img/WA_GOAT-ROCKS_olSNOWY_pano_lowRes.jpg);
-}
-.grid__item--7 {
-    height: 40rem;
-    grid-column: 1 / 12;
-    background-image: url(/public/img/WA_BIGHEART_LAKE_lowRes2.jpg);
-}
-.grid__item--8 {
-    height: 40rem;
-    grid-column: 1 / 12;
-    background-image: url(/public/img/WA_RAINIER-TATOOSH-SUNRISE_lowRes.jpg);
-}
-.grid__item--9 {
-    height: 40rem;
-    grid-column: 1 / 12;
-    background-image: url(/public/img/WA_ROBIN-LAKE_PANO_lowRes.jpg);
+.custom-container__ranier__item-2 {
+  width: 98%;
 }
 
-.grid__item--11 {
-    height: 40rem;
-    grid-column: 1 / 12;
-    background-image: url(/public/img/WA_GOATROCKS-PCT-PANO_lowRes.jpg);
+/* RESPONSIVE-CONTAINER - For 2 SONY a6400 images - portrait - landscape */
+.custom-container__maple-adams {
+  flex-direction: column;
 }
 
-.grid__item--12 {
-    height: 40rem;
-    grid-column: 1 / 12;
-    background-image: url(/public/img/WA_5-LEMAHS_lowRes.jpg);
+.custom-container__maple-adams__item-1 {
+  width: 98%;
 }
 
-.grid__item--13 {
-    height: 40rem;
-    grid-column: 1 / 12;
-    background-image: url(/public/img/WA_ADAMS-TARN_PANO_lowRes.jpg);
+.custom-container__maple-adams__item-2 {
+  width: 98%;
 }
 
-.grid__item--14 {
-    height: 40rem;
-    grid-column: 1 / 12;
-    background-image: url(/public/img/WA_SHUKSAN_lowRes.jpg);
+/* RESPONSIVE-CONTAINER - For 2 SONY a6400 images - portrait - landscape */
+.custom-container__rainier-helens {
+  flex-direction: column;
 }
 
-.grid__item--15 {
-    height: 40rem;
-    grid-column: 1 / 12;
-    background-image: url(/public/img/WA_BAKER-RIDGE_lowRes.jpg);
+.custom-container__rainier-helens__item-1 {
+  width: 98%;
 }
 
-.grid__item--16 {
-    height: 40rem;
-    grid-column: 1 / 12;
-    background-image: url(/public/img/WA_HELENS-TOUTLE_lowRes.jpg);
+.custom-container__rainier-helens__item-2 {
+ width: 98%;
 }
-
-.grid__item--17 {
-    height: 40rem;
-    grid-column: 1 / 12;
-    background-image: url(/public/img/WA_RAINIER-NORTH_lowRes.jpg);
 }
-
-*/

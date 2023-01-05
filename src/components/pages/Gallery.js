@@ -6,7 +6,7 @@ import washington from "../../assets/images/../../assets/images/WA_RAINIER-EAST-
 import california from "../../assets/images/CA_BANNER-PEAK_VERT.jpg";
 import wyoming from "../../assets/images/WY_FREMONT_CROP_VERT.jpg";
 import montana from "../../assets/images/../../assets/images/MO_OLLIE-SUNSET_VERT__lowRes.jpg";
-import idaho from "../../assets/images/../../assets/images/../../assets/images/ID_ALICE_VERT_lowRes-1.jpg";
+import idaho from "../../assets/images/../../assets/images/../../assets/images/ID_ALICE-ALPINE-VERT.jpg";
 
 
 const Gallery = () => {

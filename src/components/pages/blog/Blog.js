@@ -4,7 +4,7 @@ import { HiOutlineArrowSmRight } from "react-icons/hi";
 import classes from './Blog.module.css'
 import blogOneImage from '../../../assets/images/CA_RAE-LAKES_HIGH-VIEW_HI-RES.jpg'
 import blogTwoImage from "../../../assets/images/CA_GRANITE-PARK-CLOUDS_HI-RES.jpg";
-import blogThreeImage from '../../../assets/images/ID_CASTLE-PEAK_PANO_HI-RES.jpg'
+import blogThreeImage from "../../../assets/images/ID_CASTLE_PEAK_GRAND_PANO.jpg";
 
 const Blog = () => {
   const [offsetY, setOffsetY] = useState(0);

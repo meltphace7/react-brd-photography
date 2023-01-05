@@ -118,7 +118,7 @@ const Homepage = (props) => {
               alpine lakes of Wyoming. Check out the raw beauty of 6 Western
               States
             </p>
-            <Link to="/portfolio">
+            <Link to="/gallery">
               <button className={classes["feature-box__link"]}>
                 EXPLORE
                 <HiOutlineArrowSmRight
@@ -204,89 +204,9 @@ const Homepage = (props) => {
           ></div>
         </div>
       </section>
-
-      {/* <section
-        ref={galleryRef}
-        className={classes["gallery-section"]}>
-        <div className={classes["gallery__grid"]}>
-          <div
-            className={`${classes["gallery__grid--item"]} ${classes["gallery__grid--item-1"]}`}
-          ></div>
-          <div
-            className={`${classes["gallery__grid--item"]} ${classes["gallery__grid--item-2"]}`}
-          ></div>
-          <div
-            className={`${classes["gallery__grid--item"]} ${classes["gallery__grid--item-3"]}`}
-          ></div>
-          <div
-            className={`${classes["gallery__grid--item"]} ${classes["gallery__grid--item-4"]}`}
-          ></div>
-          <div
-            className={`${classes["gallery__grid--item"]} ${classes["gallery__grid--item-5"]}`}
-          ></div>
-          <div
-            className={`${classes["gallery__grid--item"]} ${classes["gallery__grid--item-6"]}`}
-          ></div>
-          <div
-            className={`${classes["gallery__grid--item"]} ${classes["gallery__grid--item-7"]}`}
-          ></div>
-          <div
-            className={`${classes["gallery__grid--item"]} ${classes["gallery__grid--item-8"]}`}
-          ></div>
-          <div
-            className={`${classes["gallery__grid--item"]} ${classes["gallery__grid--item-9"]}`}
-          ></div>
-          <div
-            className={`${classes["gallery__grid--item"]} ${classes["gallery__grid--item-10"]}`}
-          ></div>
-          <div
-            className={`${classes["gallery__grid--item"]} ${classes["gallery__grid--item-11"]}`}
-          ></div>
-          <div
-            className={`${classes["gallery__grid--item"]} ${classes["gallery__grid--item-12"]}`}
-          ></div>
-          <div
-            className={`${classes["gallery__grid--item"]} ${classes["gallery__grid--item-13"]}`}
-          ></div>
-          <div
-            className={`${classes["gallery__grid--item"]} ${classes["gallery__grid--item-14"]}`}
-          ></div>
-        </div>
-      </section> */}
     </div>
   );
 };
 
 export default Homepage;
 
-// useEffect(() => {
-//   const observer = new IntersectionObserver((entries) => {
-//     const [entry] = entries;
-//     console.log('entry', entry);
-//     setGalleryIsVisible(entry.isIntersecting);
-//   }, {root: null, threshold: 0.2})
-
-//   observer.observe(galleryRef.current);
-// }, [])
-
-// useEffect(() => {
-//   const observer = new IntersectionObserver(
-//     (entries) => {
-//       const [entry] = entries;
-//       console.log("entry", entry);
-//       setFeatOneIsVisible(entry.isIntersecting);
-//     },
-//     { root: null, threshold: 0.2 }
-//   );
-
-//   observer.observe(featureTwoRef.current);
-// }, []);
-
-//   .section {
-//   transition: transform 1s, opacity 1s;
-// }
-
-// .section--hidden {
-//   opacity: 0;
-//   transform: translateY(8rem);
-// }
