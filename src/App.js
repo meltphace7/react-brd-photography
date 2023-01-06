@@ -11,10 +11,10 @@ import Cart from "./components/pages/Cart";
 import Blog from "./components/pages/blog/Blog";
 import { SLIDER_IMAGES } from "./assets/SliderImages";
 import Footer from "./components/Footer";
-import CartProvider from "./store/CartProvider";
 import { FormspreeProvider } from "@formspree/react";
 import ScrollToTop from "./components/ScrollToTop";
 import LoadingSpinner from "./components/UI/LoadingSpinner";
+import { Fragment } from "react";
 // LAZY-LOADING GALLERIES
 const Washington = React.lazy(() =>
   import("./components/pages/Washington")
@@ -39,12 +39,16 @@ const Sierras = React.lazy(() => import("./components/pages/Sierras"));
 
 function App() {
   return (
-    <CartProvider>
+    <Fragment>
       <Navigation />
       <ScrollToTop />
-      <Suspense fallback={<div className='centered'>
-        <LoadingSpinner/>
-      </div>}>
+      <Suspense
+        fallback={
+          <div className="centered">
+            <LoadingSpinner />
+          </div>
+        }
+      >
         <Switch>
           <Route path="/home" exact>
             <HomePage images={SLIDER_IMAGES} />
@@ -105,7 +109,7 @@ function App() {
         </Switch>
       </Suspense>
       <Footer />
-    </CartProvider>
+    </Fragment>
   );
 }
 

@@ -1,27 +1,27 @@
-import React, { useContext, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import classes from "./Cart.module.css";
 import CartItem from "../../components/CartItem";
-import { PRINTS } from "../../assets/Prints";
-import CartContext from '../../store/cart-context';
+import { useSelector } from "react-redux";
 
 const Cart = () => {
-  const cartCtx = useContext(CartContext);
   const [isEmpty, setIsEmpty] = useState(true);
 
-  console.log(cartCtx);
+  const cartItems = useSelector((state) => state.cart.cart);
+  console.log(cartItems);
+  const totalQuantity = useSelector((state) => +state.cart.totalQuantity);
+  const totalPrice = useSelector((state) => +state.cart.totalPrice);
+
+  const totalPriceRounded =
+    Math.round((totalPrice + Number.EPSILON) * 100) / 100;
   
-
   useEffect(() => {
-    if (cartCtx.items.length > 0) {
-      setIsEmpty(false);
-    } else {
+    if (cartItems === 0) {
       setIsEmpty(true);
+    } else {
+      setIsEmpty(false);
     }
-  }, [cartCtx.items])
+  }, [cartItems])
 
-  const totalItems = cartCtx.items.reduce((acc, curItem) => {
-    return acc + curItem.amount
-  }, 0);
 
   return (
     <div className={classes.cart}>
@@ -30,23 +30,24 @@ const Cart = () => {
         {isEmpty && <p className={classes["cart-empty"]}>Your Cart Is Empty</p>}
         <div className={classes["cart-container"]}>
           <div className={classes["cart-item__container"]}>
-            {cartCtx.items.map((item) => {
+            {cartItems.map((item) => {
               return (
                 <CartItem
-                  name={item.name}
+                  title={item.title}
                   price={item.price}
-                  image={item.image}
+                  imageUrl={item.imageUrl}
                   key={item.id}
                   id={item.id}
                   stock={item.stock}
+                  quantity={item.quantity}
                 />
               );
             })}
           </div>
           <div className={classes["cart-total__container"]}>
             <div className={classes["cart-total__info"]}>
-              <h3>{`Items: ${totalItems}`}</h3>
-              <h2>{`Total: $${cartCtx.totalAmount}`}</h2>
+              <h3>{`Items: ${totalQuantity}`}</h3>
+              <h2>{`Total: $${totalPriceRounded}`}</h2>
               <button className={classes["cart-total__container__button"]}>
                 Checkout
               </button>

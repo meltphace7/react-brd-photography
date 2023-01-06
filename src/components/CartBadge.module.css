@@ -1,0 +1,31 @@
+.cart-link {
+    width: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-container {
+  margin-right: 2rem;
+  width: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.75rem;
+}
+.cart {
+  padding: 3rem;
+  color: red;
+}
+
+.cart-not-empty {
+  color: var(--color-secondary-green);
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+}
+
+.cart-empty {
+  color: white;
+   font-size: 1.5rem;
+  margin-left: 0.5rem;
+}

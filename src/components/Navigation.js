@@ -1,29 +1,11 @@
-import React, { useContext, useState, useEffect, Fragment } from "react";
+import React, { Fragment } from "react";
 import classes from "./Navigation.module.css";
 import { Link, NavLink } from "react-router-dom";
 import Logo from "../assets/BDLOGO-white.png";
-import { IoMdCart } from "react-icons/io";
-import CartContext from "../store/cart-context";
 import MobileNavigation from "./MobileNavigation";
+import CartBadge from "./CartBadge";
 
 const Navigation = () => {
-  const cartCtx = useContext(CartContext);
-  const [cartIsEmpty, setCartIsEmpty] = useState(true);
-
-  const numberOfCartItems = cartCtx.items.reduce((acc, curItem) => {
-    return acc + curItem.amount;
-  }, 0);
-
-  console.log(numberOfCartItems);
-
-  useEffect(() => {
-    if (numberOfCartItems === 0) {
-      setCartIsEmpty(true);
-    } else {
-      setCartIsEmpty(false);
-    }
-  }, [numberOfCartItems]);
-
   return (
     <Fragment>
       <nav className={classes.nav}>
@@ -131,24 +113,7 @@ const Navigation = () => {
               </NavLink>
             </li>
           </ul>
-          <Link to="/cart">
-            <div className={classes["cart-container"]}>
-              {/* <IoMdCart size="25px" color="rgb(60, 215, 60)" /> */}
-              <IoMdCart
-                size="25px"
-                color={!cartIsEmpty ? "rgb(60, 215, 60)" : "white"}
-              />
-              <span
-                className={
-                  cartIsEmpty
-                    ? classes["cart-empty"]
-                    : classes["cart-not-empty"]
-                }
-              >
-                {numberOfCartItems ? numberOfCartItems : 0}
-              </span>
-            </div>
-          </Link>
+          <CartBadge />
         </div>
       </nav>
       <MobileNavigation />

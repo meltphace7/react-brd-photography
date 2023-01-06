@@ -1,37 +1,19 @@
-import React, { useState, useContext, useEffect } from "react";
+import React, { useState } from "react";
 import classes from "./MobileNavigation.module.css";
 import Logo from "../assets/BDLOGO-white.png";
 import { Link } from "react-router-dom";
-import { IoMdCart } from "react-icons/io";
-import CartContext from "../store/cart-context";
+import CartBadge from "./CartBadge";
 
 const MobileNavigation = () => {
   const [isChecked, setIsChecked] = useState(false);
-   const cartCtx = useContext(CartContext);
-   const [cartIsEmpty, setCartIsEmpty] = useState(true);
 
-   const numberOfCartItems = cartCtx.items.reduce((acc, curItem) => {
-     return acc + curItem.amount;
-   }, 0);
+  const handleCheck = () => {
+    setIsChecked((prevState) => !prevState);
+  };
 
-   useEffect(() => {
-     if (numberOfCartItems === 0) {
-       setCartIsEmpty(true);
-     } else {
-       setCartIsEmpty(false);
-     }
-   }, [numberOfCartItems]);
-
-    const handleCheck = () => {
-        setIsChecked((prevState) => !prevState);
-    }
-
-    const closeMenuHandler = () => {
-        setIsChecked((prevState) => !prevState);
-    }
-
-    console.log(isChecked);
-
+  const closeMenuHandler = () => {
+    setIsChecked((prevState) => !prevState);
+  };
 
   return (
     <div className={classes.nav}>
@@ -43,20 +25,9 @@ const MobileNavigation = () => {
         />
         <p>BROCK DALLMAN PHOTOGRAPHY</p>
       </Link>
-      <Link to="/cart" className={classes["cart-container"]}>
-        {/* <IoMdCart size="25px" color="rgb(60, 215, 60)" /> */}
-        <IoMdCart
-          size="25px"
-          color={!cartIsEmpty ? "rgb(60, 215, 60)" : "white"}
-        />
-        <span
-          className={
-            cartIsEmpty ? classes["cart-empty"] : classes["cart-not-empty"]
-          }
-        >
-          {numberOfCartItems}
-        </span>
-      </Link>
+      <div className={classes.cart}>
+        <CartBadge />
+      </div>
       <div className={classes.navigation}>
         <input
           type="checkbox"

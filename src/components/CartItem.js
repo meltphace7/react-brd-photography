@@ -1,55 +1,44 @@
-import React, { useState, useEffect, useContext } from "react";
+import React from "react";
 import classes from "./CartItem.module.css";
-import CartContext from "../store/cart-context";
+import { useDispatch } from "react-redux";
+import { cartActions } from "../store/cart-slice";
 
 const CartItem = (props) => {
-  const cartCtx = useContext(CartContext);
+  const totalPrice = Math.round(props.price * props.quantity * 100) / 100;
 
-  const currentItemIndex = cartCtx.items.findIndex(
-    (item) => item.id === props.id
-  );
-  const currentItem = cartCtx.items[currentItemIndex];
-  const currentQuantity = currentItem.amount;
-  const totalItemPrice = +currentItem.price * +currentItem.amount;
+  const { id, title, price, imageUrl, quantity, stock } = props;
+  const dispatch = useDispatch();
 
-  const removeItemHandler = function () {
-    cartCtx.removeItem(props.id);
+  const addToCartHandler = () => {
+    const cartItem = { id, title, price, imageUrl, quantity, stock };
+
+    dispatch(cartActions.addToCart(cartItem));
   };
 
-  const incrementItemHandler = function () {
-    cartCtx.addItem({
-      id: props.id,
-      name: props.name,
-      price: props.price,
-      amount: 1,
-      image: props.image,
-      stock: props.stock,
-    });
+  const removeFromCartHandler = () => {
+    dispatch(cartActions.removeFromCart(id));
   };
 
-  const decrementItemHandler = function () {
-    cartCtx.decrementItem(props.id);
+  const clearItemHandler = () => {
+    dispatch(cartActions.clearItemFromCart(id));
   };
 
   return (
     <div className={classes["cart-item"]}>
       <div className={classes["cart-item__image-container"]}>
-        <img src={`./images/${props.image}`} alt={props.name} />
-        <button
-          className={classes["delete-button"]}
-          onClick={removeItemHandler}
-        >
+        <img src={`./images/${props.imageUrl}`} alt={title} />
+        <button className={classes["delete-button"]} onClick={clearItemHandler}>
           X
         </button>
       </div>
-      <h2 className={classes["cart-item__text"]}>{props.name}</h2>
-      <p className={classes["cart-item__text"]}>${props.price}</p>
+      <h2 className={classes["cart-item__text"]}>{title}</h2>
+      <p className={classes["cart-item__text"]}>${price}</p>
       <div className={classes["amount-controls"]}>
-        <button onClick={decrementItemHandler}>-</button>
-        <p className={classes["cart-item__text"]}>{currentQuantity}</p>
-        <button onClick={incrementItemHandler}>+</button>
+        <button onClick={removeFromCartHandler}>-</button>
+        <p className={classes["cart-item__text"]}>{props.quantity}</p>
+        <button onClick={addToCartHandler}>+</button>
       </div>
-      <p className={classes["total-price"]}>${totalItemPrice}</p>
+      <p className={classes["total-price"]}>${totalPrice}</p>
     </div>
   );
 };

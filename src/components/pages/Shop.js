@@ -4,7 +4,7 @@ import ShopItem from "../../components/ShopItem";
 import { PRINTS } from "../../assets/Prints";
 import { Link } from "react-router-dom";
 
-const Shop = (props) => {
+const Shop = () => {
   return (
     <div className={classes.shop}>
       <div className={classes["shop-overlay"]}>
@@ -16,9 +16,9 @@ const Shop = (props) => {
           {PRINTS.map((print) => {
             return (
               <ShopItem
-                name={print.name}
+                title={print.title}
                 price={print.price}
-                image={print.image}
+                imageUrl={print.imageUrl}
                 key={print.id}
                 id={print.id}
                 quantity={print.quantity}
