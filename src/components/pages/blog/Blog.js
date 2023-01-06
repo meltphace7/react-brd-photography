@@ -53,7 +53,7 @@ const Blog = () => {
               <h1>Backpacking Granite Park, Bear Lakes Basin, Marie lake</h1>
               <h2>August 2022</h2>
               <div className={classes["blog-post__image-container"]}>
-                <img src={blogTwoImage} alt="Rae Lakes Basin" />
+                <img src={blogTwoImage} alt="Granite Park in the Eastern Sierras" />
               </div>
               <p>
                 This adventure gave us a little more than we bargained for.
@@ -74,7 +74,7 @@ const Blog = () => {
               <h1>Backpacking The White Clouds Loop</h1>
               <h2>September 2022</h2>
               <div className={classes["blog-post__image-container"]}>
-                <img src={blogThreeImage} alt="Rae Lakes Basin" />
+                <img src={blogThreeImage} alt="Castle Peak and the Chamberlain Basin, White Clouds Mountains in Idaho" />
               </div>
               <p>
                 Considering the fact we started this trek next to a raging wild

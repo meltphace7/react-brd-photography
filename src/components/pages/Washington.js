@@ -44,124 +44,124 @@ const Washington = () => {
         <h1 className={classes.title}>WASHINGTON</h1>
 
         <div className={classes["responsive__container-full"]}>
-          <img src={glacierLakeSlopes} alt="Mt. St. Helens Sunrise" />
+          <img src={glacierLakeSlopes} alt="Alpine Lakes Wilderness, Washington" />
         </div>
         <div className={classes["responsive__container-full"]}>
           <img src={helensSunrise} alt="Mt. St. Helens Sunrise" />
         </div>
 
         <div className={classes["responsive__container-full"]}>
-          <img src={rainierWestPano} alt="Mt. St. Helens Sunrise" />
+          <img src={rainierWestPano} alt="Mt. Rainier Panorama" />
         </div>
 
         <div className={classes["responsive__container-full"]}>
-          <img src={glacierPeakPano} alt="Mt. St. Helens Sunrise" />
+          <img src={glacierPeakPano} alt="Glacier Peak in Washington" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={parkLakesPano} alt="Mt. St. Helens Sunrise" />
+          <img src={parkLakesPano} alt="Mountain Panorama in Alpine Lakes Wilderness" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={spectacleLakePano} alt="Mt. St. Helens Sunrise" />
+          <img src={spectacleLakePano} alt="Spectacle Lake, Washington" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={threeQueensPano} alt="Mt. St. Helens Sunrise" />
+          <img src={threeQueensPano} alt="Three Queens Mountains, Alpine Lakes Wilderness Washington" />
         </div>
 
         <div className={classes["custom-container__ranier"]}>
           <img
             className={classes["custom-container__ranier__item-1"]}
             src={rainierPink}
-            alt="Mt. St. Helens Sunrise"
+            alt="Mt. Rainier Sunrise"
           />
           <img
             className={classes["custom-container__ranier__item-2"]}
             src={rainierEastVert}
-            alt="Mt. St. Helens Sunrise"
+            alt="Mt. Rainier Eastern slopes"
           />
         </div>
 
         <div className={classes["responsive__container-full"]}>
-          <img src={rainierEast} alt="Mt. St. Helens Sunrise" />
+          <img src={rainierEast} alt="Mt. Rainier Easter slopes" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={goatRocksOlSnowy} alt="Mt. St. Helens Sunrise" />
+          <img src={goatRocksOlSnowy} alt="Ol' Snowy Mountain, Goat Rocks Wilderness, Washington" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={goatrocksSunset} alt="Mt. St. Helens Sunrise" />
+          <img src={goatrocksSunset} alt="Sunset in Goat Rocks Wilderness Washington" />
         </div>
         <div className={classes["custom-container__maple-adams"]}>
           <img
             className={classes["custom-container__maple-adams__item-1"]}
             src={mapleLoopVert}
-            alt="Mt. St. Helens Sunrise"
+            alt="Maple Loop, Noth Cascades, Washington"
           />
           <img
             className={classes["custom-container__maple-adams__item-2"]}
             src={adamsPink}
-            alt="Mt. St. Helens Sunrise"
+            alt="Mt. Adams, Washington"
           />
         </div>
         <div className={classes["custom-container__rainier-helens"]}>
           <img
             className={classes["custom-container__rainier-helens__item-1"]}
             src={rainierNorth}
-            alt="Mt. St. Helens Sunrise"
+            alt="Mt. Rainier's North Face"
           />
           <img
             className={classes["custom-container__rainier-helens__item-2"]}
             src={helensReedsVert}
-            alt="Mt. St. Helens Sunrise"
+            alt="Mt. St. Helens over a pond"
           />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={waluptSunset} alt="Mt. St. Helens Sunrise" />
+          <img src={waluptSunset} alt="Walupt Lake, Washington" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={bigHeartLake} alt="Mt. St. Helens Sunrise" />
+          <img src={bigHeartLake} alt="Big Heart Lake Washington" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={fiveLemahs} alt="Mt. St. Helens Sunrise" />
+          <img src={fiveLemahs} alt="Five Lemahs, Alpine Lakes Wilderness, Washington" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={northCascadesPano} alt="Mt. St. Helens Sunrise" />
+          <img src={northCascadesPano} alt="Alpine lake in Washington's North Cascades" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={blackButtePano} alt="Mt. St. Helens Sunrise" />
+          <img src={blackButtePano} alt="Black Butte in Washington's North Cascades" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={adamsGoldPano} alt="Mt. St. Helens Sunrise" />
+          <img src={adamsGoldPano} alt="Mt. Adams, Washington" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={rainierTatooshSunrise} alt="Mt. St. Helens Sunrise" />
+          <img src={rainierTatooshSunrise} alt="Mt. Rainier for Tatoosh Peak" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={robinLakePano} alt="Mt. St. Helens Sunrise" />
+          <img src={robinLakePano} alt="Robin Lake in Washington's Alpine Lakes Wilderness" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={goatRocksPCTPano} alt="Mt. St. Helens Sunrise" />
-        </div>
-
-        <div className={classes["responsive__container-full"]}>
-          <img src={adamsTarn} alt="Mt. St. Helens Sunrise" />
-        </div>
-        <div className={classes["responsive__container-full"]}>
-          <img src={mtShuskan} alt="Mt. St. Helens Sunrise" />
+          <img src={goatRocksPCTPano} alt="View from the Pacific Crest Trail in Goat Rocks Wilderness" />
         </div>
 
         <div className={classes["responsive__container-full"]}>
-          <img src={rainierTarn} alt="Mt. St. Helens Sunrise" />
+          <img src={adamsTarn} alt="An Alpine tarn on the upper slopes of Mt. Adams" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={glacierValleyPano} alt="Mt. St. Helens Sunrise" />
+          <img src={mtShuskan} alt="Mt. Shuskan in Washington's North Cascades" />
+        </div>
+
+        <div className={classes["responsive__container-full"]}>
+          <img src={rainierTarn} alt="Mt. Rainier" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={cougarLakePano} alt="Mt. St. Helens Sunrise" />
+          <img src={glacierValleyPano} alt="Glacier Peak from the Pacific Crest Trail" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={bakerRidge} alt="Mt. St. Helens Sunrise" />
+          <img src={cougarLakePano} alt="Surise at Cougar Lake in Washington" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={helensToutle} alt="Mt. St. Helens Sunrise" />
+          <img src={bakerRidge} alt="Mt. Baker" />
+        </div>
+        <div className={classes["responsive__container-full"]}>
+          <img src={helensToutle} alt="Mt. St. Helens " />
         </div>
       </div>
     );

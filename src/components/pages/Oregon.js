@@ -17,34 +17,34 @@ const Oregon = () => {
         <h1>OREGON</h1>
         <div className={classes.grid}>
           <div className={classes.grid__item}>
-            <img src={glacierLakePano} alt="Glacier Lake" />
+            <img src={glacierLakePano} alt="Glacier Lake, Wallowas, Oregon" />
           </div>
           <div className={classes.grid__item}>
-            <img src={cigarLake} alt="Cigar Lake" />
+            <img src={cigarLake} alt="Cigar Lake, Oregon" />
           </div>
           <div className={classes.grid__item}>
-            <img src={twinLakesPano} alt="Twin Lakes" />
+            <img src={twinLakesPano} alt="Twin Lakes, Oregon" />
           </div>
           <div className={classes.grid__item}>
-            <img src={francisLake} alt="Francis Lake" />
+            <img src={francisLake} alt="Francis Lake, Wallowa Mountains, Oregon" />
           </div>
           <div className={classes.grid__item}>
-            <img src={frazierLake} alt="Mt. Rainier" />
+            <img src={frazierLake} alt="Frazier Lake in the Wallowa mountains, Oregon" />
           </div>
           <div className={classes.grid__item}>
-            <img src={steamboatLake} alt="Goat Rocks" />
+            <img src={steamboatLake} alt="Steamboat Lake in the Wallowa Mountains, Oregon" />
           </div>
           <div className={classes.grid__item}>
-            <img src={glacierLakeAlt} alt="Big Heart Lake" />
+            <img src={glacierLakeAlt} alt="Glacier Lake in the Wallowa Mountains, Oregon" />
           </div>
           <div className={classes.grid__item}>
-            <img src={jeffyPano} alt="Mt. Rainier" />
+            <img src={jeffyPano} alt="Mt. Jefferson, Oregon" />
           </div>
           <div className={classes.grid__item}>
-            <img src={olallieButte} alt="Robin Lake" />
+            <img src={olallieButte} alt="Olallie Lake, Oregon" />
           </div>
           <div className={classes.grid__item}>
-            <img src={petesPoint} alt="Pete's point" />
+            <img src={petesPoint} alt="Pete's Point in the Wallowa Mountains, Oregon" />
           </div>
         </div>
       </div>

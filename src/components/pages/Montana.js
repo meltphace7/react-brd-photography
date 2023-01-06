@@ -17,34 +17,34 @@ const Montana = () => {
         <h1>MONTANA</h1>
         <div className={classes.grid}>
           <div className={`${classes.grid__item} ${classes["grid__item--1"]}`}>
-            <img src={hiddenLake} alt="Hidden Lake" />
+            <img src={hiddenLake} alt="Hidden Lake in Glacier National Park in Montana" />
           </div>
           <div className={`${classes.grid__item} ${classes["grid__item--2"]}`}>
-            <img src={ollieLake} alt="Ollie Lake" />
+            <img src={ollieLake} alt="Ollie Lake in Montana's Bear Tooth Mountains" />
           </div>
           <div className={`${classes.grid__item} ${classes["grid__item--3"]}`}>
-            <img src={meadowVert} alt="Mountain Meadow" />
+            <img src={meadowVert} alt="A Mountain Meadow in Montana's Bear Tooth Mountains" />
           </div>
           <div className={`${classes.grid__item} ${classes["grid__item--4"]}`}>
-            <img src={ollieLakeVert} alt="Ollie Lake Sunset" />
+            <img src={ollieLakeVert} alt="Ollie Lake Sunset in Montana's Beartooth Mountains" />
           </div>
           <div className={`${classes.grid__item} ${classes["grid__item--5"]}`}>
-            <img src={sunsetCreekVert} alt="Creek Sunset" />
+            <img src={sunsetCreekVert} alt="Creek Sunset in Montana's Beartooth Mountains" />
           </div>
           <div className={`${classes.grid__item} ${classes["grid__item--6"]}`}>
-            <img src={fossilLake} alt="Fossil Lake" />
+            <img src={fossilLake} alt="Fossil Lake in Montana's Beartooth Mountains" />
           </div>
           <div className={`${classes.grid__item} ${classes["grid__item--7"]}`}>
-            <img src={highLakePano} alt="Bear Tooth High Country" />
+            <img src={highLakePano} alt="Montana's Beartooth High Country" />
           </div>
           <div className={`${classes.grid__item} ${classes["grid__item--8"]}`}>
-            <img src={fallsPano} alt="Water falls" />
+            <img src={fallsPano} alt="Water falls in Montana's Beartooth Mountains" />
           </div>
           <div className={`${classes.grid__item} ${classes["grid__item--9"]}`}>
-            <img src={glacierValley} alt="Glacier Valley" />
+            <img src={glacierValley} alt="Glacier Valley in Glacier National Park, Montana" />
           </div>
           <div className={`${classes.grid__item} ${classes["grid__item--10"]}`}>
-            <img src={beartoothAlpine} alt="Alpine Lake" />
+            <img src={beartoothAlpine} alt="Alpine Lake in Montana's Beartooth Mountains" />
           </div>
         </div>
       </div>

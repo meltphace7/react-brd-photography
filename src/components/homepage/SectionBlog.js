@@ -34,7 +34,7 @@ const SectionBlog = () => {
             </Link>
           </div>
           <div className={classes["blog__feature__img-container"]}>
-            <img src={profilePic} alt="brock dallman" />
+            <img src={profilePic} alt="Brock Dallman and the Seven Gables in the Sierras" />
           </div>
         </div>
       </div>

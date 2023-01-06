@@ -63,73 +63,73 @@ const SectionSierras = () => {
             to={`/sierras`}
             className={`${classes["grid-item"]} ${classes["grid-item-1"]}`}
           >
-            <img src={sevenGables} alt="paradise-lake" />
+            <img src={sevenGables} alt="Seven Gables mountains in the Sierras" />
           </Link>
           <Link
             to={`/sierras`}
             className={`${classes["grid-item"]} ${classes["grid-item-2"]}`}
           >
-            <img src={thousandIsland} alt="lucille-lake" />
+            <img src={thousandIsland} alt="Thousand Island Lake in the John Muir Wilderness" />
           </Link>
           <Link
             to={"/sierras"}
             className={`${classes["grid-item"]} ${classes["grid-item-3"]}`}
           >
-            <img src={treasureLakePano} alt="mt. st. helens" />
+            <img src={treasureLakePano} alt="Treasure Lakes in the Eastern Sierras" />
           </Link>
           <Link
             to={"/sierras"}
             className={`${classes["grid-item"]} ${classes["grid-item-4"]}`}
           >
-            <img src={bearBasinPano} alt="rae-lakes" />
+            <img src={bearBasinPano} alt="The Bear Lakes Basin in California's High Sierras" />
           </Link>
           <Link
             to={"/sierras"}
             className={`${classes["grid-item"]} ${classes["grid-item-5"]}`}
           >
-            <img src={marieBlue} alt="granite park" />
+            <img src={marieBlue} alt="Marie Lake along the John Muir Trail" />
           </Link>
           <Link
             to={"/sierras"}
             className={`${classes["grid-item"]} ${classes["grid-item-6"]}`}
           >
-            <img src={sevenGablesCreek} alt="rae-lakes" />
+            <img src={sevenGablesCreek} alt="A creek near the Seven Gables" />
           </Link>
           <Link
             to={"/sierras"}
             className={`${classes["grid-item"]} ${classes["grid-item-7"]}`}
           >
-            <img src={raeCalm} alt="bullfrog lake" />
+            <img src={raeCalm} alt="Rae Lakes in Kings Canyon National Park" />
           </Link>
           <Link
             to={"/sierras"}
             className={`${classes["grid-item"]} ${classes["grid-item-8"]}`}
           >
-            <img src={graniteOrange} alt="thousand island lake" />
+            <img src={graniteOrange} alt="Granite Park in the Eastern Sierras" />
           </Link>
           <Link
             to={"/sierras"}
             className={`${classes["grid-item"]} ${classes["grid-item-9"]}`}
           >
-            <img src={marieOrange} alt="twin lakes" />
+            <img src={marieOrange} alt="Marie Lake along the John Muir Trail" />
           </Link>
           <Link
             to={"/sierras"}
             className={`${classes["grid-item"]} ${classes["grid-item-10"]}`}
           >
-            <img src={paradiseLake} alt="McGowan Peak" />
+            <img src={paradiseLake} alt="The Sixty Lake Basin on Kings Canyon National Park" />
           </Link>
           <Link
             to={"/sierras"}
             className={`${classes["grid-item"]} ${classes["grid-item-11"]}`}
           >
-            <img src={marbleMtn} alt="Kearsarge Lakes" />
+            <img src={marbleMtn} alt="A mountain above Pine Lake in the Eastern Sierras" />
           </Link>
           <Link
             to={"/sierras"}
             className={`${classes["grid-item"]} ${classes["grid-item-12"]}`}
           >
-            <img src={minarets} alt="lil lakes" />
+            <img src={minarets} alt="The Minarets of the John Muir Wilderness in the high Sierra" />
           </Link>
         </div>
       </div>

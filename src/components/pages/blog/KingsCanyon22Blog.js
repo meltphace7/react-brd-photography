@@ -140,22 +140,31 @@ const KingsCanyon22Blog = () => {
               <img
                 className={classes["responsive__container-split__item-1"]}
                 src={trailSign}
-                alt="Inyo national forest sign"
+                alt="Inyo National Forest Sign"
               />
               <img
                 className={classes["responsive__container-split__item-2"]}
                 src={potholeLake}
-                alt="Inyo national forest sign"
+                alt="Pothole Lake near Kearsarge Pass in the Eastern Sierras"
               />
             </div>
             <div className={classes["responsive__container-90"]}>
-              <img src={gilbertLakePano} alt="Kearsarge Pass" />
+              <img
+                src={gilbertLakePano}
+                alt="Gilber Lake in the Easter Sierras"
+              />
             </div>
             <div className={classes["responsive__container-90"]}>
-              <img src={flowersLakePano} alt="Kearsarge Pass" />
+              <img
+                src={flowersLakePano}
+                alt="Flower Lake in the Eastern Sierras"
+              />
             </div>
             <div className={classes["responsive__container-90"]}>
-              <img src={potholeLakeLargePano} alt="Kearsarge Pass" />
+              <img
+                src={potholeLakeLargePano}
+                alt="Pothole Lake near Kearsarge Pass in the Eastern Sierras"
+              />
             </div>
             <p className={classes["blog__text"]}>
               The trail switch backed steadily and took us past several
@@ -181,7 +190,10 @@ const KingsCanyon22Blog = () => {
               </video>
             </div>
             <div className={classes["responsive__container-90"]}>
-              <img src={kearsargePano} alt="Kearsarge Pass" />
+              <img
+                src={kearsargePano}
+                alt="Kearsarge Pass in Kings Canyon National Park, Easter Sierras, California"
+              />
             </div>
             <p className={classes["blog__text"]}>
               Kearsarge Pass had a quite a few people there, admiring the view.
@@ -191,7 +203,10 @@ const KingsCanyon22Blog = () => {
               After taking in the sights, we descended down the rocky pass.
             </p>
             <div className={classes["responsive__container-90"]}>
-              <img src={kearsargeLakePano} alt="Kearsarge Lake" />
+              <img
+                src={kearsargeLakePano}
+                alt="Kearsarge Lakes, Kings Canyon National Park"
+              />
             </div>
             <p className={classes["blog__text"]}>
               As we continued down the other side of the pass, the crowds
@@ -212,13 +227,16 @@ const KingsCanyon22Blog = () => {
               day’s journey.
             </p>
             <div className={classes["responsive__container-90"]}>
-              <img src={kearsargeAfternoonPano} alt="Kearsarge Lake" />
+              <img
+                src={kearsargeAfternoonPano}
+                alt="Afternoon sun at Kearsarge Lakes, Kings Canyon National Park, Easter Sierras, California"
+              />
             </div>
             <div className={classes["custom__container-red-dusk"]}>
               <img
                 className={classes["custom__container-red-dusk__item-1"]}
                 src={redMountainSundown}
-                alt="Red light on mountain"
+                alt="Red sunset on a mountain near Kearsarge Lakes"
               />
               <img
                 className={classes["custom__container-red-dusk__item-2"]}
@@ -245,10 +263,16 @@ const KingsCanyon22Blog = () => {
               packed up and took off.
             </p>
             <div className={classes["responsive__container-full"]}>
-              <img src={kearsargePanoOne} alt="Sundown over Kearsarge Lake" />
+              <img
+                src={kearsargePanoOne}
+                alt="Panorama of Kearsarge Lakes, Eastern Sierras"
+              />
             </div>
             <div className={classes["responsive__container-full"]}>
-              <img src={kearsargePanoTwo} alt="Sundown over Kearsarge Lake" />
+              <img
+                src={kearsargePanoTwo}
+                alt="Panorama of Kearsarge Lakes, Eastern Sierras"
+              />
             </div>
             <p className={classes["blog__text"]}>
               We hiked back up the the main trail and headed North. The views
@@ -264,23 +288,23 @@ const KingsCanyon22Blog = () => {
               <img
                 className={classes["responsive__container-triple__item"]}
                 src={samBullfrogLake}
-                alt="Brock Dallman above Kearsarge Lakes"
+                alt="Sam Stych at Bullfrog Lake, Kings Canyon National Park"
               />
               <img
                 className={classes["responsive__container-triple__item"]}
                 src={bullfrogLake}
-                alt="Sundown over Kearsarge Lake"
+                alt="Bullfrog Lake, Kings Canyon National Park"
               />
               <img
                 className={classes["responsive__container-triple__item"]}
                 src={brockBullfrogLake}
-                alt="Sundown over Kearsarge Lake"
+                alt="Brock Dallman at Bullfrog Lake, Kings Canyon National Park"
               />
             </div>
             <div className={classes["responsive__container-90"]}>
               <img
                 src={bullfrogLakeDayPano}
-                alt="Sundown over Kearsarge Lake"
+                alt="Bullfrog Lake Panorama, Kings Canyon National Park, Eastern Sierras"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -297,7 +321,10 @@ const KingsCanyon22Blog = () => {
               journey down to the Rae Lakes.
             </p>
             <div className={classes["responsive__container-80"]}>
-              <img src={glennPass} alt="Sundown over Kearsarge Lake" />
+              <img
+                src={glennPass}
+                alt="Glenn Pass along the John Muir Pass in Kings Canyon National Park"
+              />
             </div>
             <div className={classes["video"]}>
               <video
@@ -323,24 +350,30 @@ const KingsCanyon22Blog = () => {
               <img
                 className={classes["responsive__container-triple__item"]}
                 src={paintedLadyTrailVert}
-                alt="Brock Dallman above Kearsarge Lakes"
+                alt="The Painted Lady above the Rae Lakes Basin in Kings Canyon National Park"
               />
               <img
                 className={classes["responsive__container-triple__item"]}
                 src={samDeerVert}
-                alt="Sundown over Kearsarge Lake"
+                alt="Sam Styck and a deer at Rae Lakes"
               />
               <img
                 className={classes["responsive__container-triple__item"]}
                 src={paintedLadyVert}
-                alt="Sundown over Kearsarge Lake"
+                alt="Painted Lady above Rae Lakes, Kings Canyon National Park"
               />
             </div>
             <div className={classes["responsive__container-90"]}>
-              <img src={paintedLadyPano} alt="Sundown over Kearsarge Lake" />
+              <img
+                src={paintedLadyPano}
+                alt="Painted Lady above Rae Lakes, Kings Canyon National Park"
+              />
             </div>
             <div className={classes["responsive__container-full"]}>
-              <img src={raeLakeTrailPano} alt="Sundown over Kearsarge Lake" />
+              <img
+                src={raeLakeTrailPano}
+                alt="Rae Lakes, Kings Canyon National Park"
+              />
             </div>
             <p className={classes["blog__text"]}>
               We continued our journey to the next and largest of the Rae Lakes.
@@ -357,16 +390,19 @@ const KingsCanyon22Blog = () => {
               <img
                 className={classes["sixty-thirty__item-1"]}
                 src={raePeninsula}
-                alt="Sundown over Kearsarge Lake"
+                alt="A Peninsula at Rae Lakes in Kings Canyon National Park"
               />
               <img
                 className={classes["sixty-thirty__item-2"]}
                 src={raeTentSpot}
-                alt="Sundown over Kearsarge Lake"
+                alt="Tent spot at Rae Lakes"
               />
             </div>
             <div className={classes["responsive__container-80"]}>
-              <img src={raePeninsulaShot} alt="Sundown over Kearsarge Lake" />
+              <img
+                src={raePeninsulaShot}
+                alt="Sunset at Rae Lakes, Kings Canyon National Park"
+              />
             </div>
           </section>
           <section className={classes["blog__section"]}>
@@ -385,22 +421,28 @@ const KingsCanyon22Blog = () => {
               coffee and breakfast.
             </p>
             <div className={classes["responsive__container-90"]}>
-              <img src={raeMeadowMornPano} alt="Sundown over Kearsarge Lake" />
+              <img
+                src={raeMeadowMornPano}
+                alt="Morning View over a meadow of Rae Lakes, Kings Canyon National Park"
+              />
             </div>
             <div className={classes["responsive__container-split"]}>
               <img
                 className={classes["responsive__container-split__item-1"]}
                 src={raeReflection}
-                alt="Sundown over Kearsarge Lake"
+                alt="Mountain Reflection at Rae Lakes, Kings Canyon National Park"
               />
               <img
                 className={classes["responsive__container-split__item-2"]}
                 src={samBoat}
-                alt="Sundown over Kearsarge Lake"
+                alt="Sam Stych with a Alpacka Pack raft at Rae Lakes, Kings Canyon National Park"
               />
             </div>
             <div className={classes["responsive__container-90"]}>
-              <img src={brockBoatPano} alt="Sundown over Kearsarge Lake" />
+              <img
+                src={brockBoatPano}
+                alt="Brock Dallman with an Alpacka Raft at Rae Lakes, Kings Canyon National Park"
+              />
             </div>
             <p className={classes["blog__text"]}>
               After breakfast we inflated the pack raft and went on a boat
@@ -419,18 +461,18 @@ const KingsCanyon22Blog = () => {
               <img
                 className={classes["custom__container-fin-rae__item-1"]}
                 src={raeFinn}
-                alt="Sundown over Kearsarge Lake"
+                alt="Fin Dome in Kings Canyon National Park"
               />
               <img
                 className={classes["custom__container-fin-rae__item-2"]}
                 src={raeSunset}
-                alt="Sundown over Kearsarge Lake"
+                alt="Sunset at Rae Lakes"
               />
             </div>
             <div className={classes["responsive__container-full"]}>
               <img
                 src={raeMeadowSunsetPano}
-                alt="Sundown over Kearsarge Lake"
+                alt="Sunset at Rae Lakes, Kings Canyon National Park"
               />
             </div>
           </section>
@@ -451,7 +493,10 @@ const KingsCanyon22Blog = () => {
               back to camp.
             </p>
             <div className={classes["responsive__container-70"]}>
-              <img src={raeLakesHighView} alt="Sundown over Kearsarge Lake" />
+              <img
+                src={raeLakesHighView}
+                alt="Rae Lakes Basin from high above"
+              />
             </div>
             <p className={classes["blog__text"]}>
               Our destination for the night was only a few miles away and I
@@ -464,18 +509,18 @@ const KingsCanyon22Blog = () => {
               Basin on a route I had scouted on Google Earth.
             </p>
             <div className={classes["responsive__container-90"]}>
-              <img src={finDomePano} alt="Sundown over Kearsarge Lake" />
+              <img src={finDomePano} alt="Fin Dome and Arrowhead Lake" />
             </div>
             <div className={classes["sixty-thirty__container "]}>
               <img
                 className={classes["sixty-thirty__item-1"]}
                 src={finDomeMeadow}
-                alt="Sundown over Kearsarge Lake"
+                alt="Fin Dome and a meadow in Kings Canyon National Park"
               />
               <img
                 className={classes["sixty-thirty__item-2"]}
                 src={samJohnMuir}
-                alt="Sundown over Kearsarge Lake"
+                alt="Sam Stych doing a John Muir Pose"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -491,7 +536,10 @@ const KingsCanyon22Blog = () => {
               relentless storm outside.
             </p>
             <div className={classes["responsive__container-90"]}>
-              <img src={bigLakePano} alt="Sundown over Kearsarge Lake" />
+              <img
+                src={bigLakePano}
+                alt="Dollar Lake along the John Muir Trail in Kings Canyon National Park"
+              />
             </div>
           </section>
           <section className={classes["blog__section"]}>
@@ -513,21 +561,24 @@ const KingsCanyon22Blog = () => {
               <img
                 className={classes["custom__container-off-trail__item-1"]}
                 src={uphillTrees}
-                alt="Sundown over Kearsarge Lake"
+                alt="Sam Stych hiking offtrail towards the Sixty Lake Basin in Kings Canyon National Park"
               />
               <img
                 className={classes["custom__container-off-trail__item-2"]}
                 src={offTrailRocks}
-                alt="Sundown over Kearsarge Lake"
+                alt="Sam Stych hiking offtrail towards the Sixty Lake Basin in Kings Canyon National Park"
               />
               <img
                 className={classes["custom__container-off-trail__item-3"]}
                 src={sixtyLakeMTNVert}
-                alt="Sundown over Kearsarge Lake"
+                alt="Sam Stych resting at a lake in the Sixty Lake Basin in Kings Canyon National Park"
               />
             </div>
             <div className={classes["responsive__container-full"]}>
-              <img src={sixtyLakeMtnPano} alt="Sundown over Kearsarge Lake" />
+              <img
+                src={sixtyLakeMtnPano}
+                alt="Alpine Lake in the Sixty Lake Basin in Kings Canyon National Park"
+              />
             </div>
             <p className={classes["blog__text"]}>
               We finally stumbled onto a beautiful alpine lake dotted with small
@@ -550,35 +601,38 @@ const KingsCanyon22Blog = () => {
               </video>
             </div>
             <div className={classes["responsive__container-90"]}>
-              <img src={paradiseLakeWide} alt="Sundown over Kearsarge Lake" />
+              <img
+                src={paradiseLakeWide}
+                alt="Paradise Lake in the Sixty Lake Basin in Kings Canyon National Park"
+              />
             </div>
             <div className={classes["thirty-sixty__container"]}>
               <img
                 className={classes["thirty-sixty__item-1"]}
                 src={paradiseFound}
-                alt="Sundown over Kearsarge Lake"
+                alt="Sam Stych at Paradise Lake in the Sixty Lake Basin in Kings Canyon National Park"
               />
               <img
                 className={classes["thirty-sixty__item-2"]}
                 src={paradiseLake}
-                alt="Sundown over Kearsarge Lake"
+                alt="Paradise Lake in the Sixty Lake Basin in Kings Canyon National Park"
               />
             </div>
             <div className={classes["responsive__container-triple"]}>
               <img
                 className={classes["responsive__container-triple__item"]}
                 src={cutieBabeBandit}
-                alt="Sundown over Kearsarge Lake"
+                alt="Cutie Babe nursing on some Bandit Box Wine"
               />
               <img
                 className={classes["responsive__container-triple__item"]}
                 src={skinnyDipParadise}
-                alt="Sundown over Kearsarge Lake"
+                alt="Enjoying the Sixty Lake Basin"
               />
               <img
                 className={classes["responsive__container-triple__item"]}
                 src={boatParadise}
-                alt="Sundown over Kearsarge Lake"
+                alt="Alpacka Pack Raft in the Sixty Lake Basin, Kings Canyon National Park"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -590,33 +644,39 @@ const KingsCanyon22Blog = () => {
               dinner and retired for the night.
             </p>
             <div className={classes["responsive__container-full"]}>
-              <img src={paradiseLakePano} alt="Sundown over Kearsarge Lake" />
+              <img
+                src={paradiseLakePano}
+                alt="Sam Stych in the Sixty Lake Basin in Kings Canyon National Park"
+              />
             </div>
             <div className={classes["responsive__container-split"]}>
               <img
                 className={classes["responsive__container-split__item-1"]}
                 src={paradiseSamMountainShot}
-                alt="Inyo national forest sign"
+                alt="Sam Stych in the Sixty Lake Basin in Kings Canyon National Park"
               />
               <img
                 className={classes["responsive__container-split__item-2"]}
                 src={paradiseSamStormShot}
-                alt="Inyo national forest sign"
+                alt="Sam Stych in the Sixty Lake Basin in Kings Canyon National Park"
               />
             </div>
             <div className={classes["responsive__container-90"]}>
-              <img src={raeValleyPano} alt="Sundown over Kearsarge Lake" />
+              <img
+                src={raeValleyPano}
+                alt="Glaciated Valley in Kings Canyon National Park"
+              />
             </div>
             <div className={classes["sony-sixty-thirty__container"]}>
               <img
                 className={classes["sony-sixty-thirty__item-1"]}
                 src={samValleyPortrait}
-                alt="Sundown over Kearsarge Lake"
+                alt="Sam Stych"
               />
               <img
                 className={classes["sony-sixty-thirty__item-2"]}
                 src={brockValleyPortrait}
-                alt="Sundown over Kearsarge Lake"
+                alt="Brock Dallman"
               />
             </div>
           </section>
@@ -633,10 +693,16 @@ const KingsCanyon22Blog = () => {
               the Fin Dome and the 60 Lakes Basin.
             </p>
             <div className={classes["responsive__container-80"]}>
-              <img src={raeValleyMornPano} alt="Sundown over Kearsarge Lake" />
+              <img
+                src={raeValleyMornPano}
+                alt="Rae Lakes Basin from high above"
+              />
             </div>
             <div className={classes["responsive__container-80"]}>
-              <img src={paradiseTopView} alt="Sundown over Kearsarge Lake" />
+              <img
+                src={paradiseTopView}
+                alt="Sixty Lake Basin from high above"
+              />
             </div>
             <div className={classes["video"]}>
               <video
@@ -667,16 +733,19 @@ const KingsCanyon22Blog = () => {
               <img
                 className={classes["custom__container-mtn-lakes__item-1"]}
                 src={sixtyLakeTrekLake}
-                alt="Sundown over Kearsarge Lake"
+                alt="Sixty Lake Basin in Kings Canyon National Park"
               />
               <img
                 className={classes["custom__container-mtn-lakes__item-2"]}
                 src={sixtyLakeSideTrip}
-                alt="Sundown over Kearsarge Lake"
+                alt="Sixty Lake Basin in Kings Canyon National Park"
               />
             </div>
             <div className={classes["responsive__container-90"]}>
-              <img src={trailSideLake} alt="Sundown over Kearsarge Lake" />
+              <img
+                src={trailSideLake}
+                alt="Sixty Lake Basin in Kings Canyon National Park"
+              />
             </div>
             <p className={classes["blog__text"]}>
               It started raining as we ascended up the pass. I became nervous
@@ -688,18 +757,18 @@ const KingsCanyon22Blog = () => {
               finally made it to the top.
             </p>
             <div className={classes["responsive__container-90"]}>
-              <img src={raeLakesReturn} alt="Sundown over Kearsarge Lake" />
+              <img src={raeLakesReturn} alt="Hiking down to Rae Lakes from the Sixty Lakes Basin in Kings Canyon National Park" />
             </div>
             <div className={classes["sixty-thirty__container"]}>
               <img
                 className={classes["sixty-thirty__item-1"]}
                 src={glennPassReturn}
-                alt="Sundown over Kearsarge Lake"
+                alt="Hiking up Glenn Pass on the John Muir Trail"
               />
               <img
                 className={classes["sixty-thirty__item-2"]}
                 src={bullfrogVistaCamp}
-                alt="Sundown over Kearsarge Lake"
+                alt="A nice campspot above Bullfrog Lake"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -713,10 +782,10 @@ const KingsCanyon22Blog = () => {
               the sun set, we enjoyed our dinner then turned in for the night.
             </p>
             <div className={classes["responsive__container-full"]}>
-              <img src={bullfrogGrandPano} alt="Sundown over Kearsarge Lake" />
+              <img src={bullfrogGrandPano} alt="Bullfrog Lake and Kearsarge Valley" />
             </div>
             <div className={classes["responsive__container-70"]}>
-              <img src={bullfrogEvening} alt="Sundown over Kearsarge Lake" />
+              <img src={bullfrogEvening} alt="Bullfrog Lake Sunset" />
             </div>
             <div className={classes["video"]}>
               <video
@@ -733,7 +802,7 @@ const KingsCanyon22Blog = () => {
             <div className={classes["responsive__container-full"]}>
               <img
                 src={bullfrogEveningGolden}
-                alt="Sundown over Kearsarge Lake"
+                alt="Golden hour shot of Bullfrog Lake and Kearsarge Valley"
               />
             </div>
           </section>
@@ -752,18 +821,18 @@ const KingsCanyon22Blog = () => {
               the busy trail to the car.
             </p>
             <div className={classes["responsive__container-90"]}>
-              <img src={potholeLakePano} alt="Sundown over Kearsarge Lake" />
+              <img src={potholeLakePano} alt="Pothole Lake near Kearsarge Pass" />
             </div>
             <div className={classes["sixty-thirty__container"]}>
               <img
                 className={classes["sixty-thirty__item-1"]}
                 src={brockKearsarge}
-                alt="Sundown over Kearsarge Lake"
+                alt="Brock Dallman at Kearsarge Pass"
               />
               <img
                 className={classes["sixty-thirty__item-2"]}
                 src={backToTrailhead}
-                alt="Sundown over Kearsarge Lake"
+                alt="Sam Stych hiking down to the Onion Valley Trailhead"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -775,7 +844,7 @@ const KingsCanyon22Blog = () => {
               quite more challenging than this one.
             </p>
             <div className={classes["responsive__container-70"]}>
-              <img src={raeLakeCouples} alt="Sundown over Kearsarge Lake" />
+              <img src={raeLakeCouples} alt="Brock Dallman and Sam Stych at Rae Lakes in Kings Canyon National Park" />
             </div>
           </section>
           <Link className={classes["blogs-link"]} to="/blog">

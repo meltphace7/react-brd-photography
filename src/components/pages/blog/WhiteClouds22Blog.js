@@ -111,7 +111,8 @@ const WhiteClouds22Blog = () => {
             </h1>
             <h2 className={classes["blog-header__sub-title"]}>
               A 6 day loop through the White Cloud Mountains, featuring Castle
-              Peak, Castle Lake, the Castle Divide, 20 Lakes Basin, Quiet Lake, the Ants Basin and more
+              Peak, Castle Lake, the Castle Divide, 20 Lakes Basin, Quiet Lake,
+              the Ants Basin and more
             </h2>
           </div>
         </div>
@@ -128,9 +129,9 @@ const WhiteClouds22Blog = () => {
               was excited to finally hike it. Sam and I arrived at the trailhead
               around 8am. The parking lot had a hand full of cars. The weather
               was great and the smoke was not too bad considering we were only a
-              few miles away from a wildfire that had been burning for a
-              few months. We hit the trail towards Fourth of July Lake, where
-              the loop junction is. After about a mile and half, we reached the
+              few miles away from a wildfire that had been burning for a few
+              months. We hit the trail towards Fourth of July Lake, where the
+              loop junction is. After about a mile and half, we reached the
               lake. I decided to do the loop counter clockwise, towards the
               Chamberlain Basin first instead of the more popular clockwise
               approach. I knew The Chamberlain Basin was one of the highlights
@@ -141,11 +142,17 @@ const WhiteClouds22Blog = () => {
             </p>
 
             <div className={classes["responsive__container-80"]}>
-              <img src={fourthOfJulyLakePano} alt="Inyo national forest sign" />
+              <img
+                src={fourthOfJulyLakePano}
+                alt="Fourth of July Lake in Idaho's White Clouds Mountains"
+              />
             </div>
 
             <div className={classes["responsive__container-80"]}>
-              <img src={secondLakePano} alt="Inyo national forest sign" />
+              <img
+                src={secondLakePano}
+                alt="Washington Lake in Idaho's White Clouds Mountains"
+              />
             </div>
 
             <p className={classes["blog__text"]}>
@@ -179,19 +186,19 @@ const WhiteClouds22Blog = () => {
               <img
                 className={classes["thirty-sixty__item-1"]}
                 src={brockCastlePeakVert}
-                alt="Inyo national forest sign"
+                alt="Brock Dallman with Castle Peak and the Chamberlain Basin in the background"
               />
               <img
                 className={classes["thirty-sixty__item-2"]}
                 src={castleTrailShot}
-                alt="Inyo national forest sign"
+                alt="The trail to the Chamberlain Basin"
               />
             </div>
 
             <div className={classes["responsive__container-95"]}>
               <img
                 src={castlePeakSmallLakePano}
-                alt="Inyo national forest sign"
+                alt="Unnamed lake in the Chamberlain Basin in Idaho's White Clouds Mountains"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -210,13 +217,16 @@ const WhiteClouds22Blog = () => {
             </p>
 
             <div className={classes["responsive__container-95"]}>
-              <img src={castlePeakMeadowPano} alt="Inyo national forest sign" />
+              <img
+                src={castlePeakMeadowPano}
+                alt="Castle Peak above an alpine meadow in Idaho's White Clouds Mountains"
+              />
             </div>
 
             <div className={classes["responsive__container-95"]}>
               <img
                 src={castlePeakReflectionPano}
-                alt="Inyo national forest sign"
+                alt="Reflection of Castle Peak in an unamed lake in the Chamberlain Basin"
               />
             </div>
           </section>
@@ -236,7 +246,7 @@ const WhiteClouds22Blog = () => {
             <div className={classes["responsive__container-full"]}>
               <img
                 src={castleLakeMornReflection}
-                alt="Inyo national forest sign"
+                alt="Reflection of Castle Peak in an unamed lake in the Chamberlain Basin"
               />
             </div>
 
@@ -244,12 +254,12 @@ const WhiteClouds22Blog = () => {
               <img
                 className={classes["sony-sixty-thirty__item-1"]}
                 src={castleMornShot}
-                alt="Inyo national forest sign"
+                alt="Morning shot of Castle Peak in Idaho's White Clouds Mountains"
               />
               <img
                 className={classes["sony-sixty-thirty__item-2"]}
                 src={castleTopShotVert}
-                alt="Inyo national forest sign"
+                alt="Castle Peak in Idaho's White Clouds Mountains"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -262,10 +272,16 @@ const WhiteClouds22Blog = () => {
               afternoon light.
             </p>
             <div className={classes["responsive__container-80"]}>
-              <img src={castleTopShot} alt="Inyo national forest sign" />
+              <img
+                src={castleTopShot}
+                alt="Castle Peak in Idaho's White Clouds Mountains"
+              />
             </div>
             <div className={classes["responsive__container-full"]}>
-              <img src={castlePeakGrandPano} alt="Inyo national forest sign" />
+              <img
+                src={castlePeakGrandPano}
+                alt="Castle Peak and the Chamberlain Basin in Idaho's White Clouds Mountains"
+              />
             </div>
             <div className={classes["video"]}>
               <video
@@ -287,12 +303,15 @@ const WhiteClouds22Blog = () => {
               mountains and valleys off to the East.
             </p>
             <div className={classes["responsive__container-70"]}>
-              <img src={hazySun} alt="Inyo national forest sign" />
+              <img
+                src={hazySun}
+                alt="Hazy afternoon Sun over the Chamberlain Basin"
+              />
             </div>
             <div className={classes["responsive__container-90"]}>
               <img
                 src={castlePeakDivideSunsetPano}
-                alt="Inyo national forest sign"
+                alt="Sam Stych hiking the trail up to the Castle Divide"
               />
             </div>
 
@@ -300,12 +319,12 @@ const WhiteClouds22Blog = () => {
               <img
                 className={classes["responsive__container-split__item-1"]}
                 src={eveningSlopeOne}
-                alt="Inyo national forest sign"
+                alt="Looking East from the Castle Divide"
               />
               <img
                 className={classes["responsive__container-split__item-2"]}
                 src={eveningSlopeTwo}
-                alt="Inyo national forest sign"
+                alt="Mountains to the East of the Castle Divide in Idaho's White Clouds"
               />
             </div>
 
@@ -313,12 +332,12 @@ const WhiteClouds22Blog = () => {
               <img
                 className={classes["responsive__container-split__item-1"]}
                 src={eveningSlopeThree}
-                alt="Inyo national forest sign"
+                alt="Trail near the Castle Divide"
               />
               <img
                 className={classes["responsive__container-split__item-2"]}
                 src={eveningDivideSam}
-                alt="Inyo national forest sign"
+                alt="Sam Stycg hiking up to the Castle Divide"
               />
             </div>
 
@@ -326,12 +345,12 @@ const WhiteClouds22Blog = () => {
               <img
                 className={classes["responsive__container-split__item-1"]}
                 src={eveningCastleShot}
-                alt="Inyo national forest sign"
+                alt="Castle Peak from the Castle Divide at dusk"
               />
               <img
                 className={classes["responsive__container-split__item-2"]}
                 src={eveningCastleDivideShot}
-                alt="Inyo national forest sign"
+                alt="Castle Peak from the Castle Divide at dusk"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -348,7 +367,10 @@ const WhiteClouds22Blog = () => {
             </p>
 
             <div className={classes["responsive__container-full"]}>
-              <img src={castleDividePano} alt="Inyo national forest sign" />
+              <img
+                src={castleDividePano}
+                alt="The Castle Divide at dusk in the White Clouds Mountains of Idaho"
+              />
             </div>
             <div className={classes["video"]}>
               <video
@@ -387,27 +409,33 @@ const WhiteClouds22Blog = () => {
               <img
                 className={classes["thirty-sixty__item-1"]}
                 src={samCastleTrailVert}
-                alt="Inyo national forest sign"
+                alt="Sam Stych hiking the White Clouds Loop"
               />
               <img
                 className={classes["thirty-sixty__item-2"]}
                 src={logLake}
-                alt="Inyo national forest sign"
+                alt="A lake in the Boulder Lakes Basin of the White Clouds Loop"
               />
             </div>
 
             <div className={classes["responsive__container-95"]}>
-              <img src={logLakePano} alt="Inyo national forest sign" />
+              <img
+                src={logLakePano}
+                alt="A lake in the Boulder Lakes Basin of the White Clouds Loop"
+              />
             </div>
 
             <div className={classes["responsive__container-95"]}>
-              <img src={grassLakePano} alt="Inyo national forest sign" />
+              <img
+                src={grassLakePano}
+                alt="A lake in the Boulder Lakes Basin of the White Clouds Loop"
+              />
             </div>
 
             <div className={classes["responsive__container-95"]}>
               <img
                 src={hummocksMarshLakePano}
-                alt="Inyo national forest sign"
+                alt="Hourglass Lake in the Boulder Chain Lakes Basin along the White Clouds Loop in Idaho"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -423,19 +451,19 @@ const WhiteClouds22Blog = () => {
               <img
                 className={classes["thirty-sixty__item-1"]}
                 src={lakeVert}
-                alt="Inyo national forest sign"
+                alt="Hummock Lake in the  Boulder Chain Lakes Basin"
               />
               <img
                 className={classes["thirty-sixty__item-2"]}
                 src={hummockLakeShot}
-                alt="Inyo national forest sign"
+                alt="Hummock Lake in the  Boulder Chain Lakes Basin"
               />
             </div>
 
             <div className={classes["responsive__container-full"]}>
               <img
                 src={hummocksPeninsulaPano}
-                alt="Inyo national forest sign"
+                alt="Hummock Lake in the  Boulder Chain Lakes Basin along the White Clouds Loop"
               />
             </div>
 
@@ -443,12 +471,12 @@ const WhiteClouds22Blog = () => {
               <img
                 className={classes["custom__hummocks__item-1"]}
                 src={hummocksRock}
-                alt="Inyo national forest sign"
+                alt="Hummock Lake in the  Boulder Chain Lakes Basin along the White Clouds Loop"
               />
               <img
                 className={classes["custom__hummocks__item-2"]}
                 src={hummocksVert}
-                alt="Inyo national forest sign"
+                alt="Hummock Lake in the  Boulder Chain Lakes Basin along the White Clouds Loop"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -460,13 +488,16 @@ const WhiteClouds22Blog = () => {
             </p>
 
             <div className={classes["responsive__container-80"]}>
-              <img src={hummocksGoldenPano} alt="Inyo national forest sign" />
+              <img
+                src={hummocksGoldenPano}
+                alt="Hummock Lake in the  Boulder Chain Lakes Basin along the White Clouds Loop"
+              />
             </div>
 
             <div className={classes["responsive__container-90"]}>
               <img
                 src={hummocksLakeGrandShot}
-                alt="Inyo national forest sign"
+                alt="Hummock Lake in the  Boulder Chain Lakes Basin along the White Clouds Loop"
               />
             </div>
             <div className={classes["video"]}>
@@ -492,7 +523,10 @@ const WhiteClouds22Blog = () => {
             </p>
 
             <div className={classes["responsive__container-70"]}>
-              <img src={hummocksSunRocks} alt="Inyo national forest sign" />
+              <img
+                src={hummocksSunRocks}
+                alt="Sun setting on rocks in the Boulder Chain Lakes in Idaho's White Clouds Mountains"
+              />
             </div>
           </section>
           <section className={classes["blog__section"]}>
@@ -501,26 +535,29 @@ const WhiteClouds22Blog = () => {
               <h3>Hummocks Lake to Quiet Lake</h3>
             </div>
             <p className={classes["blog__text"]}>
-              After a smokey windy night, I awoke to clear skies and went on a morning stroll
-              with my camera to nearby Hourglass Lake. Upon some exploration I
-              found a great spot that I kind of regretted not finding earlier.
-              The spot and Hourglass lake in general was much more sheltered
-              from the winds than Hummock lake.
+              After a smokey windy night, I awoke to clear skies and went on a
+              morning stroll with my camera to nearby Hourglass Lake. Upon some
+              exploration I found a great spot that I kind of regretted not
+              finding earlier. The spot and Hourglass lake in general was much
+              more sheltered from the winds than Hummock lake.
             </p>
             <div className={classes["responsive__container-90"]}>
-              <img src={hummocksLakeMornPano} alt="Inyo national forest sign" />
+              <img
+                src={hummocksLakeMornPano}
+                alt="Panorama of Hummock Lake, in the Boulder Chain Lakes along Idaho's White Clouds Loop"
+              />
             </div>
 
             <div className={classes["custom__container_scoop"]}>
               <img
                 className={classes["custom__scoop__item-1"]}
                 src={scoopLakeVert}
-                alt="Inyo national forest sign"
+                alt="Scoop Lake in Idaho's White Clouds Mountains"
               />
               <img
                 className={classes["custom__scoop__item-2"]}
                 src={hummocksSamTrail}
-                alt="Inyo national forest sign"
+                alt="Sam Stych hiking by Scoop Lake on the White Clouds Loop trail"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -534,35 +571,41 @@ const WhiteClouds22Blog = () => {
               hiked up from. We were now in open rocky high country.
             </p>
             <div className={classes["responsive__container-90"]}>
-              <img src={scoopLakePano} alt="Inyo national forest sign" />
+              <img
+                src={scoopLakePano}
+                alt="Scoop Lake on the White Clouds Loop trail"
+              />
             </div>
 
             <div className={classes["responsive__container-full"]}>
-              <img src={windyDevilPano} alt="Inyo national forest sign" />
+              <img
+                src={windyDevilPano}
+                alt="Windy Devil Pass on the White Clouds Loop in Idaho"
+              />
             </div>
 
             <div className={classes["sony-thirty-sixty__container"]}>
               <img
                 className={classes["sony-thirty-sixty__item-1"]}
                 src={windyDevilVert}
-                alt="Inyo national forest sign"
+                alt="Windy Devil Pass on the White Clouds Loop in Idaho"
               />
               <img
                 className={classes["sony-thirty-sixty__item-2"]}
                 src={windyDevilSam}
-                alt="Inyo national forest sign"
+                alt="Sam hiking near Windy Devil Pass along the White Clouds Loop in Idaho"
               />
             </div>
             <div className={classes["responsive__container-split"]}>
               <img
                 className={classes["responsive__container-split__item-1"]}
                 src={windyDevilValley}
-                alt="Inyo national forest sign"
+                alt="Mountains along the White Clouds Loop trail in Idaho"
               />
               <img
                 className={classes["responsive__container-split__item-2"]}
                 src={castleTarn}
-                alt="Inyo national forest sign"
+                alt="A mountain tarn with Castle Peak in the background"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -574,23 +617,23 @@ const WhiteClouds22Blog = () => {
               downhill to a couple of small lakes. The route got steep in some
               places but there was a well traveled goat trail to follow. The
               views of Castle Peak got better and were a lot different than the
-              views from the Chamberlain Basin. We continued the steep descent down and got
-              our first glimpse of Quiet Lake down below.
+              views from the Chamberlain Basin. We continued the steep descent
+              down and got our first glimpse of Quiet Lake down below.
             </p>
             <div className={classes["responsive__container-70"]}>
-              <img src={slateLake} alt="Inyo national forest sign" />
+              <img src={slateLake} alt="Slate Lake and Castle Peak" />
             </div>
 
             <div className={classes["sony-sixty-thirty__container"]}>
               <img
                 className={classes["sony-sixty-thirty__item-1"]}
                 src={quietLakeTopShot}
-                alt="Inyo national forest sign"
+                alt="Quiet Lake and Castle Peak"
               />
               <img
                 className={classes["sony-sixty-thirty__item-2"]}
                 src={quietLakeVert}
-                alt="Inyo national forest sign"
+                alt="Near the shores of Quiet Lake in the White Clouds"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -606,18 +649,18 @@ const WhiteClouds22Blog = () => {
               camp and continued taking photos as the light changed.
             </p>
             <div className={classes["responsive__container-90"]}>
-              <img src={quietLakeFieldPano} alt="Inyo national forest sign" />
-            </div>
-
-            <div className={classes["responsive__container-90"]}>
-              <img src={quietLakeShorePano} alt="Inyo national forest sign" />
+              <img src={quietLakeFieldPano} alt="Quiet Lake and Castle Peak" />
             </div>
 
             <div className={classes["responsive__container-90"]}>
               <img
-                src={quietLakeReflectionPano}
-                alt="Inyo national forest sign"
+                src={quietLakeShorePano}
+                alt="The peaceful shores of Quiet Lake on a lazy afternoon"
               />
+            </div>
+
+            <div className={classes["responsive__container-90"]}>
+              <img src={quietLakeReflectionPano} alt="Quiet Lake" />
             </div>
             <p className={classes["blog__text"]}>
               We made dinner and were treated to a nice sunset. The smoke from
@@ -629,7 +672,10 @@ const WhiteClouds22Blog = () => {
               turning in for the night.
             </p>
             <div className={classes["responsive__container-full"]}>
-              <img src={quietLakeSunsetPano} alt="Inyo national forest sign" />
+              <img
+                src={quietLakeSunsetPano}
+                alt="A fiery Sunset behind Castle Peak and Quiet Lake"
+              />
             </div>
           </section>
           <section className={classes["blog__section"]}>
@@ -649,10 +695,16 @@ const WhiteClouds22Blog = () => {
               precarious. We started our uphill scramble.
             </p>
             <div className={classes["responsive__container-full"]}>
-              <img src={fourLakeBasinPanoOne} alt="Inyo national forest sign" />
+              <img
+                src={fourLakeBasinPanoOne}
+                alt="Four Lakes Basin in the White Clouds Mountains of Idaho"
+              />
             </div>
             <div className={classes["responsive__container-full"]}>
-              <img src={fourLakeBasinPanoTwo} alt="Inyo national forest sign" />
+              <img
+                src={fourLakeBasinPanoTwo}
+                alt="Four Lakes Basin in the White Clouds Mountains of Idaho"
+              />
             </div>
             <p className={classes["blog__text"]}>
               After a while we reached the Four Lakes Basin and our route
@@ -665,18 +717,18 @@ const WhiteClouds22Blog = () => {
               <img
                 className={classes["sony-thirty-sixty__item-1"]}
                 src={fourLakeSamVert}
-                alt="Inyo national forest sign"
+                alt="Sam Stych hiking up from the Four Lakes Basin in the White Clouds Mountains of Idaho"
               />
               <img
                 className={classes["sony-thirty-sixty__item-2"]}
                 src={fourLakeShot}
-                alt="Inyo national forest sign"
+                alt="Four Lakes Basin in the White Clouds Mountains of Idaho"
               />
             </div>
             <div className={classes["responsive__container-full"]}>
               <img
                 src={fourLakeBasinGrandPano}
-                alt="Inyo national forest sign"
+                alt="Panorama of the Four Lakes Basin in the White Clouds Mountains of Idaho"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -684,7 +736,10 @@ const WhiteClouds22Blog = () => {
               the valley below and we began to descend.
             </p>
             <div className={classes["responsive__container-70"]}>
-              <img src={devilsStaircaseShot} alt="Inyo national forest sign" />
+              <img
+                src={devilsStaircaseShot}
+                alt="The Devil's Staircase above Born Lakes on the White Clouds Loop trail"
+              />
             </div>
             <p className={classes["blog__text"]}>
               On our way down we met a couple from White Salmon who were just
@@ -699,30 +754,37 @@ const WhiteClouds22Blog = () => {
               backdrop.
             </p>
             <div className={classes["responsive__container-full"]}>
-              <img src={bornLakesPano} alt="Inyo national forest sign" />
+              <img
+                src={bornLakesPano}
+                alt="Born Lakes on the White Clouds Loop trail"
+              />
             </div>
 
             <div className={classes["responsive__container-full"]}>
-              <img src={bornLakesPanoWide} alt="Inyo national forest sign" />
+              <img
+                src={bornLakesPanoWide}
+                alt="Born Lakes on the White Clouds Loop trail"
+              />
             </div>
             <p className={classes["blog__text"]}>
               The hardest hiking was behind us. We continued on, through
-              sporadic stands of pine forest and open rocky areas.  It was getting smokier as the day progressed. We entered
-              the open Ants Basin area which yielded wide open views of the
-              White Clouds mountains to the North. The trail started to
-              switchback up a pass and we were treated to a grand view of the
-              Ants Basin and surrounding mountains.
+              sporadic stands of pine forest and open rocky areas. It was
+              getting smokier as the day progressed. We entered the open Ants
+              Basin area which yielded wide open views of the White Clouds
+              mountains to the North. The trail started to switchback up a pass
+              and we were treated to a grand view of the Ants Basin and
+              surrounding mountains.
             </p>
             <div className={classes["sony-thirty-sixty__container"]}>
               <img
                 className={classes["sony-thirty-sixty__item-1"]}
                 src={samAntsBasinVert}
-                alt="Inyo national forest sign"
+                alt="Sam Stych hiking towards the Ants Basin on the White Clouds Loop trail in Idaho"
               />
               <img
                 className={classes["sony-thirty-sixty__item-2"]}
                 src={samAntsBasinShot}
-                alt="Inyo national forest sign"
+                alt="Sam Stych hiking towards the Ants Basin on the White Clouds Loop trail in Idaho"
               />
             </div>
 
@@ -730,21 +792,27 @@ const WhiteClouds22Blog = () => {
               <img
                 className={classes["responsive__container-split__item-1"]}
                 src={antsBasinMeadow}
-                alt="Inyo national forest sign"
+                alt="The Ants Basin on the White Clouds Loop trail in Idaho"
               />
               <img
                 className={classes["responsive__container-split__item-2"]}
                 src={antsBasinTrailShot}
-                alt="Inyo national forest sign"
+                alt="The Ants Basin on the White Clouds Loop trail in Idaho"
               />
             </div>
 
             <div className={classes["responsive__container-70"]}>
-              <img src={antsBasinShot} alt="Inyo national forest sign" />
+              <img
+                src={antsBasinShot}
+                alt="The Ants Basin on the White Clouds Loop trail in Idaho"
+              />
             </div>
 
             <div className={classes["responsive__container-full"]}>
-              <img src={antsBasinPano} alt="Inyo national forest sign" />
+              <img
+                src={antsBasinPano}
+                alt="A panorama of the Ants Basin on the White Clouds Loop trail in Idaho"
+              />
             </div>
             <p className={classes["blog__text"]}>
               We continued on leaving the Ants Basin behind and Fourth of July
@@ -758,17 +826,20 @@ const WhiteClouds22Blog = () => {
               <img
                 className={classes["responsive__container-split__item-1"]}
                 src={mtnBurn}
-                alt="Inyo national forest sign"
+                alt="The trail passing through some burnt trees on the White Clouds Loop"
               />
               <img
                 className={classes["responsive__container-split__item-2"]}
                 src={mtnLake}
-                alt="Inyo national forest sign"
+                alt="Fourth of July Lake from high up on the White Clouds Loop"
               />
             </div>
 
             <div className={classes["responsive__container-80"]}>
-              <img src={mtnTarn} alt="Inyo national forest sign" />
+              <img
+                src={mtnTarn}
+                alt="A trailside alpine tarn along the White Clouds Loop"
+              />
             </div>
 
             <p className={classes["blog__text"]}>
@@ -776,14 +847,14 @@ const WhiteClouds22Blog = () => {
               not many other backpackers. I would definitely to it again. After
               the rugged 14 mile drive on a gravel road back to the main
               highway, we saw a huge smoke plume coming from the South a few
-              miles away. High winds had apparently whipped up the wildfire into a
-              roaring blaze. We were lucky to have completed this hike when we
+              miles away. High winds had apparently whipped up the wildfire into
+              a roaring blaze. We were lucky to have completed this hike when we
               did because the smoke and fire continued to get much worse in the
               following weeks before eventually being put out from the weather.
             </p>
 
             <div className={classes["responsive__container-70"]}>
-              <img src={brockSignage} alt="Inyo national forest sign" />
+              <img src={brockSignage} alt="Brock Dallman standing near the White Clouds Wilderness sign" />
             </div>
           </section>
           <Link className={classes["blogs-link"]} to="/blog">

@@ -17,34 +17,34 @@ const Wyoming = () => {
         <h1>WYOMING</h1>
         <div className={classes.grid}>
           <div className={`${classes.grid__item} ${classes["grid__item--1"]}`}>
-            <img src={lonesomeLake} alt="Lonesome Lake" />
+            <img src={lonesomeLake} alt="Lonesome Lake in Wyoming's Wind River Range" />
           </div>
           <div className={`${classes.grid__item} ${classes["grid__item--2"]}`}>
-            <img src={islandLakeDawn} alt="Island Lake Dawn" />
+            <img src={islandLakeDawn} alt="Island Lake at Dawn in  Wyoming's Wind River Range" />
           </div>
           <div className={`${classes.grid__item} ${classes["grid__item--3"]}`}>
-            <img src={islandLakeEvening} alt="Island Lake Evening" />
+            <img src={islandLakeEvening} alt="Island Lake Evening in Wyoming's Wind River Range" />
           </div>
           <div className={`${classes.grid__item} ${classes["grid__item--4"]}`}>
-            <img src={baptistLake} alt="Baptist Lake" />
+            <img src={baptistLake} alt="Baptist Lake in Wyoming's Wind River Range" />
           </div>
           <div className={`${classes.grid__item} ${classes["grid__item--5"]}`}>
-            <img src={pyramidPeak} alt="Pyramid Lake" />
+            <img src={pyramidPeak} alt="Pyramid Lake in Wyoming's Wind River Range" />
           </div>
           <div className={`${classes.grid__item} ${classes["grid__item--6"]}`}>
-            <img src={lizardsHead} alt="Lizard Head" />
+            <img src={lizardsHead} alt="Lizard Head in Wyoming's Wind River Range" />
           </div>
           <div className={`${classes.grid__item} ${classes["grid__item--7"]}`}>
-            <img src={morraineLake} alt="Morraine Lake" />
+            <img src={morraineLake} alt="Morraine Lake in Wyoming Wind River Range" />
           </div>
           <div className={`${classes.grid__item} ${classes["grid__item--8"]}`}>
-            <img src={spiderLake} alt="Spider Lake" />
+            <img src={spiderLake} alt="Spider Lake in Wyoming's Wind River Range" />
           </div>
           <div className={`${classes.grid__item} ${classes["grid__item--9"]}`}>
-            <img src={pyramidPeakSummit} alt="Pyramid Peak" />
+            <img src={pyramidPeakSummit} alt="Pyramid Peak in Wyoming's Wind River Range" />
           </div>
           <div className={`${classes.grid__item} ${classes["grid__item--10"]}`}>
-            <img src={bigLakePano} alt="Big Lake Pass" />
+            <img src={bigLakePano} alt="Big Lake Pass in Wyoming's Wind River Range" />
           </div>
         </div>
       </div>

@@ -36,121 +36,157 @@ const Idaho = () => {
     <div className={classes.idaho}>
       <h1>IDAHO</h1>
       <div className={classes["responsive__container-full"]}>
-        <img src={lucilleLake} alt="Inyo national forest sign" />
+        <img
+          src={lucilleLake}
+          alt="Lucille Lake in Idaho's Sawtooth Mountains"
+        />
       </div>
       <div className={classes["responsive__container-full"]}>
-        <img src={castlePeakGrandPano} alt="Inyo national forest sign" />
+        <img
+          src={castlePeakGrandPano}
+          alt="Castle Peak in Idaho's White Clouds Mountains"
+        />
       </div>
       <div className={classes["responsive__container-full"]}>
-        <img src={castleDivide} alt="Inyo national forest sign" />
+        <img
+          src={castleDivide}
+          alt="The Castle Divide in Idaho's White Clouds Mountains"
+        />
       </div>
       <div className={classes["custom-thirty-sixty__container-1"]}>
         <img
           className={classes["custom-thirty-sixty-1__item-1"]}
           src={mcgowanPeak}
-          alt="Stanley Lake"
+          alt="McGowan Peak in Idaho's Sawtooth Mountains"
         />
         <img
           className={classes["custom-thirty-sixty-1__item-2"]}
           src={twinLakeVert}
-          alt="Stanley Lake"
+          alt="Twin Lakes in Idaho's Sawtooth Mountains"
         />
       </div>
       <div className={classes["responsive__container-full"]}>
-        <img src={lostRiverRange} alt="Inyo national forest sign" />
+        <img src={lostRiverRange} alt="Lost River Range in Idaho" />
       </div>
       <div className={classes["responsive__container-full"]}>
-        <img src={fourLakesBasinPano} alt="Inyo national forest sign" />
+        <img
+          src={fourLakesBasinPano}
+          alt="The Four Lakes Basin in Idaho's White Clouds Mountains"
+        />
       </div>
       <div className={classes["responsive__container-full"]}>
-        <img src={quietLakeShore} alt="Inyo national forest sign" />
+        <img
+          src={quietLakeShore}
+          alt="Quiet Lake in Idaho's White Clouds Mountains"
+        />
       </div>
       <div className={classes["responsive__container-full"]}>
-        <img src={pettitLakeMorning} alt="Inyo national forest sign" />
+        <img
+          src={pettitLakeMorning}
+          alt="Moring at Pettit Lake in Idaho's Sawtooth Mountains"
+        />
       </div>
       <div className={classes["responsive__container-full"]}>
-        <img src={castleLakeReflection} alt="Inyo national forest sign" />
+        <img
+          src={castleLakeReflection}
+          alt="Castle Lake in Idaho's White Clouds Mountains"
+        />
       </div>
 
       <div className={classes["custom-container__alice-twin"]}>
         <img
           className={classes["custom-container__alice-twin__item-1"]}
           src={aliceLakeVert}
-          alt="Inyo national forest sign"
+          alt="Alice Lake in Idaho's Sawtooth Mountains"
         />
         <img
           className={classes["custom-container__alice-twin__item-2"]}
           src={antsBasinShot}
-          alt="Inyo national forest sign"
+          alt="The Ants Basin in Idaho's White Clouds Mountains"
         />
       </div>
 
       <div className={classes["responsive__container-full"]}>
-        <img src={quietLakeSunsetPano} alt="Inyo national forest sign" />
+        <img
+          src={quietLakeSunsetPano}
+          alt="Quiet Lake in Idaho's White Clouds Mountains"
+        />
       </div>
       <div className={classes["responsive__container-full"]}>
-        <img src={windyDevilPano} alt="Inyo national forest sign" />
+        <img
+          src={windyDevilPano}
+          alt="Windy Devil Pass in Idaho's White Clouds Mountains"
+        />
       </div>
       <div className={classes["responsive__container-full"]}>
-        <img src={stanleyLakePurple} alt="Inyo national forest sign" />
+        <img
+          src={stanleyLakePurple}
+          alt="Stanley Lake in Idaho's Sawtooth Mountains"
+        />
       </div>
       <div className={classes["responsive__container-full"]}>
-        <img src={kramerLakePano} alt="Inyo national forest sign" />
+        <img
+          src={kramerLakePano}
+          alt="Kramer Lakes in Idaho's Sawtooth Mountains"
+        />
       </div>
       <div className={classes["custom-container__slate-alpine"]}>
         <img
           className={classes["custom-container__slate-alpine__item-1"]}
           src={slateLake}
-          alt="Inyo national forest sign"
+          alt="Slate Lake in Idaho's White Clouds Mountains"
         />
         <img
           className={classes["custom-container__slate-alpine__item-2"]}
           src={sawtoothsAlpineVert}
-          alt="Inyo national forest sign"
+          alt="An alpine shot of the Sawtooth Mountain Range"
         />
       </div>
       <div className={classes["responsive__container-full"]}>
-        <img src={sawtoothAlpinePano} alt="Inyo national forest sign" />
+        <img
+          src={sawtoothAlpinePano}
+          alt="An alpine shot of the Sawtooth Mountain Range"
+        />
       </div>
       <div className={classes["responsive__container-full"]}>
-        <img src={aliceAlpinePano} alt="Inyo national forest sign" />
+        <img src={aliceAlpinePano} alt="Inyo national An alpine shot of Alice Lake in Idaho's Sawtooth Mountains" />
       </div>
       <div className={classes["responsive__container-full"]}>
-        <img src={castlePeakMeadowsPano} alt="Inyo national forest sign" />
+        <img src={castlePeakMeadowsPano} alt="A meadow below Castle Peak in the Chamberlain Basin" />
       </div>
       <div className={classes["responsive__container-full"]}>
-        <img src={baronLakesPass} alt="Inyo national forest sign" />
+        <img src={baronLakesPass} alt="Baron Lakes in Idaho's Sawtooth Range" />
       </div>
       <div className={classes["responsive__container-full"]}>
-        <img src={cratersOfTheMoon} alt="Inyo national forest sign" />
+        <img src={cratersOfTheMoon} alt="Craters of the Moon in Idaho" />
       </div>
       <div className={classes["responsive__container-full"]}>
-        <img src={sawtoothPass} alt="Inyo national forest sign" />
+        <img src={sawtoothPass} alt="An alpine pass in Idaho's Sawtooth Mountains" />
       </div>
 
       <div className={classes["responsive__container-full"]}>
-        <img src={aliceLakeReflection} alt="Inyo national forest sign" />
+        <img src={aliceLakeReflection} alt="A reflection on Alice Lake in  Idaho's Sawtooth Mountains" />
       </div>
       <div className={classes["sony-thirty-sixty__container"]}>
         <img
           className={classes["sony-thirty-sixty__item-1"]}
           src={castleTopShotVert}
-          alt="Inyo national forest sign"
+          alt="Castle Peak and the Chamberlain Basin"
         />
         <img
           className={classes["sony-thirty-sixty__item-2"]}
           src={castleMornShot}
-          alt="Inyo national forest sign"
+          alt="Castle Peak and the Chamberlain Basin"
         />
       </div>
       <div className={classes["responsive__container-full"]}>
-        <img src={twinLakesPass} alt="Inyo national forest sign" />
+        <img src={twinLakesPass} alt="Twin Lakes in Idaho's Sawtooth Mountains" />
       </div>
       <div className={classes["responsive__container-full"]}>
-        <img src={castleLakeMornReflection} alt="Inyo national forest sign" />
+        <img src={castleLakeMornReflection} alt="Reflection of Castle Peak in Idaho's White Clouds Mountains" />
       </div>
       <div className={classes["responsive__container-full"]}>
-        <img src={hummocksLake} alt="Inyo national forest sign" />
+        <img src={hummocksLake} alt="Hummock Lake in the Boulder Chain Lakes, in Idaho's White Clouds Mountains" />
       </div>
     </div>
   );

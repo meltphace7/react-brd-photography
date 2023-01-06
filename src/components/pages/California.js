@@ -47,143 +47,143 @@ const California = () => {
       <div className={classes.california}>
         <h1>CALIFORNIA</h1>
         <div className={classes["responsive__container-full"]}>
-          <img src={thousandIsland} alt="Inyo national forest sign" />
+          <img src={thousandIsland} alt="Thousand Island Lake" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={edizaLake} alt="Inyo national forest sign" />
+          <img src={edizaLake} alt="Ediza Lake" />
         </div>
 
         <div className={classes["responsive__container-full"]}>
-          <img src={gannetPano} alt="Inyo national forest sign" />
+          <img src={gannetPano} alt="Gannet Lake" />
         </div>
 
         <div className={classes["custom-container__triple-vert-1"]}>
           <img
             className={classes["custom-container__triple-vert-1__item-1"]}
             src={bullfrogVert}
-            alt="Inyo national forest sign"
+            alt="Bullfrog Lake"
           />
           <img
             className={classes["custom-container__triple-vert-1__item-2"]}
             src={marbleMtnVert}
-            alt="Inyo national forest sign"
+            alt="A beautiful mountain in the Sierras"
           />
           <img
             className={classes["custom-container__triple-vert-1__item-3"]}
             src={chickenfootMeadowsVert}
-            alt="Inyo national forest sign"
+            alt="A meadow near Chickenfoot Lake"
           />
         </div>
 
         <div className={classes["responsive__container-full"]}>
-          <img src={graniteOrange} alt="Inyo national forest sign" />
+          <img src={graniteOrange} alt="Orange sunkissed mountains in Granite Park, Sierras" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={bullfrogWide} alt="Inyo national forest sign" />
+          <img src={bullfrogWide} alt="Bullfrog Lake in Kings Canyon National Park" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={raeCalm} alt="Inyo national forest sign" />
+          <img src={raeCalm} alt="Middle Rae Lakes in Kings Canyon National Park" />
         </div>
         <div className={classes["custom-container__triple-vert-2"]}>
           <img
             className={classes["custom-container__triple-vert-2__item-1"]}
             src={shadowLakeVert}
-            alt="Inyo national forest sign"
+            alt="Shadow Lake from the Pacific Crest Trail / John Muir Trail"
           />
           <img
             className={classes["custom-container__triple-vert-2__item-2"]}
             src={sevenGablesVert}
-            alt="Inyo national forest sign"
+            alt="Seven Gables Mountains in the Sierra"
           />
           <img
             className={classes["custom-container__triple-vert-2__item-3"]}
             src={sevenGablesMtnVert}
-            alt="Inyo national forest sign"
+            alt="Seven Gables Mountains in the Sierras"
           />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={icebergLake} alt="Inyo national forest sign" />
+          <img src={icebergLake} alt="Iceberg Lake in the Sierras" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={chickenfootLake} alt="Inyo national forest sign" />
+          <img src={chickenfootLake} alt="Chickenfoot Lake" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={treasureLakes} alt="Inyo national forest sign" />
+          <img src={treasureLakes} alt="Treasure Lakes in the Sierras" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={bannerPeak} alt="Inyo national forest sign" />
+          <img src={bannerPeak} alt="Banner Peak" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={kearsarge} alt="Inyo national forest sign" />
+          <img src={kearsarge} alt="Kearsarge Pass in Kings Canyon National Park" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={raeLakeHiView} alt="Inyo national forest sign" />
+          <img src={raeLakeHiView} alt="Rae Lakes in Kings Canyon National Park" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={paradiseLake} alt="Inyo national forest sign" />
+          <img src={paradiseLake} alt="60 Lake Basin in Kings Canyon National Park" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={goldMtn} alt="Inyo national forest sign" />
+          <img src={goldMtn} alt="A mountain above Pine Lake in the Eastern Sierras " />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={marieBlue} alt="Inyo national forest sign" />
+          <img src={marieBlue} alt="Marie Lake from Selden Pass" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={marieOrange} alt="Inyo national forest sign" />
+          <img src={marieOrange} alt="Marie Lake Sunset" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={bearBasinPano} alt="Inyo national forest sign" />
+          <img src={bearBasinPano} alt="Bear Lakes Basin Panorama" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={minarets} alt="Inyo national forest sign" />
+          <img src={minarets} alt="Minarets mountains" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={raeGold} alt="Inyo national forest sign" />
+          <img src={raeGold} alt="Rae Lakes" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={pineCreekPano} alt="Inyo national forest sign" />
+          <img src={pineCreekPano} alt="Pine Creek in the Eastern Sierras" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={bullfrogGold} alt="Inyo national forest sign" />
+          <img src={bullfrogGold} alt="Bullfrog Lake in Kings Canyon National Park" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={goldValley} alt="Inyo national forest sign" />
+          <img src={goldValley} alt="A valley in Kings Canyon National Park" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={raeMorning} alt="Inyo national forest sign" />
+          <img src={raeMorning} alt="Morning at Rae Lakes in Kings Canyon National Park" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={mariePano} alt="Inyo national forest sign" />
+          <img src={mariePano} alt="Marie Lake Panorama" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={raeBasin} alt="Inyo national forest sign" />
+          <img src={raeBasin} alt="Rae Lakes Basin in Kings Canyon National Park" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={granitePond} alt="Inyo national forest sign" />
+          <img src={granitePond} alt="A mountain tarn in the Sierras" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={sherbertSky} alt="Inyo national forest sign" />
+          <img src={sherbertSky} alt="A orange sunset off the Lake Italy Trail" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={granitePano} alt="Inyo national forest sign" />
+          <img src={granitePano} alt="Granite Park Panorama, Eastern Sierras" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={graniteParkMtns} alt="Inyo national forest sign" />
+          <img src={graniteParkMtns} alt="Granite Park mountains in the Eastern Sierras" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={graniteParkClouds} alt="Inyo national forest sign" />
+          <img src={graniteParkClouds} alt="Granite Park mountains in the Eastern Sierras" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={honeymoonLake} alt="Inyo national forest sign" />
+          <img src={honeymoonLake} alt="Honeymoon Lake in the Sierras" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={kearsargeMorn} alt="Inyo national forest sign" />
+          <img src={kearsargeMorn} alt="Kearsarge Lakes, Kings Canyon National Park" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={bearPano} alt="Inyo national forest sign" />
+          <img src={bearPano} alt="Bear Lakes Basin Pano" />
         </div>
         <div className={classes["responsive__container-full"]}>
-          <img src={juliusCeaserPano} alt="Inyo national forest sign" />
+          <img src={juliusCeaserPano} alt="Mt. Juilius Ceaser, Sierras" />
         </div>
       </div>
     );

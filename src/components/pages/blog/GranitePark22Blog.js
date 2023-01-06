@@ -211,22 +211,31 @@ const GranitePark22Blog = () => {
               <div
                 className={`${classes["day-one__grid-item"]} ${classes["day-one__grid-item-1"]}`}
               >
-                <img src={tungstenMine} alt="paradise-lake" />
+                <img
+                  src={tungstenMine}
+                  alt="tungsten mine at Pine Creek Trailhead, Eastern Sierras"
+                />
               </div>
               <div
                 className={`${classes["day-one__grid-item"]} ${classes["day-one__grid-item-2"]}`}
               >
-                <img src={pineCreekClouds} alt="paradise-lake" />
+                <img
+                  src={pineCreekClouds}
+                  alt="Granite Mountains along Pine Creek, Eastern Sierras"
+                />
               </div>
               <div
                 className={`${classes["day-one__grid-item"]} ${classes["day-one__grid-item-3"]}`}
               >
-                <img src={pineCreekFalls} alt="paradise-lake" />
+                <img
+                  src={pineCreekFalls}
+                  alt="Pine Creek Falls in Eastern Sierras"
+                />
               </div>
               <div
                 className={`${classes["day-one__grid-item"]} ${classes["day-one__grid-item-4"]}`}
               >
-                <img src={samPineCreek} alt="paradise-lake" />
+                <img src={samPineCreek} alt="Sam hiking along Pine Creek" />
               </div>
             </div>
             <p className={classes["blog__text"]}>
@@ -243,15 +252,18 @@ const GranitePark22Blog = () => {
               view. It was raging from all the rain the previous night.
             </p>
             <div className={classes["responsive__container-full"]}>
-              <img src={pineCreekFallsPano} alt="Inyo national forest sign" />
+              <img
+                src={pineCreekFallsPano}
+                alt="Pine Creek falls in California's Eastern Sierras"
+              />
             </div>
             <p className={classes["blog__text"]}>
               Finally the trail met and followed Pine Creek, and the trail began
               to level out. As we arrived at the shores of Pine Lake it began to
               rain. We took shelter under some pine trees and had ramen for
               lunch. Above Pine Lake to the North was a beautiful granite
-              mountain, adorned with lateral white stripes. The rain stopped and we
-              continued along the trail to Upper Pine Lake. The creeks and
+              mountain, adorned with lateral white stripes. The rain stopped and
+              we continued along the trail to Upper Pine Lake. The creeks and
               streams were raging. After about a mile we arrived at Honeymoon
               Lake, our destination for the night. As we began setting up our
               camp, the ominous clouds started to open up on us again and it
@@ -260,28 +272,37 @@ const GranitePark22Blog = () => {
               shots of the lake before turning in for the night.
             </p>
             <div className={classes["responsive__container-90"]}>
-              <img src={pineLakePano} alt="Inyo national forest sign" />
+              <img src={pineLakePano} alt="Pine Lake in the Eastern Sierras" />
             </div>
             <div className={classes["grid_day-one_2"]}>
               <div
                 className={`${classes["day-one__2-grid-item"]} ${classes["day-one__2-grid-item-1"]}`}
               >
-                <img src={samPineLakeVert} alt="paradise-lake" />
+                <img
+                  src={samPineLakeVert}
+                  alt="Sam at Pine Lake, Eastern Sierras"
+                />
               </div>
               <div
                 className={`${classes["day-one__2-grid-item"]} ${classes["day-one__2-grid-item-2"]}`}
               >
-                <img src={pineLakeVert} alt="paradise-lake" />
+                <img
+                  src={pineLakeVert}
+                  alt="Pine Lake in the Eastern Sierras"
+                />
               </div>
               <div
                 className={`${classes["day-one__2-grid-item"]} ${classes["day-one__2-grid-item-3"]}`}
               >
-                <img src={samRockHop} alt="paradise-lake" />
+                <img src={samRockHop} alt="Sam along the trai" />
               </div>
             </div>
 
             <div className={classes["responsive__container-80"]}>
-              <img src={honeymoonSunset} alt="Inyo national forest sign" />
+              <img
+                src={honeymoonSunset}
+                alt="Honeymoon Lake in the Eastern Sierras"
+              />
             </div>
           </section>
           <section className={classes["blog__section"]}>
@@ -300,27 +321,33 @@ const GranitePark22Blog = () => {
               <img
                 className={classes["responsive__container-split__item-1"]}
                 src={honeymoonMtnsVert}
-                alt="Inyo national forest sign"
+                alt="Honeymoon Lake in the Eastern Sierras"
               />
               <img
                 className={classes["responsive__container-split__item-2"]}
                 src={honeymoonVert}
-                alt="Inyo national forest sign"
+                alt="Honeymoon Lake in the Eastern Sierras"
               />
             </div>
 
             <div className={classes["responsive__container-70"]}>
-              <img src={honeymoonMorn} alt="Inyo national forest sign" />
+              <img
+                src={honeymoonMorn}
+                alt="Honeymoon Lake in the Eastern Sierras"
+              />
             </div>
             <p className={classes["blog__text"]}>
               We saw few people. Granite Park was exceptionally beautiful. At
               the base of immense, white granite peaks were rushing creeks,
-              small alpine meadows, tarns, and sporadic clusters of
-              trees. Huge granite boulders were strewn about. The trail weaved
-              through the parkland terrain on a slow and steady ascent.
+              small alpine meadows, tarns, and sporadic clusters of trees. Huge
+              granite boulders were strewn about. The trail weaved through the
+              parkland terrain on a slow and steady ascent.
             </p>
             <div className={classes["responsive__container-full"]}>
-              <img src={graniteParkCreekPano} alt="Inyo national forest sign" />
+              <img
+                src={graniteParkCreekPano}
+                alt="Granite Park in the Eastern Sierras"
+              />
             </div>
             <p className={classes["blog__text"]}>
               As the day went on, large white clouds began to materialize
@@ -331,7 +358,7 @@ const GranitePark22Blog = () => {
             <div className={classes["responsive__container-full"]}>
               <img
                 src={graniteParkCloudsPano}
-                alt="Inyo national forest sign"
+                alt="Granite Park in the Eastern Sierras"
               />
             </div>
             <div className={classes["video"]}>
@@ -347,12 +374,15 @@ const GranitePark22Blog = () => {
               </video>
             </div>
             <div className={classes["responsive__container-80"]}>
-              <img src={graniteParkTarn} alt="Inyo national forest sign" />
+              <img
+                src={graniteParkTarn}
+                alt="A tarn in Granite Park in the Eastern Sierras"
+              />
             </div>
             <div className={classes["responsive__container-80"]}>
               <img
                 src={graniteParkCloudsShot}
-                alt="Inyo national forest sign"
+                alt="Granite Park in the Eastern Sierras"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -363,19 +393,22 @@ const GranitePark22Blog = () => {
               our tent, about a mile and a half from Italy Pass.
             </p>
             <div className={classes["responsive__container-90"]}>
-              <img src={graniteParkMtnsPano} alt="Inyo national forest sign" />
+              <img
+                src={graniteParkMtnsPano}
+                alt="Granite Park in the Eastern Sierras"
+              />
             </div>
 
             <div className={classes["responsive__container-split"]}>
               <img
                 className={classes["responsive__container-split__item-1"]}
                 src={graniteParkCloudsVert}
-                alt="Inyo national forest sign"
+                alt="Granite Park in the Eastern Sierras"
               />
               <img
                 className={classes["responsive__container-split__item-2"]}
                 src={graniteParkMtnVert}
-                alt="Inyo national forest sign"
+                alt="Granite Park in the Eastern Sierras"
               />
             </div>
 
@@ -383,40 +416,40 @@ const GranitePark22Blog = () => {
               <img
                 className={classes["thirty-sixty__item-1"]}
                 src={graniteParkBrockVert}
-                alt="Inyo national forest sign"
+                alt="Granite Park in the Eastern Sierras"
               />
               <img
                 className={classes["thirty-sixty__item-2"]}
                 src={graniteParkTrail}
-                alt="Inyo national forest sign"
+                alt="Granite Park in the Eastern Sierras"
               />
             </div>
             <p className={classes["blog__text"]}>
               The rain kept on for at least three or four hours. Our camp spot
-              was the last suitable spot for several miles and I knew
-              it made the most sense to spend the night there and make up the
-              miles the next day. The rain finally stopped in the evening, so we
-              emerged from our tent and took a short walk to a vista of the
-              Chalfant Lakes basin below us, just as the sun was setting. We had
-              dinner and retired to our tent. The following day would be arduous
-              and long but would also yield some incredible alpine scenery.
+              was the last suitable spot for several miles and I knew it made
+              the most sense to spend the night there and make up the miles the
+              next day. The rain finally stopped in the evening, so we emerged
+              from our tent and took a short walk to a vista of the Chalfant
+              Lakes basin below us, just as the sun was setting. We had dinner
+              and retired to our tent. The following day would be arduous and
+              long but would also yield some incredible alpine scenery.
             </p>
             <div className={classes["thirty-sixty__container"]}>
               <img
                 className={classes["sixty-thirty__item-1"]}
                 src={graniteParkEveningLakes}
-                alt="Inyo national forest sign"
+                alt="Chalfant Lakes near Granite Park in the Eastern Sierras"
               />
               <img
                 className={classes["sixty-thirty__item-2"]}
                 src={graniteParkSam}
-                alt="Inyo national forest sign"
+                alt="Sam in Granite Park, Eastern Sierras"
               />
             </div>
             <div className={classes["responsive__container-90"]}>
               <img
                 src={graniteParkEveningPano}
-                alt="Inyo national forest sign"
+                alt="Granite Park in the Eastern Sierras"
               />
             </div>
           </section>
@@ -433,23 +466,29 @@ const GranitePark22Blog = () => {
               trip.
             </p>
             <div className={classes["responsive__container-80"]}>
-              <img src={graniteOrangeMorn} alt="Italy Pass Pano" />
+              <img
+                src={graniteOrangeMorn}
+                alt="Orange Mountains in Granite Park in the Eastern Sierras"
+              />
             </div>
             <div className={classes["responsive__container-full"]}>
-              <img src={graniteOrangeMornPano} alt="Italy Pass Pano" />
+              <img
+                src={graniteOrangeMornPano}
+                alt="Granite Park in the Eastern Sierras"
+              />
             </div>
 
             <div className={classes["responsive__container-split"]}>
               <img
                 className={classes["responsive__container-split__item-1"]}
                 src={graniteGooSlam}
-                alt="Italy Pass Pano"
+                alt="Sam slamming some Goo in Granite Park, Eastern Sierras"
               />
 
               <img
                 className={classes["responsive__container-split__item-2"]}
                 src={graniteSamBoulderHop}
-                alt="Italy Pass"
+                alt="Sam hiking up to Italy Pass, Eastern Sierras"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -463,7 +502,8 @@ const GranitePark22Blog = () => {
             <p className={classes["blog__text"]}>
               We continued over the pass but left the trail towards a mountain
               col that was the entrance to the Bear Lake Basin, our next
-              destination. We slowly traversed a steep boulder field which took a while, until we finally arrived at the gap. After continuing
+              destination. We slowly traversed a steep boulder field which took
+              a while, until we finally arrived at the gap. After continuing
               through the gap we were treated to a sweeping view of the Bear
               Lakes Basin and the Seven Gables Mountains beyond.
             </p>
@@ -471,13 +511,13 @@ const GranitePark22Blog = () => {
               <img
                 className={classes["responsive__container-split__item-1"]}
                 src={italyPassBoulder}
-                alt="Italy Pass Pano"
+                alt="Boulder field near Italy Pass, Eastern Sierras"
               />
 
               <img
                 className={classes["responsive__container-split__item-2"]}
                 src={bearLakesBrockPano}
-                alt="Italy Pass Pano"
+                alt="Bear Lakes Basin Panorama in the Eastern Sierras"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -486,50 +526,65 @@ const GranitePark22Blog = () => {
               left Italy Pass and we wouldn’t be on one for several more miles.
             </p>
             <div className={classes["responsive__container-full"]}>
-              <img src={brockAlpinePano} alt="Italy Pass Pano" />
+              <img
+                src={brockAlpinePano}
+                alt="Brock Dallman in The Bear Lake Basin"
+              />
             </div>
             <div className={classes["responsive__container-full"]}>
-              <img src={bearLakesAlpinePano} alt="Italy Pass Pano" />
+              <img
+                src={bearLakesAlpinePano}
+                alt="Bear Lakes Basin in California's Eastern Sierras"
+              />
             </div>
             <div className={classes["responsive__container-full"]}>
-              <img src={blackBearLakePano} alt="Italy Pass Pano" />
+              <img
+                src={blackBearLakePano}
+                alt="Black Bear Lake in the Bear Lakes Basin, Eastern Sierras"
+              />
             </div>
 
             <div className={classes["responsive__container-70"]}>
-              <img src={brockPortrait} alt="Italy Pass Pano" />
+              <img
+                src={brockPortrait}
+                alt="Brock Dallman in the Bear Lakes Basin, Eastern Sierras"
+              />
             </div>
             <p className={classes["blog__text"]}>
               We continued down the Bear Lakes Basin to Black Bear Lake, then
               followed the drainage downhill towards Big Bear Lake. As we
               followed the creek down, a gorgeous view emerged of Big Bear Lakes
-              with the Seven Gables mountains in the background. We took some great
-              photos and continued down to the lake and around the shore.
+              with the Seven Gables mountains in the background. We took some
+              great photos and continued down to the lake and around the shore.
             </p>
             <div className={classes["responsive__container-70"]}>
-              <img src={sevenGablesBrock} alt="Italy Pass Pano" />
+              <img
+                src={sevenGablesBrock}
+                alt="Brock Dallman in front of the Seven Gables, Eastern Sierras"
+              />
             </div>
             <div className={classes["thirty-sixty__container"]}>
               <img
                 className={classes["thirty-sixty__item-1"]}
                 src={bearBasinSamVert}
-                alt="Italy Pass Pano"
+                alt="Sam hiking off trail in the Bear Lakes Basin, Eastern Sierras, California"
               />
               <img
                 className={classes["thirty-sixty__item-2"]}
                 src={bearBasinOffTrail}
-                alt="Italy Pass Pano"
+                alt="Off trail in the Bear Lakes Basin in the Eastern Sierras"
               />
             </div>
             <div className={classes["sixty-thirty__container"]}>
               <img
                 className={classes["sixty-thirty__item-1"]}
                 src={bearBasinOffTrailTwo}
-                alt="Italy Pass Pano"
+                alt="Bear Lakes Basin in California's Easter Sierras"
               />
               <img
                 className={classes["sixty-thirty__item-2"]}
                 src={sevenGablesSlotVert}
-                alt="Italy Pass Pano"
+                alt="Seven Gables Mountains in the Eastern Sierras"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -539,29 +594,29 @@ const GranitePark22Blog = () => {
               canyon down to the Seven Gables Lakes Drainage.
             </p>
             <div className={classes["responsive__container-90"]}>
-              <img src={veeLakePano} alt="Italy Pass Pano" />
+              <img src={veeLakePano} alt="Vee Lake in  the Bear Lakes Basin" />
             </div>
             <p className={classes["blog__text"]}>
               By now the skies were once again completely overcast with dark
               grey clouds. It began to sprinkle. Sam was pretty tired at this
-              point and not happy to be once again, caught out in a thunderstorm. We had
-              already covered many rugged off trail miles but we still had quite
-              a distance to go to arrive at our destination at Marie Lake, off
-              the John Muir Trail.
+              point and not happy to be once again, caught out in a
+              thunderstorm. We had already covered many rugged off trail miles
+              but we still had quite a distance to go to arrive at our
+              destination at Marie Lake, off the John Muir Trail.
             </p>
             <div className={classes["responsive__container-90"]}>
-              <img src={sevenGablesWide} alt="Italy Pass Pano" />
+              <img src={sevenGablesWide} alt="Seven Gables" />
             </div>
             <div className={classes["responsive__container-split"]}>
               <img
                 className={classes["responsive__container-split__item-1"]}
                 src={sevenGablesSlopesVert}
-                alt="Italy Pass Pano"
+                alt="Seven Gables in California's Sierra Nevada Mountains"
               />
               <img
                 className={classes["responsive__container-split__item-2"]}
                 src={sevenGablesMountainVert}
-                alt="Italy Pass Pano"
+                alt="Seven Gables in the Sierras"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -574,7 +629,10 @@ const GranitePark22Blog = () => {
               valley and connect to the John Muir trail.
             </p>
             <div className={classes["responsive__container-70"]}>
-              <img src={sevenGablesCreekShot} alt="Italy Pass Pano" />
+              <img
+                src={sevenGablesCreekShot}
+                alt="Seven Gables Mountains in California's Sierra Nevada Range"
+              />
             </div>
             <p className={classes["blog__text"]}>
               We eventually found the Seven Gables Trail and calling it
@@ -582,62 +640,68 @@ const GranitePark22Blog = () => {
               follow and full of obstacles.
             </p>
             <div className={classes["responsive__container-90"]}>
-              <img src={sevenGablesGrassPano} alt="Italy Pass Pano" />
+              <img
+                src={sevenGablesGrassPano}
+                alt="Seven Gables Mountains in the Sierras"
+              />
             </div>
 
             <div className={classes["responsive__container-90"]}>
-              <img src={sevenGablesMarshPano} alt="Italy Pass Pano" />
+              <img src={sevenGablesMarshPano} alt="Seven Gables Mountains" />
             </div>
 
             <div className={classes["responsive__container-full"]}>
-              <img src={sevenGablesRainPano} alt="Italy Pass Pano" />
+              <img src={sevenGablesRainPano} alt="Seven Gables Mountains" />
             </div>
             <div className={classes["responsive__container-split"]}>
               <img
                 className={classes["responsive__container-split__item-1"]}
                 src={sevenGablesStorm}
-                alt="Italy Pass Pano"
+                alt="Stormy day near the Seven Gables Mountains"
               />
               <img
                 className={classes["responsive__container-split__item-2"]}
                 src={thunderstormSam}
-                alt="Italy Pass Pano"
+                alt="Sam in a thunderstorm"
               />
             </div>
             <p className={classes["blog__text"]}>
               We were back in the forest now but stuck in a full on downpour
               with frequent lightning strikes booming through the walls of the
               canyon. After some route finding, that involved some class 3
-              scrambling, we reached Bear Creek and the John Muir Trail at
-              the valley bottom.
+              scrambling, we reached Bear Creek and the John Muir Trail at the
+              valley bottom.
             </p>
             <div className={classes["custom__container-signage"]}>
               <img
                 className={classes["custom__container-signage__item-1"]}
                 src={samSignageOne}
-                alt="Italy Pass Pano"
+                alt="Sam not having a good day"
               />
               <img
                 className={classes["custom__container-signage__item-2"]}
                 src={samSignageTwo}
-                alt="Italy Pass Pano"
+                alt="Sam not having a good day"
               />
             </div>
             <p className={classes["blog__text"]}>
               We finally had a good trail but we were still several miles from
-              Marie Lake and It was pouring rain. Sam’s spirits were
-              dampened at this point but we stoically continued up the trail
-              towards the lake. After several soggy miles the rain subsided. We
-              were getting close but Sam was very clearly ready to be done with
-              this challenging day. We finally arrived at the shores of
-              beautiful Marie Lake. We couldn’t see anyone else around. We found
-              a nice spot near the lake and set up our tent. It was evening now
-              and the sun decided to treat us with a nice sunset. The water was
-              still and offered a pretty reflection of the surrounding mountains.  The serene view was a nice reward for a very challenging
-              day.
+              Marie Lake and It was pouring rain. Sam’s spirits were dampened at
+              this point but we stoically continued up the trail towards the
+              lake. After several soggy miles the rain subsided. We were getting
+              close but Sam was very clearly ready to be done with this
+              challenging day. We finally arrived at the shores of beautiful
+              Marie Lake. We couldn’t see anyone else around. We found a nice
+              spot near the lake and set up our tent. It was evening now and the
+              sun decided to treat us with a nice sunset. The water was still
+              and offered a pretty reflection of the surrounding mountains. The
+              serene view was a nice reward for a very challenging day.
             </p>
             <div className={classes["responsive__container-90"]}>
-              <img src={marieEveningPano} alt="Italy Pass Pano" />
+              <img
+                src={marieEveningPano}
+                alt="Marie Lake Sunset along the John Muir Trail - Pacific Crest Trail"
+              />
             </div>
 
             <div className={classes["video"]}>
@@ -654,7 +718,10 @@ const GranitePark22Blog = () => {
             </div>
 
             <div className={classes["responsive__container-full"]}>
-              <img src={marieLakeSunsetPano} alt="Italy Pass Pano" />
+              <img
+                src={marieLakeSunsetPano}
+                alt="Marie Lake Sunset along the John Muir Trail - Pacific Crest Trail"
+              />
             </div>
           </section>
 
@@ -665,29 +732,35 @@ const GranitePark22Blog = () => {
             </div>
             <p className={classes["blog__text"]}>
               I got an early start on the day as I wanted to take some pictures
-              of the lake from Selden Pass, high above. The day again, started off
-              clear and beautiful but I knew that didn’t mean it would stay that
-              way. I took the trail along the shoreline of Marie Lake and up a
-              short ascent to Selden Pass.
+              of the lake from Selden Pass, high above. The day again, started
+              off clear and beautiful but I knew that didn’t mean it would stay
+              that way. I took the trail along the shoreline of Marie Lake and
+              up a short ascent to Selden Pass.
             </p>
             <div className={classes["responsive__container-70"]}>
-              <img src={marieGrassyMornView} alt="Italy Pass Pano" />
+              <img
+                src={marieGrassyMornView}
+                alt="Marie Lake along the John Muir Trail - Pacific Crest Trail"
+              />
             </div>
 
             <div className={classes["sixty-thirty__container"]}>
               <img
                 className={classes["sixty-thirty__item-1"]}
                 src={marieMornView}
-                alt="Italy Pass Pano"
+                alt=" Morning at Marie Lake along the John Muir Trail - Pacific Crest Trail"
               />
               <img
                 className={classes["sixty-thirty__item-2"]}
                 src={marieVertShot}
-                alt="Italy Pass Pano"
+                alt="Marie Lake along the John Muir Trail - Pacific Crest Trail"
               />
             </div>
             <div className={classes["responsive__container-full"]}>
-              <img src={marieMornWidePano} alt="Italy Pass Pano" />
+              <img
+                src={marieMornWidePano}
+                alt="Panorama of Marie Lake along the John Muir Trail - Pacific Crest Trail"
+              />
             </div>
 
             <div className={classes["video"]}>
@@ -707,26 +780,32 @@ const GranitePark22Blog = () => {
               backpacking trip through the California Pacific Crest Trail back
               in 2011. It was still just as stunning. I got some good shots from
               the pass, then I scrambled farther up the hill side and got some
-              good sweeping panos from the top of the hillside. After exploring the
-              area above Selden Pass a bit, I decided to head back.
+              good sweeping panos from the top of the hillside. After exploring
+              the area above Selden Pass a bit, I decided to head back.
             </p>
             <div className={classes["responsive__container-70"]}>
-              <img src={marieTarnPano} alt="Italy Pass Pano" />
+              <img
+                src={marieTarnPano}
+                alt="Mountain tarn near Marie Lake along the John Muir Trail - Pacific Crest Trail"
+              />
             </div>
 
             <div className={classes["responsive__container-70"]}>
-              <img src={marieTrailSidePano} alt="Italy Pass Pano" />
+              <img
+                src={marieTrailSidePano}
+                alt="Marie Lake along the John Muir Trail - Pacific Crest Trail"
+              />
             </div>
             <div className={classes["custom__container-marie"]}>
               <img
                 className={classes["custom__container-marie__item-1"]}
                 src={marieBlue}
-                alt="Italy Pass Pano"
+                alt="Marie Lake along the John Muir Trail - Pacific Crest Trail"
               />
               <img
                 className={classes["custom__container-marie__item-2"]}
                 src={marieMornTrailVert}
-                alt="Italy Pass Pano"
+                alt="Marie Lake along the John Muir Trail - Pacific Crest Trail"
               />
             </div>
 
@@ -734,12 +813,12 @@ const GranitePark22Blog = () => {
               <img
                 className={classes["responsive__container-split__item-1"]}
                 src={marieMornTrailSideView}
-                alt="Italy Pass Pano"
+                alt="Marie Lake along the John Muir Trail - Pacific Crest Trail"
               />
               <img
                 className={classes["responsive__container-split__item-2"]}
                 src={marieSky}
-                alt="Italy Pass Pano"
+                alt="Marie Lake along the John Muir Trail - Pacific Crest Trail"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -749,7 +828,10 @@ const GranitePark22Blog = () => {
               wine and went on a little pack raft excursion around the lake.
             </p>
             <div className={classes["responsive__container-full"]}>
-              <img src={tentPano} alt="Italy Pass Pano" />
+              <img
+                src={tentPano}
+                alt="Our tent spot at Marie Lake along the John Muir Trail - Pacific Crest Trail"
+              />
             </div>
             <p className={classes["blog__text"]}>
               White clouds once again seemed to materialize out of no where and
@@ -766,28 +848,31 @@ const GranitePark22Blog = () => {
               <img
                 className={classes["responsive__container-split__item-1"]}
                 src={tentView}
-                alt="Italy Pass Pano"
+                alt="Our tent spot at Marie Lake along the John Muir Trail - Pacific Crest Trail"
               />
               <img
                 className={classes["responsive__container-split__item-2"]}
                 src={stormRidge}
-                alt="Italy Pass Pano"
+                alt="Marie Lake along the John Muir Trail - Pacific Crest Trail"
               />
             </div>
 
             <div className={classes["responsive__container-full"]}>
-              <img src={blueSkyReflectionPano} alt="Italy Pass Pano" />
+              <img
+                src={blueSkyReflectionPano}
+                alt="Marie Lake along the John Muir Trail - Pacific Crest Trail"
+              />
             </div>
             <div className={classes["sixty-thirty__container"]}>
               <img
                 className={classes["sixty-thirty__item-1"]}
                 src={samBoat}
-                alt="Italy Pass Pano"
+                alt="Sam Stych by a packraft at Marie Lake in California's Sierra Nevada Range"
               />
               <img
                 className={classes["sixty-thirty__item-2"]}
                 src={skyCloudReflection}
-                alt="Italy Pass Pano"
+                alt="Storm clouds at Marie Lake along the John Muir Trail - Pacific Crest Trail"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -798,24 +883,27 @@ const GranitePark22Blog = () => {
               Our layover day at Marie Lake was turning out to be less glamorous
               than I had hoped. The funny thing was, In my combined month of
               time I had spent in the Sierras in previous Summers, I had never
-             experienced some much as an overcast day! Now I guess I was paying my
-              dues.
+              experienced some much as an overcast day! Now I guess I was paying
+              my dues.
             </p>
             <div className={classes["thirty-sixty__container"]}>
               <img
                 className={classes["thirty-sixty__item-1"]}
                 src={stormReflection}
-                alt="Italy Pass Pano"
+                alt="Storm Clouds at Marie Lake along the John Muir Trail - Pacific Crest Trail"
               />
               <img
                 className={classes["thirty-sixty__item-2"]}
                 src={marieStormShore}
-                alt="Italy Pass Pano"
+                alt="Shoreline of Marie Lake along the John Muir Trail - Pacific Crest Trail"
               />
             </div>
             <div className={classes["blog__image-container-1"]}></div>
             <div className={classes["responsive__container-90"]}>
-              <img src={stormRidgePano} alt="Italy Pass Pano" />
+              <img
+                src={stormRidgePano}
+                alt="Storm clouds at Marie Lake along the John Muir Trail - Pacific Crest Trail"
+              />
             </div>
             <div className={classes["video"]}>
               <video
@@ -833,12 +921,12 @@ const GranitePark22Blog = () => {
               <img
                 className={classes["thirty-sixty__item-1"]}
                 src={stormRigeVert}
-                alt="Italy Pass Pano"
+                alt="Storm Clouds at Marie Lake along the John Muir Trail - Pacific Crest Trail"
               />
               <img
                 className={classes["thirty-sixty__item-2"]}
                 src={postStormSam}
-                alt="Italy Pass Pano"
+                alt="Sam Stych after a thunderstorm at Marie Lake in the Sierras"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -852,44 +940,50 @@ const GranitePark22Blog = () => {
               <img
                 className={classes["sixty-thirty__item-1"]}
                 src={stormSky}
-                alt="Italy Pass Pano"
+                alt="Stormy sky at Marie Lake along the John Muir Trail - Pacific Crest Trail"
               />
               <img
                 className={classes["sixty-thirty__item-2"]}
                 src={samTarp}
-                alt="Italy Pass Pano"
+                alt="Sam Stych weathering the storm under a tarp"
               />
             </div>
             <div className={classes["thirty-sixty__container"]}>
               <img
                 className={classes["thirty-sixty__item-1"]}
                 src={postStormSamVert}
-                alt="Italy Pass Pano"
+                alt="Sam Stych after the thunderstorm at Marie Lake"
               />
               <img
                 className={classes["thirty-sixty__item-2"]}
                 src={tigerGrass}
-                alt="Italy Pass Pano"
+                alt="Marie Lake along the John Muir Trail - Pacific Crest Trail"
               />
             </div>
             <div className={classes["responsive__container-split"]}>
               <img
                 className={classes["responsive__container-split__item-1"]}
                 src={postRainSamLake}
-                alt="Italy Pass Pano"
+                alt="Sam Stych after a thunderstorm at Marie Lake along the John Muir Trail - Pacific Crest Trail"
               />
               <img
                 className={classes["responsive__container-split__item-2"]}
                 src={samPortrait}
-                alt="Italy Pass Pano"
+                alt="Sam Stych"
               />
             </div>
 
             <div className={classes["responsive__container-90"]}>
-              <img src={postStormPano} alt="Italy Pass Pano" />
+              <img
+                src={postStormPano}
+                alt="Marie Lake along the John Muir Trail - Pacific Crest Trail"
+              />
             </div>
             <div className={classes["responsive__container-90"]}>
-              <img src={marieOrangeSunsetPano} alt="Italy Pass Pano" />
+              <img
+                src={marieOrangeSunsetPano}
+                alt="Sunset at Marie Lake along the John Muir Trail - Pacific Crest Trail"
+              />
             </div>
             <p className={classes["blog__text"]}>
               Even though our layover day plans were somewhat dampened by the
@@ -910,7 +1004,10 @@ const GranitePark22Blog = () => {
               </video>
             </div>
             <div className={classes["responsive__container-70"]}>
-              <img src={marieOrangeSunset} alt="Italy Pass Pano" />
+              <img
+                src={marieOrangeSunset}
+                alt="Sunset at Marie Lake along the John Muir Trail - Pacific Crest Trail"
+              />
             </div>
           </section>
           <section className={classes["blog__section"]}>
@@ -932,18 +1029,21 @@ const GranitePark22Blog = () => {
               continued on.
             </p>
             <div className={classes["responsive__container-70"]}>
-              <img src={brockRainJacket} alt="Italy Pass Pano" />
+              <img
+                src={brockRainJacket}
+                alt="Brock Dallman in a rainstorm along the John Muir Trail"
+              />
             </div>
             <div className={classes["responsive__container-split"]}>
               <img
                 className={classes["responsive__container-split__item-1"]}
                 src={samRainVert}
-                alt="Italy Pass Pano"
+                alt="Sam Stych on the John Muir Trail"
               />
               <img
                 className={classes["responsive__container-split__item-2"]}
                 src={rainMountainVert}
-                alt="Italy Pass Pano"
+                alt="Rainy day in the Sierras"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -959,22 +1059,25 @@ const GranitePark22Blog = () => {
               JMT.
             </p>
             <div className={classes["responsive__container-70"]}>
-              <img src={rainSign} alt="Italy Pass Pano" />
+              <img src={rainSign} alt="A trail sign in the rainy Sierras" />
             </div>
             <div className={classes["responsive__container-split"]}>
               <img
                 className={classes["responsive__container-split__item-1"]}
                 src={samRiverCrossing}
-                alt="Italy Pass Pano"
+                alt="Sam Stych crossing a creek on a log in the Sierras"
               />
               <img
                 className={classes["responsive__container-split__item-2"]}
                 src={italyCreek}
-                alt="Italy Pass Pano"
+                alt="Lake Italy Creek"
               />
             </div>
             <div className={classes["responsive__container-full"]}>
-              <img src={italyMeadowPano} alt="Italy Pass Pano" />
+              <img
+                src={italyMeadowPano}
+                alt="Meadow along the Lake Italy Trail in the Sierras"
+              />
             </div>
             <p className={classes["blog__text"]}>
               I originally wanted to return the same way we came and follow the
@@ -991,7 +1094,10 @@ const GranitePark22Blog = () => {
               farther ahead.
             </p>
             <div className={classes["responsive__container-70"]}>
-              <img src={italyMeadow} alt="Italy Pass Pano" />
+              <img
+                src={italyMeadow}
+                alt="Meadow along the Lake Italy Trail In the Sierras"
+              />
             </div>
             <p className={classes["blog__text"]}>
               It finally stopped raining around 3pm. As it started to get dark
@@ -1003,20 +1109,26 @@ const GranitePark22Blog = () => {
               <img
                 className={classes["sixty-thirty__item-1"]}
                 src={italyCanyonSunet}
-                alt="Italy Pass Pano"
+                alt="Sunset near the Lake Italy Trail in the Sierras"
               />
               <img
                 className={classes["sixty-thirty__item-2"]}
                 src={italyCanyonSunsetVert}
-                alt="Italy Pass Pano"
+                alt="Sunset near the Lake Italy Trail in the Sierras"
               />
             </div>
             <div className={classes["responsive__container-80"]}>
-              <img src={italyOrangeSunsetPano} alt="Italy Pass Pano" />
+              <img
+                src={italyOrangeSunsetPano}
+                alt="Sunset near the Lake Italy Trail in the Sierras"
+              />
             </div>
 
             <div className={classes["responsive__container-80"]}>
-              <img src={italyOrangeSunsetPanoTwo} alt="Italy Pass Pano" />
+              <img
+                src={italyOrangeSunsetPanoTwo}
+                alt="Sunset near the Lake Italy Trail in the Sierras"
+              />
             </div>
           </section>
           <section className={classes["blog__section"]}>
@@ -1030,7 +1142,10 @@ const GranitePark22Blog = () => {
               back to the trailhead.
             </p>
             <div className={classes["responsive__container-90"]}>
-              <img src={clothingPano} alt="Italy Pass Pano" />
+              <img
+                src={clothingPano}
+                alt="Clothing drying in the sun along the Lake Italy Trail"
+              />
             </div>
             <p className={classes["blog__text"]}>
               We continued up the trail toward Lake Italy. The scenery got more
@@ -1042,24 +1157,24 @@ const GranitePark22Blog = () => {
               <img
                 className={classes["sixty-thirty__item-1"]}
                 src={samItalyHiker}
-                alt="Italy Pass Pano"
+                alt="Sam Stych Hiking the Lake Italy Trail in the Sierras"
               />
               <img
                 className={classes["sixty-thirty__item-2"]}
                 src={italySamCliffVert}
-                alt="Italy Pass Pano"
+                alt="Sam Stych Hiking the Lake Italy Trail in the Sierras"
               />
             </div>
             <div className={classes["thirty-sixty__container"]}>
               <img
                 className={classes["thirty-sixty__item-1"]}
                 src={italyCreekMtnVert}
-                alt="Italy Pass Pano"
+                alt="Granite Mountains around the Lake Italy Trail in the Sierras"
               />
               <img
                 className={classes["thirty-sixty__item-2"]}
                 src={samCreekCrossMtn}
-                alt="Italy Pass Pano"
+                alt="Sam Stych Crossing a Mountain Creek in the Sierras"
               />
             </div>
             <div className={classes["video"]}>
@@ -1076,7 +1191,7 @@ const GranitePark22Blog = () => {
             </div>
 
             <div className={classes["responsive__container-70"]}>
-              <img src={samHikeMtns} alt="Italy Pass Pano" />
+              <img src={samHikeMtns} alt="Sam Stych trekking in the Sierras" />
             </div>
             <p className={classes["blog__text"]}>
               We crossed the creek several times and eventually arrived at Lake
@@ -1086,22 +1201,22 @@ const GranitePark22Blog = () => {
               Italy Pass.
             </p>
             <div className={classes["responsive__container-full"]}>
-              <img src={italyLakePano} alt="Italy Pass Pano" />
+              <img src={italyLakePano} alt="Lake Italy in the Sierras" />
             </div>
             <div className={classes["thirty-sixty__container"]}>
               <img
                 className={classes["thirty-sixty__item-1"]}
                 src={italyLakeBrockVert}
-                alt="Italy Pass Pano"
+                alt="Brock Dallman at Lake Italy, Sierras"
               />
               <img
                 className={classes["thirty-sixty__item-2"]}
                 src={italyLakeSam}
-                alt="Italy Pass Pano"
+                alt="Sam Stych at Lake Italy, Sierras"
               />
             </div>
             <div className={classes["responsive__container-full"]}>
-              <img src={italyLakePanoTwo} alt="Italy Pass Pano" />
+              <img src={italyLakePanoTwo} alt="Lake Italy, Sierras" />
             </div>
             <p className={classes["blog__text"]}>
               There was a lot of rock hopping to get there. Finally we arrived
@@ -1113,25 +1228,31 @@ const GranitePark22Blog = () => {
               almost all directions.
             </p>
             <div className={classes["responsive__container-90"]}>
-              <img src={italyPassDayPano} alt="Italy Pass Pano" />
+              <img src={italyPassDayPano} alt="Italy Pass in the Sierras" />
             </div>
             <div className={classes["responsive__container-split"]}>
               <img
                 className={classes["responsive__container-split__item-1"]}
                 src={italyPassBrock}
-                alt="Italy Pass Pano"
+                alt="Brock Dallman at Italy Pass"
               />
               <img
                 className={classes["responsive__container-split__item-2"]}
                 src={juliusCeaserShot}
-                alt="Italy Pass Pano"
+                alt="Alpine view from Mt. Julius Ceaser"
               />
             </div>
             <div className={classes["responsive__container-90"]}>
-              <img src={juiliusCeaserPanoTwo} alt="Italy Pass Pano" />
+              <img
+                src={juiliusCeaserPanoTwo}
+                alt="Alpine view from Mt. Julius Ceaser"
+              />
             </div>
             <div className={classes["responsive__container-full"]}>
-              <img src={juliusCeaserGrandPano} alt="Italy Pass Pano" />
+              <img
+                src={juliusCeaserGrandPano}
+                alt="Alpine view from Mt. Julius Ceaser"
+              />
             </div>
             <div className={classes["video"]}>
               <video
@@ -1153,73 +1274,85 @@ const GranitePark22Blog = () => {
               Lake. I’m glad we did for it was a beautiful detour.
             </p>
             <div className={classes["responsive__container-90"]}>
-              <img src={graniteParkLakePano} alt="Italy Pass Pano" />
+              <img
+                src={graniteParkLakePano}
+                alt="An unnamed lake in Granite Park, Eastern Sierras"
+              />
             </div>
             <p className={classes["blog__text"]}>
               It was nice leaving the granite boulder fields behind and walking
               on some grass and soil for a change. The weather held up and the
               Chalfant Lakes were beautiful and inviting. Sadly we didn’t have
               time to stay. We passed the series of lakes and our route
-              steepened as we continued down the drainage down to
-              Honeymoon Lake. We were treated to more glorious mountain views as
-              we descended.
+              steepened as we continued down the drainage down to Honeymoon
+              Lake. We were treated to more glorious mountain views as we
+              descended.
             </p>
             <div className={classes["responsive__container-90"]}>
-              <img src={chalfantXCountrySamPano} alt="Italy Pass Pano" />
+              <img
+                src={chalfantXCountrySamPano}
+                alt="Sam Stych hiking the Chalfant Lakes Basin"
+              />
             </div>
             <div className={classes["responsive__container-90"]}>
-              <img src={chalfantLakePANO} alt="Italy Pass Pano" />
+              <img
+                src={chalfantLakePANO}
+                alt="Chalfant Lakes in the Eastern Sierras"
+              />
             </div>
             <div className={classes["sixty-thirty__container"]}>
               <img
                 className={classes["sixty-thirty__item-1"]}
                 src={chalfantLakeClouds}
-                alt="Italy Pass Pano"
+                alt="Chalfant Lakes in the Eastern Sierras"
               />
               <img
                 className={classes["sixty-thirty__item-2"]}
                 src={chalfantJuliusMtnVert}
-                alt="Italy Pass Pano"
+                alt="Mt. Juilius Ceaser and Chalfant Lakes in the Eastern Sierras"
               />
             </div>
             <div className={classes["responsive__container-split"]}>
               <img
                 className={classes["responsive__container-split__item-1"]}
                 src={chalfantMtn}
-                alt="Italy Pass Pano"
+                alt="Chalfant Lakes Basin"
               />
               <img
                 className={classes["responsive__container-split__item-2"]}
                 src={chalfantLakeCloudsTwo}
-                alt="Italy Pass Pano"
+                alt="Chalfant Lakes in the Eastern Sierras"
               />
             </div>
             <div className={classes["thirty-sixty__container"]}>
               <img
                 className={classes["thirty-sixty__item-1"]}
                 src={offTrailMtnWaterFallVert}
-                alt="Italy Pass Pano"
+                alt="Waterfall near Chalfant Lakes in the Eastern Sierras"
               />
               <img
                 className={classes["thirty-sixty__item-2"]}
                 src={chalfantLakeCloudsThree}
-                alt="Italy Pass Pano"
+                alt="Chalfant Lakes in the Eastern Sierras"
               />
             </div>
 
             <div className={classes["responsive__container-90"]}>
-              <img src={offTrailCreekPano} alt="Italy Pass Pano" />
+              <img
+                src={offTrailCreekPano}
+                alt="Alpine stream near Chalfant Lakes in the Eastern Sierras"
+              />
             </div>
             <div className={classes["custom__container-off-trail"]}>
               <img
                 className={classes["custom__container-off-trail__item-1"]}
                 src={offTrailMtnCreekVert}
-                alt="Italy Pass Pano"
+                alt="Alpine Creek Chalfant Lakes in the Eastern Sierras"
               />
               <img
                 className={classes["custom__container-off-trail__item-2"]}
                 src={offTrailMtnShot}
-                alt="Italy Pass Pano"
+                alt="Granite Mountains near Granite Park, Eastern Sierras"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -1230,7 +1363,7 @@ const GranitePark22Blog = () => {
               followed pine creek down past the pine lakes.
             </p>
             <div className={classes["responsive__container-70"]}>
-              <img src={honeymoonLakePano} alt="Italy Pass Pano" />
+              <img src={honeymoonLakePano} alt="Shores of Honeymoon Lake in the Eastern Sierras" />
             </div>
             <p className={classes["blog__text"]}>
               The distance was taking its toll on Sam at this point. We had
@@ -1240,22 +1373,22 @@ const GranitePark22Blog = () => {
               sunlight for a change as we returned.
             </p>
             <div className={classes["responsive__container-90"]}>
-              <img src={pineCreekValleyPano} alt="Italy Pass Pano" />
+              <img src={pineCreekValleyPano} alt="Pine Creek Falls in the Eastern Sierras" />
             </div>
             <div className={classes["custom__container-mtn"]}>
               <img
                 className={classes["custom__container-mtn__item-1"]}
                 src={marbleMtnVert}
-                alt="Italy Pass Pano"
+                alt="Granite Mountain in the Eastern Sierras"
               />
               <img
                 className={classes["custom__container-mtn__item-2"]}
                 src={goldMtn}
-                alt="Italy Pass Pano"
+                alt="Granite Mountain above Pine Lake in the Eastern Sierras"
               />
             </div>
             <div className={classes["responsive__container-full"]}>
-              <img src={pineCreekGrandPano} alt="Italy Pass Pano" />
+              <img src={pineCreekGrandPano} alt="Pine Creek in the Easter Sierras" />
             </div>
             <p className={classes["blog__text"]}>
               I took a nice panorama of pine creek falls as we made our way down
@@ -1271,12 +1404,12 @@ const GranitePark22Blog = () => {
               <img
                 className={classes["custom__container-final__item-1"]}
                 src={samPineCreekVert}
-                alt="Italy Pass Pano"
+                alt="Sam Styck hiking down to the Pine Creek Trailhead in the Eastern Sierras"
               />
               <img
                 className={classes["custom__container-final__item-2"]}
                 src={sevenGablesCouples}
-                alt="Italy Pass Pano"
+                alt="Brock Dallman and Sam Stych with the Seven Gables Mountains in the Background"
               />
             </div>
           </section>
