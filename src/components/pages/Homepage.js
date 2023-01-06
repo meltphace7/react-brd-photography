@@ -87,12 +87,10 @@ const Homepage = (props) => {
           }`}
         >
           <div className={classes["feature-box__text"]}>
-            <h3>Discover The Latest Works</h3>
-            <h1>New Arrivals</h1>
+            <h3>Discover The Wilderness</h3>
+            <h1>Limited Edition Prints</h1>
             <p>
-              Breathe life into your interior space with these striking limited
-              edition prints. Designed to completely transform the look of any
-              room.
+              Bring the wilderness home with these striking limited edition prints.  Sure to bring rugged beauty to any room.
             </p>
             <Link to="/shop">
               <button className={classes["feature-box__link"]}>

@@ -68,7 +68,7 @@ const Sierras = () => {
             <div className={classes["sierras-body__description-container"]}>
               <p>
                 The Sierras are a mountain range that run South to North for
-                more than 400 miles in California. They are the home to three
+                more than 400 miles in California. They are home to three
                 national parks, twenty wilderness areas and the highest point in
                 the contiguous United States. In 2011 I hiked through the
                 Sierras on a thousand mile backpacking trip through California,
