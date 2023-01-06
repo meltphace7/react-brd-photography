@@ -1,7 +1,6 @@
 .slider-container {
   position: relative;
   width: 100%;
-  /* min-height: 90vh; */
   background-color: black;
   display: flex;
   flex-direction: column;

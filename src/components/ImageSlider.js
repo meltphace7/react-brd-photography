@@ -29,45 +29,45 @@ const ImageSlider = (props) => {
     }
   }, [currentSlide])
 
-  const dotOneHandler = () => {
-    setCurrentSlide(1);
-  };
+  // const dotOneHandler = () => {
+  //   setCurrentSlide(1);
+  // };
 
-  const dotTwoHandler = () => {
-    setCurrentSlide(2);
-  };
+  // const dotTwoHandler = () => {
+  //   setCurrentSlide(2);
+  // };
 
-  const dotThreeHandler = () => {
-    setCurrentSlide(3);
-  };
+  // const dotThreeHandler = () => {
+  //   setCurrentSlide(3);
+  // };
 
-  const dotFourHandler = () => {
-    setCurrentSlide(4);
-  };
+  // const dotFourHandler = () => {
+  //   setCurrentSlide(4);
+  // };
 
-  const dotFiveHandler = () => {
-    setCurrentSlide(5);
-  };
+  // const dotFiveHandler = () => {
+  //   setCurrentSlide(5);
+  // };
 
-  const dotSixHandler = () => {
-    setCurrentSlide(6);
-  };
+  // const dotSixHandler = () => {
+  //   setCurrentSlide(6);
+  // };
 
-  const dotSevenHandler = () => {
-    setCurrentSlide(7);
-  };
+  // const dotSevenHandler = () => {
+  //   setCurrentSlide(7);
+  // };
 
-  const dotEightHandler = () => {
-    setCurrentSlide(8);
-  };
+  // const dotEightHandler = () => {
+  //   setCurrentSlide(8);
+  // };
 
-  const dotNineHandler = () => {
-    setCurrentSlide(9);
-  };
+  // const dotNineHandler = () => {
+  //   setCurrentSlide(9);
+  // };
 
-  const dotTenHandler = () => {
-    setCurrentSlide(10);
-  };
+  // const dotTenHandler = () => {
+  //   setCurrentSlide(10);
+  // };
 
   const options = { root: null, threshold: 0.2 };
 
@@ -78,8 +78,6 @@ const ImageSlider = (props) => {
       setControlsRevealed(true);
     }
   }, [controlsVisible]);
-
-  console.log(currentSlide);
 
   return (
     <div className={classes["slider-container"]}>

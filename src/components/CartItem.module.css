@@ -21,7 +21,9 @@ background: linear-gradient(0deg, rgba(79,79,79,1) 0%, rgba(0,0,0,1) 100%);
   width: 2.5rem;
   border-radius: 100px;
   border: none;
-  background-color: white;
+  background-color: var(--color-primary-green);
+  color: black;
+  /* border: 1px solid white; */
   cursor: pointer;
 }
 
@@ -33,6 +35,19 @@ background: linear-gradient(0deg, rgba(79,79,79,1) 0%, rgba(0,0,0,1) 100%);
 
 .delete-button {
   margin-left: 0.5rem;
+}
+
+.decrement-button:hover,
+.delete-button:hover {
+  color: red;
+  background-color: black;
+  border: 1px solid red;
+}
+
+.increment-button:hover {
+  color: var(--color-primary-green);
+  background-color: black;
+  border: 1px solid var(--color-primary-green);
 }
 
 .amount-controls {
@@ -59,7 +74,7 @@ background: linear-gradient(0deg, rgba(79,79,79,1) 0%, rgba(0,0,0,1) 100%);
 @media (max-width: 50em) {
   .cart-item {
     width: 75%;
-    min-height: 25rem;
+    min-height: 30rem;
     flex-direction: column;
   }
 

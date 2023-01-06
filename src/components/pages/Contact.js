@@ -8,9 +8,6 @@ const Contact = () => {
   const [state, handleSubmit] = useForm("contactForm");
   const [modalIsShown, setModalIsShown] = useState(false);
 
-  console.log(state);
-  console.log(modalIsShown);
-
   useEffect(() => {
     if (state.succeeded) {
       setModalIsShown(true);

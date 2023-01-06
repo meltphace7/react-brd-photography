@@ -5,9 +5,7 @@ import { useSelector } from "react-redux";
 
 const Cart = () => {
   const [isEmpty, setIsEmpty] = useState(true);
-
   const cartItems = useSelector((state) => state.cart.cart);
-  console.log(cartItems);
   const totalQuantity = useSelector((state) => +state.cart.totalQuantity);
   const totalPrice = useSelector((state) => +state.cart.totalPrice);
 

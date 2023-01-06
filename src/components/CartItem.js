@@ -34,9 +34,19 @@ const CartItem = (props) => {
       <h2 className={classes["cart-item__text"]}>{title}</h2>
       <p className={classes["cart-item__text"]}>${price}</p>
       <div className={classes["amount-controls"]}>
-        <button onClick={removeFromCartHandler}>-</button>
+        <button
+          className={classes["decrement-button"]}
+          onClick={removeFromCartHandler}
+        >
+          -
+        </button>
         <p className={classes["cart-item__text"]}>{props.quantity}</p>
-        <button onClick={addToCartHandler}>+</button>
+        <button
+          className={classes["increment-button"]}
+          onClick={addToCartHandler}
+        >
+          +
+        </button>
       </div>
       <p className={classes["total-price"]}>${totalPrice}</p>
     </div>

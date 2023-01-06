@@ -15,8 +15,6 @@ const ShopItem = (props) => {
    if (currentItem) {
      itemStock = currentItem.stock;
    }
-  
-  console.log(itemStock)
 
    const addToCartHandler = (e) => {
      e.stopPropagation();

@@ -19,7 +19,6 @@ const Homepage = (props) => {
 
   const handleScroll = () => {
     setOffsetY(window.pageYOffset);
-    console.log(offsetY);
   };
 
   useEffect(() => {
