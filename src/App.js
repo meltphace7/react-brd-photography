@@ -106,6 +106,9 @@ function App() {
         }
       >
         <Switch>
+          <Route path="/" exact>
+            <Redirect to="/home" />
+          </Route>
           <Route path="/home" exact>
             <HomePage images={SLIDER_IMAGES} />
           </Route>
@@ -187,7 +190,7 @@ function App() {
             <AdminEditProduct refreshProducts={fetchProductsHandler} />
           </Route>
           <Route path="*">
-            <Redirect to="/home" />
+            <Redirect to="/" />
           </Route>
         </Switch>
       </Suspense>
