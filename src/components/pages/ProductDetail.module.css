@@ -74,12 +74,17 @@ background: linear-gradient(0deg, rgba(79,79,79,1) 0%, rgba(0,0,0,1) 100%);
     .product {
   margin: 5rem 0;
 }
+
+.title {
+  margin: 3.2rem 1rem;
+
+}
   .product-image {
   width: 97%;
   border: 1rem solid white;
 }
 
   .description {
-  width: 80%;
+  width: 90%;
 }
 }
