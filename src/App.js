@@ -25,6 +25,7 @@ import LoadingSpinner from "./components/UI/LoadingSpinner";
 import { Fragment } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { checkAuth } from "./store/auth-actions";
+import { cartActions } from "./store/cart-slice";
 import hostURL from './hosturl'
 
 // LAZY-LOADING GALLERIES
@@ -57,10 +58,21 @@ function App() {
   const isAdmin = useSelector((state) => state.auth.isAdmin);
 
   // CHECKS for ADMIN ACCESS if a token is saved in Localstorage
-   const token = localStorage.getItem("token");
+  const token = localStorage.getItem("token");
   if (token) {
-    dispatch(checkAuth())
+    dispatch(checkAuth());
   }
+
+  // Gets Cart from local storage
+  const cart = localStorage.getItem("cart");
+  console.log('stored cart', JSON.parse(cart))
+
+  useEffect(() => {
+    if (cart) {
+      dispatch(cartActions.syncCart(JSON.parse(cart)));
+    }
+  }, [cart, dispatch])
+
 
   // GETS ALL PRODUCTS IN DATABASE
   const fetchProductsHandler = useCallback(async () => {
@@ -82,8 +94,6 @@ function App() {
     fetchProductsHandler();
   }, [fetchProductsHandler]);
 
-  console.log("is Auth?", isAuth);
-  console.log("is Admin?", isAdmin);
   return (
     <Fragment>
       <Navigation />
