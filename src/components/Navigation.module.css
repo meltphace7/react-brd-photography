@@ -175,6 +175,40 @@ background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.133512780112044
    text-shadow: 1px 1px 2px rgb(80, 79, 79);
 }
 
+.admin-nav {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  list-style: none;
+}
+
+.admin-link {
+  padding: .25rem .5rem;
+  color: white;
+  background-color: var(--color-secondary-green);
+  font-size: 1.8rem;
+  cursor:pointer;
+}
+
+.admin-link:hover {
+  background-color: var(--color-primary-green);
+}
+
+.logout-btn {
+  padding: .25rem .5rem;
+  color: white;
+  background-color: var(--color-secondary-green);
+  border: none;
+   font-size: 1.8rem;
+   cursor:pointer;
+}
+
+.logout-btn:hover {
+  background-color: var(--color-primary-green);
+}
+
 @media (max-width: 65em) {
   .logo-container h2 {
   font-size: 1.8rem;

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import classes from "./Cart.module.css";
 import CartItem from "../../components/CartItem";
 import { useSelector } from "react-redux";
+import { Link } from 'react-router-dom';
 
 const Cart = () => {
   const [isEmpty, setIsEmpty] = useState(true);
@@ -20,7 +21,7 @@ const Cart = () => {
     }
   }, [cartItems])
 
-
+console.log(cartItems)
   return (
     <div className={classes.cart}>
       <div className={classes["cart-overlay"]}>
@@ -46,9 +47,11 @@ const Cart = () => {
             <div className={classes["cart-total__info"]}>
               <h3>{`Items: ${totalQuantity}`}</h3>
               <h2>{`Total: $${totalPriceRounded}`}</h2>
-              <button className={classes["cart-total__container__button"]}>
+              <Link className={classes["cart-total__container__checkout-btn"]}
+                to="/checkout"
+              >
                 Checkout
-              </button>
+              </Link>
             </div>
           </div>
         </div>

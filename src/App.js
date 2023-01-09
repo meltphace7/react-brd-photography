@@ -1,4 +1,4 @@
-import React, {Suspense} from 'react';
+import React, {Suspense, useState, useEffect, useCallback} from 'react';
 import Navigation from "./components/Navigation";
 import { Switch } from "react-router-dom";
 import { Route, Redirect } from "react-router-dom";
@@ -7,14 +7,26 @@ import Gallery from "./components/pages/Gallery";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import Shop from "./components/pages/Shop";
+import Checkout from "./components/pages/Checkout";
+import ProductDetail from './components/pages/ProductDetail'
 import Cart from "./components/pages/Cart";
 import Blog from "./components/pages/blog/Blog";
+import Login from './components/pages/Login'
+import Signup from "./components/pages/Signup";
+import AdminAddProduct from './components/pages/AdminAddProduct';
+import AdminProducts from "./components/pages/AdminProducts";
+import AdminOrders from './components/pages/AdminOrders';
+import AdminEditProduct from './components/pages/AdminEditProduct'
 import { SLIDER_IMAGES } from "./assets/SliderImages";
 import Footer from "./components/Footer";
 import { FormspreeProvider } from "@formspree/react";
 import ScrollToTop from "./components/ScrollToTop";
 import LoadingSpinner from "./components/UI/LoadingSpinner";
 import { Fragment } from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { checkAuth } from "./store/auth-actions";
+import hostURL from './hosturl'
+
 // LAZY-LOADING GALLERIES
 const Washington = React.lazy(() =>
   import("./components/pages/Washington")
@@ -37,7 +49,41 @@ const WhiteClouds22Blog = React.lazy(() =>
 );
 const Sierras = React.lazy(() => import("./components/pages/Sierras"));
 
+
 function App() {
+  const [products, setProducts] = useState([]);
+  const dispatch = useDispatch();
+  const isAuth = useSelector((state) => state.auth.isAuth);
+  const isAdmin = useSelector((state) => state.auth.isAdmin);
+
+  // CHECKS for ADMIN ACCESS if a token is saved in Localstorage
+   const token = localStorage.getItem("token");
+  if (token) {
+    dispatch(checkAuth())
+  }
+
+  // GETS ALL PRODUCTS IN DATABASE
+  const fetchProductsHandler = useCallback(async () => {
+    try {
+      const response = await fetch(`${hostURL}/shop/products`);
+      if (!response.ok) {
+        throw new Error("Products not found!");
+      }
+
+      const resData = await response.json();
+      console.log(resData);
+      setProducts(resData.products);
+    } catch (err) {
+      console.log(err);
+    }
+  }, []);
+
+  useEffect(() => {
+    fetchProductsHandler();
+  }, [fetchProductsHandler]);
+
+  console.log("is Auth?", isAuth);
+  console.log("is Admin?", isAdmin);
   return (
     <Fragment>
       <Navigation />
@@ -65,7 +111,13 @@ function App() {
             </FormspreeProvider>
           </Route>
           <Route path="/shop">
-            <Shop />
+            <Shop products={products} />
+          </Route>
+          <Route path="/checkout">
+            <Checkout />
+          </Route>
+          <Route path="/product-detail/:productId">
+            <ProductDetail onAddToCart={fetchProductsHandler} />
           </Route>
           <Route path="/washington">
             <Washington />
@@ -102,6 +154,27 @@ function App() {
           </Route>
           <Route path="/cart">
             <Cart />
+          </Route>
+          <Route path="/login">
+            <Login />
+          </Route>
+          <Route path="/signup">
+            <Signup />
+          </Route>
+          <Route path="/admin/add-product">
+            <AdminAddProduct refreshProducts={fetchProductsHandler} />
+          </Route>
+          <Route path="/admin/products">
+            <AdminProducts
+              onDelete={fetchProductsHandler}
+              products={products}
+            />
+          </Route>
+          <Route path="/admin/orders">
+            <AdminOrders />
+          </Route>
+          <Route path="/admin/edit-product/:productId">
+            <AdminEditProduct refreshProducts={fetchProductsHandler} />
           </Route>
           <Route path="*">
             <Redirect to="/home" />

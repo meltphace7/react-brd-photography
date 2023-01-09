@@ -3,11 +3,15 @@ import React from 'react'
 import Logo from "../assets/BDLOGO-white.png";
 import instagramLogo from "../assets/images/logo-instagram (1).svg";
 import facebookLogo from "../assets/images/logo-facebook.svg";
+import {Link} from 'react-router-dom'
 
 const Footer = () => {
     return (
       <footer className={classes.footer}>
         <div className={classes["logo-container"]}>
+          <Link
+            className={classes['hidden-auth-login']}
+            to="/login"></Link>
           <img
             className={classes.logo}
             src={Logo}

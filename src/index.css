@@ -27,7 +27,12 @@ body {
 
 button {
   font-family: "Barlow", sans-serif, Arial, Helvetica, sans-serif;
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+  cursor: pointer;
 }
+
 a {
   text-decoration: none;
 }

@@ -1,11 +1,25 @@
 import React, { Fragment } from "react";
 import classes from "./Navigation.module.css";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useHistory } from "react-router-dom";
 import Logo from "../assets/BDLOGO-white.png";
 import MobileNavigation from "./MobileNavigation";
 import CartBadge from "./CartBadge";
+import { useSelector, useDispatch } from "react-redux";
+import { authActions } from '../store/auth-slice';
 
 const Navigation = () => {
+  const history = useHistory();
+  const isAdmin = useSelector((state) => state.auth.isAdmin);
+  const dispatch = useDispatch();
+
+  const logoutHandler = () => {
+    dispatch(authActions.logout());
+    localStorage.setItem("token", null);
+    localStorage.setItem("userId", null);
+    localStorage.setItem("expiryDate", null);
+    history.replace("/");
+  };
+  
   return (
     <Fragment>
       <nav className={classes.nav}>
@@ -115,6 +129,37 @@ const Navigation = () => {
           </ul>
           <CartBadge />
         </div>
+        <ul className={classes["admin-nav"]}>
+          {isAdmin && (
+            <li>
+              <Link className={classes["admin-link"]} to="/admin/add-product">
+                Add Product
+              </Link>
+            </li>
+          )}
+
+          {isAdmin && (
+            <li>
+              <Link className={classes["admin-link"]} to="/admin/products">
+                Admin Products
+              </Link>
+            </li>
+          )}
+          {isAdmin && (
+            <li>
+              <Link className={classes["admin-link"]} to="/admin/orders">
+                Orders
+              </Link>
+            </li>
+          )}
+          {isAdmin && (
+            <li>
+              <button
+                onClick={logoutHandler}
+                className={classes['logout-btn']}>Logout</button>
+            </li>
+          )}
+        </ul>
       </nav>
       <MobileNavigation />
     </Fragment>

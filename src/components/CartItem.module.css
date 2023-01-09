@@ -28,6 +28,7 @@ background: linear-gradient(0deg, rgba(79,79,79,1) 0%, rgba(0,0,0,1) 100%);
 }
 
 .cart-item img {
+  z-index: 2;
   height: 10rem;
   border: 5px solid white;
   width: auto;
@@ -63,6 +64,11 @@ background: linear-gradient(0deg, rgba(79,79,79,1) 0%, rgba(0,0,0,1) 100%);
 
 .total-price {
   color: white;
+}
+
+.loading-spinner {
+  position: absolute;
+  z-index: 1;
 }
 
 @media (max-width: 65em) {

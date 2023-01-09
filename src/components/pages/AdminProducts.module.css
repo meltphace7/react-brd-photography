@@ -1,0 +1,38 @@
+.background {
+  width: 100%;
+  min-height: 80rem;
+  color: white;
+  background-image: url("../../assets/images/CA_GOLD-MTN_HI_RES.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  background-attachment: fixed;
+}
+
+.background-overlay {
+  width: 100%;
+  min-height: 80rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.564);
+}
+
+.title {
+  margin-top: 15rem;
+  border-radius: 5px;
+  padding: 1rem;
+  background-color: var(--main-color-1);
+  color: white;
+}
+
+.shop-items-container {
+  margin: 4rem 0 3rem 0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+  width: 90%;
+  min-height: 40rem;
+}

@@ -1,10 +1,11 @@
 import React from "react";
 import classes from "./Shop.module.css";
 import ShopItem from "../../components/ShopItem";
+import ShopProduct from "../../components/ShopProduct";
 import { PRINTS } from "../../assets/Prints";
 import { Link } from "react-router-dom";
 
-const Shop = () => {
+const Shop = (props) => {
   return (
     <div className={classes.shop}>
       <div className={classes["shop-overlay"]}>
@@ -13,16 +14,17 @@ const Shop = () => {
           GO TO CART
         </Link>
         <div className={classes.shop__items}>
-          {PRINTS.map((print) => {
+          {props.products.map((prod) => {
             return (
-              <ShopItem
-                title={print.title}
-                price={print.price}
-                imageUrl={print.imageUrl}
-                key={print.id}
-                id={print.id}
-                quantity={print.quantity}
-                stock={print.stock}
+              <ShopProduct
+                key={prod._id}
+                id={prod._id}
+                title={prod.title}
+                imageName={prod.imageName}
+                imageUrl={prod.imageUrl}
+                price={+prod.price}
+                description={prod.description}
+                stock={+prod.stock}
               />
             );
           })}

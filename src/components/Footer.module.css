@@ -49,6 +49,12 @@
   background-color: var(--color-secondary-green);
 }
 
+.hidden-auth-login {
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+}
+
 @media (max-width: 40em) {
 
     .logo-container {

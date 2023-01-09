@@ -1,0 +1,82 @@
+.background {
+  background-attachment: fixed;
+  width: 100%;
+  min-height: 45rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../../assets/images/CA_GOLD-MTN_HI_RES.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.background-overlay {
+  width: 100%;
+  min-height: 45rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.747);
+}
+
+.product {
+  margin: 16rem 0;
+  padding: 6rem 2rem;
+  border-radius: 10px;
+  width: 90%;
+  min-height: 58rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    background: rgb(79,79,79);
+background: linear-gradient(0deg, rgba(79,79,79,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+.title {
+  font-size: 3.2rem;
+  margin: 3.2rem;
+  font-weight: 200;
+  color: var(--color-secondary-green);
+}
+
+.product-image {
+  width: 85%;
+  border: 1rem solid white;
+}
+
+.price {
+  font-size: 2.5rem;
+  margin: 1rem;
+  font-weight: 200;
+}
+
+.description {
+  width: 60%;
+  min-height: 11rem;
+  margin-bottom: 2rem;
+}
+
+.add-to-cart-btn {
+  margin: 1.6rem;
+  height: 6.5rem;
+  width: 20rem;
+  font-size: 1.6rem;
+}
+
+.add-to-cart-btn:hover {
+    color: var(--color-secondary-green);
+    border: 1px solid var(--color-secondary-green);
+}
+
+@media (max-width: 40em) {
+  .product-image {
+  width: 97%;
+  border: 1rem solid white;
+}
+
+  .description {
+  width: 80%;
+}
+}

@@ -2,6 +2,7 @@ import React from "react";
 import classes from "./CartItem.module.css";
 import { useDispatch } from "react-redux";
 import { cartActions } from "../store/cart-slice";
+import LoadingSpinner from "../components/UI/LoadingSpinner";
 
 const CartItem = (props) => {
   const totalPrice = Math.round(props.price * props.quantity * 100) / 100;
@@ -26,7 +27,12 @@ const CartItem = (props) => {
   return (
     <div className={classes["cart-item"]}>
       <div className={classes["cart-item__image-container"]}>
-        <img src={`./images/${props.imageUrl}`} alt={title} />
+        <img src={`${props.imageUrl}`} alt={title} />
+        <div
+          className={classes['loading-spinner']}
+        >
+          <LoadingSpinner />
+        </div>
         <button className={classes["delete-button"]} onClick={clearItemHandler}>
           X
         </button>
