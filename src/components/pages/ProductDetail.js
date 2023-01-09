@@ -26,7 +26,7 @@ const ProductDetail = (props) => {
     setIsLoading(true);
     try {
       const response = await fetch(
-        `http://localhost:8080/shop/product-detail/${productId}`
+        `${hostURL}/shop/product-detail/${productId}`
       );
       if (!response.ok) {
         throw new Error("Could not find product!");

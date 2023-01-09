@@ -2,16 +2,15 @@ import React from "react";
 import classes from "./CartItem.module.css";
 import { useDispatch } from "react-redux";
 import { cartActions } from "../store/cart-slice";
-import LoadingSpinner from "../components/UI/LoadingSpinner";
+import LoadingSpinner from "./UI/LoadingSpinner";
 
 const CartItem = (props) => {
   const totalPrice = Math.round(props.price * props.quantity * 100) / 100;
-
-  const { id, title, price, imageUrl, quantity, stock } = props;
+  const { id, title, price, imageUrl, imageName, quantity, stock } = props;
   const dispatch = useDispatch();
 
   const addToCartHandler = () => {
-    const cartItem = { id, title, price, imageUrl, quantity, stock };
+    const cartItem = { id, title, price, imageUrl, imageName, quantity, stock };
 
     dispatch(cartActions.addToCart(cartItem));
   };
@@ -27,18 +26,16 @@ const CartItem = (props) => {
   return (
     <div className={classes["cart-item"]}>
       <div className={classes["cart-item__image-container"]}>
-        <img src={`${props.imageUrl}`} alt={title} />
-        <div
-          className={classes['loading-spinner']}
-        >
+        <img src={props.imageUrl} alt={props.title} />
+        <div className={classes["loading-spinner"]}>
           <LoadingSpinner />
         </div>
         <button className={classes["delete-button"]} onClick={clearItemHandler}>
           X
         </button>
       </div>
-      <h2 className={classes["cart-item__text"]}>{title}</h2>
-      <p className={classes["cart-item__text"]}>${price}</p>
+      <h2 className={classes["title"]}>{props.title}</h2>
+      <p className={classes["price"]}>{`$${props.price} ea.`}</p>
       <div className={classes["amount-controls"]}>
         <button
           className={classes["decrement-button"]}
@@ -46,7 +43,7 @@ const CartItem = (props) => {
         >
           -
         </button>
-        <p className={classes["cart-item__text"]}>{props.quantity}</p>
+        <p>{`x ${props.quantity}`}</p>
         <button
           className={classes["increment-button"]}
           onClick={addToCartHandler}
@@ -54,7 +51,7 @@ const CartItem = (props) => {
           +
         </button>
       </div>
-      <p className={classes["total-price"]}>${totalPrice}</p>
+      <p className={classes["price"]}>${totalPrice}</p>
     </div>
   );
 };

@@ -1,14 +1,15 @@
 .cart-item {
-  width: 90%;
-  border-radius: 2px;
+  width: 95%;
+  border-radius: 5px;
   padding: 1rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-bottom: 1rem;
-  border: 1px solid var(--color-secondary-green);
+  color: white;
   background: rgb(79,79,79);
 background: linear-gradient(0deg, rgba(79,79,79,1) 0%, rgba(0,0,0,1) 100%);
+border: 1px solid white;
 }
 
 .cart-item__image-container {
@@ -16,54 +17,60 @@ background: linear-gradient(0deg, rgba(79,79,79,1) 0%, rgba(0,0,0,1) 100%);
   align-items: center;
 }
 
+.title {
+    color: var(--color-secondary-green);
+  font-size: 1.9rem;
+  font-weight: 200;
+}
+
 .cart-item button {
   height: 2.5rem;
   width: 2.5rem;
-  border-radius: 100px;
-  border: none;
-  background-color: var(--color-primary-green);
-  color: black;
-  /* border: 1px solid white; */
+  border-radius: 50%;
   cursor: pointer;
 }
 
 .cart-item img {
-  z-index: 2;
   height: 10rem;
   border: 5px solid white;
   width: auto;
+  z-index: 2;
 }
 
 .delete-button {
   margin-left: 0.5rem;
+  background-color: var(--main-color-1);
+color: white;
+}
+
+
+.amount-controls {
+  width: 9.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.amount-controls button {
+background-color: var(--main-color-1);
+color: white;
+}
+
+.amount-controls button:hover {
+background-color: var(--main-color-1-hover);
 }
 
 .decrement-button:hover,
-.delete-button:hover {
+ .delete-button:hover{
   color: red;
   background-color: black;
   border: 1px solid red;
 }
 
 .increment-button:hover {
-  color: var(--color-primary-green);
+  color: var(--color-secondary-green);
   background-color: black;
-  border: 1px solid var(--color-primary-green);
-}
-
-.amount-controls {
-  width: 8rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.cart-item__text {
-  color: white;
-}
-
-.total-price {
-  color: white;
+  border: 1px solid var(--color-secondary-green);
 }
 
 .loading-spinner {
@@ -71,25 +78,34 @@ background: linear-gradient(0deg, rgba(79,79,79,1) 0%, rgba(0,0,0,1) 100%);
   z-index: 1;
 }
 
-@media (max-width: 65em) {
-  .cart-item {
-  width: 95%;
-}
-}
-
-@media (max-width: 50em) {
-  .cart-item {
-    width: 75%;
-    min-height: 30rem;
-    flex-direction: column;
-  }
-
+@media (max-width: 40em) {
   .cart-item img {
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
 
+  .title {
+    margin-bottom: 1rem;
+  }
+
   .total-price {
     margin-bottom: 2rem;
+  }
+
+  .delete-button {
+      display: none;
+  }
+}
+
+@media (max-width: 55em) {
+  .cart-item {
+    width: 75%;
+    min-height: 25rem;
+    flex-direction: column;
+  }
+
+  .amount-controls {
+    width: 10rem;
+    margin: 1rem;
   }
 }
