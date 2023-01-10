@@ -90,7 +90,6 @@ const KingsCanyon22Blog = () => {
   const [offsetY, setOffsetY] = useState(0);
   const handleScroll = () => {
     setOffsetY(window.pageYOffset);
-    console.log(offsetY);
   };
 
   useEffect(() => {

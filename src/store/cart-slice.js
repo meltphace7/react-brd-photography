@@ -100,7 +100,6 @@ const cartSlice = createSlice({
     },
     syncCart(state, action) {
       const loadedCart = action.payload;
-      console.log(loadedCart);
       state.cart = loadedCart;
       const itemCount = loadedCart.reduce((acc, cur) => acc + cur.quantity, 0);
       const cartTotalPrice = loadedCart.reduce(

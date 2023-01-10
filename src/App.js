@@ -23,7 +23,7 @@ import { FormspreeProvider } from "@formspree/react";
 import ScrollToTop from "./components/ScrollToTop";
 import LoadingSpinner from "./components/UI/LoadingSpinner";
 import { Fragment } from "react";
-import { useSelector, useDispatch } from "react-redux";
+import { useDispatch } from "react-redux";
 import { checkAuth } from "./store/auth-actions";
 import { cartActions } from "./store/cart-slice";
 import hostURL from './hosturl'
@@ -54,8 +54,6 @@ const Sierras = React.lazy(() => import("./components/pages/Sierras"));
 function App() {
   const [products, setProducts] = useState([]);
   const dispatch = useDispatch();
-  const isAuth = useSelector((state) => state.auth.isAuth);
-  const isAdmin = useSelector((state) => state.auth.isAdmin);
 
   // CHECKS for ADMIN ACCESS if a token is saved in Localstorage
   const token = localStorage.getItem("token");
@@ -65,8 +63,6 @@ function App() {
 
   // Gets Cart from local storage
   const cart = localStorage.getItem("cart");
-  console.log('stored cart', JSON.parse(cart))
-
   useEffect(() => {
     if (cart) {
       dispatch(cartActions.syncCart(JSON.parse(cart)));
@@ -83,7 +79,6 @@ function App() {
       }
 
       const resData = await response.json();
-      console.log(resData);
       setProducts(resData.products);
     } catch (err) {
       console.log(err);

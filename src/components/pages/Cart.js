@@ -21,7 +21,6 @@ const Cart = () => {
     }
   }, [cartItems])
 
-console.log(cartItems)
   return (
     <div className={classes.cart}>
       <div className={classes["cart-overlay"]}>

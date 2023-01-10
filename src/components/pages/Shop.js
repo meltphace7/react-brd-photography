@@ -1,8 +1,6 @@
 import React from "react";
 import classes from "./Shop.module.css";
-import ShopItem from "../../components/ShopItem";
 import ShopProduct from "../../components/ShopProduct";
-import { PRINTS } from "../../assets/Prints";
 import { Link } from "react-router-dom";
 
 const Shop = (props) => {
