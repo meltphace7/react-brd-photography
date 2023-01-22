@@ -172,11 +172,11 @@
   align-items: center;
 }
 
-  .header-slide {
-    /* height: 28rem; */
-   
-    height: 40rem;
-  }
+.header-slide {
+   height: 40rem;
+  /* transition: unset; */
+  animation: unset;
+}
 
   .slider-controls {
     width: 95%;

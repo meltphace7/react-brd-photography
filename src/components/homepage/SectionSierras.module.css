@@ -75,10 +75,11 @@
 }
 
 .sierras__feature-box__text-box h2 {
-  font-size: 2.7rem;
-  color: var(--color-secondary-green);
+  font-size: 2.9rem;
+  color: var(--color-tertiary-green);
+  font-weight: unset;
    text-shadow: 1px 1px 2px rgb(80, 79, 79);
-
+line-height: 1.2;
 }
 
 /* GALLERY GRID */
@@ -208,7 +209,7 @@
 }
 
   .sierras__feature-box__text-box h2 {
-  font-size: 1.8rem;
+  font-size: 2.1rem;
   margin: 0 1.5rem;
 }
 

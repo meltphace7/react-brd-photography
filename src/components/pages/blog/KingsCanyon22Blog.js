@@ -105,7 +105,10 @@ const KingsCanyon22Blog = () => {
         style={{ transform: `translateY(${offsetY * 0.5}px)` }}
       >
         <div className={classes["blog-header__overlay"]}>
-          <div className={classes["blog-header__title-container"]}>
+          <div
+            style={{ transform: `translateY(${offsetY * 0.1}px)` }}
+            className={classes["blog-header__title-container"]}
+          >
             <h1 className={classes["blog-header__title"]}>
               Backpacking Kings Canyon
             </h1>
@@ -756,7 +759,10 @@ const KingsCanyon22Blog = () => {
               finally made it to the top.
             </p>
             <div className={classes["responsive__container-90"]}>
-              <img src={raeLakesReturn} alt="Hiking down to Rae Lakes from the Sixty Lakes Basin in Kings Canyon National Park" />
+              <img
+                src={raeLakesReturn}
+                alt="Hiking down to Rae Lakes from the Sixty Lakes Basin in Kings Canyon National Park"
+              />
             </div>
             <div className={classes["sixty-thirty__container"]}>
               <img
@@ -781,7 +787,10 @@ const KingsCanyon22Blog = () => {
               the sun set, we enjoyed our dinner then turned in for the night.
             </p>
             <div className={classes["responsive__container-full"]}>
-              <img src={bullfrogGrandPano} alt="Bullfrog Lake and Kearsarge Valley" />
+              <img
+                src={bullfrogGrandPano}
+                alt="Bullfrog Lake and Kearsarge Valley"
+              />
             </div>
             <div className={classes["responsive__container-70"]}>
               <img src={bullfrogEvening} alt="Bullfrog Lake Sunset" />
@@ -820,7 +829,10 @@ const KingsCanyon22Blog = () => {
               the busy trail to the car.
             </p>
             <div className={classes["responsive__container-90"]}>
-              <img src={potholeLakePano} alt="Pothole Lake near Kearsarge Pass" />
+              <img
+                src={potholeLakePano}
+                alt="Pothole Lake near Kearsarge Pass"
+              />
             </div>
             <div className={classes["sixty-thirty__container"]}>
               <img
@@ -843,7 +855,10 @@ const KingsCanyon22Blog = () => {
               quite more challenging than this one.
             </p>
             <div className={classes["responsive__container-70"]}>
-              <img src={raeLakeCouples} alt="Brock Dallman and Sam Stych at Rae Lakes in Kings Canyon National Park" />
+              <img
+                src={raeLakeCouples}
+                alt="Brock Dallman and Sam Stych at Rae Lakes in Kings Canyon National Park"
+              />
             </div>
           </section>
           <Link className={classes["blogs-link"]} to="/blog">

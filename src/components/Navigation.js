@@ -1,10 +1,10 @@
 import React, { Fragment } from "react";
 import classes from "./Navigation.module.css";
 import { Link, NavLink, useHistory } from "react-router-dom";
-import Logo from "../assets/BDLOGO-white.png";
 import MobileNavigation from "./MobileNavigation";
 import CartBadge from "./CartBadge";
 import { useSelector, useDispatch } from "react-redux";
+import Logo from "../assets/BDLOGO-white.png";
 import { authActions } from '../store/auth-slice';
 
 const Navigation = () => {

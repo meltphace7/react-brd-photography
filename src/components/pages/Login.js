@@ -53,16 +53,13 @@ const Login = () => {
     };
 
     try {
-      const response = await fetch(
-        `${hostURL}/auth/login`,
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(userLoginInput),
-        }
-      );
+      const response = await fetch(`${hostURL}/auth/login`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(userLoginInput),
+      });
       if (!response.ok || response.status === 422) {
         throw new Error("Could not authenticate you!");
       }
@@ -81,7 +78,10 @@ const Login = () => {
       const remainingMilliseconds = 60 * 60 * 1000;
       const expiryDate = new Date(new Date().getTime() + remainingMilliseconds);
       localStorage.setItem("expiryDate", expiryDate.toISOString());
-    //   props.onLogin();
+      // AUTO LOGOUT ///
+      setAutoLogout(remainingMilliseconds);
+      ///////////
+      //   props.onLogin();
       history.push("/home");
     } catch (err) {
       setErrorMessage(err.message);
@@ -91,6 +91,22 @@ const Login = () => {
     emailReset();
     passwordReset();
   };
+
+    const logoutHandler = () => {
+      dispatch(authActions.logout());
+      localStorage.setItem("token", null);
+      localStorage.setItem("userId", null);
+      // localStorage.setItem("expiryDate", null);
+      history.replace("/home");
+    };
+
+    const setAutoLogout = (milliseconds) => {
+      console.log("AUTO LOG TIMER STARTED");
+      setTimeout(() => {
+        logoutHandler();
+        console.log("AUTO LOG OUT");
+      }, milliseconds);
+    };
 
   const emailClasses = emailHasError
     ? `${classes["login-input"]} ${classes["invalid"]}`

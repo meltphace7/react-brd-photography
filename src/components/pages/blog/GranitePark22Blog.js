@@ -180,7 +180,10 @@ const GranitePark22Blog = () => {
         style={{ transform: `translateY(${offsetY * 0.5}px)` }}
       >
         <div className={classes["blog-header__overlay"]}>
-          <div className={classes["blog-header__title-container"]}>
+          <div
+            style={{ transform: `translateY(${offsetY * .1}px)` }}
+            className={classes["blog-header__title-container"]}
+          >
             <h1 className={classes["blog-header__title"]}>
               Backpacking Granite Park, Bear Lakes Basin, Seven Gables, Marie
               Lake
@@ -1362,7 +1365,10 @@ const GranitePark22Blog = () => {
               followed pine creek down past the pine lakes.
             </p>
             <div className={classes["responsive__container-70"]}>
-              <img src={honeymoonLakePano} alt="Shores of Honeymoon Lake in the Eastern Sierras" />
+              <img
+                src={honeymoonLakePano}
+                alt="Shores of Honeymoon Lake in the Eastern Sierras"
+              />
             </div>
             <p className={classes["blog__text"]}>
               The distance was taking its toll on Sam at this point. We had
@@ -1372,7 +1378,10 @@ const GranitePark22Blog = () => {
               sunlight for a change as we returned.
             </p>
             <div className={classes["responsive__container-90"]}>
-              <img src={pineCreekValleyPano} alt="Pine Creek Falls in the Eastern Sierras" />
+              <img
+                src={pineCreekValleyPano}
+                alt="Pine Creek Falls in the Eastern Sierras"
+              />
             </div>
             <div className={classes["custom__container-mtn"]}>
               <img
@@ -1387,7 +1396,10 @@ const GranitePark22Blog = () => {
               />
             </div>
             <div className={classes["responsive__container-full"]}>
-              <img src={pineCreekGrandPano} alt="Pine Creek in the Easter Sierras" />
+              <img
+                src={pineCreekGrandPano}
+                alt="Pine Creek in the Easter Sierras"
+              />
             </div>
             <p className={classes["blog__text"]}>
               I took a nice panorama of pine creek falls as we made our way down

@@ -104,7 +104,10 @@ const WhiteClouds22Blog = () => {
         style={{ transform: `translateY(${offsetY * 0.5}px)` }}
       >
         <div className={classes["blog-header__overlay"]}>
-          <div className={classes["blog-header__title-container"]}>
+          <div
+            style={{ transform: `translateY(${offsetY * 0.1}px)` }}
+            className={classes["blog-header__title-container"]}
+          >
             <h1 className={classes["blog-header__title"]}>
               Backpacking The White Clouds Loop
             </h1>
@@ -853,7 +856,10 @@ const WhiteClouds22Blog = () => {
             </p>
 
             <div className={classes["responsive__container-70"]}>
-              <img src={brockSignage} alt="Brock Dallman standing near the White Clouds Wilderness sign" />
+              <img
+                src={brockSignage}
+                alt="Brock Dallman standing near the White Clouds Wilderness sign"
+              />
             </div>
           </section>
           <Link className={classes["blogs-link"]} to="/blog">
