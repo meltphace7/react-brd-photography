@@ -22,6 +22,7 @@ import { useInView } from "react-intersection-observer";
 import marieBlue from "../../assets/images/CA_MARIE-LAKE_SHADOW-BLUE_HI-RES.jpg";
 
 
+
 const SectionSierras = () => {
   // Intersection Observer pop-up / fade animation
   const [sectionOneRevealed, setSectionOneRevealed] = useState(false);
@@ -63,25 +64,37 @@ const SectionSierras = () => {
             to={`/sierras`}
             className={`${classes["grid-item"]} ${classes["grid-item-1"]}`}
           >
-            <img src={sevenGables} alt="Seven Gables mountains in the Sierras" />
+            <img
+              src={sevenGables}
+              alt="Seven Gables mountains in the Sierras"
+            />
           </Link>
           <Link
             to={`/sierras`}
             className={`${classes["grid-item"]} ${classes["grid-item-2"]}`}
           >
-            <img src={thousandIsland} alt="Thousand Island Lake in the John Muir Wilderness" />
+            <img
+              src={thousandIsland}
+              alt="Thousand Island Lake in the John Muir Wilderness"
+            />
           </Link>
           <Link
             to={"/sierras"}
             className={`${classes["grid-item"]} ${classes["grid-item-3"]}`}
           >
-            <img src={treasureLakePano} alt="Treasure Lakes in the Eastern Sierras" />
+            <img
+              src={treasureLakePano}
+              alt="Treasure Lakes in the Eastern Sierras"
+            />
           </Link>
           <Link
             to={"/sierras"}
             className={`${classes["grid-item"]} ${classes["grid-item-4"]}`}
           >
-            <img src={bearBasinPano} alt="The Bear Lakes Basin in California's High Sierras" />
+            <img
+              src={bearBasinPano}
+              alt="The Bear Lakes Basin in California's High Sierras"
+            />
           </Link>
           <Link
             to={"/sierras"}
@@ -105,7 +118,10 @@ const SectionSierras = () => {
             to={"/sierras"}
             className={`${classes["grid-item"]} ${classes["grid-item-8"]}`}
           >
-            <img src={graniteOrange} alt="Granite Park in the Eastern Sierras" />
+            <img
+              src={graniteOrange}
+              alt="Granite Park in the Eastern Sierras"
+            />
           </Link>
           <Link
             to={"/sierras"}
@@ -117,19 +133,28 @@ const SectionSierras = () => {
             to={"/sierras"}
             className={`${classes["grid-item"]} ${classes["grid-item-10"]}`}
           >
-            <img src={paradiseLake} alt="The Sixty Lake Basin on Kings Canyon National Park" />
+            <img
+              src={paradiseLake}
+              alt="The Sixty Lake Basin on Kings Canyon National Park"
+            />
           </Link>
           <Link
             to={"/sierras"}
             className={`${classes["grid-item"]} ${classes["grid-item-11"]}`}
           >
-            <img src={marbleMtn} alt="A mountain above Pine Lake in the Eastern Sierras" />
+            <img
+              src={marbleMtn}
+              alt="A mountain above Pine Lake in the Eastern Sierras"
+            />
           </Link>
           <Link
             to={"/sierras"}
             className={`${classes["grid-item"]} ${classes["grid-item-12"]}`}
           >
-            <img src={minarets} alt="The Minarets of the John Muir Wilderness in the high Sierra" />
+            <img
+              src={minarets}
+              alt="The Minarets of the John Muir Wilderness in the high Sierra"
+            />
           </Link>
         </div>
       </div>

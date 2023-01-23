@@ -31,43 +31,45 @@
 }
 
 .header-slide-1 {
-  background-image: url('../assets/images/WA_GLACIER-LAKE-SLOPES.jpg');
+  background-image: url('../assets/images/ID_MCGOWN-SLIDE.jpg');
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 50% 40%;
 }
 
 .header-slide-2 {
-  background-image: url('../assets/images/WA_St.HELENS_SUNRISE_lowRes5.jpg');
+  background-image: url('../assets/images/WA_PINK-RAINIER-SLIDE.jpg');
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 50% 30%;
 }
 
 .header-slide-3 {
-  background-image: url('../assets/images/WY_ISLAND-LAKE-DAWN_lowRes.jpg');
+  background-image: url('../assets/images/WA_St.HELENS_SUNRISE_lowRes5.jpg');
+ 
   background-size: cover;
   background-position: 60% 50%;
 }
 
 .header-slide-4 {
-  background-image: url('../assets/images/MO_HIDDEN-LAKE_lowRes.jpg');
+   background-image: url('../assets/images/WY_ISLAND-LAKE-DAWN_lowRes.jpg');
+ 
   background-size: cover;
   background-position: 60% 50%;
 }
 
 .header-slide-5 {
-  background-image: url('../assets/images/OR_FRAZIER-LAKE_lowRes.jpg');
+   background-image: url('../assets/images/MO_HIDDEN-LAKE_lowRes.jpg');
   background-size: cover;
   background-position: 50% 50%;
 }
 
 .header-slide-6 {
-  background-image: url('../assets/images/ID_LOST-RIVER-RANGE_lowRes.jpg');
+    background-image: url('../assets/images/OR_FRAZIER-LAKE_lowRes.jpg');
   background-size: cover;
   background-position: 60% 50%;
 }
 
 .header-slide-7 {
-  background-image: url('../assets/images/WA_RAINER-PINK_lowRes.jpg');
+  background-image: url('../assets/images/ID_LOST-RIVER-RANGE_lowRes.jpg');
   background-size: cover;
   background-position: 50% 50%;
 }

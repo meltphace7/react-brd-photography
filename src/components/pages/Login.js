@@ -73,6 +73,7 @@ const Login = () => {
       if (isAdmin) {
         dispatch(authActions.adminLogin());
       }
+      console.log('logged-in');
       localStorage.setItem("token", token);
       localStorage.setItem("userId", resData.userId);
       const remainingMilliseconds = 60 * 60 * 1000;

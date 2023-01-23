@@ -78,8 +78,8 @@
   font-size: 2.9rem;
   color: var(--color-tertiary-green);
   font-weight: unset;
-   text-shadow: 1px 1px 2px rgb(80, 79, 79);
-line-height: 1.2;
+  text-shadow: 1px 1px 2px rgb(80, 79, 79);
+  line-height: 1.2;
 }
 
 /* GALLERY GRID */
@@ -173,6 +173,7 @@ line-height: 1.2;
   background-size: cover;
   background-position: 50% 50%;
   background-attachment: fixed;
+  z-index: 5;
 }
 
 .muir-quote-container__overlay {
@@ -182,6 +183,8 @@ line-height: 1.2;
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.418);
+  position: relative;
+  z-index: 5;
 }
 
 .muir-quote {
@@ -189,6 +192,7 @@ line-height: 1.2;
   font-size: 3rem;
   line-height: 4rem;
   margin: 5rem 3rem;
+  z-index: 5;
 }
 
 @media (max-width: 40em) {
@@ -204,14 +208,13 @@ line-height: 1.2;
   }
 
   .sierras__feature-box__text-box {
-  margin: 3rem 1rem;
-
-}
+    margin: 3rem 1rem;
+  }
 
   .sierras__feature-box__text-box h2 {
-  font-size: 2.1rem;
-  margin: 0 1.5rem;
-}
+    font-size: 2.1rem;
+    margin: 0 1.5rem;
+  }
 
   .homepage-grid {
     width: 99%;
@@ -221,5 +224,9 @@ line-height: 1.2;
   .muir-quote {
     font-size: 2rem;
     line-height: 4rem;
+  }
+
+  .muir-quote-container {
+    background-attachment: scroll;
   }
 }
