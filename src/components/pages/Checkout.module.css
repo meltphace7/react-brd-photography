@@ -97,9 +97,9 @@
 }
 
 .checkout-form button:hover {
-  border: 1px solid white;
-  background-color: white;
-  color: white;
+  border: 1px solid var(--color-secondary-green);
+  background-color: black;
+  color: var(--color-secondary-green);
 }
 
 .invalid input {

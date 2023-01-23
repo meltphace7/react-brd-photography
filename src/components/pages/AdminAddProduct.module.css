@@ -1,17 +1,17 @@
 .background {
   width: 100%;
-  min-height: 80rem;
+  min-height: 70rem;
   display: flex;
   align-items: center;
   justify-content: center;
   background-image: url("../../assets/images/CA_GOLD-MTN_HI_RES.jpg");
   background-size: cover;
-  background-position: 0% 100%;
+  background-position: 100% 0%;
 }
 
 .background-overlay {
   width: 100%;
-  min-height: 80rem;
+  min-height: 70rem;
   display: flex;
   align-items: center;
   justify-content: center;

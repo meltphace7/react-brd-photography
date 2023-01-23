@@ -18,7 +18,6 @@ const Shop = (props) => {
                 key={prod._id}
                 id={prod._id}
                 title={prod.title}
-                imageName={prod.imageName}
                 imageUrl={prod.imageUrl}
                 price={+prod.price}
                 description={prod.description}

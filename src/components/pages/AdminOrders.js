@@ -36,7 +36,7 @@ const AdminOrders = () => {
   return (
     <div className={classes["background"]}>
       <div className={classes["background-overlay"]}>
-        <h1 className={classes["page-title"]}>Orders</h1>
+        <h1 className={classes["title"]}>Orders</h1>
         <div className={classes["orders-container"]}>
           {orders.map((order) => {
             return (

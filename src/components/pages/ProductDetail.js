@@ -34,7 +34,7 @@ const ProductDetail = (props) => {
       const resData = await response.json();
       console.log(resData.product);
       setTitle(resData.product.title);
-      setImageName(resData.product.imageName);
+      // setImageName(resData.product.imageName);
       setImageUrl(resData.product.imageUrl);
       setPrice(resData.product.price);
       setDescription(resData.product.description);
@@ -64,7 +64,7 @@ const ProductDetail = (props) => {
     const cartItem = {
       id: productId,
       title,
-      imageName,
+      // imageName,
       imageUrl,
       price,
       description,

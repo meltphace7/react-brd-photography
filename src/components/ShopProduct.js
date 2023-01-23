@@ -6,7 +6,7 @@ import { cartActions } from "../store/cart-slice";
 import LoadingSpinner from "../components/UI/LoadingSpinner";
 
 const ShopProduct = (props) => {
-  const { id, title, price, imageUrl, imageName, description, stock } = props;
+  const { id, title, price, imageUrl, description, stock } = props;
   const dispatch = useDispatch();
   const cartItems = useSelector((state) => state.cart.cart);
   const currentItem = cartItems.find((item) => item.id === id);
@@ -21,7 +21,6 @@ const ShopProduct = (props) => {
       id,
       title,
       price,
-      imageName,
       imageUrl,
       stock,
     };

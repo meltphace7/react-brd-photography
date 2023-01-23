@@ -6,11 +6,11 @@ import LoadingSpinner from "./UI/LoadingSpinner";
 
 const CartItem = (props) => {
   const totalPrice = Math.round(props.price * props.quantity * 100) / 100;
-  const { id, title, price, imageUrl, imageName, quantity, stock } = props;
+  const { id, title, price, imageUrl, quantity, stock } = props;
   const dispatch = useDispatch();
 
   const addToCartHandler = () => {
-    const cartItem = { id, title, price, imageUrl, imageName, quantity, stock };
+    const cartItem = { id, title, price, imageUrl, quantity, stock };
 
     dispatch(cartActions.addToCart(cartItem));
   };

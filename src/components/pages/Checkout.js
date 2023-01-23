@@ -10,6 +10,13 @@ import useValidation from "../../hooks/use-validation";
 const Checkout = (props) => {
   const token = localStorage.getItem("token");
   const dispatch = useDispatch();
+   const history = useHistory();
+
+   const [isMessage, setIsMessage] = useState(false);
+   const [message, setMessage] = useState("");
+   const [messageIsError, setMessageIsError] = useState(false);
+  const [isShippingSame, setIsShippingSame] = useState(true);
+  
   const cart = useSelector((state) => state.cart.cart);
     const isAuth = useSelector((state) => state.auth.isAuth);
     console.log('hostURL', hostURL)
@@ -173,12 +180,6 @@ const Checkout = (props) => {
     (value) => value.trim() !== "" && value.length > 4 && !isNaN(+value)
   );
 
-  const history = useHistory();
-
-  const [isMessage, setIsMessage] = useState(false);
-  const [message, setMessage] = useState("");
-  const [messageIsError, setMessageIsError] = useState(false);
-  const [isShippingSame, setIsShippingSame] = useState(true);
 
   const isShippingSameChangeHandler = (e) => {
     setIsShippingSame((prevState) => !prevState);
@@ -285,10 +286,6 @@ const Checkout = (props) => {
       };
     }
 
-    console.log("fetchURL ", fetchURL);
-    console.log("headers ", headers);
-    console.log("orderData ", orderData);
-
     try {
       const response = await fetch(fetchURL, {
         method: "POST",
@@ -300,11 +297,12 @@ const Checkout = (props) => {
       }
       const resData = await response.json();
       console.log(resData);
-      props.onSubmitOrder();
-      if (!isAuth) {
+        setIsMessage(true);
+        setMessage("Your order has been submitted!  Thank You!");
         dispatch(cartActions.clearCart());
-      }
     } catch (err) {
+       setIsMessage(true);
+       setMessage("There was a problem with your order");
       console.log(err);
     }
 
@@ -324,9 +322,6 @@ const Checkout = (props) => {
     cityShippingReset();
     stateShippingReset();
     postalCodeShippingReset();
-
-    setIsMessage(true);
-    setMessage("Your order has been submitted!  Thank You!");
   };
 
   const closeModalHandler = () => {

@@ -8,7 +8,7 @@ const AdminProduct = (props) => {
     console.log("delete item!, ", props.id);
     const productData = {
       productId: props.id,
-      imageName: props.imageName,
+      imageUrl: props.imageUrl,
     };
     const token = localStorage.getItem("token");
     try {
@@ -33,6 +33,9 @@ const AdminProduct = (props) => {
       console.log(err);
     }
   };
+
+  const imageName = props.imageUrl.slice(63);
+  console.log(imageName)
 
   return (
     <div className={classes["admin-item"]}>

@@ -35,7 +35,7 @@ const AdminEditProduct = (props) => {
       setPrice(product.product.price);
       setStock(product.product.stock);
       setDescription(product.product.description);
-      setImage(product.product.imageName);
+      setImage(product.product.imageUrl);
     } catch (err) {
       console.log(err);
     }
