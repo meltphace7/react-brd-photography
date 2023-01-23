@@ -12,7 +12,6 @@ const ProductDetail = (props) => {
 
   const [title, setTitle] = useState("");
   const [imageUrl, setImageUrl] = useState("");
-  const [imageName, setImageName] = useState("");
   const [price, setPrice] = useState("");
   const [description, setDescription] = useState("");
   const [stock, setStock] = useState("");
@@ -20,7 +19,6 @@ const ProductDetail = (props) => {
   const [itemsLeft, setItemsLeft] = useState("");
   const cart = useSelector((state) => state.cart.cart);
   const isAuth = useSelector((state) => state.auth.isAuth);
-  console.log(cart);
 
   const fetchProductDataHandler = useCallback(async () => {
     setIsLoading(true);
@@ -32,7 +30,6 @@ const ProductDetail = (props) => {
         throw new Error("Could not find product!");
       }
       const resData = await response.json();
-      console.log(resData.product);
       setTitle(resData.product.title);
       // setImageName(resData.product.imageName);
       setImageUrl(resData.product.imageUrl);

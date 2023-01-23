@@ -1,12 +1,12 @@
 .background {
   width: 100%;
-  min-height: 80rem;
+  min-height: 70rem;
   display: flex;
   align-items: center;
   justify-content: center;
   background-image: url('../../assets/images/CA_GOLD-MTN_HI_RES.jpg');
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 50% 0%;
 }
 
 .form-body {
@@ -23,6 +23,7 @@
 
 .form-body h1 {
   color: white;
+  font-size: 4rem;
   margin-bottom: 2rem;
 }
 
@@ -50,13 +51,28 @@
   font-size: 1.8rem;
 }
 
+.login-form button:hover {
+  color: var(--color-secondary-green);
+  border: 1px solid var(--color-secondary-green);
+}
+
+.signup-link {
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.signup-link:hover {
+   color: var(--color-secondary-green);
+}
+
 .password-reset {
   color: rgb(210, 210, 210);
   font-size: 1.5rem;
 }
 
 .password-reset:hover {
-  color: var(--main-color-1);
+  color: var(--color-secondary-green);
 }
 
 .invalid {

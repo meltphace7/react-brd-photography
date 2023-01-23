@@ -5,8 +5,11 @@ import { useDispatch } from "react-redux";
 import { authActions } from "../../store/auth-slice";
 import useValidation from "../../hooks/use-validation";
 import hostURL from "../../hosturl";
+import ModalMessage from '../notifications/ModalMessage'
 
 const Login = () => {
+  const [isMessage, setIsMessage] = useState(false);
+  const [message, setMessage] = useState('')
   // Validating user input with custom hook - useValidation()
   const {
     enteredValue: email,
@@ -29,9 +32,6 @@ const Login = () => {
   const history = useHistory();
   const dispatch = useDispatch();
 
-  const [isError, setIsError] = useState(false);
-  const [errorMessage, setErrorMessage] = useState("");
-
   let formIsValid = false;
 
   if (emailIsValid && passwordIsValid) {
@@ -39,11 +39,10 @@ const Login = () => {
   }
 
   const loginHandler = async (event) => {
-    console.log('click')
     event.preventDefault();
     if (!formIsValid) {
-      setIsError(true);
-      setErrorMessage("Your email or password is invalid!");
+      setIsMessage(true);
+      setMessage("Your email or password is invalid!");
       return;
     }
 
@@ -66,14 +65,12 @@ const Login = () => {
       const resData = await response.json();
 
       // SAVE RETURNED AUTH TOKEN IN LOCAL STORAGE
-      console.log(resData);
       const isAdmin = resData.isAdmin;
       const token = resData.token;
       dispatch(authActions.login(resData.userName));
       if (isAdmin) {
         dispatch(authActions.adminLogin());
       }
-      console.log('logged-in');
       localStorage.setItem("token", token);
       localStorage.setItem("userId", resData.userId);
       const remainingMilliseconds = 60 * 60 * 1000;
@@ -82,11 +79,10 @@ const Login = () => {
       // AUTO LOGOUT ///
       setAutoLogout(remainingMilliseconds);
       ///////////
-      //   props.onLogin();
       history.push("/home");
     } catch (err) {
-      setErrorMessage(err.message);
-      setIsError(true);
+      setMessage(err.message);
+      setIsMessage(true);
       console.log();
     }
     emailReset();
@@ -102,12 +98,15 @@ const Login = () => {
     };
 
     const setAutoLogout = (milliseconds) => {
-      console.log("AUTO LOG TIMER STARTED");
       setTimeout(() => {
         logoutHandler();
-        console.log("AUTO LOG OUT");
       }, milliseconds);
     };
+  
+  const closeModalHandler = () => {
+    setMessage('');
+    setIsMessage(false);
+  }
 
   const emailClasses = emailHasError
     ? `${classes["login-input"]} ${classes["invalid"]}`
@@ -117,15 +116,14 @@ const Login = () => {
     ? `${classes["login-input"]} ${classes["invalid"]}`
     : classes["login-input"];
 
-//   const closeModalHandler = () => {
-//     setIsError(false);
-//   };
   return (
     <div className={classes.background}>
       <div className={classes["form-body"]}>
         <form className={classes["login-form"]} onSubmit={loginHandler}>
           <h1>Login</h1>
-          <Link to='/signup'>Create Account</Link>
+          <Link className={classes["signup-link"]} to="/signup">
+            Create Account
+          </Link>
           {emailHasError && <p>Please enter a valid email!</p>}
           <input
             className={emailClasses}
@@ -151,13 +149,8 @@ const Login = () => {
             Forgot Your Password?
           </Link>
         </form>
-        {/* {isError && (
-          <ModalMessage
-            message={errorMessage}
-            onCloseModal={closeModalHandler}
-          />
-        )} */}
       </div>
+      {isMessage && <ModalMessage onCloseModal={closeModalHandler} message={message} />}
     </div>
   );
 }

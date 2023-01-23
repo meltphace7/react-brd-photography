@@ -5,7 +5,6 @@ import hostURL from "../hosturl";
 
 const AdminProduct = (props) => {
   const deleteItemHandler = async () => {
-    console.log("delete item!, ", props.id);
     const productData = {
       productId: props.id,
       imageUrl: props.imageUrl,
@@ -33,9 +32,6 @@ const AdminProduct = (props) => {
       console.log(err);
     }
   };
-
-  const imageName = props.imageUrl.slice(63);
-  console.log(imageName)
 
   return (
     <div className={classes["admin-item"]}>

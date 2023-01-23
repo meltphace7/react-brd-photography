@@ -3,7 +3,6 @@ import classes from "./AdminProducts.module.css";
 import AdminProduct from "../AdminProduct";
 
 const AdminProducts = (props) => {
-    console.log(props.products)
   return (
     <div className={classes.background}>
       <div className={classes["background-overlay"]}>

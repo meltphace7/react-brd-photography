@@ -19,12 +19,6 @@ const Checkout = (props) => {
   
   const cart = useSelector((state) => state.cart.cart);
     const isAuth = useSelector((state) => state.auth.isAuth);
-    console.log('hostURL', hostURL)
-
-  const USERCART = cart;
-  console.log("USERs CArt", USERCART);
-  console.log(cart);
-  console.log(isAuth);
   // Validating user input with custom hook - useValidation()
 
   ////// USER CONTACT INFO //////////

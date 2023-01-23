@@ -5,8 +5,6 @@ import hostURL from "../../hosturl";
 
 const AdminEditProduct = (props) => {
     let { productId } = useParams();
-    
-    console.log(productId)
 
   const [title, setTitle] = useState("");
   const [price, setPrice] = useState("");
