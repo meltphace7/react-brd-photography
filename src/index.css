@@ -33,6 +33,18 @@ button {
   cursor: pointer;
 }
 
+h1 {
+  font-weight: unset;
+}
+
+h2 {
+  font-weight: unset;
+}
+
+h3 {
+  font-weight: unset;
+}
+
 a {
   text-decoration: none;
 }

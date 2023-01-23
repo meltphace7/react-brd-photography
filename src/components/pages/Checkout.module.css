@@ -112,8 +112,22 @@
   background-color: #fbe8d2;
 }
 
+@media (max-width: 60em) {
+  .checkout-form {
+    width: 65%;
+  }
+}
+
 @media (max-width: 40em) {
   .checkout-form {
-    width: 80%;
+    width: 100%;
   }
+
+  .input-group {
+  width: 90%;
+}
+
+.input-row {
+  width: 90%;
+}
 }
