@@ -286,8 +286,18 @@
   }
 }
 
+@media (max-width: 50em) {
+  .nav-menu {
+    width: 65%;
+  }
+}
+
 @media (max-width: 40em) {
   .nav {
+    display: none;
+  }
+
+  .sticky-nav {
     display: none;
   }
 }
