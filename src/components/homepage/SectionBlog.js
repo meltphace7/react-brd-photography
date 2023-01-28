@@ -23,18 +23,21 @@ const SectionBlog = () => {
         </div>
         <div className={classes["blog__feature"]}>
           <div className={classes["blog__feature__text"]}>
-            <h1>Adventure Blog</h1>
-            <p>
-              The mountains are home. Follow me on my alpine quests to
-              get the shot.
-            </p>
+            <button className={classes["blog__feature__text__title"]}>Adventure Blog</button>
+            <button className={classes["blog__feature__text__text"]}>
+              The mountains are home. Follow me on my alpine quests to get the
+              shot.
+            </button>
             <Link to="/blog" className={classes["feature-box__link"]}>
               Adventure
               <HiOutlineArrowSmRight className={classes.arrow} size="30px" />
             </Link>
           </div>
           <div className={classes["blog__feature__img-container"]}>
-            <img src={profilePic} alt="Brock Dallman and the Seven Gables in the Sierras" />
+            <img
+              src={profilePic}
+              alt="Brock Dallman and the Seven Gables in the Sierras"
+            />
           </div>
         </div>
       </div>
