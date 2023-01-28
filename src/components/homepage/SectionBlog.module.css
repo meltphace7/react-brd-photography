@@ -34,7 +34,7 @@
 .blog__feature {
     position: absolute;
     margin-right: 15rem;
-    z-index: 5;
+    z-index: 2;
      background-color: rgba(255, 255, 255);
     padding: 2rem;
     border-radius: 5px;
@@ -58,6 +58,7 @@
 .blog__feature__text {
     width: 25rem;
     margin: 1rem;
+    z-index: 7;
 }
 
 .blog__feature__text h1{

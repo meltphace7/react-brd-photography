@@ -5,8 +5,14 @@
   height: 10rem;
   padding-top: 1rem;
   background-color: rgba(0, 0, 0, 0.173);
-  background: rgb(0,0,0);
-background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.13351278011204482) 12%, rgba(0,0,0,0.5312718837535014) 38%, rgba(0,0,0,0.9262298669467787) 100%);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.13351278011204482) 12%,
+    rgba(0, 0, 0, 0.5312718837535014) 38%,
+    rgba(0, 0, 0, 0.9262298669467787) 100%
+  );
   color: white;
   display: flex;
   flex-direction: column;
@@ -101,7 +107,7 @@ background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.133512780112044
 } */
 
 .nav-menu__link {
-   text-decoration: none;
+  text-decoration: none;
   color: white;
   cursor: pointer;
   transition: all 0.2s;
@@ -109,7 +115,7 @@ background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.133512780112044
 }
 
 .nav-menu a:hover {
-  color: var(--color-primary-green); 
+  color: var(--color-primary-green);
 }
 
 .nav-menu li {
@@ -166,13 +172,13 @@ background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.133512780112044
 
 .cart-empty {
   color: white;
-   font-size: 1.5rem;
+  font-size: 1.5rem;
   margin-left: 0.5rem;
 }
 
 .active {
-   color: var(--color-primary-green); 
-   text-shadow: 1px 1px 2px rgb(80, 79, 79);
+  color: var(--color-primary-green);
+  text-shadow: 1px 1px 2px rgb(80, 79, 79);
 }
 
 .admin-nav {
@@ -185,11 +191,11 @@ background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.133512780112044
 }
 
 .admin-link {
-  padding: .25rem .5rem;
+  padding: 0.25rem 0.5rem;
   color: white;
   background-color: var(--color-secondary-green);
   font-size: 1.8rem;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .admin-link:hover {
@@ -197,28 +203,87 @@ background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.133512780112044
 }
 
 .logout-btn {
-  padding: .25rem .5rem;
+  padding: 0.25rem 0.5rem;
   color: white;
   background-color: var(--color-secondary-green);
   border: none;
-   font-size: 1.8rem;
-   cursor:pointer;
+  font-size: 1.8rem;
+  cursor: pointer;
 }
 
 .logout-btn:hover {
   background-color: var(--color-primary-green);
 }
 
+.sticky-nav {
+  position: fixed;
+  padding-top: 1.5rem;
+  width: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  background-color: #7b7b7bd0;
+  z-index: 999;
+  -webkit-box-shadow: 0px -11px 35px 22px rgba(0, 0, 0, 0.64);
+  -moz-box-shadow: 0px -11px 35px 22px rgba(0, 0, 0, 0.64);
+  box-shadow: 0px -11px 35px 22px rgba(0, 0, 0, 0.64);
+  animation: stickyDrop 500ms ease-in forwards;
+}
+
+@keyframes stickyDrop {
+  0% {
+    opacity: 0;
+    top: -10rem;
+  }
+
+  100% {
+    opacity: 1;
+    top: 0rem;
+  }
+}
+
+.sticky-dropdown-menu {
+  position: absolute;
+  display: none;
+  border-radius: 5px;
+  top: 3rem;
+  backdrop-filter: blur(10px);
+  background-color: #7b7b7bd0;
+  padding: 1rem;
+  z-index: 999999;
+  animation: dropDown 0.5s ease-in-out forwards;
+}
+
+.nav-menu li:hover .sticky-dropdown-menu {
+  display: block;
+}
+
+@keyframes dropDown {
+  0% {
+    height: 0;
+    opacity: 0;
+  }
+
+  100% {
+    height: 25rem;
+    opacity: 1;
+  }
+}
+
+.show-sticky-nav {
+  display: flex;
+}
+
 @media (max-width: 65em) {
   .logo-container h2 {
-  font-size: 1.8rem;
-  font-weight: 100;
-  
-}
-.line {
-  width: 24%;
-  border-bottom: 1px solid white;
-}
+    font-size: 1.8rem;
+    font-weight: 100;
+  }
+  .line {
+    width: 24%;
+    border-bottom: 1px solid white;
+  }
 }
 
 @media (max-width: 40em) {
