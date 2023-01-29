@@ -60,6 +60,9 @@
   width: 26rem;
   margin: 1rem;
   z-index: 7;
+  letter-spacing: 0.15rem;
+  font-family: inherit;
+  font-weight: 100;
 }
 
 .blog__feature__text__title {

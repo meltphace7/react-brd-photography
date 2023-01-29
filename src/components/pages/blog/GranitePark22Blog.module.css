@@ -395,6 +395,7 @@
   .blog-header {
     top: -5rem;
     height: 60rem;
+    
   }
 
   .blog-header__overlay {
@@ -592,6 +593,11 @@
 }
 
 @media (max-width: 30em) {
+  .blog-header {
+     background-image: url("../../../assets/images/lq-images/CA_SEVEN-GABLES_WIDE_LOW-RES.jpg");
+    
+  }
+
   .blog-header__title {
     font-size: 3.25rem;
   }

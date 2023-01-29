@@ -339,6 +339,7 @@
 @media (max-width: 40em) {
   .blog-header {
     top: -4rem;
+    background-image: url("../../../assets/images/lq-images/CA_PARADISE-LAKE_MORN_LOW-RES.jpg");
   }
 
   .blog-body__overlay {
