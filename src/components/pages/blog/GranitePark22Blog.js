@@ -181,7 +181,7 @@ const GranitePark22Blog = () => {
       >
         <div className={classes["blog-header__overlay"]}>
           <div
-            style={{ transform: `translateY(${offsetY * .1}px)` }}
+            style={{ transform: `translateY(${offsetY * 0.1}px)` }}
             className={classes["blog-header__title-container"]}
           >
             <h1 className={classes["blog-header__title"]}>
@@ -216,6 +216,7 @@ const GranitePark22Blog = () => {
                 <img
                   src={tungstenMine}
                   alt="tungsten mine at Pine Creek Trailhead, Eastern Sierras"
+                  loading="lazy"
                 />
               </div>
               <div
@@ -224,6 +225,7 @@ const GranitePark22Blog = () => {
                 <img
                   src={pineCreekClouds}
                   alt="Granite Mountains along Pine Creek, Eastern Sierras"
+                  loading="lazy"
                 />
               </div>
               <div
@@ -232,12 +234,17 @@ const GranitePark22Blog = () => {
                 <img
                   src={pineCreekFalls}
                   alt="Pine Creek Falls in Eastern Sierras"
+                  loading="lazy"
                 />
               </div>
               <div
                 className={`${classes["day-one__grid-item"]} ${classes["day-one__grid-item-4"]}`}
               >
-                <img src={samPineCreek} alt="Sam hiking along Pine Creek" />
+                <img
+                  src={samPineCreek}
+                  alt="Sam hiking along Pine Creek"
+                  loading="lazy"
+                />
               </div>
             </div>
             <p className={classes["blog__text"]}>
@@ -257,6 +264,7 @@ const GranitePark22Blog = () => {
               <img
                 src={pineCreekFallsPano}
                 alt="Pine Creek falls in California's Eastern Sierras"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -274,7 +282,11 @@ const GranitePark22Blog = () => {
               shots of the lake before turning in for the night.
             </p>
             <div className={classes["responsive__container-90"]}>
-              <img src={pineLakePano} alt="Pine Lake in the Eastern Sierras" />
+              <img
+                src={pineLakePano}
+                alt="Pine Lake in the Eastern Sierras"
+                loading="lazy"
+              />
             </div>
             <div className={classes["grid_day-one_2"]}>
               <div
@@ -283,6 +295,7 @@ const GranitePark22Blog = () => {
                 <img
                   src={samPineLakeVert}
                   alt="Sam at Pine Lake, Eastern Sierras"
+                  loading="lazy"
                 />
               </div>
               <div
@@ -291,12 +304,13 @@ const GranitePark22Blog = () => {
                 <img
                   src={pineLakeVert}
                   alt="Pine Lake in the Eastern Sierras"
+                  loading="lazy"
                 />
               </div>
               <div
                 className={`${classes["day-one__2-grid-item"]} ${classes["day-one__2-grid-item-3"]}`}
               >
-                <img src={samRockHop} alt="Sam along the trai" />
+                <img src={samRockHop} alt="Sam along the trai" loading="lazy" />
               </div>
             </div>
 
@@ -304,6 +318,7 @@ const GranitePark22Blog = () => {
               <img
                 src={honeymoonSunset}
                 alt="Honeymoon Lake in the Eastern Sierras"
+                loading="lazy"
               />
             </div>
           </section>
@@ -324,11 +339,13 @@ const GranitePark22Blog = () => {
                 className={classes["responsive__container-split__item-1"]}
                 src={honeymoonMtnsVert}
                 alt="Honeymoon Lake in the Eastern Sierras"
+                loading="lazy"
               />
               <img
                 className={classes["responsive__container-split__item-2"]}
                 src={honeymoonVert}
                 alt="Honeymoon Lake in the Eastern Sierras"
+                loading="lazy"
               />
             </div>
 
@@ -336,6 +353,7 @@ const GranitePark22Blog = () => {
               <img
                 src={honeymoonMorn}
                 alt="Honeymoon Lake in the Eastern Sierras"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -349,6 +367,7 @@ const GranitePark22Blog = () => {
               <img
                 src={graniteParkCreekPano}
                 alt="Granite Park in the Eastern Sierras"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -361,6 +380,7 @@ const GranitePark22Blog = () => {
               <img
                 src={graniteParkCloudsPano}
                 alt="Granite Park in the Eastern Sierras"
+                loading="lazy"
               />
             </div>
             <div className={classes["video"]}>
@@ -379,12 +399,14 @@ const GranitePark22Blog = () => {
               <img
                 src={graniteParkTarn}
                 alt="A tarn in Granite Park in the Eastern Sierras"
+                loading="lazy"
               />
             </div>
             <div className={classes["responsive__container-80"]}>
               <img
                 src={graniteParkCloudsShot}
                 alt="Granite Park in the Eastern Sierras"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -398,6 +420,7 @@ const GranitePark22Blog = () => {
               <img
                 src={graniteParkMtnsPano}
                 alt="Granite Park in the Eastern Sierras"
+                loading="lazy"
               />
             </div>
 
@@ -406,11 +429,13 @@ const GranitePark22Blog = () => {
                 className={classes["responsive__container-split__item-1"]}
                 src={graniteParkCloudsVert}
                 alt="Granite Park in the Eastern Sierras"
+                loading="lazy"
               />
               <img
                 className={classes["responsive__container-split__item-2"]}
                 src={graniteParkMtnVert}
                 alt="Granite Park in the Eastern Sierras"
+                loading="lazy"
               />
             </div>
 
@@ -419,11 +444,13 @@ const GranitePark22Blog = () => {
                 className={classes["thirty-sixty__item-1"]}
                 src={graniteParkBrockVert}
                 alt="Granite Park in the Eastern Sierras"
+                loading="lazy"
               />
               <img
                 className={classes["thirty-sixty__item-2"]}
                 src={graniteParkTrail}
                 alt="Granite Park in the Eastern Sierras"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -441,17 +468,20 @@ const GranitePark22Blog = () => {
                 className={classes["sixty-thirty__item-1"]}
                 src={graniteParkEveningLakes}
                 alt="Chalfant Lakes near Granite Park in the Eastern Sierras"
+                loading="lazy"
               />
               <img
                 className={classes["sixty-thirty__item-2"]}
                 src={graniteParkSam}
                 alt="Sam in Granite Park, Eastern Sierras"
+                loading="lazy"
               />
             </div>
             <div className={classes["responsive__container-90"]}>
               <img
                 src={graniteParkEveningPano}
                 alt="Granite Park in the Eastern Sierras"
+                loading="lazy"
               />
             </div>
           </section>
@@ -471,12 +501,14 @@ const GranitePark22Blog = () => {
               <img
                 src={graniteOrangeMorn}
                 alt="Orange Mountains in Granite Park in the Eastern Sierras"
+                loading="lazy"
               />
             </div>
             <div className={classes["responsive__container-full"]}>
               <img
                 src={graniteOrangeMornPano}
                 alt="Granite Park in the Eastern Sierras"
+                loading="lazy"
               />
             </div>
 
@@ -485,12 +517,14 @@ const GranitePark22Blog = () => {
                 className={classes["responsive__container-split__item-1"]}
                 src={graniteGooSlam}
                 alt="Sam slamming some Goo in Granite Park, Eastern Sierras"
+                loading="lazy"
               />
 
               <img
                 className={classes["responsive__container-split__item-2"]}
                 src={graniteSamBoulderHop}
                 alt="Sam hiking up to Italy Pass, Eastern Sierras"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -499,7 +533,7 @@ const GranitePark22Blog = () => {
               to beautiful views of Granite Park and beyond.
             </p>
             <div className={classes["responsive__container-90"]}>
-              <img src={italyPassSummit} alt="Italy Pass Pano" />
+              <img src={italyPassSummit} alt="Italy Pass Pano" loading="lazy" />
             </div>
             <p className={classes["blog__text"]}>
               We continued over the pass but left the trail towards a mountain
@@ -514,12 +548,14 @@ const GranitePark22Blog = () => {
                 className={classes["responsive__container-split__item-1"]}
                 src={italyPassBoulder}
                 alt="Boulder field near Italy Pass, Eastern Sierras"
+                loading="lazy"
               />
 
               <img
                 className={classes["responsive__container-split__item-2"]}
                 src={bearLakesBrockPano}
                 alt="Bear Lakes Basin Panorama in the Eastern Sierras"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -531,18 +567,21 @@ const GranitePark22Blog = () => {
               <img
                 src={brockAlpinePano}
                 alt="Brock Dallman in The Bear Lake Basin"
+                loading="lazy"
               />
             </div>
             <div className={classes["responsive__container-full"]}>
               <img
                 src={bearLakesAlpinePano}
                 alt="Bear Lakes Basin in California's Eastern Sierras"
+                loading="lazy"
               />
             </div>
             <div className={classes["responsive__container-full"]}>
               <img
                 src={blackBearLakePano}
                 alt="Black Bear Lake in the Bear Lakes Basin, Eastern Sierras"
+                loading="lazy"
               />
             </div>
 
@@ -550,6 +589,7 @@ const GranitePark22Blog = () => {
               <img
                 src={brockPortrait}
                 alt="Brock Dallman in the Bear Lakes Basin, Eastern Sierras"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -563,6 +603,7 @@ const GranitePark22Blog = () => {
               <img
                 src={sevenGablesBrock}
                 alt="Brock Dallman in front of the Seven Gables, Eastern Sierras"
+                loading="lazy"
               />
             </div>
             <div className={classes["thirty-sixty__container"]}>
@@ -570,11 +611,13 @@ const GranitePark22Blog = () => {
                 className={classes["thirty-sixty__item-1"]}
                 src={bearBasinSamVert}
                 alt="Sam hiking off trail in the Bear Lakes Basin, Eastern Sierras, California"
+                loading="lazy"
               />
               <img
                 className={classes["thirty-sixty__item-2"]}
                 src={bearBasinOffTrail}
                 alt="Off trail in the Bear Lakes Basin in the Eastern Sierras"
+                loading="lazy"
               />
             </div>
             <div className={classes["sixty-thirty__container"]}>
@@ -582,11 +625,13 @@ const GranitePark22Blog = () => {
                 className={classes["sixty-thirty__item-1"]}
                 src={bearBasinOffTrailTwo}
                 alt="Bear Lakes Basin in California's Easter Sierras"
+                loading="lazy"
               />
               <img
                 className={classes["sixty-thirty__item-2"]}
                 src={sevenGablesSlotVert}
                 alt="Seven Gables Mountains in the Eastern Sierras"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -596,7 +641,11 @@ const GranitePark22Blog = () => {
               canyon down to the Seven Gables Lakes Drainage.
             </p>
             <div className={classes["responsive__container-90"]}>
-              <img src={veeLakePano} alt="Vee Lake in  the Bear Lakes Basin" />
+              <img
+                src={veeLakePano}
+                alt="Vee Lake in  the Bear Lakes Basin"
+                loading="lazy"
+              />
             </div>
             <p className={classes["blog__text"]}>
               By now the skies were once again completely overcast with dark
@@ -607,18 +656,20 @@ const GranitePark22Blog = () => {
               destination at Marie Lake, off the John Muir Trail.
             </p>
             <div className={classes["responsive__container-90"]}>
-              <img src={sevenGablesWide} alt="Seven Gables" />
+              <img src={sevenGablesWide} alt="Seven Gables" loading="lazy" />
             </div>
             <div className={classes["responsive__container-split"]}>
               <img
                 className={classes["responsive__container-split__item-1"]}
                 src={sevenGablesSlopesVert}
                 alt="Seven Gables in California's Sierra Nevada Mountains"
+                loading="lazy"
               />
               <img
                 className={classes["responsive__container-split__item-2"]}
                 src={sevenGablesMountainVert}
                 alt="Seven Gables in the Sierras"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -634,6 +685,7 @@ const GranitePark22Blog = () => {
               <img
                 src={sevenGablesCreekShot}
                 alt="Seven Gables Mountains in California's Sierra Nevada Range"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -645,26 +697,37 @@ const GranitePark22Blog = () => {
               <img
                 src={sevenGablesGrassPano}
                 alt="Seven Gables Mountains in the Sierras"
+                loading="lazy"
               />
             </div>
 
             <div className={classes["responsive__container-90"]}>
-              <img src={sevenGablesMarshPano} alt="Seven Gables Mountains" />
+              <img
+                src={sevenGablesMarshPano}
+                alt="Seven Gables Mountains"
+                loading="lazy"
+              />
             </div>
 
             <div className={classes["responsive__container-full"]}>
-              <img src={sevenGablesRainPano} alt="Seven Gables Mountains" />
+              <img
+                src={sevenGablesRainPano}
+                alt="Seven Gables Mountains"
+                loading="lazy"
+              />
             </div>
             <div className={classes["responsive__container-split"]}>
               <img
                 className={classes["responsive__container-split__item-1"]}
                 src={sevenGablesStorm}
                 alt="Stormy day near the Seven Gables Mountains"
+                loading="lazy"
               />
               <img
                 className={classes["responsive__container-split__item-2"]}
                 src={thunderstormSam}
                 alt="Sam in a thunderstorm"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -679,11 +742,13 @@ const GranitePark22Blog = () => {
                 className={classes["custom__container-signage__item-1"]}
                 src={samSignageOne}
                 alt="Sam not having a good day"
+                loading="lazy"
               />
               <img
                 className={classes["custom__container-signage__item-2"]}
                 src={samSignageTwo}
                 alt="Sam not having a good day"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -703,6 +768,7 @@ const GranitePark22Blog = () => {
               <img
                 src={marieEveningPano}
                 alt="Marie Lake Sunset along the John Muir Trail - Pacific Crest Trail"
+                loading="lazy"
               />
             </div>
 
@@ -723,6 +789,7 @@ const GranitePark22Blog = () => {
               <img
                 src={marieLakeSunsetPano}
                 alt="Marie Lake Sunset along the John Muir Trail - Pacific Crest Trail"
+                loading="lazy"
               />
             </div>
           </section>
@@ -743,6 +810,7 @@ const GranitePark22Blog = () => {
               <img
                 src={marieGrassyMornView}
                 alt="Marie Lake along the John Muir Trail - Pacific Crest Trail"
+                loading="lazy"
               />
             </div>
 
@@ -751,17 +819,20 @@ const GranitePark22Blog = () => {
                 className={classes["sixty-thirty__item-1"]}
                 src={marieMornView}
                 alt=" Morning at Marie Lake along the John Muir Trail - Pacific Crest Trail"
+                loading="lazy"
               />
               <img
                 className={classes["sixty-thirty__item-2"]}
                 src={marieVertShot}
                 alt="Marie Lake along the John Muir Trail - Pacific Crest Trail"
+                loading="lazy"
               />
             </div>
             <div className={classes["responsive__container-full"]}>
               <img
                 src={marieMornWidePano}
                 alt="Panorama of Marie Lake along the John Muir Trail - Pacific Crest Trail"
+                loading="lazy"
               />
             </div>
 
@@ -789,6 +860,7 @@ const GranitePark22Blog = () => {
               <img
                 src={marieTarnPano}
                 alt="Mountain tarn near Marie Lake along the John Muir Trail - Pacific Crest Trail"
+                loading="lazy"
               />
             </div>
 
@@ -796,6 +868,7 @@ const GranitePark22Blog = () => {
               <img
                 src={marieTrailSidePano}
                 alt="Marie Lake along the John Muir Trail - Pacific Crest Trail"
+                loading="lazy"
               />
             </div>
             <div className={classes["custom__container-marie"]}>
@@ -803,11 +876,13 @@ const GranitePark22Blog = () => {
                 className={classes["custom__container-marie__item-1"]}
                 src={marieBlue}
                 alt="Marie Lake along the John Muir Trail - Pacific Crest Trail"
+                loading="lazy"
               />
               <img
                 className={classes["custom__container-marie__item-2"]}
                 src={marieMornTrailVert}
                 alt="Marie Lake along the John Muir Trail - Pacific Crest Trail"
+                loading="lazy"
               />
             </div>
 
@@ -816,11 +891,13 @@ const GranitePark22Blog = () => {
                 className={classes["responsive__container-split__item-1"]}
                 src={marieMornTrailSideView}
                 alt="Marie Lake along the John Muir Trail - Pacific Crest Trail"
+                loading="lazy"
               />
               <img
                 className={classes["responsive__container-split__item-2"]}
                 src={marieSky}
                 alt="Marie Lake along the John Muir Trail - Pacific Crest Trail"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -833,6 +910,7 @@ const GranitePark22Blog = () => {
               <img
                 src={tentPano}
                 alt="Our tent spot at Marie Lake along the John Muir Trail - Pacific Crest Trail"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -851,11 +929,13 @@ const GranitePark22Blog = () => {
                 className={classes["responsive__container-split__item-1"]}
                 src={tentView}
                 alt="Our tent spot at Marie Lake along the John Muir Trail - Pacific Crest Trail"
+                loading="lazy"
               />
               <img
                 className={classes["responsive__container-split__item-2"]}
                 src={stormRidge}
                 alt="Marie Lake along the John Muir Trail - Pacific Crest Trail"
+                loading="lazy"
               />
             </div>
 
@@ -863,6 +943,7 @@ const GranitePark22Blog = () => {
               <img
                 src={blueSkyReflectionPano}
                 alt="Marie Lake along the John Muir Trail - Pacific Crest Trail"
+                loading="lazy"
               />
             </div>
             <div className={classes["sixty-thirty__container"]}>
@@ -870,11 +951,13 @@ const GranitePark22Blog = () => {
                 className={classes["sixty-thirty__item-1"]}
                 src={samBoat}
                 alt="Sam Stych by a packraft at Marie Lake in California's Sierra Nevada Range"
+                loading="lazy"
               />
               <img
                 className={classes["sixty-thirty__item-2"]}
                 src={skyCloudReflection}
                 alt="Storm clouds at Marie Lake along the John Muir Trail - Pacific Crest Trail"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -893,11 +976,13 @@ const GranitePark22Blog = () => {
                 className={classes["thirty-sixty__item-1"]}
                 src={stormReflection}
                 alt="Storm Clouds at Marie Lake along the John Muir Trail - Pacific Crest Trail"
+                loading="lazy"
               />
               <img
                 className={classes["thirty-sixty__item-2"]}
                 src={marieStormShore}
                 alt="Shoreline of Marie Lake along the John Muir Trail - Pacific Crest Trail"
+                loading="lazy"
               />
             </div>
             <div className={classes["blog__image-container-1"]}></div>
@@ -905,6 +990,7 @@ const GranitePark22Blog = () => {
               <img
                 src={stormRidgePano}
                 alt="Storm clouds at Marie Lake along the John Muir Trail - Pacific Crest Trail"
+                loading="lazy"
               />
             </div>
             <div className={classes["video"]}>
@@ -924,11 +1010,13 @@ const GranitePark22Blog = () => {
                 className={classes["thirty-sixty__item-1"]}
                 src={stormRigeVert}
                 alt="Storm Clouds at Marie Lake along the John Muir Trail - Pacific Crest Trail"
+                loading="lazy"
               />
               <img
                 className={classes["thirty-sixty__item-2"]}
                 src={postStormSam}
                 alt="Sam Stych after a thunderstorm at Marie Lake in the Sierras"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -943,11 +1031,13 @@ const GranitePark22Blog = () => {
                 className={classes["sixty-thirty__item-1"]}
                 src={stormSky}
                 alt="Stormy sky at Marie Lake along the John Muir Trail - Pacific Crest Trail"
+                loading="lazy"
               />
               <img
                 className={classes["sixty-thirty__item-2"]}
                 src={samTarp}
                 alt="Sam Stych weathering the storm under a tarp"
+                loading="lazy"
               />
             </div>
             <div className={classes["thirty-sixty__container"]}>
@@ -955,11 +1045,13 @@ const GranitePark22Blog = () => {
                 className={classes["thirty-sixty__item-1"]}
                 src={postStormSamVert}
                 alt="Sam Stych after the thunderstorm at Marie Lake"
+                loading="lazy"
               />
               <img
                 className={classes["thirty-sixty__item-2"]}
                 src={tigerGrass}
                 alt="Marie Lake along the John Muir Trail - Pacific Crest Trail"
+                loading="lazy"
               />
             </div>
             <div className={classes["responsive__container-split"]}>
@@ -967,11 +1059,13 @@ const GranitePark22Blog = () => {
                 className={classes["responsive__container-split__item-1"]}
                 src={postRainSamLake}
                 alt="Sam Stych after a thunderstorm at Marie Lake along the John Muir Trail - Pacific Crest Trail"
+                loading="lazy"
               />
               <img
                 className={classes["responsive__container-split__item-2"]}
                 src={samPortrait}
                 alt="Sam Stych"
+                loading="lazy"
               />
             </div>
 
@@ -979,12 +1073,14 @@ const GranitePark22Blog = () => {
               <img
                 src={postStormPano}
                 alt="Marie Lake along the John Muir Trail - Pacific Crest Trail"
+                loading="lazy"
               />
             </div>
             <div className={classes["responsive__container-90"]}>
               <img
                 src={marieOrangeSunsetPano}
                 alt="Sunset at Marie Lake along the John Muir Trail - Pacific Crest Trail"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -1009,6 +1105,7 @@ const GranitePark22Blog = () => {
               <img
                 src={marieOrangeSunset}
                 alt="Sunset at Marie Lake along the John Muir Trail - Pacific Crest Trail"
+                loading="lazy"
               />
             </div>
           </section>
@@ -1034,6 +1131,7 @@ const GranitePark22Blog = () => {
               <img
                 src={brockRainJacket}
                 alt="Brock Dallman in a rainstorm along the John Muir Trail"
+                loading="lazy"
               />
             </div>
             <div className={classes["responsive__container-split"]}>
@@ -1041,11 +1139,13 @@ const GranitePark22Blog = () => {
                 className={classes["responsive__container-split__item-1"]}
                 src={samRainVert}
                 alt="Sam Stych on the John Muir Trail"
+                loading="lazy"
               />
               <img
                 className={classes["responsive__container-split__item-2"]}
                 src={rainMountainVert}
                 alt="Rainy day in the Sierras"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -1068,11 +1168,13 @@ const GranitePark22Blog = () => {
                 className={classes["responsive__container-split__item-1"]}
                 src={samRiverCrossing}
                 alt="Sam Stych crossing a creek on a log in the Sierras"
+                loading="lazy"
               />
               <img
                 className={classes["responsive__container-split__item-2"]}
                 src={italyCreek}
                 alt="Lake Italy Creek"
+                loading="lazy"
               />
             </div>
             <div className={classes["responsive__container-full"]}>
@@ -1099,6 +1201,7 @@ const GranitePark22Blog = () => {
               <img
                 src={italyMeadow}
                 alt="Meadow along the Lake Italy Trail In the Sierras"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -1112,17 +1215,20 @@ const GranitePark22Blog = () => {
                 className={classes["sixty-thirty__item-1"]}
                 src={italyCanyonSunet}
                 alt="Sunset near the Lake Italy Trail in the Sierras"
+                loading="lazy"
               />
               <img
                 className={classes["sixty-thirty__item-2"]}
                 src={italyCanyonSunsetVert}
                 alt="Sunset near the Lake Italy Trail in the Sierras"
+                loading="lazy"
               />
             </div>
             <div className={classes["responsive__container-80"]}>
               <img
                 src={italyOrangeSunsetPano}
                 alt="Sunset near the Lake Italy Trail in the Sierras"
+                loading="lazy"
               />
             </div>
 
@@ -1130,6 +1236,7 @@ const GranitePark22Blog = () => {
               <img
                 src={italyOrangeSunsetPanoTwo}
                 alt="Sunset near the Lake Italy Trail in the Sierras"
+                loading="lazy"
               />
             </div>
           </section>
@@ -1147,6 +1254,7 @@ const GranitePark22Blog = () => {
               <img
                 src={clothingPano}
                 alt="Clothing drying in the sun along the Lake Italy Trail"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -1160,11 +1268,13 @@ const GranitePark22Blog = () => {
                 className={classes["sixty-thirty__item-1"]}
                 src={samItalyHiker}
                 alt="Sam Stych Hiking the Lake Italy Trail in the Sierras"
+                loading="lazy"
               />
               <img
                 className={classes["sixty-thirty__item-2"]}
                 src={italySamCliffVert}
                 alt="Sam Stych Hiking the Lake Italy Trail in the Sierras"
+                loading="lazy"
               />
             </div>
             <div className={classes["thirty-sixty__container"]}>
@@ -1172,11 +1282,13 @@ const GranitePark22Blog = () => {
                 className={classes["thirty-sixty__item-1"]}
                 src={italyCreekMtnVert}
                 alt="Granite Mountains around the Lake Italy Trail in the Sierras"
+                loading="lazy"
               />
               <img
                 className={classes["thirty-sixty__item-2"]}
                 src={samCreekCrossMtn}
                 alt="Sam Stych Crossing a Mountain Creek in the Sierras"
+                loading="lazy"
               />
             </div>
             <div className={classes["video"]}>
@@ -1193,7 +1305,11 @@ const GranitePark22Blog = () => {
             </div>
 
             <div className={classes["responsive__container-70"]}>
-              <img src={samHikeMtns} alt="Sam Stych trekking in the Sierras" />
+              <img
+                src={samHikeMtns}
+                alt="Sam Stych trekking in the Sierras"
+                loading="lazy"
+              />
             </div>
             <p className={classes["blog__text"]}>
               We crossed the creek several times and eventually arrived at Lake
@@ -1203,22 +1319,32 @@ const GranitePark22Blog = () => {
               Italy Pass.
             </p>
             <div className={classes["responsive__container-full"]}>
-              <img src={italyLakePano} alt="Lake Italy in the Sierras" />
+              <img
+                src={italyLakePano}
+                alt="Lake Italy in the Sierras"
+                loading="lazy"
+              />
             </div>
             <div className={classes["thirty-sixty__container"]}>
               <img
                 className={classes["thirty-sixty__item-1"]}
                 src={italyLakeBrockVert}
                 alt="Brock Dallman at Lake Italy, Sierras"
+                loading="lazy"
               />
               <img
                 className={classes["thirty-sixty__item-2"]}
                 src={italyLakeSam}
                 alt="Sam Stych at Lake Italy, Sierras"
+                loading="lazy"
               />
             </div>
             <div className={classes["responsive__container-full"]}>
-              <img src={italyLakePanoTwo} alt="Lake Italy, Sierras" />
+              <img
+                src={italyLakePanoTwo}
+                alt="Lake Italy, Sierras"
+                loading="lazy"
+              />
             </div>
             <p className={classes["blog__text"]}>
               There was a lot of rock hopping to get there. Finally we arrived
@@ -1237,11 +1363,13 @@ const GranitePark22Blog = () => {
                 className={classes["responsive__container-split__item-1"]}
                 src={italyPassBrock}
                 alt="Brock Dallman at Italy Pass"
+                loading="lazy"
               />
               <img
                 className={classes["responsive__container-split__item-2"]}
                 src={juliusCeaserShot}
                 alt="Alpine view from Mt. Julius Ceaser"
+                loading="lazy"
               />
             </div>
             <div className={classes["responsive__container-90"]}>
@@ -1254,6 +1382,7 @@ const GranitePark22Blog = () => {
               <img
                 src={juliusCeaserGrandPano}
                 alt="Alpine view from Mt. Julius Ceaser"
+                loading="lazy"
               />
             </div>
             <div className={classes["video"]}>
@@ -1279,6 +1408,7 @@ const GranitePark22Blog = () => {
               <img
                 src={graniteParkLakePano}
                 alt="An unnamed lake in Granite Park, Eastern Sierras"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -1294,12 +1424,14 @@ const GranitePark22Blog = () => {
               <img
                 src={chalfantXCountrySamPano}
                 alt="Sam Stych hiking the Chalfant Lakes Basin"
+                loading="lazy"
               />
             </div>
             <div className={classes["responsive__container-90"]}>
               <img
                 src={chalfantLakePANO}
                 alt="Chalfant Lakes in the Eastern Sierras"
+                loading="lazy"
               />
             </div>
             <div className={classes["sixty-thirty__container"]}>
@@ -1307,11 +1439,13 @@ const GranitePark22Blog = () => {
                 className={classes["sixty-thirty__item-1"]}
                 src={chalfantLakeClouds}
                 alt="Chalfant Lakes in the Eastern Sierras"
+                loading="lazy"
               />
               <img
                 className={classes["sixty-thirty__item-2"]}
                 src={chalfantJuliusMtnVert}
                 alt="Mt. Juilius Ceaser and Chalfant Lakes in the Eastern Sierras"
+                loading="lazy"
               />
             </div>
             <div className={classes["responsive__container-split"]}>
@@ -1319,11 +1453,13 @@ const GranitePark22Blog = () => {
                 className={classes["responsive__container-split__item-1"]}
                 src={chalfantMtn}
                 alt="Chalfant Lakes Basin"
+                loading="lazy"
               />
               <img
                 className={classes["responsive__container-split__item-2"]}
                 src={chalfantLakeCloudsTwo}
                 alt="Chalfant Lakes in the Eastern Sierras"
+                loading="lazy"
               />
             </div>
             <div className={classes["thirty-sixty__container"]}>
@@ -1331,11 +1467,13 @@ const GranitePark22Blog = () => {
                 className={classes["thirty-sixty__item-1"]}
                 src={offTrailMtnWaterFallVert}
                 alt="Waterfall near Chalfant Lakes in the Eastern Sierras"
+                loading="lazy"
               />
               <img
                 className={classes["thirty-sixty__item-2"]}
                 src={chalfantLakeCloudsThree}
                 alt="Chalfant Lakes in the Eastern Sierras"
+                loading="lazy"
               />
             </div>
 
@@ -1343,6 +1481,7 @@ const GranitePark22Blog = () => {
               <img
                 src={offTrailCreekPano}
                 alt="Alpine stream near Chalfant Lakes in the Eastern Sierras"
+                loading="lazy"
               />
             </div>
             <div className={classes["custom__container-off-trail"]}>
@@ -1350,11 +1489,13 @@ const GranitePark22Blog = () => {
                 className={classes["custom__container-off-trail__item-1"]}
                 src={offTrailMtnCreekVert}
                 alt="Alpine Creek Chalfant Lakes in the Eastern Sierras"
+                loading="lazy"
               />
               <img
                 className={classes["custom__container-off-trail__item-2"]}
                 src={offTrailMtnShot}
                 alt="Granite Mountains near Granite Park, Eastern Sierras"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -1368,6 +1509,7 @@ const GranitePark22Blog = () => {
               <img
                 src={honeymoonLakePano}
                 alt="Shores of Honeymoon Lake in the Eastern Sierras"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -1381,6 +1523,7 @@ const GranitePark22Blog = () => {
               <img
                 src={pineCreekValleyPano}
                 alt="Pine Creek Falls in the Eastern Sierras"
+                loading="lazy"
               />
             </div>
             <div className={classes["custom__container-mtn"]}>
@@ -1388,17 +1531,20 @@ const GranitePark22Blog = () => {
                 className={classes["custom__container-mtn__item-1"]}
                 src={marbleMtnVert}
                 alt="Granite Mountain in the Eastern Sierras"
+                loading="lazy"
               />
               <img
                 className={classes["custom__container-mtn__item-2"]}
                 src={goldMtn}
                 alt="Granite Mountain above Pine Lake in the Eastern Sierras"
+                loading="lazy"
               />
             </div>
             <div className={classes["responsive__container-full"]}>
               <img
                 src={pineCreekGrandPano}
                 alt="Pine Creek in the Easter Sierras"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -1416,11 +1562,13 @@ const GranitePark22Blog = () => {
                 className={classes["custom__container-final__item-1"]}
                 src={samPineCreekVert}
                 alt="Sam Styck hiking down to the Pine Creek Trailhead in the Eastern Sierras"
+                loading="lazy"
               />
               <img
                 className={classes["custom__container-final__item-2"]}
                 src={sevenGablesCouples}
                 alt="Brock Dallman and Sam Stych with the Seven Gables Mountains in the Background"
+                loading="lazy"
               />
             </div>
           </section>

@@ -143,29 +143,34 @@ const KingsCanyon22Blog = () => {
                 className={classes["responsive__container-split__item-1"]}
                 src={trailSign}
                 alt="Inyo National Forest Sign"
+                loading="lazy"
               />
               <img
                 className={classes["responsive__container-split__item-2"]}
                 src={potholeLake}
                 alt="Pothole Lake near Kearsarge Pass in the Eastern Sierras"
+                loading="lazy"
               />
             </div>
             <div className={classes["responsive__container-90"]}>
               <img
                 src={gilbertLakePano}
                 alt="Gilber Lake in the Easter Sierras"
+                loading="lazy"
               />
             </div>
             <div className={classes["responsive__container-90"]}>
               <img
                 src={flowersLakePano}
                 alt="Flower Lake in the Eastern Sierras"
+                loading="lazy"
               />
             </div>
             <div className={classes["responsive__container-90"]}>
               <img
                 src={potholeLakeLargePano}
                 alt="Pothole Lake near Kearsarge Pass in the Eastern Sierras"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -208,6 +213,7 @@ const KingsCanyon22Blog = () => {
               <img
                 src={kearsargeLakePano}
                 alt="Kearsarge Lakes, Kings Canyon National Park"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -232,6 +238,7 @@ const KingsCanyon22Blog = () => {
               <img
                 src={kearsargeAfternoonPano}
                 alt="Afternoon sun at Kearsarge Lakes, Kings Canyon National Park, Easter Sierras, California"
+                loading="lazy"
               />
             </div>
             <div className={classes["custom__container-red-dusk"]}>
@@ -239,11 +246,13 @@ const KingsCanyon22Blog = () => {
                 className={classes["custom__container-red-dusk__item-1"]}
                 src={redMountainSundown}
                 alt="Red sunset on a mountain near Kearsarge Lakes"
+                loading="lazy"
               />
               <img
                 className={classes["custom__container-red-dusk__item-2"]}
                 src={kearsargeSundown}
                 alt="Sundown over Kearsarge Lake"
+                loading="lazy"
               />
             </div>
           </section>
@@ -268,12 +277,14 @@ const KingsCanyon22Blog = () => {
               <img
                 src={kearsargePanoOne}
                 alt="Panorama of Kearsarge Lakes, Eastern Sierras"
+                loading="lazy"
               />
             </div>
             <div className={classes["responsive__container-full"]}>
               <img
                 src={kearsargePanoTwo}
                 alt="Panorama of Kearsarge Lakes, Eastern Sierras"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -291,22 +302,26 @@ const KingsCanyon22Blog = () => {
                 className={classes["responsive__container-triple__item"]}
                 src={samBullfrogLake}
                 alt="Sam Stych at Bullfrog Lake, Kings Canyon National Park"
+                loading="lazy"
               />
               <img
                 className={classes["responsive__container-triple__item"]}
                 src={bullfrogLake}
                 alt="Bullfrog Lake, Kings Canyon National Park"
+                loading="lazy"
               />
               <img
                 className={classes["responsive__container-triple__item"]}
                 src={brockBullfrogLake}
                 alt="Brock Dallman at Bullfrog Lake, Kings Canyon National Park"
+                loading="lazy"
               />
             </div>
             <div className={classes["responsive__container-90"]}>
               <img
                 src={bullfrogLakeDayPano}
                 alt="Bullfrog Lake Panorama, Kings Canyon National Park, Eastern Sierras"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -326,6 +341,7 @@ const KingsCanyon22Blog = () => {
               <img
                 src={glennPass}
                 alt="Glenn Pass along the John Muir Pass in Kings Canyon National Park"
+                loading="lazy"
               />
             </div>
             <div className={classes["video"]}>
@@ -353,28 +369,33 @@ const KingsCanyon22Blog = () => {
                 className={classes["responsive__container-triple__item"]}
                 src={paintedLadyTrailVert}
                 alt="The Painted Lady above the Rae Lakes Basin in Kings Canyon National Park"
+                loading="lazy"
               />
               <img
                 className={classes["responsive__container-triple__item"]}
                 src={samDeerVert}
                 alt="Sam Styck and a deer at Rae Lakes"
+                loading="lazy"
               />
               <img
                 className={classes["responsive__container-triple__item"]}
                 src={paintedLadyVert}
                 alt="Painted Lady above Rae Lakes, Kings Canyon National Park"
+                loading="lazy"
               />
             </div>
             <div className={classes["responsive__container-90"]}>
               <img
                 src={paintedLadyPano}
                 alt="Painted Lady above Rae Lakes, Kings Canyon National Park"
+                loading="lazy"
               />
             </div>
             <div className={classes["responsive__container-full"]}>
               <img
                 src={raeLakeTrailPano}
                 alt="Rae Lakes, Kings Canyon National Park"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -393,17 +414,20 @@ const KingsCanyon22Blog = () => {
                 className={classes["sixty-thirty__item-1"]}
                 src={raePeninsula}
                 alt="A Peninsula at Rae Lakes in Kings Canyon National Park"
+                loading="lazy"
               />
               <img
                 className={classes["sixty-thirty__item-2"]}
                 src={raeTentSpot}
                 alt="Tent spot at Rae Lakes"
+                loading="lazy"
               />
             </div>
             <div className={classes["responsive__container-80"]}>
               <img
                 src={raePeninsulaShot}
                 alt="Sunset at Rae Lakes, Kings Canyon National Park"
+                loading="lazy"
               />
             </div>
           </section>
@@ -426,6 +450,7 @@ const KingsCanyon22Blog = () => {
               <img
                 src={raeMeadowMornPano}
                 alt="Morning View over a meadow of Rae Lakes, Kings Canyon National Park"
+                loading="lazy"
               />
             </div>
             <div className={classes["responsive__container-split"]}>
@@ -433,17 +458,20 @@ const KingsCanyon22Blog = () => {
                 className={classes["responsive__container-split__item-1"]}
                 src={raeReflection}
                 alt="Mountain Reflection at Rae Lakes, Kings Canyon National Park"
+                loading="lazy"
               />
               <img
                 className={classes["responsive__container-split__item-2"]}
                 src={samBoat}
                 alt="Sam Stych with a Alpacka Pack raft at Rae Lakes, Kings Canyon National Park"
+                loading="lazy"
               />
             </div>
             <div className={classes["responsive__container-90"]}>
               <img
                 src={brockBoatPano}
                 alt="Brock Dallman with an Alpacka Raft at Rae Lakes, Kings Canyon National Park"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -464,17 +492,20 @@ const KingsCanyon22Blog = () => {
                 className={classes["custom__container-fin-rae__item-1"]}
                 src={raeFinn}
                 alt="Fin Dome in Kings Canyon National Park"
+                loading="lazy"
               />
               <img
                 className={classes["custom__container-fin-rae__item-2"]}
                 src={raeSunset}
                 alt="Sunset at Rae Lakes"
+                loading="lazy"
               />
             </div>
             <div className={classes["responsive__container-full"]}>
               <img
                 src={raeMeadowSunsetPano}
                 alt="Sunset at Rae Lakes, Kings Canyon National Park"
+                loading="lazy"
               />
             </div>
           </section>
@@ -498,6 +529,7 @@ const KingsCanyon22Blog = () => {
               <img
                 src={raeLakesHighView}
                 alt="Rae Lakes Basin from high above"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -511,18 +543,24 @@ const KingsCanyon22Blog = () => {
               Basin on a route I had scouted on Google Earth.
             </p>
             <div className={classes["responsive__container-90"]}>
-              <img src={finDomePano} alt="Fin Dome and Arrowhead Lake" />
+              <img
+                src={finDomePano}
+                alt="Fin Dome and Arrowhead Lake"
+                loading="lazy"
+              />
             </div>
             <div className={classes["sixty-thirty__container "]}>
               <img
                 className={classes["sixty-thirty__item-1"]}
                 src={finDomeMeadow}
                 alt="Fin Dome and a meadow in Kings Canyon National Park"
+                loading="lazy"
               />
               <img
                 className={classes["sixty-thirty__item-2"]}
                 src={samJohnMuir}
                 alt="Sam Stych doing a John Muir Pose"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -541,6 +579,7 @@ const KingsCanyon22Blog = () => {
               <img
                 src={bigLakePano}
                 alt="Dollar Lake along the John Muir Trail in Kings Canyon National Park"
+                loading="lazy"
               />
             </div>
           </section>
@@ -564,22 +603,26 @@ const KingsCanyon22Blog = () => {
                 className={classes["custom__container-off-trail__item-1"]}
                 src={uphillTrees}
                 alt="Sam Stych hiking offtrail towards the Sixty Lake Basin in Kings Canyon National Park"
+                loading="lazy"
               />
               <img
                 className={classes["custom__container-off-trail__item-2"]}
                 src={offTrailRocks}
                 alt="Sam Stych hiking offtrail towards the Sixty Lake Basin in Kings Canyon National Park"
+                loading="lazy"
               />
               <img
                 className={classes["custom__container-off-trail__item-3"]}
                 src={sixtyLakeMTNVert}
                 alt="Sam Stych resting at a lake in the Sixty Lake Basin in Kings Canyon National Park"
+                loading="lazy"
               />
             </div>
             <div className={classes["responsive__container-full"]}>
               <img
                 src={sixtyLakeMtnPano}
                 alt="Alpine Lake in the Sixty Lake Basin in Kings Canyon National Park"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -606,6 +649,7 @@ const KingsCanyon22Blog = () => {
               <img
                 src={paradiseLakeWide}
                 alt="Paradise Lake in the Sixty Lake Basin in Kings Canyon National Park"
+                loading="lazy"
               />
             </div>
             <div className={classes["thirty-sixty__container"]}>
@@ -613,11 +657,13 @@ const KingsCanyon22Blog = () => {
                 className={classes["thirty-sixty__item-1"]}
                 src={paradiseFound}
                 alt="Sam Stych at Paradise Lake in the Sixty Lake Basin in Kings Canyon National Park"
+                loading="lazy"
               />
               <img
                 className={classes["thirty-sixty__item-2"]}
                 src={paradiseLake}
                 alt="Paradise Lake in the Sixty Lake Basin in Kings Canyon National Park"
+                loading="lazy"
               />
             </div>
             <div className={classes["responsive__container-triple"]}>
@@ -625,16 +671,19 @@ const KingsCanyon22Blog = () => {
                 className={classes["responsive__container-triple__item"]}
                 src={cutieBabeBandit}
                 alt="Cutie Babe nursing on some Bandit Box Wine"
+                loading="lazy"
               />
               <img
                 className={classes["responsive__container-triple__item"]}
                 src={skinnyDipParadise}
                 alt="Enjoying the Sixty Lake Basin"
+                loading="lazy"
               />
               <img
                 className={classes["responsive__container-triple__item"]}
                 src={boatParadise}
                 alt="Alpacka Pack Raft in the Sixty Lake Basin, Kings Canyon National Park"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -649,6 +698,7 @@ const KingsCanyon22Blog = () => {
               <img
                 src={paradiseLakePano}
                 alt="Sam Stych in the Sixty Lake Basin in Kings Canyon National Park"
+                loading="lazy"
               />
             </div>
             <div className={classes["responsive__container-split"]}>
@@ -656,17 +706,20 @@ const KingsCanyon22Blog = () => {
                 className={classes["responsive__container-split__item-1"]}
                 src={paradiseSamMountainShot}
                 alt="Sam Stych in the Sixty Lake Basin in Kings Canyon National Park"
+                loading="lazy"
               />
               <img
                 className={classes["responsive__container-split__item-2"]}
                 src={paradiseSamStormShot}
                 alt="Sam Stych in the Sixty Lake Basin in Kings Canyon National Park"
+                loading="lazy"
               />
             </div>
             <div className={classes["responsive__container-90"]}>
               <img
                 src={raeValleyPano}
                 alt="Glaciated Valley in Kings Canyon National Park"
+                loading="lazy"
               />
             </div>
             <div className={classes["sony-sixty-thirty__container"]}>
@@ -674,11 +727,13 @@ const KingsCanyon22Blog = () => {
                 className={classes["sony-sixty-thirty__item-1"]}
                 src={samValleyPortrait}
                 alt="Sam Stych"
+                loading="lazy"
               />
               <img
                 className={classes["sony-sixty-thirty__item-2"]}
                 src={brockValleyPortrait}
                 alt="Brock Dallman"
+                loading="lazy"
               />
             </div>
           </section>
@@ -698,12 +753,14 @@ const KingsCanyon22Blog = () => {
               <img
                 src={raeValleyMornPano}
                 alt="Rae Lakes Basin from high above"
+                loading="lazy"
               />
             </div>
             <div className={classes["responsive__container-80"]}>
               <img
                 src={paradiseTopView}
                 alt="Sixty Lake Basin from high above"
+                loading="lazy"
               />
             </div>
             <div className={classes["video"]}>
@@ -736,17 +793,20 @@ const KingsCanyon22Blog = () => {
                 className={classes["custom__container-mtn-lakes__item-1"]}
                 src={sixtyLakeTrekLake}
                 alt="Sixty Lake Basin in Kings Canyon National Park"
+                loading="lazy"
               />
               <img
                 className={classes["custom__container-mtn-lakes__item-2"]}
                 src={sixtyLakeSideTrip}
                 alt="Sixty Lake Basin in Kings Canyon National Park"
+                loading="lazy"
               />
             </div>
             <div className={classes["responsive__container-90"]}>
               <img
                 src={trailSideLake}
                 alt="Sixty Lake Basin in Kings Canyon National Park"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -762,6 +822,7 @@ const KingsCanyon22Blog = () => {
               <img
                 src={raeLakesReturn}
                 alt="Hiking down to Rae Lakes from the Sixty Lakes Basin in Kings Canyon National Park"
+                loading="lazy"
               />
             </div>
             <div className={classes["sixty-thirty__container"]}>
@@ -769,11 +830,13 @@ const KingsCanyon22Blog = () => {
                 className={classes["sixty-thirty__item-1"]}
                 src={glennPassReturn}
                 alt="Hiking up Glenn Pass on the John Muir Trail"
+                loading="lazy"
               />
               <img
                 className={classes["sixty-thirty__item-2"]}
                 src={bullfrogVistaCamp}
                 alt="A nice campspot above Bullfrog Lake"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -790,10 +853,15 @@ const KingsCanyon22Blog = () => {
               <img
                 src={bullfrogGrandPano}
                 alt="Bullfrog Lake and Kearsarge Valley"
+                loading="lazy"
               />
             </div>
             <div className={classes["responsive__container-70"]}>
-              <img src={bullfrogEvening} alt="Bullfrog Lake Sunset" />
+              <img
+                src={bullfrogEvening}
+                alt="Bullfrog Lake Sunset"
+                loading="lazy"
+              />
             </div>
             <div className={classes["video"]}>
               <video
@@ -811,6 +879,7 @@ const KingsCanyon22Blog = () => {
               <img
                 src={bullfrogEveningGolden}
                 alt="Golden hour shot of Bullfrog Lake and Kearsarge Valley"
+                loading="lazy"
               />
             </div>
           </section>
@@ -832,6 +901,7 @@ const KingsCanyon22Blog = () => {
               <img
                 src={potholeLakePano}
                 alt="Pothole Lake near Kearsarge Pass"
+                loading="lazy"
               />
             </div>
             <div className={classes["sixty-thirty__container"]}>
@@ -839,11 +909,13 @@ const KingsCanyon22Blog = () => {
                 className={classes["sixty-thirty__item-1"]}
                 src={brockKearsarge}
                 alt="Brock Dallman at Kearsarge Pass"
+                loading="lazy"
               />
               <img
                 className={classes["sixty-thirty__item-2"]}
                 src={backToTrailhead}
                 alt="Sam Stych hiking down to the Onion Valley Trailhead"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -858,6 +930,7 @@ const KingsCanyon22Blog = () => {
               <img
                 src={raeLakeCouples}
                 alt="Brock Dallman and Sam Stych at Rae Lakes in Kings Canyon National Park"
+                loading="lazy"
               />
             </div>
           </section>

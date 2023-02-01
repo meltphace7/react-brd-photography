@@ -229,6 +229,7 @@ const WhiteClouds22Blog = () => {
               <img
                 src={castlePeakReflectionPano}
                 alt="Reflection of Castle Peak in an unamed lake in the Chamberlain Basin"
+                loading="lazy"
               />
             </div>
           </section>
@@ -249,6 +250,7 @@ const WhiteClouds22Blog = () => {
               <img
                 src={castleLakeMornReflection}
                 alt="Reflection of Castle Peak in an unamed lake in the Chamberlain Basin"
+                loading="lazy"
               />
             </div>
 
@@ -257,11 +259,13 @@ const WhiteClouds22Blog = () => {
                 className={classes["sony-sixty-thirty__item-1"]}
                 src={castleMornShot}
                 alt="Morning shot of Castle Peak in Idaho's White Clouds Mountains"
+                loading="lazy"
               />
               <img
                 className={classes["sony-sixty-thirty__item-2"]}
                 src={castleTopShotVert}
                 alt="Castle Peak in Idaho's White Clouds Mountains"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -277,12 +281,14 @@ const WhiteClouds22Blog = () => {
               <img
                 src={castleTopShot}
                 alt="Castle Peak in Idaho's White Clouds Mountains"
+                loading="lazy"
               />
             </div>
             <div className={classes["responsive__container-full"]}>
               <img
                 src={castlePeakGrandPano}
                 alt="Castle Peak and the Chamberlain Basin in Idaho's White Clouds Mountains"
+                loading="lazy"
               />
             </div>
             <div className={classes["video"]}>
@@ -308,12 +314,14 @@ const WhiteClouds22Blog = () => {
               <img
                 src={hazySun}
                 alt="Hazy afternoon Sun over the Chamberlain Basin"
+                loading="lazy"
               />
             </div>
             <div className={classes["responsive__container-90"]}>
               <img
                 src={castlePeakDivideSunsetPano}
                 alt="Sam Stych hiking the trail up to the Castle Divide"
+                loading="lazy"
               />
             </div>
 
@@ -322,11 +330,13 @@ const WhiteClouds22Blog = () => {
                 className={classes["responsive__container-split__item-1"]}
                 src={eveningSlopeOne}
                 alt="Looking East from the Castle Divide"
+                loading="lazy"
               />
               <img
                 className={classes["responsive__container-split__item-2"]}
                 src={eveningSlopeTwo}
                 alt="Mountains to the East of the Castle Divide in Idaho's White Clouds"
+                loading="lazy"
               />
             </div>
 
@@ -335,11 +345,13 @@ const WhiteClouds22Blog = () => {
                 className={classes["responsive__container-split__item-1"]}
                 src={eveningSlopeThree}
                 alt="Trail near the Castle Divide"
+                loading="lazy"
               />
               <img
                 className={classes["responsive__container-split__item-2"]}
                 src={eveningDivideSam}
                 alt="Sam Stycg hiking up to the Castle Divide"
+                loading="lazy"
               />
             </div>
 
@@ -348,11 +360,13 @@ const WhiteClouds22Blog = () => {
                 className={classes["responsive__container-split__item-1"]}
                 src={eveningCastleShot}
                 alt="Castle Peak from the Castle Divide at dusk"
+                loading="lazy"
               />
               <img
                 className={classes["responsive__container-split__item-2"]}
                 src={eveningCastleDivideShot}
                 alt="Castle Peak from the Castle Divide at dusk"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -372,6 +386,7 @@ const WhiteClouds22Blog = () => {
               <img
                 src={castleDividePano}
                 alt="The Castle Divide at dusk in the White Clouds Mountains of Idaho"
+                loading="lazy"
               />
             </div>
             <div className={classes["video"]}>
@@ -412,11 +427,13 @@ const WhiteClouds22Blog = () => {
                 className={classes["thirty-sixty__item-1"]}
                 src={samCastleTrailVert}
                 alt="Sam Stych hiking the White Clouds Loop"
+                loading="lazy"
               />
               <img
                 className={classes["thirty-sixty__item-2"]}
                 src={logLake}
                 alt="A lake in the Boulder Lakes Basin of the White Clouds Loop"
+                loading="lazy"
               />
             </div>
 
@@ -424,6 +441,7 @@ const WhiteClouds22Blog = () => {
               <img
                 src={logLakePano}
                 alt="A lake in the Boulder Lakes Basin of the White Clouds Loop"
+                loading="lazy"
               />
             </div>
 
@@ -431,6 +449,7 @@ const WhiteClouds22Blog = () => {
               <img
                 src={grassLakePano}
                 alt="A lake in the Boulder Lakes Basin of the White Clouds Loop"
+                loading="lazy"
               />
             </div>
 
@@ -438,6 +457,7 @@ const WhiteClouds22Blog = () => {
               <img
                 src={hummocksMarshLakePano}
                 alt="Hourglass Lake in the Boulder Chain Lakes Basin along the White Clouds Loop in Idaho"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -454,11 +474,13 @@ const WhiteClouds22Blog = () => {
                 className={classes["thirty-sixty__item-1"]}
                 src={lakeVert}
                 alt="Hummock Lake in the  Boulder Chain Lakes Basin"
+                loading="lazy"
               />
               <img
                 className={classes["thirty-sixty__item-2"]}
                 src={hummockLakeShot}
                 alt="Hummock Lake in the  Boulder Chain Lakes Basin"
+                loading="lazy"
               />
             </div>
 
@@ -466,6 +488,7 @@ const WhiteClouds22Blog = () => {
               <img
                 src={hummocksPeninsulaPano}
                 alt="Hummock Lake in the  Boulder Chain Lakes Basin along the White Clouds Loop"
+                loading="lazy"
               />
             </div>
 
@@ -474,11 +497,13 @@ const WhiteClouds22Blog = () => {
                 className={classes["custom__hummocks__item-1"]}
                 src={hummocksRock}
                 alt="Hummock Lake in the  Boulder Chain Lakes Basin along the White Clouds Loop"
+                loading="lazy"
               />
               <img
                 className={classes["custom__hummocks__item-2"]}
                 src={hummocksVert}
                 alt="Hummock Lake in the  Boulder Chain Lakes Basin along the White Clouds Loop"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -493,6 +518,7 @@ const WhiteClouds22Blog = () => {
               <img
                 src={hummocksGoldenPano}
                 alt="Hummock Lake in the  Boulder Chain Lakes Basin along the White Clouds Loop"
+                loading="lazy"
               />
             </div>
 
@@ -500,6 +526,7 @@ const WhiteClouds22Blog = () => {
               <img
                 src={hummocksLakeGrandShot}
                 alt="Hummock Lake in the  Boulder Chain Lakes Basin along the White Clouds Loop"
+                loading="lazy"
               />
             </div>
             <div className={classes["video"]}>
@@ -528,6 +555,7 @@ const WhiteClouds22Blog = () => {
               <img
                 src={hummocksSunRocks}
                 alt="Sun setting on rocks in the Boulder Chain Lakes in Idaho's White Clouds Mountains"
+                loading="lazy"
               />
             </div>
           </section>
@@ -547,6 +575,7 @@ const WhiteClouds22Blog = () => {
               <img
                 src={hummocksLakeMornPano}
                 alt="Panorama of Hummock Lake, in the Boulder Chain Lakes along Idaho's White Clouds Loop"
+                loading="lazy"
               />
             </div>
 
@@ -555,11 +584,13 @@ const WhiteClouds22Blog = () => {
                 className={classes["custom__scoop__item-1"]}
                 src={scoopLakeVert}
                 alt="Scoop Lake in Idaho's White Clouds Mountains"
+                loading="lazy"
               />
               <img
                 className={classes["custom__scoop__item-2"]}
                 src={hummocksSamTrail}
                 alt="Sam Stych hiking by Scoop Lake on the White Clouds Loop trail"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -576,6 +607,7 @@ const WhiteClouds22Blog = () => {
               <img
                 src={scoopLakePano}
                 alt="Scoop Lake on the White Clouds Loop trail"
+                loading="lazy"
               />
             </div>
 
@@ -583,6 +615,7 @@ const WhiteClouds22Blog = () => {
               <img
                 src={windyDevilPano}
                 alt="Windy Devil Pass on the White Clouds Loop in Idaho"
+                loading="lazy"
               />
             </div>
 
@@ -591,11 +624,13 @@ const WhiteClouds22Blog = () => {
                 className={classes["sony-thirty-sixty__item-1"]}
                 src={windyDevilVert}
                 alt="Windy Devil Pass on the White Clouds Loop in Idaho"
+                loading="lazy"
               />
               <img
                 className={classes["sony-thirty-sixty__item-2"]}
                 src={windyDevilSam}
                 alt="Sam hiking near Windy Devil Pass along the White Clouds Loop in Idaho"
+                loading="lazy"
               />
             </div>
             <div className={classes["responsive__container-split"]}>
@@ -603,11 +638,13 @@ const WhiteClouds22Blog = () => {
                 className={classes["responsive__container-split__item-1"]}
                 src={windyDevilValley}
                 alt="Mountains along the White Clouds Loop trail in Idaho"
+                loading="lazy"
               />
               <img
                 className={classes["responsive__container-split__item-2"]}
                 src={castleTarn}
                 alt="A mountain tarn with Castle Peak in the background"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -623,7 +660,11 @@ const WhiteClouds22Blog = () => {
               down and got our first glimpse of Quiet Lake down below.
             </p>
             <div className={classes["responsive__container-70"]}>
-              <img src={slateLake} alt="Slate Lake and Castle Peak" />
+              <img
+                src={slateLake}
+                alt="Slate Lake and Castle Peak"
+                loading="lazy"
+              />
             </div>
 
             <div className={classes["sony-sixty-thirty__container"]}>
@@ -631,11 +672,13 @@ const WhiteClouds22Blog = () => {
                 className={classes["sony-sixty-thirty__item-1"]}
                 src={quietLakeTopShot}
                 alt="Quiet Lake and Castle Peak"
+                loading="lazy"
               />
               <img
                 className={classes["sony-sixty-thirty__item-2"]}
                 src={quietLakeVert}
                 alt="Near the shores of Quiet Lake in the White Clouds"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -651,18 +694,27 @@ const WhiteClouds22Blog = () => {
               camp and continued taking photos as the light changed.
             </p>
             <div className={classes["responsive__container-90"]}>
-              <img src={quietLakeFieldPano} alt="Quiet Lake and Castle Peak" />
+              <img
+                src={quietLakeFieldPano}
+                alt="Quiet Lake and Castle Peak"
+                loading="lazy"
+              />
             </div>
 
             <div className={classes["responsive__container-90"]}>
               <img
                 src={quietLakeShorePano}
                 alt="The peaceful shores of Quiet Lake on a lazy afternoon"
+                loading="lazy"
               />
             </div>
 
             <div className={classes["responsive__container-90"]}>
-              <img src={quietLakeReflectionPano} alt="Quiet Lake" />
+              <img
+                src={quietLakeReflectionPano}
+                alt="Quiet Lake"
+                loading="lazy"
+              />
             </div>
             <p className={classes["blog__text"]}>
               We made dinner and were treated to a nice sunset. The smoke from
@@ -677,6 +729,7 @@ const WhiteClouds22Blog = () => {
               <img
                 src={quietLakeSunsetPano}
                 alt="A fiery Sunset behind Castle Peak and Quiet Lake"
+                loading="lazy"
               />
             </div>
           </section>
@@ -700,12 +753,14 @@ const WhiteClouds22Blog = () => {
               <img
                 src={fourLakeBasinPanoOne}
                 alt="Four Lakes Basin in the White Clouds Mountains of Idaho"
+                loading="lazy"
               />
             </div>
             <div className={classes["responsive__container-full"]}>
               <img
                 src={fourLakeBasinPanoTwo}
                 alt="Four Lakes Basin in the White Clouds Mountains of Idaho"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -720,17 +775,20 @@ const WhiteClouds22Blog = () => {
                 className={classes["sony-thirty-sixty__item-1"]}
                 src={fourLakeSamVert}
                 alt="Sam Stych hiking up from the Four Lakes Basin in the White Clouds Mountains of Idaho"
+                loading="lazy"
               />
               <img
                 className={classes["sony-thirty-sixty__item-2"]}
                 src={fourLakeShot}
                 alt="Four Lakes Basin in the White Clouds Mountains of Idaho"
+                loading="lazy"
               />
             </div>
             <div className={classes["responsive__container-full"]}>
               <img
                 src={fourLakeBasinGrandPano}
                 alt="Panorama of the Four Lakes Basin in the White Clouds Mountains of Idaho"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -741,6 +799,7 @@ const WhiteClouds22Blog = () => {
               <img
                 src={devilsStaircaseShot}
                 alt="The Devil's Staircase above Born Lakes on the White Clouds Loop trail"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -759,6 +818,7 @@ const WhiteClouds22Blog = () => {
               <img
                 src={bornLakesPano}
                 alt="Born Lakes on the White Clouds Loop trail"
+                loading="lazy"
               />
             </div>
 
@@ -766,6 +826,7 @@ const WhiteClouds22Blog = () => {
               <img
                 src={bornLakesPanoWide}
                 alt="Born Lakes on the White Clouds Loop trail"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -782,11 +843,13 @@ const WhiteClouds22Blog = () => {
                 className={classes["sony-thirty-sixty__item-1"]}
                 src={samAntsBasinVert}
                 alt="Sam Stych hiking towards the Ants Basin on the White Clouds Loop trail in Idaho"
+                loading="lazy"
               />
               <img
                 className={classes["sony-thirty-sixty__item-2"]}
                 src={samAntsBasinShot}
                 alt="Sam Stych hiking towards the Ants Basin on the White Clouds Loop trail in Idaho"
+                loading="lazy"
               />
             </div>
 
@@ -795,11 +858,13 @@ const WhiteClouds22Blog = () => {
                 className={classes["responsive__container-split__item-1"]}
                 src={antsBasinMeadow}
                 alt="The Ants Basin on the White Clouds Loop trail in Idaho"
+                loading="lazy"
               />
               <img
                 className={classes["responsive__container-split__item-2"]}
                 src={antsBasinTrailShot}
                 alt="The Ants Basin on the White Clouds Loop trail in Idaho"
+                loading="lazy"
               />
             </div>
 
@@ -807,6 +872,7 @@ const WhiteClouds22Blog = () => {
               <img
                 src={antsBasinShot}
                 alt="The Ants Basin on the White Clouds Loop trail in Idaho"
+                loading="lazy"
               />
             </div>
 
@@ -814,6 +880,7 @@ const WhiteClouds22Blog = () => {
               <img
                 src={antsBasinPano}
                 alt="A panorama of the Ants Basin on the White Clouds Loop trail in Idaho"
+                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -829,11 +896,13 @@ const WhiteClouds22Blog = () => {
                 className={classes["responsive__container-split__item-1"]}
                 src={mtnBurn}
                 alt="The trail passing through some burnt trees on the White Clouds Loop"
+                loading="lazy"
               />
               <img
                 className={classes["responsive__container-split__item-2"]}
                 src={mtnLake}
                 alt="Fourth of July Lake from high up on the White Clouds Loop"
+                loading="lazy"
               />
             </div>
 
@@ -841,6 +910,7 @@ const WhiteClouds22Blog = () => {
               <img
                 src={mtnTarn}
                 alt="A trailside alpine tarn along the White Clouds Loop"
+                loading="lazy"
               />
             </div>
 
@@ -859,6 +929,7 @@ const WhiteClouds22Blog = () => {
               <img
                 src={brockSignage}
                 alt="Brock Dallman standing near the White Clouds Wilderness sign"
+                loading="lazy"
               />
             </div>
           </section>
