@@ -229,7 +229,6 @@ const WhiteClouds22Blog = () => {
               <img
                 src={castlePeakReflectionPano}
                 alt="Reflection of Castle Peak in an unamed lake in the Chamberlain Basin"
-                loading="lazy"
               />
             </div>
           </section>

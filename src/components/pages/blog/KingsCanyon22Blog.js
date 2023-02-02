@@ -143,34 +143,29 @@ const KingsCanyon22Blog = () => {
                 className={classes["responsive__container-split__item-1"]}
                 src={trailSign}
                 alt="Inyo National Forest Sign"
-                loading="lazy"
               />
               <img
                 className={classes["responsive__container-split__item-2"]}
                 src={potholeLake}
                 alt="Pothole Lake near Kearsarge Pass in the Eastern Sierras"
-                loading="lazy"
               />
             </div>
             <div className={classes["responsive__container-90"]}>
               <img
                 src={gilbertLakePano}
                 alt="Gilber Lake in the Easter Sierras"
-                loading="lazy"
               />
             </div>
             <div className={classes["responsive__container-90"]}>
               <img
                 src={flowersLakePano}
                 alt="Flower Lake in the Eastern Sierras"
-                loading="lazy"
               />
             </div>
             <div className={classes["responsive__container-90"]}>
               <img
                 src={potholeLakeLargePano}
                 alt="Pothole Lake near Kearsarge Pass in the Eastern Sierras"
-                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -213,7 +208,6 @@ const KingsCanyon22Blog = () => {
               <img
                 src={kearsargeLakePano}
                 alt="Kearsarge Lakes, Kings Canyon National Park"
-                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -238,7 +232,6 @@ const KingsCanyon22Blog = () => {
               <img
                 src={kearsargeAfternoonPano}
                 alt="Afternoon sun at Kearsarge Lakes, Kings Canyon National Park, Easter Sierras, California"
-                loading="lazy"
               />
             </div>
             <div className={classes["custom__container-red-dusk"]}>
@@ -246,13 +239,11 @@ const KingsCanyon22Blog = () => {
                 className={classes["custom__container-red-dusk__item-1"]}
                 src={redMountainSundown}
                 alt="Red sunset on a mountain near Kearsarge Lakes"
-                loading="lazy"
               />
               <img
                 className={classes["custom__container-red-dusk__item-2"]}
                 src={kearsargeSundown}
                 alt="Sundown over Kearsarge Lake"
-                loading="lazy"
               />
             </div>
           </section>

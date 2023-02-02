@@ -216,7 +216,6 @@ const GranitePark22Blog = () => {
                 <img
                   src={tungstenMine}
                   alt="tungsten mine at Pine Creek Trailhead, Eastern Sierras"
-                  loading="lazy"
                 />
               </div>
               <div
@@ -225,7 +224,6 @@ const GranitePark22Blog = () => {
                 <img
                   src={pineCreekClouds}
                   alt="Granite Mountains along Pine Creek, Eastern Sierras"
-                  loading="lazy"
                 />
               </div>
               <div
@@ -234,17 +232,12 @@ const GranitePark22Blog = () => {
                 <img
                   src={pineCreekFalls}
                   alt="Pine Creek Falls in Eastern Sierras"
-                  loading="lazy"
                 />
               </div>
               <div
                 className={`${classes["day-one__grid-item"]} ${classes["day-one__grid-item-4"]}`}
               >
-                <img
-                  src={samPineCreek}
-                  alt="Sam hiking along Pine Creek"
-                  loading="lazy"
-                />
+                <img src={samPineCreek} alt="Sam hiking along Pine Creek" />
               </div>
             </div>
             <p className={classes["blog__text"]}>
@@ -264,7 +257,6 @@ const GranitePark22Blog = () => {
               <img
                 src={pineCreekFallsPano}
                 alt="Pine Creek falls in California's Eastern Sierras"
-                loading="lazy"
               />
             </div>
             <p className={classes["blog__text"]}>
@@ -282,11 +274,7 @@ const GranitePark22Blog = () => {
               shots of the lake before turning in for the night.
             </p>
             <div className={classes["responsive__container-90"]}>
-              <img
-                src={pineLakePano}
-                alt="Pine Lake in the Eastern Sierras"
-                loading="lazy"
-              />
+              <img src={pineLakePano} alt="Pine Lake in the Eastern Sierras" />
             </div>
             <div className={classes["grid_day-one_2"]}>
               <div
@@ -295,7 +283,6 @@ const GranitePark22Blog = () => {
                 <img
                   src={samPineLakeVert}
                   alt="Sam at Pine Lake, Eastern Sierras"
-                  loading="lazy"
                 />
               </div>
               <div
@@ -304,13 +291,12 @@ const GranitePark22Blog = () => {
                 <img
                   src={pineLakeVert}
                   alt="Pine Lake in the Eastern Sierras"
-                  loading="lazy"
                 />
               </div>
               <div
                 className={`${classes["day-one__2-grid-item"]} ${classes["day-one__2-grid-item-3"]}`}
               >
-                <img src={samRockHop} alt="Sam along the trai" loading="lazy" />
+                <img src={samRockHop} alt="Sam along the trai" />
               </div>
             </div>
 
@@ -318,7 +304,6 @@ const GranitePark22Blog = () => {
               <img
                 src={honeymoonSunset}
                 alt="Honeymoon Lake in the Eastern Sierras"
-                loading="lazy"
               />
             </div>
           </section>
