@@ -9,17 +9,6 @@
   align-items: center;
   margin-bottom: 5rem;
   overflow: hidden;
-}
-
-/* BLOG HEADER */
-.blog-header {
-  z-index: 1;
-  position: relative;
-  width: 100%;
-  height: 70rem;
-  background-image: url("../../../assets/images/CA_SEVEN-GABLES_WIDE_HI-RES.jpg");
-  background-size: cover;
-  background-position: 50% 50%;
    animation: fadeIn 1000ms ease-in forwards;
 }
 
@@ -31,6 +20,17 @@
   100% {
     opacity: 1;
   }
+}
+
+/* BLOG HEADER */
+.blog-header {
+  z-index: 1;
+  position: relative;
+  width: 100%;
+  height: 70rem;
+  background-image: url("../../../assets/images/CA_SEVEN-GABLES_WIDE_HI-RES.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
 .blog-header__overlay {

@@ -181,7 +181,6 @@ const GranitePark22Blog = () => {
       >
         <div className={classes["blog-header__overlay"]}>
           <div
-            style={{ transform: `translateY(${offsetY * 0.1}px)` }}
             className={classes["blog-header__title-container"]}
           >
             <h1 className={classes["blog-header__title"]}>

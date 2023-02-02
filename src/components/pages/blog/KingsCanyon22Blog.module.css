@@ -9,6 +9,17 @@
   align-items: center;
   margin-bottom: 5rem;
    overflow: hidden;
+     animation: fadeIn 1000ms ease-in forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 /* BLOG HEADER */
@@ -20,17 +31,6 @@
   background-image: url("../../../assets/images/CA_PARADISE-LAKE_MORN_HI-RES.jpg");
   background-size: cover;
   background-position: 50% 50%;
-  animation: fadeIn 1000ms ease-in forwards;
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
 }
 
 .blog-header__overlay {

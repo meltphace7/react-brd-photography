@@ -28,8 +28,6 @@ const Navigation = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  console.log(offsetY);
-
   const logoutHandler = () => {
     dispatch(authActions.logout());
     localStorage.setItem("token", null);
@@ -37,8 +35,6 @@ const Navigation = () => {
     localStorage.setItem("expiryDate", null);
     history.replace("/");
   };
-
-  console.log(scrollDirection);
 
   const stickyNavClasses =
     scrollDirection === "up" && offsetY > 65

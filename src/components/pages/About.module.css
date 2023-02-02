@@ -6,6 +6,17 @@
   background-image: url("../../assets/images/CA_CHICKENFOOT-LAKE_lowRes.jpg");
   background-size: cover;
   background-position: 50% 50%;
+   animation: fadeIn 1000ms ease-in forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 .about__overlay {
