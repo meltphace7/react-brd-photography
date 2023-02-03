@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import classes from "./AdminAddProduct.module.css";
+import LoadingPage from '../notifications/LoadingPage'
+import ModalMessage from '../notifications/ModalMessage'
 import hostURL from "../../hosturl";
 
 const AdminAddProduct = (props) => {
@@ -9,6 +11,11 @@ const AdminAddProduct = (props) => {
   const [stock, setStock] = useState("");
   const [description, setDescription] = useState("");
   const [image, setImage] = useState(null);
+
+  const [isLoading, setIsLoading] = useState(false);
+
+  const [isMessage, setIsMessage] = useState(false);
+  const [message, setMessage] = useState('');
 
   const titleChangeHandler = (event) => {
     setTitle(event.target.value);
@@ -38,6 +45,7 @@ const AdminAddProduct = (props) => {
 
   const addProductHandler = async (event) => {
     event.preventDefault();
+    setIsLoading(true);
     // MUST USE FORMDATA TO INCLUDE A FILE/IMAGE
     const formData = new FormData();
     formData.append("title", title);
@@ -59,7 +67,13 @@ const AdminAddProduct = (props) => {
       if (!response.ok || response.status === 422) {
         throw new Error("Creating product failed!");
       }
+      setIsLoading(false);
+      setMessage('Product Created!')
+      setIsMessage(true);
     } catch (err) {
+       setIsLoading(false);
+       setMessage('ERROR!  Product could not be Created!')
+      setIsMessage(true);
       console.log(err);
     }
     setTitle("");
@@ -69,11 +83,18 @@ const AdminAddProduct = (props) => {
     refreshProducts();
   };
 
+  const closeModalHandler = () => {
+    setIsMessage(false);
+    setMessage('');
+  }
+
   return (
     <div className={classes.background}>
       <div className={classes["background-overlay"]}>
+        {isLoading && <LoadingPage />}
+        {isMessage && <ModalMessage onCloseModal={closeModalHandler} message={message} />}
         <div className={classes["form-body"]}>
-          <h1>ADD A PRODUCT</h1>
+          <h1 className={classes.title}>ADD A PRODUCT</h1>
           <form onSubmit={addProductHandler}>
             <div className={classes["input-row"]}>
               <div className={classes["input-group"]}>
@@ -139,7 +160,7 @@ const AdminAddProduct = (props) => {
                 onChange={imageChangeHandler}
               />
             </div>
-            <button type="submit">Add Product</button>
+            <button className={classes['submit-btn']} type="submit">Add Product</button>
           </form>
         </div>
       </div>

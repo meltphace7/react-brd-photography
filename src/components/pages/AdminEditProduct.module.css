@@ -87,10 +87,15 @@
   margin-bottom: 2rem;
 }
 
-.form-body form button {
+.submit-btn{
   margin-top: 2rem;
   width: 75%;
   height: 5rem;
+}
+
+.submit-btn:hover {
+color: var(--color-secondary-green);
+border: 1px solid var(--color-secondary-green);
 }
 
 @media (max-width: 40em) {

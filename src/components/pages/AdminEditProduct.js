@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useCallback } from "react";
 import classes from "./AdminEditProduct.module.css";
 import { useParams } from "react-router-dom";
+import LoadingPage from "../notifications/LoadingPage";
+import ModalMessage from "../notifications/ModalMessage";
 import hostURL from "../../hosturl";
 
 const AdminEditProduct = (props) => {
@@ -11,6 +13,11 @@ const AdminEditProduct = (props) => {
   const [stock, setStock] = useState("");
   const [description, setDescription] = useState("");
   const [image, setImage] = useState(null);
+
+   const [isLoading, setIsLoading] = useState(false);
+
+   const [isMessage, setIsMessage] = useState(false);
+   const [message, setMessage] = useState("");
 
   const getEditItemHandler = useCallback(async () => {
     const token = localStorage.getItem("token");
@@ -34,6 +41,7 @@ const AdminEditProduct = (props) => {
       setStock(product.product.stock);
       setDescription(product.product.description);
       setImage(product.product.imageUrl);
+
     } catch (err) {
       console.log(err);
     }
@@ -72,6 +80,7 @@ const AdminEditProduct = (props) => {
 
   const editProductHandler = async (event) => {
     event.preventDefault();
+    setIsLoading(true);
     // MUST USE FORMDATA TO INCLUDE A FILE/IMAGE
     const formData = new FormData();
     formData.append("_id", productId);
@@ -93,7 +102,13 @@ const AdminEditProduct = (props) => {
       if (!response.ok || response.status === 422) {
         throw new Error("Editing product failed!");
       }
+             setIsLoading(false);
+             setMessage("Product Edited!");
+             setIsMessage(true);
     } catch (err) {
+         setIsLoading(false);
+         setMessage("ERROR!  Product could not be Edited!");
+         setIsMessage(true);
       console.log(err);
     }
 
@@ -105,9 +120,16 @@ const AdminEditProduct = (props) => {
       refreshProducts();
   };
 
+    const closeModalHandler = () => {
+      setIsMessage(false);
+      setMessage("");
+    };
+
   return (
     <div className={classes.background}>
       <div className={classes["background-overlay"]}>
+          {isLoading && <LoadingPage />}
+        {isMessage && <ModalMessage message={message} onCloseModal={closeModalHandler} />}
         <div className={classes["form-body"]}>
           <h1>EDIT PRODUCT</h1>
           <form onSubmit={editProductHandler}>
@@ -175,7 +197,7 @@ const AdminEditProduct = (props) => {
                 onChange={imageChangeHandler}
               />
             </div>
-            <button type="submit">EDIT PRODUCT</button>
+            <button className={classes['submit-btn']} type="submit">EDIT PRODUCT</button>
           </form>
         </div>
       </div>
