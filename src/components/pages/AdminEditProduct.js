@@ -92,7 +92,7 @@ const AdminEditProduct = (props) => {
 
     const token = localStorage.getItem("token");
     try {
-      const response = await fetch("http://localhost:8080/admin/edit-product", {
+      const response = await fetch(`${hostURL}/admin/edit-product`, {
         method: "POST",
         headers: {
           Authorization: "Bearer " + token,
