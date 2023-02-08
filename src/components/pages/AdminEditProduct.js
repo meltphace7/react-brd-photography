@@ -69,7 +69,6 @@ const AdminEditProduct = (props) => {
 
   const imageChangeHandler = (event) => {
     setImage(event.target.files[0]);
-    console.log(event.target.files[0]);
   };
 
   const refreshProducts = () => {

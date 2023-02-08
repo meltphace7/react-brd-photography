@@ -1,5 +1,5 @@
 import classes from './Login.module.css'
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useHistory, Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { authActions } from "../../store/auth-slice";
@@ -95,6 +95,7 @@ const Login = () => {
       localStorage.setItem("userId", null);
       // localStorage.setItem("expiryDate", null);
       history.replace("/home");
+      console.log('LOGGED OUT');
     };
 
     const setAutoLogout = (milliseconds) => {
@@ -124,7 +125,11 @@ const Login = () => {
           <Link className={classes["signup-link"]} to="/signup">
             Create Account
           </Link>
-          {emailHasError && <p>Please enter a valid email!</p>}
+          {emailHasError && (
+            <p className={classes["input-error"]}>
+              Please enter a valid email!
+            </p>
+          )}
           <input
             className={emailClasses}
             placeholder="Email"
@@ -134,7 +139,11 @@ const Login = () => {
             onBlur={emailBlurHandler}
             value={email}
           />
-          {passwordHasError && <p>Please enter a valid password!</p>}
+          {passwordHasError && (
+            <p className={classes["input-error"]}>
+              Please enter a valid password!
+            </p>
+          )}
           <input
             className={passwordClasses}
             placeholder="Password"
@@ -150,7 +159,9 @@ const Login = () => {
           </Link>
         </form>
       </div>
-      {isMessage && <ModalMessage onCloseModal={closeModalHandler} message={message} />}
+      {isMessage && (
+        <ModalMessage onCloseModal={closeModalHandler} message={message} />
+      )}
     </div>
   );
 }

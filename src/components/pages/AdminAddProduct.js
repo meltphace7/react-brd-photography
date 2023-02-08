@@ -55,7 +55,6 @@ const AdminAddProduct = (props) => {
     formData.append("image", image);
 
     const token = localStorage.getItem("token");
-    console.log(formData);
     try {
       const response = await fetch(`${hostURL}/admin/add-product`, {
         method: "POST",
